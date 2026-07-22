@@ -1,0 +1,2865 @@
+{
+  "protocols": [
+    {
+      "protocol": "Aave V3",
+      "slug": "aave-v3",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "optimism",
+        "polygon",
+        "avalanche",
+        "base",
+        "gnosis",
+        "metis",
+        "scroll",
+        "bnb",
+        "zksync"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-04-12",
+      "default_scores": {
+        "contract_score": 9.0,
+        "economic_score": 8.0,
+        "project_score": 8.0,
+        "overall_score": 8.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 9.0,
+          "economic_score": 8.0,
+          "project_score": 8.0,
+          "overall_score": 8.0
+        },
+        "arbitrum": {
+          "contract_score": 9.0,
+          "economic_score": 8.0,
+          "project_score": 8.0,
+          "overall_score": 8.0
+        },
+        "optimism": {
+          "contract_score": 9.0,
+          "economic_score": 8.0,
+          "project_score": 8.0,
+          "overall_score": 8.0
+        },
+        "polygon": {
+          "contract_score": 9.0,
+          "economic_score": 8.0,
+          "project_score": 8.0,
+          "overall_score": 8.0
+        },
+        "avalanche": {
+          "contract_score": 9.0,
+          "economic_score": 8.0,
+          "project_score": 8.0,
+          "overall_score": 8.0
+        },
+        "base": {
+          "contract_score": 9.0,
+          "economic_score": 8.0,
+          "project_score": 8.0,
+          "overall_score": 8.0
+        },
+        "gnosis": {
+          "contract_score": 9.0,
+          "economic_score": 8.0,
+          "project_score": 8.0,
+          "overall_score": 8.0
+        },
+        "metis": {
+          "contract_score": 9.0,
+          "economic_score": 8.0,
+          "project_score": 8.0,
+          "overall_score": 8.0
+        },
+        "scroll": {
+          "contract_score": 9.0,
+          "economic_score": 8.0,
+          "project_score": 8.0,
+          "overall_score": 8.0
+        },
+        "bnb": {
+          "contract_score": 9.0,
+          "economic_score": 8.0,
+          "project_score": 8.0,
+          "overall_score": 8.0
+        },
+        "zksync": {
+          "contract_score": 9.0,
+          "economic_score": 8.0,
+          "project_score": 8.0,
+          "overall_score": 8.0
+        }
+      },
+      "report_file": "reports/aave-v3.md",
+      "tvl_gross": 26000000000,
+      "tvl_net": 26000000000,
+      "tvl_borrowed": 14300000000,
+      "last_verified": "2026-07-22"
+    },
+    {
+      "protocol": "Apyx",
+      "slug": "apyx",
+      "chains": [
+        "eth",
+        "base"
+      ],
+      "category": "rwa-stablecoin",
+      "assessment_type": "light",
+      "date": "2026-04-17",
+      "default_scores": {
+        "contract_score": 6.0,
+        "economic_score": 3.7,
+        "project_score": 5.0,
+        "overall_score": 4.8
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 6.0,
+          "economic_score": 3.7,
+          "project_score": 5.0,
+          "overall_score": 4.8
+        },
+        "base": {
+          "contract_score": 6.0,
+          "economic_score": 3.7,
+          "project_score": 5.0,
+          "overall_score": 4.8
+        }
+      },
+      "report_file": "reports/apyx.md",
+      "tvl_gross": null,
+      "tvl_net": 356000000,
+      "tvl_borrowed": null,
+      "last_verified": "2026-06-16"
+    },
+    {
+      "protocol": "Aura Finance",
+      "slug": "aura-finance",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "base",
+        "optimism",
+        "gnosis",
+        "polygon"
+      ],
+      "category": "aggregator",
+      "assessment_type": "full",
+      "date": "2026-04-07",
+      "default_scores": {
+        "contract_score": 5.5,
+        "economic_score": 4.0,
+        "project_score": 5.0,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 5.5,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 5.0
+        },
+        "arbitrum": {
+          "contract_score": 5.5,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 5.0
+        },
+        "base": {
+          "contract_score": 5.5,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 5.0
+        },
+        "optimism": {
+          "contract_score": 5.5,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 5.0
+        },
+        "gnosis": {
+          "contract_score": 5.5,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 5.0
+        },
+        "polygon": {
+          "contract_score": 5.5,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "reports/aura-finance.md",
+      "tvl_net": 121000000,
+      "last_verified": "2026-04-07"
+    },
+    {
+      "protocol": "Auto Finance",
+      "slug": "auto-finance",
+      "chains": [
+        "eth",
+        "base",
+        "arbitrum",
+        "plasma",
+        "linea",
+        "sonic"
+      ],
+      "category": "yield-aggregator",
+      "assessment_type": "full",
+      "date": "2026-04-28",
+      "default_scores": {
+        "contract_score": 7.0,
+        "economic_score": 6.5,
+        "project_score": 6.0,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 6.0,
+          "overall_score": 6.5
+        },
+        "base": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 6.0,
+          "overall_score": 6.5
+        },
+        "arbitrum": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 6.0,
+          "overall_score": 6.5
+        },
+        "plasma": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 6.0,
+          "overall_score": 6.5
+        },
+        "linea": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 6.0,
+          "overall_score": 6.5
+        },
+        "sonic": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 6.0,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "reports/auto-finance.md",
+      "tvl_gross": 49311004,
+      "tvl_net": 49311004,
+      "tvl_borrowed": null,
+      "last_verified": "2026-04-28"
+    },
+    {
+      "protocol": "Balancer",
+      "slug": "balancer",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "optimism",
+        "base",
+        "polygon",
+        "gnosis",
+        "avax",
+        "fraxtal",
+        "monad",
+        "plasma",
+        "hyperevm",
+        "mantle"
+      ],
+      "category": "dex",
+      "assessment_type": "full",
+      "date": "2026-04-07",
+      "default_scores": {
+        "contract_score": 5.0,
+        "economic_score": 4.0,
+        "project_score": 3.5,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "arbitrum": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "optimism": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "base": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "polygon": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "gnosis": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "avax": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "fraxtal": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "monad": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "plasma": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "hyperevm": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "mantle": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "reports/balancer.md",
+      "last_verified": "2026-04-07"
+    },
+    {
+      "protocol": "Beefy",
+      "slug": "beefy",
+      "chains": [
+        "eth",
+        "arb",
+        "avax",
+        "bsc",
+        "monad"
+      ],
+      "category": "aggregator",
+      "assessment_type": "light",
+      "date": "2026-03-15",
+      "default_scores": {
+        "contract_score": 6.5,
+        "economic_score": 6.0,
+        "project_score": 6.0,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 6.0,
+          "overall_score": 6.0
+        },
+        "arb": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 6.0,
+          "overall_score": 6.0
+        },
+        "avax": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 6.0,
+          "overall_score": 6.0
+        },
+        "bsc": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 6.0,
+          "overall_score": 6.0
+        },
+        "monad": {
+          "contract_score": 5.0,
+          "economic_score": 4.5,
+          "project_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "reports/beefy.md",
+      "last_verified": "2026-03-15"
+    },
+    {
+      "protocol": "Blackhaven",
+      "slug": "blackhaven",
+      "chains": [
+        "megaeth"
+      ],
+      "category": "bonds",
+      "assessment_type": "full",
+      "date": "2026-05-06",
+      "default_scores": {
+        "contract_score": 4.5,
+        "economic_score": 4.0,
+        "project_score": 3.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "megaeth": {
+          "contract_score": 4.5,
+          "economic_score": 4.0,
+          "project_score": 3.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "reports/blackhaven.md",
+      "tvl_gross": 712000,
+      "tvl_net": 620934,
+      "tvl_borrowed": null,
+      "last_verified": "2026-05-06"
+    },
+    {
+      "protocol": "Convex Finance",
+      "slug": "convex",
+      "chains": [
+        "eth"
+      ],
+      "category": "yield-aggregator",
+      "assessment_type": "full",
+      "date": "2026-03-18",
+      "default_scores": {
+        "contract_score": 7.0,
+        "economic_score": 7.0,
+        "project_score": 6.5,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 7.0,
+          "economic_score": 7.0,
+          "project_score": 6.5,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "reports/convex.md",
+      "tvl_gross": 916000000,
+      "last_verified": "2026-03-18"
+    },
+    {
+      "protocol": "Current Finance",
+      "slug": "current-finance",
+      "chains": [
+        "sui"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-05-06",
+      "default_scores": {
+        "contract_score": 6.0,
+        "economic_score": 5.5,
+        "project_score": 5.0,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "sui": {
+          "contract_score": 6.0,
+          "economic_score": 5.5,
+          "project_score": 5.0,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "reports/current-finance.md",
+      "tvl_gross": 26013000,
+      "tvl_net": 12485000,
+      "tvl_borrowed": 13528000,
+      "last_verified": "2026-05-06"
+    },
+    {
+      "protocol": "Curvance",
+      "slug": "curvance",
+      "chains": [
+        "monad"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-03-12",
+      "default_scores": {
+        "contract_score": 4.0,
+        "economic_score": 4.0,
+        "project_score": 3.0,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "monad": {
+          "contract_score": 4.0,
+          "economic_score": 4.0,
+          "project_score": 3.0,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "reports/curvance.md",
+      "tvl_gross": 65640000,
+      "tvl_borrowed": 25920000,
+      "last_verified": "2026-05-19"
+    },
+    {
+      "protocol": "Curve",
+      "slug": "curve",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "optimism",
+        "base",
+        "polygon",
+        "avax",
+        "fraxtal",
+        "bsc",
+        "gnosis",
+        "celo",
+        "aurora",
+        "fantom",
+        "moonbeam",
+        "kava"
+      ],
+      "category": "dex",
+      "assessment_type": "full",
+      "date": "2026-04-07",
+      "default_scores": {
+        "contract_score": 7.0,
+        "economic_score": 6.0,
+        "project_score": 7.0,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "arbitrum": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "optimism": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "base": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "polygon": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "avax": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "fraxtal": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "bsc": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "gnosis": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "celo": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "aurora": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "fantom": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "moonbeam": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "kava": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "reports/curve.md",
+      "tvl_gross": 2465000000,
+      "last_verified": "2026-04-07"
+    },
+    {
+      "protocol": "D2 Finance",
+      "slug": "d2-finance",
+      "chains": [
+        "arbitrum",
+        "base",
+        "ethereum",
+        "berachain",
+        "hyperliquid"
+      ],
+      "category": "structured-vault",
+      "assessment_type": "full",
+      "date": "2026-05-18",
+      "default_scores": {
+        "contract_score": 3.0,
+        "economic_score": 4.0,
+        "project_score": 5.0,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "arbitrum": {
+          "contract_score": 3.0,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 3.5
+        },
+        "base": {
+          "contract_score": 3.0,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 3.5
+        },
+        "ethereum": {
+          "contract_score": 3.0,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 3.5
+        },
+        "berachain": {
+          "contract_score": 3.0,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 3.5
+        },
+        "hyperliquid": {
+          "contract_score": 3.0,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "reports/d2-finance.md",
+      "tvl_gross": 19700000,
+      "tvl_net": 19700000,
+      "tvl_borrowed": 0,
+      "last_verified": "2026-05-18"
+    },
+    {
+      "protocol": "Dinero (Pirex ETH)",
+      "slug": "dinero",
+      "chains": [
+        "eth"
+      ],
+      "category": "liquid-staking",
+      "assessment_type": "light",
+      "date": "2026-05-26",
+      "default_scores": {
+        "contract_score": 6.0,
+        "economic_score": 3.0,
+        "project_score": 3.5,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 6.0,
+          "economic_score": 3.0,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "reports/dinero.md",
+      "tvl_gross": 8900000,
+      "tvl_net": 8900000,
+      "last_verified": "2026-05-26"
+    },
+    {
+      "protocol": "Dolomite",
+      "slug": "dolomite",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "berachain",
+        "polygon-zkevm",
+        "mantle",
+        "x-layer",
+        "botanix"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-04-09",
+      "default_scores": {
+        "contract_score": 5.0,
+        "economic_score": 5.5,
+        "project_score": 5.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 5.0,
+          "economic_score": 5.5,
+          "project_score": 5.5,
+          "overall_score": 5.0
+        },
+        "arbitrum": {
+          "contract_score": 5.0,
+          "economic_score": 5.5,
+          "project_score": 5.5,
+          "overall_score": 5.0
+        },
+        "berachain": {
+          "contract_score": 5.0,
+          "economic_score": 5.5,
+          "project_score": 5.5,
+          "overall_score": 5.0
+        },
+        "polygon-zkevm": {
+          "contract_score": 5.0,
+          "economic_score": 5.5,
+          "project_score": 5.5,
+          "overall_score": 5.0
+        },
+        "mantle": {
+          "contract_score": 5.0,
+          "economic_score": 5.5,
+          "project_score": 5.5,
+          "overall_score": 5.0
+        },
+        "x-layer": {
+          "contract_score": 5.0,
+          "economic_score": 5.5,
+          "project_score": 5.5,
+          "overall_score": 5.0
+        },
+        "botanix": {
+          "contract_score": 5.0,
+          "economic_score": 5.5,
+          "project_score": 5.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "reports/dolomite.md",
+      "tvl_gross": 289000000,
+      "tvl_net": 289000000,
+      "tvl_borrowed": 270000000,
+      "last_verified": "2026-04-09"
+    },
+    {
+      "protocol": "Ethena",
+      "slug": "ethena",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "base",
+        "optimism",
+        "bsc",
+        "mantle",
+        "blast",
+        "fraxtal"
+      ],
+      "category": "synthetic-dollar",
+      "assessment_type": "light",
+      "date": "2026-06-10",
+      "default_scores": {
+        "contract_score": 6.5,
+        "economic_score": 6.0,
+        "project_score": 7.0,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "arbitrum": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "base": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "optimism": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "bsc": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "mantle": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "blast": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "fraxtal": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "reports/ethena.md",
+      "last_verified": "2026-06-10"
+    },
+    {
+      "protocol": "Ethereal",
+      "slug": "ethereal",
+      "chains": [
+        "ethereal",
+        "arbitrum"
+      ],
+      "category": "perp-dex",
+      "assessment_type": "light",
+      "date": "2026-04-28",
+      "default_scores": {
+        "contract_score": 5.5,
+        "economic_score": 5.5,
+        "project_score": 5.0,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "ethereal": {
+          "contract_score": 5.5,
+          "economic_score": 5.5,
+          "project_score": 5.0,
+          "overall_score": 5.5
+        },
+        "arbitrum": {
+          "contract_score": 5.5,
+          "economic_score": 5.5,
+          "project_score": 5.0,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "reports/ethereal.md",
+      "tvl_gross": null,
+      "tvl_net": 400000000,
+      "tvl_borrowed": null,
+      "last_verified": "2026-05-02"
+    },
+    {
+      "protocol": "ether.fi",
+      "slug": "etherfi",
+      "chains": [
+        "eth"
+      ],
+      "category": "liquid-staking",
+      "assessment_type": "light",
+      "date": "2026-04-12",
+      "default_scores": {
+        "contract_score": 7.0,
+        "economic_score": 6.5,
+        "project_score": 7.0,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "reports/etherfi.md",
+      "tvl_gross": 6000000000,
+      "last_verified": "2026-04-12"
+    },
+    {
+      "protocol": "Euler",
+      "slug": "euler",
+      "chains": [
+        "eth"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-03-18",
+      "default_scores": {
+        "contract_score": 8.0,
+        "economic_score": 7.0,
+        "project_score": 7.0,
+        "overall_score": 7.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 8.0,
+          "economic_score": 7.0,
+          "project_score": 7.0,
+          "overall_score": 7.5
+        }
+      },
+      "report_file": "reports/euler.md",
+      "tvl_gross": 521000000,
+      "tvl_net": 521000000,
+      "tvl_borrowed": 230000000,
+      "last_verified": "2026-03-18"
+    },
+    {
+      "protocol": "Fluid",
+      "slug": "fluid",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "base",
+        "polygon",
+        "bnb",
+        "plasma"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-05-14",
+      "default_scores": {
+        "contract_score": 7.5,
+        "economic_score": 6.5,
+        "project_score": 6.5,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 7.5,
+          "economic_score": 6.5,
+          "project_score": 6.5,
+          "overall_score": 6.5
+        },
+        "arbitrum": {
+          "contract_score": 7.5,
+          "economic_score": 6.5,
+          "project_score": 6.5,
+          "overall_score": 6.5
+        },
+        "base": {
+          "contract_score": 7.5,
+          "economic_score": 6.5,
+          "project_score": 6.5,
+          "overall_score": 6.5
+        },
+        "polygon": {
+          "contract_score": 7.5,
+          "economic_score": 6.5,
+          "project_score": 6.5,
+          "overall_score": 6.5
+        },
+        "bnb": {
+          "contract_score": 7.5,
+          "economic_score": 6.5,
+          "project_score": 6.5,
+          "overall_score": 6.5
+        },
+        "plasma": {
+          "contract_score": 7.5,
+          "economic_score": 6.5,
+          "project_score": 6.5,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "reports/fluid.md",
+      "tvl_gross": 984000000,
+      "tvl_net": 984000000,
+      "tvl_borrowed": 843000000,
+      "last_verified": "2026-06-02"
+    },
+    {
+      "protocol": "f(x) Protocol",
+      "slug": "fx-protocol",
+      "chains": [
+        "eth"
+      ],
+      "category": "stablecoin-cdp",
+      "assessment_type": "full",
+      "date": "2026-05-14",
+      "default_scores": {
+        "contract_score": 5.5,
+        "economic_score": 6.0,
+        "project_score": 6.0,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 5.5,
+          "economic_score": 6.0,
+          "project_score": 6.0,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "reports/fx-protocol.md",
+      "tvl_gross": 89300000,
+      "tvl_net": 89300000,
+      "last_verified": "2026-05-14"
+    },
+    {
+      "protocol": "Gearbox",
+      "slug": "gearbox",
+      "chains": [
+        "eth",
+        "monad",
+        "etherlink",
+        "arbitrum",
+        "optimism",
+        "bnb",
+        "sonic",
+        "plasma",
+        "hemi",
+        "lisk",
+        "somnia"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-03-13",
+      "default_scores": {
+        "contract_score": 7.5,
+        "economic_score": 4.5,
+        "project_score": 7.0,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 7.5,
+          "economic_score": 4.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        },
+        "monad": {
+          "contract_score": 6.5,
+          "economic_score": 4.0,
+          "project_score": 6.5,
+          "overall_score": 5.5
+        },
+        "etherlink": {
+          "contract_score": 7.5,
+          "economic_score": 4.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        },
+        "arbitrum": {
+          "contract_score": 7.5,
+          "economic_score": 4.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        },
+        "optimism": {
+          "contract_score": 7.5,
+          "economic_score": 4.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        },
+        "bnb": {
+          "contract_score": 7.5,
+          "economic_score": 4.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        },
+        "sonic": {
+          "contract_score": 7.5,
+          "economic_score": 4.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        },
+        "plasma": {
+          "contract_score": 7.5,
+          "economic_score": 4.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        },
+        "hemi": {
+          "contract_score": 7.5,
+          "economic_score": 4.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        },
+        "lisk": {
+          "contract_score": 7.5,
+          "economic_score": 4.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        },
+        "somnia": {
+          "contract_score": 7.5,
+          "economic_score": 4.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "reports/gearbox.md",
+      "last_verified": "2026-04-26"
+    },
+    {
+      "protocol": "gTrade (Gains Network)",
+      "slug": "gtrade",
+      "chains": [
+        "arbitrum",
+        "polygon"
+      ],
+      "category": "perps/trading",
+      "assessment_type": "light",
+      "date": "2026-04-12",
+      "default_scores": {
+        "contract_score": 6.0,
+        "economic_score": 5.5,
+        "project_score": 6.0,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "arbitrum": {
+          "contract_score": 6.0,
+          "economic_score": 5.5,
+          "project_score": 6.0,
+          "overall_score": 6.0
+        },
+        "polygon": {
+          "contract_score": 6.0,
+          "economic_score": 5.5,
+          "project_score": 6.0,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "reports/gtrade.md",
+      "tvl_gross": 75000000,
+      "last_verified": "2026-07-16"
+    },
+    {
+      "protocol": "HyENA",
+      "slug": "hyena",
+      "chains": [
+        "hyperliquid"
+      ],
+      "category": "perp-dex",
+      "assessment_type": "light",
+      "date": "2026-05-02",
+      "default_scores": {
+        "contract_score": 5.0,
+        "economic_score": 5.0,
+        "project_score": 5.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "hyperliquid": {
+          "contract_score": 5.0,
+          "economic_score": 5.0,
+          "project_score": 5.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "reports/hyena.md",
+      "tvl_gross": null,
+      "tvl_net": null,
+      "tvl_borrowed": null,
+      "last_verified": "2026-05-02"
+    },
+    {
+      "protocol": "HyperLend",
+      "slug": "hyperlend",
+      "chains": [
+        "hyperliquid"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-04-29",
+      "default_scores": {
+        "contract_score": 7.5,
+        "economic_score": 7.0,
+        "project_score": 6.5,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "hyperliquid": {
+          "contract_score": 7.5,
+          "economic_score": 7.0,
+          "project_score": 6.5,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "reports/hyperlend.md",
+      "tvl_gross": 354649315,
+      "tvl_net": 164038433,
+      "tvl_borrowed": 190610882,
+      "last_verified": "2026-04-29"
+    },
+    {
+      "protocol": "HyperLiquid",
+      "slug": "hyperliquid",
+      "chains": [
+        "hyperliquid"
+      ],
+      "category": "perps/trading",
+      "assessment_type": "full",
+      "date": "2026-04-12",
+      "default_scores": {
+        "contract_score": 5.0,
+        "economic_score": 5.5,
+        "project_score": 5.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "hyperliquid": {
+          "contract_score": 5.0,
+          "economic_score": 5.5,
+          "project_score": 5.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "reports/hyperliquid.md",
+      "tvl_gross": 4000000000,
+      "tvl_net": 4000000000,
+      "tvl_borrowed": 0,
+      "last_verified": "2026-05-27"
+    },
+    {
+      "protocol": "IPOR",
+      "slug": "ipor",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "base"
+      ],
+      "category": "vault-infra",
+      "assessment_type": "light",
+      "date": "2026-04-07",
+      "default_scores": {
+        "contract_score": 4.0,
+        "economic_score": 5.0,
+        "project_score": 5.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 4.0,
+          "economic_score": 5.0,
+          "project_score": 5.0,
+          "overall_score": 4.5
+        },
+        "arbitrum": {
+          "contract_score": 4.0,
+          "economic_score": 5.0,
+          "project_score": 5.0,
+          "overall_score": 4.5
+        },
+        "base": {
+          "contract_score": 4.0,
+          "economic_score": 5.0,
+          "project_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "reports/ipor.md",
+      "last_verified": "2026-07-04"
+    },
+    {
+      "protocol": "Kamino Lend",
+      "slug": "kamino-lend",
+      "chains": [
+        "solana"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-04-23",
+      "default_scores": {
+        "contract_score": 7.5,
+        "economic_score": 7.5,
+        "project_score": 7.0,
+        "overall_score": 7.5
+      },
+      "chain_scores": {
+        "solana": {
+          "contract_score": 7.5,
+          "economic_score": 7.5,
+          "project_score": 7.0,
+          "overall_score": 7.5
+        }
+      },
+      "report_file": "reports/kamino-lend.md",
+      "tvl_gross": 2772000000,
+      "tvl_net": 1670000000,
+      "tvl_borrowed": 1099000000,
+      "last_verified": "2026-04-23"
+    },
+    {
+      "protocol": "KelpDAO",
+      "slug": "kelpdao",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "optimism",
+        "base",
+        "linea",
+        "scroll",
+        "blast"
+      ],
+      "category": "liquid-restaking",
+      "assessment_type": "full",
+      "date": "2026-04-19",
+      "default_scores": {
+        "contract_score": 3.0,
+        "economic_score": 3.0,
+        "project_score": 5.0,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 3.0,
+          "economic_score": 3.0,
+          "project_score": 5.0,
+          "overall_score": 3.5
+        },
+        "arbitrum": {
+          "contract_score": 3.0,
+          "economic_score": 3.0,
+          "project_score": 5.0,
+          "overall_score": 3.5
+        },
+        "optimism": {
+          "contract_score": 3.0,
+          "economic_score": 3.0,
+          "project_score": 5.0,
+          "overall_score": 3.5
+        },
+        "base": {
+          "contract_score": 3.0,
+          "economic_score": 3.0,
+          "project_score": 5.0,
+          "overall_score": 3.5
+        },
+        "linea": {
+          "contract_score": 3.0,
+          "economic_score": 3.0,
+          "project_score": 5.0,
+          "overall_score": 3.5
+        },
+        "scroll": {
+          "contract_score": 3.0,
+          "economic_score": 3.0,
+          "project_score": 5.0,
+          "overall_score": 3.5
+        },
+        "blast": {
+          "contract_score": 3.0,
+          "economic_score": 3.0,
+          "project_score": 5.0,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "reports/kelpdao.md",
+      "tvl_gross": 700000000,
+      "tvl_net": 408000000,
+      "last_verified": "2026-06-02"
+    },
+    {
+      "protocol": "Kumbaya",
+      "slug": "kumbaya",
+      "chains": [
+        "megaeth"
+      ],
+      "category": "dex-launchpad",
+      "assessment_type": "full",
+      "date": "2026-04-29",
+      "default_scores": {
+        "contract_score": 3.0,
+        "economic_score": 5.5,
+        "project_score": 4.0,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "megaeth": {
+          "contract_score": 3.0,
+          "economic_score": 5.5,
+          "project_score": 4.0,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "reports/kumbaya.md",
+      "tvl_gross": null,
+      "tvl_net": 61200000,
+      "tvl_borrowed": null,
+      "last_verified": "2026-04-29"
+    },
+    {
+      "protocol": "Lagoon",
+      "slug": "lagoon",
+      "chains": [
+        "plasma",
+        "eth"
+      ],
+      "category": "vault-infrastructure",
+      "assessment_type": "light",
+      "date": "2026-04-12",
+      "default_scores": {
+        "contract_score": 4.5,
+        "economic_score": 5.0,
+        "project_score": 4.5,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "plasma": {
+          "contract_score": 4.5,
+          "economic_score": 5.0,
+          "project_score": 4.5,
+          "overall_score": 4.5
+        },
+        "eth": {
+          "contract_score": 4.5,
+          "economic_score": 5.0,
+          "project_score": 4.5,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "reports/lagoon.md",
+      "tvl_gross": null,
+      "tvl_net": null,
+      "last_verified": "2026-04-12"
+    },
+    {
+      "protocol": "LFJ",
+      "slug": "lfj",
+      "chains": [
+        "avax",
+        "arb",
+        "monad"
+      ],
+      "category": "dex",
+      "assessment_type": "light",
+      "date": "2026-03-15",
+      "default_scores": {
+        "contract_score": 6.5,
+        "economic_score": 5.5,
+        "project_score": 5.5,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "avax": {
+          "contract_score": 6.5,
+          "economic_score": 5.5,
+          "project_score": 5.5,
+          "overall_score": 6.0
+        },
+        "arb": {
+          "contract_score": 6.5,
+          "economic_score": 5.5,
+          "project_score": 5.5,
+          "overall_score": 6.0
+        },
+        "monad": {
+          "contract_score": 5.5,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "reports/lfj.md",
+      "last_verified": "2026-03-15"
+    },
+    {
+      "protocol": "Lido",
+      "slug": "lido",
+      "chains": [
+        "eth"
+      ],
+      "category": "liquid-staking",
+      "assessment_type": "full",
+      "date": "2026-03-29",
+      "default_scores": {
+        "contract_score": 8.0,
+        "economic_score": 7.5,
+        "project_score": 8.0,
+        "overall_score": 7.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 8.0,
+          "economic_score": 7.5,
+          "project_score": 8.0,
+          "overall_score": 7.5
+        }
+      },
+      "report_file": "reports/lido.md",
+      "tvl_gross": 19000000000,
+      "tvl_net": 19000000000,
+      "tvl_borrowed": 0,
+      "last_verified": "2026-03-29"
+    },
+    {
+      "protocol": "Lista DAO",
+      "slug": "lista-dao",
+      "chains": [
+        "bsc"
+      ],
+      "category": "cdp-lending",
+      "assessment_type": "full",
+      "date": "2026-03-17",
+      "default_scores": {
+        "contract_score": 6.0,
+        "economic_score": 6.0,
+        "project_score": 6.0,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "bsc": {
+          "contract_score": 6.0,
+          "economic_score": 6.0,
+          "project_score": 6.0,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "reports/lista-dao.md",
+      "tvl_gross": 4500000000,
+      "tvl_net": 2800000000,
+      "tvl_borrowed": 1350000000,
+      "last_verified": "2026-03-17"
+    },
+    {
+      "protocol": "Maple Finance",
+      "slug": "maple",
+      "chains": [
+        "eth"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-04-12",
+      "default_scores": {
+        "contract_score": 6.5,
+        "economic_score": 5.5,
+        "project_score": 5.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 6.5,
+          "economic_score": 5.5,
+          "project_score": 5.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "reports/maple.md",
+      "tvl_gross": 700000000,
+      "tvl_net": 700000000,
+      "tvl_borrowed": null,
+      "last_verified": "2026-04-26"
+    },
+    {
+      "protocol": "Mellow Protocol",
+      "slug": "mellow",
+      "chains": [
+        "eth"
+      ],
+      "category": "aggregator",
+      "assessment_type": "full",
+      "date": "2026-03-29",
+      "default_scores": {
+        "contract_score": 6.0,
+        "economic_score": 5.5,
+        "project_score": 5.0,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 6.0,
+          "economic_score": 5.5,
+          "project_score": 5.0,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "reports/mellow.md",
+      "tvl_gross": 300000000,
+      "tvl_net": 300000000,
+      "last_verified": "2026-03-29"
+    },
+    {
+      "protocol": "Mento Protocol",
+      "slug": "mento",
+      "chains": [
+        "celo",
+        "monad",
+        "ethereum"
+      ],
+      "category": "dex",
+      "assessment_type": "full",
+      "date": "2026-05-18",
+      "default_scores": {
+        "contract_score": 6.5,
+        "economic_score": 6.5,
+        "project_score": 7.0,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "celo": {
+          "contract_score": 7.0,
+          "economic_score": 7.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "monad": {
+          "contract_score": 5.0,
+          "economic_score": 6.0,
+          "project_score": 6.5,
+          "overall_score": 5.5
+        },
+        "ethereum": {
+          "contract_score": 6.5,
+          "economic_score": 6.5,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "reports/mento.md",
+      "tvl_gross": 19060000,
+      "tvl_net": 19060000,
+      "tvl_borrowed": 0,
+      "last_verified": "2026-06-13"
+    },
+    {
+      "protocol": "MIDAS",
+      "slug": "midas",
+      "chains": [
+        "eth"
+      ],
+      "category": "rwa-vault",
+      "assessment_type": "light",
+      "date": "2026-03-13",
+      "default_scores": {
+        "contract_score": 6.0,
+        "economic_score": 5.0,
+        "project_score": 5.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 6.0,
+          "economic_score": 5.0,
+          "project_score": 5.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "reports/midas.md",
+      "last_verified": "2026-03-13"
+    },
+    {
+      "protocol": "Morpho",
+      "slug": "morpho",
+      "chains": [
+        "eth",
+        "base"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-03-18",
+      "default_scores": {
+        "contract_score": 8.5,
+        "economic_score": 7.0,
+        "project_score": 8.0,
+        "overall_score": 7.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 8.5,
+          "economic_score": 7.0,
+          "project_score": 8.0,
+          "overall_score": 7.5
+        },
+        "base": {
+          "contract_score": 8.5,
+          "economic_score": 7.0,
+          "project_score": 8.0,
+          "overall_score": 7.5
+        }
+      },
+      "report_file": "reports/morpho.md",
+      "tvl_gross": 6900000000,
+      "tvl_net": 6900000000,
+      "last_verified": "2026-03-18"
+    },
+    {
+      "protocol": "Nest Exchange",
+      "slug": "nest",
+      "chains": [
+        "hyperliquid"
+      ],
+      "category": "dex",
+      "assessment_type": "full",
+      "date": "2026-06-05",
+      "default_scores": {
+        "contract_score": 5.5,
+        "economic_score": 5.5,
+        "project_score": 4.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "hyperliquid": {
+          "contract_score": 5.5,
+          "economic_score": 5.5,
+          "project_score": 4.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "reports/nest.md",
+      "tvl_gross": 22915124,
+      "tvl_net": 22915124,
+      "tvl_borrowed": 0,
+      "last_verified": "2026-06-05"
+    },
+    {
+      "protocol": "Neverland Money",
+      "slug": "neverland-money",
+      "chains": [
+        "monad"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-03-12",
+      "default_scores": {
+        "contract_score": 4.5,
+        "economic_score": 6.5,
+        "project_score": 4.0,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "monad": {
+          "contract_score": 4.5,
+          "economic_score": 6.5,
+          "project_score": 4.0,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "reports/neverland-money.md",
+      "tvl_gross": 110500000,
+      "tvl_net": 31000000,
+      "tvl_borrowed": 84300000,
+      "last_verified": "2026-07-05"
+    },
+    {
+      "protocol": "Pendle V2",
+      "slug": "pendle-v2",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "bsc",
+        "optimism",
+        "mantle"
+      ],
+      "category": "yield",
+      "assessment_type": "full",
+      "date": "2026-04-12",
+      "default_scores": {
+        "contract_score": 7.0,
+        "economic_score": 7.0,
+        "project_score": 7.5,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 7.0,
+          "economic_score": 7.0,
+          "project_score": 7.5,
+          "overall_score": 7.0
+        },
+        "arbitrum": {
+          "contract_score": 7.0,
+          "economic_score": 7.0,
+          "project_score": 7.5,
+          "overall_score": 7.0
+        },
+        "bsc": {
+          "contract_score": 7.0,
+          "economic_score": 7.0,
+          "project_score": 7.5,
+          "overall_score": 7.0
+        },
+        "optimism": {
+          "contract_score": 7.0,
+          "economic_score": 7.0,
+          "project_score": 7.5,
+          "overall_score": 7.0
+        },
+        "mantle": {
+          "contract_score": 7.0,
+          "economic_score": 7.0,
+          "project_score": 7.5,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "reports/pendle-v2.md",
+      "tvl_gross": 2500000000,
+      "tvl_net": 2500000000,
+      "tvl_borrowed": 0,
+      "last_verified": "2026-05-14"
+    },
+    {
+      "protocol": "Prodigy.fi",
+      "slug": "prodigy-fi",
+      "chains": [
+        "base",
+        "berachain",
+        "ethereum"
+      ],
+      "category": "structured-products",
+      "assessment_type": "full",
+      "date": "2026-03-18",
+      "default_scores": {
+        "contract_score": 3.5,
+        "economic_score": 7.0,
+        "project_score": 3.5,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "base": {
+          "contract_score": 3.5,
+          "economic_score": 7.0,
+          "project_score": 3.5,
+          "overall_score": 4.5
+        },
+        "berachain": {
+          "contract_score": 3.5,
+          "economic_score": 7.0,
+          "project_score": 3.5,
+          "overall_score": 4.5
+        },
+        "ethereum": {
+          "contract_score": 3.5,
+          "economic_score": 7.0,
+          "project_score": 3.5,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "reports/prodigy-fi.md",
+      "tvl_gross": null,
+      "tvl_net": null,
+      "tvl_borrowed": null,
+      "last_verified": "2026-04-03"
+    },
+    {
+      "protocol": "Revert Lend",
+      "slug": "revert-lend",
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "base"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-05-27",
+      "default_scores": {
+        "contract_score": 6.0,
+        "economic_score": 6.0,
+        "project_score": 6.5,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "ethereum": {
+          "contract_score": 5.5,
+          "economic_score": 6.0,
+          "project_score": 6.5,
+          "overall_score": 5.5
+        },
+        "arbitrum": {
+          "contract_score": 6.0,
+          "economic_score": 6.0,
+          "project_score": 6.5,
+          "overall_score": 6.0
+        },
+        "base": {
+          "contract_score": 6.0,
+          "economic_score": 6.0,
+          "project_score": 6.5,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "reports/revert-lend.md",
+      "tvl_gross": 11460000,
+      "tvl_net": 7255000,
+      "tvl_borrowed": 5190000,
+      "last_verified": "2026-05-27"
+    },
+    {
+      "protocol": "Saturn Labs",
+      "slug": "saturn",
+      "chains": [
+        "eth"
+      ],
+      "category": "rwa-stablecoin",
+      "assessment_type": "light",
+      "date": "2026-04-27",
+      "default_scores": {
+        "contract_score": 5.0,
+        "economic_score": 5.0,
+        "project_score": 4.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 5.0,
+          "economic_score": 5.0,
+          "project_score": 4.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "reports/saturn.md",
+      "tvl_gross": null,
+      "tvl_net": 20500000,
+      "tvl_borrowed": null,
+      "last_verified": "2026-04-27"
+    },
+    {
+      "protocol": "Spark",
+      "slug": "spark",
+      "chains": [
+        "eth",
+        "gnosis",
+        "base"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-03-29",
+      "default_scores": {
+        "contract_score": 8.0,
+        "economic_score": 6.5,
+        "project_score": 7.5,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 8.0,
+          "economic_score": 6.5,
+          "project_score": 7.5,
+          "overall_score": 7.0
+        },
+        "gnosis": {
+          "contract_score": 8.0,
+          "economic_score": 6.5,
+          "project_score": 7.5,
+          "overall_score": 7.0
+        },
+        "base": {
+          "contract_score": 8.0,
+          "economic_score": 6.5,
+          "project_score": 7.5,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "reports/spark.md",
+      "tvl_gross": 5000000000,
+      "tvl_net": 5000000000,
+      "last_verified": "2026-04-19"
+    },
+    {
+      "protocol": "Stake DAO",
+      "slug": "stake-dao",
+      "chains": [
+        "eth"
+      ],
+      "category": "aggregator",
+      "assessment_type": "full",
+      "date": "2026-03-18",
+      "default_scores": {
+        "contract_score": 5.0,
+        "economic_score": 6.0,
+        "project_score": 5.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 5.0,
+          "economic_score": 6.0,
+          "project_score": 5.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "reports/stake-dao.md",
+      "tvl_gross": 166000000,
+      "last_verified": "2026-05-28"
+    },
+    {
+      "protocol": "Steakhouse Financial",
+      "slug": "steakhouse-financial",
+      "chains": [
+        "eth",
+        "base",
+        "arbitrum",
+        "polygon",
+        "unichain",
+        "katana",
+        "corn",
+        "monad"
+      ],
+      "category": "vault-curator",
+      "assessment_type": "full",
+      "date": "2026-04-28",
+      "default_scores": {
+        "contract_score": 7.5,
+        "economic_score": 6.0,
+        "project_score": 7.0,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 7.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "base": {
+          "contract_score": 7.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "arbitrum": {
+          "contract_score": 7.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "polygon": {
+          "contract_score": 7.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "unichain": {
+          "contract_score": 7.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "katana": {
+          "contract_score": 7.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "corn": {
+          "contract_score": 7.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "monad": {
+          "contract_score": 7.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "reports/steakhouse-financial.md",
+      "tvl_gross": 1540547103,
+      "tvl_net": 1540547103,
+      "tvl_borrowed": null,
+      "last_verified": "2026-04-28"
+    },
+    {
+      "protocol": "Superform",
+      "slug": "superform",
+      "chains": [
+        "eth",
+        "base",
+        "arbitrum",
+        "polygon",
+        "optimism",
+        "bsc",
+        "avalanche",
+        "fantom",
+        "blast",
+        "linea"
+      ],
+      "category": "yield-aggregator-cross-chain",
+      "assessment_type": "full",
+      "date": "2026-04-28",
+      "default_scores": {
+        "contract_score": 7.0,
+        "economic_score": 6.5,
+        "project_score": 7.0,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "base": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "arbitrum": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "polygon": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "optimism": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "bsc": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "avalanche": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "fantom": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "blast": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        },
+        "linea": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 7.0,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "reports/superform.md",
+      "tvl_gross": 31797021,
+      "tvl_net": 31797021,
+      "tvl_borrowed": null,
+      "last_verified": "2026-05-13"
+    },
+    {
+      "protocol": "Supernova",
+      "slug": "supernova",
+      "chains": [
+        "megaeth"
+      ],
+      "category": "rates-derivatives",
+      "assessment_type": "light",
+      "date": "2026-04-29",
+      "default_scores": {
+        "contract_score": 4.5,
+        "economic_score": 5.0,
+        "project_score": 6.0,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "megaeth": {
+          "contract_score": 4.5,
+          "economic_score": 5.0,
+          "project_score": 6.0,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "reports/supernova.md",
+      "tvl_gross": null,
+      "tvl_net": null,
+      "tvl_borrowed": null,
+      "last_verified": "2026-04-29"
+    },
+    {
+      "protocol": "TermMax",
+      "slug": "termmax",
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "bsc",
+        "berachain"
+      ],
+      "category": "fixed-rate-lending",
+      "assessment_type": "full",
+      "date": "2026-03-18",
+      "default_scores": {
+        "contract_score": 7.0,
+        "economic_score": 6.5,
+        "project_score": 6.5,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 6.5,
+          "overall_score": 6.5
+        },
+        "arbitrum": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 6.5,
+          "overall_score": 6.5
+        },
+        "bsc": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 6.5,
+          "overall_score": 6.0
+        },
+        "berachain": {
+          "contract_score": 7.0,
+          "economic_score": 6.5,
+          "project_score": 6.5,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "reports/termmax.md",
+      "tvl_gross": 55000000,
+      "tvl_net": 27000000,
+      "tvl_borrowed": 28000000,
+      "last_verified": "2026-03-18"
+    },
+    {
+      "protocol": "Theo (thBILL)",
+      "slug": "thbill",
+      "chains": [
+        "eth",
+        "arb",
+        "base",
+        "hyperevm",
+        "sol"
+      ],
+      "category": "tokenized-treasury",
+      "assessment_type": "full",
+      "date": "2026-04-21",
+      "default_scores": {
+        "contract_score": 5.5,
+        "economic_score": 5.3,
+        "project_score": 4.5,
+        "overall_score": 5.1
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 5.5,
+          "economic_score": 5.3,
+          "project_score": 4.5,
+          "overall_score": 5.1
+        },
+        "arb": {
+          "contract_score": 5.5,
+          "economic_score": 5.3,
+          "project_score": 4.5,
+          "overall_score": 5.1
+        },
+        "base": {
+          "contract_score": 5.5,
+          "economic_score": 5.3,
+          "project_score": 4.5,
+          "overall_score": 5.1
+        },
+        "hyperevm": {
+          "contract_score": 5.5,
+          "economic_score": 5.3,
+          "project_score": 4.5,
+          "overall_score": 5.1
+        },
+        "sol": {
+          "contract_score": 5.5,
+          "economic_score": 5.3,
+          "project_score": 4.5,
+          "overall_score": 5.1
+        }
+      },
+      "report_file": "reports/thbill.md",
+      "last_verified": "2026-07-02"
+    },
+    {
+      "protocol": "Theo thUSD",
+      "slug": "thusd",
+      "chains": [
+        "ethereum",
+        "arbitrum",
+        "stable"
+      ],
+      "category": "yield-stablecoin",
+      "assessment_type": "light",
+      "date": "2026-05-04",
+      "default_scores": {
+        "contract_score": 5.5,
+        "economic_score": 4.0,
+        "project_score": 5.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "contract_score": 5.5,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 4.5
+        },
+        "arbitrum": {
+          "contract_score": 5.5,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 4.5
+        },
+        "stable": {
+          "contract_score": 5.5,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "reports/thusd.md",
+      "tvl_gross": null,
+      "tvl_net": null,
+      "last_verified": "2026-07-02"
+    },
+    {
+      "protocol": "TID Capital",
+      "slug": "tid-capital",
+      "chains": [
+        "arb"
+      ],
+      "category": "market-making",
+      "assessment_type": "light",
+      "date": "2026-06-08",
+      "default_scores": {
+        "contract_score": 5.0,
+        "economic_score": 4.5,
+        "project_score": 5.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "arb": {
+          "contract_score": 5.0,
+          "economic_score": 4.5,
+          "project_score": 5.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "reports/tid-capital.md",
+      "last_verified": "2026-06-08"
+    },
+    {
+      "protocol": "Velodrome Finance",
+      "slug": "velodrome",
+      "chains": [
+        "optimism"
+      ],
+      "category": "dex",
+      "assessment_type": "full",
+      "date": "2026-03-29",
+      "default_scores": {
+        "contract_score": 6.5,
+        "economic_score": 6.5,
+        "project_score": 5.5,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "optimism": {
+          "contract_score": 6.5,
+          "economic_score": 6.5,
+          "project_score": 5.5,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "reports/velodrome.md",
+      "tvl_gross": 55000000,
+      "tvl_net": 55000000,
+      "last_verified": "2026-03-29"
+    },
+    {
+      "protocol": "World Markets",
+      "slug": "world-markets",
+      "chains": [
+        "megaeth"
+      ],
+      "category": "dex",
+      "assessment_type": "full",
+      "date": "2026-05-06",
+      "default_scores": {
+        "contract_score": 4.5,
+        "economic_score": 5.0,
+        "project_score": 4.5,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "megaeth": {
+          "contract_score": 4.5,
+          "economic_score": 5.0,
+          "project_score": 4.5,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "reports/world-markets.md",
+      "tvl_gross": 13420000,
+      "tvl_net": 13420000,
+      "tvl_borrowed": null,
+      "last_verified": "2026-05-06"
+    },
+    {
+      "protocol": "Yei Finance",
+      "slug": "yei-finance",
+      "chains": [
+        "sei"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-04-28",
+      "default_scores": {
+        "contract_score": 5.5,
+        "economic_score": 5.5,
+        "project_score": 4.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "sei": {
+          "contract_score": 5.5,
+          "economic_score": 5.5,
+          "project_score": 4.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "reports/yei-finance.md",
+      "tvl_gross": 51815529,
+      "tvl_net": 51815529,
+      "tvl_borrowed": null,
+      "last_verified": "2026-04-28"
+    },
+    {
+      "protocol": "YieldBasis",
+      "slug": "yield-basis",
+      "chains": [
+        "eth"
+      ],
+      "category": "leveraged-amm",
+      "assessment_type": "full",
+      "date": "2026-03-28",
+      "default_scores": {
+        "contract_score": 7.0,
+        "economic_score": 6.0,
+        "project_score": 6.5,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 7.0,
+          "economic_score": 6.0,
+          "project_score": 6.5,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "reports/yield-basis.md",
+      "tvl_gross": 400000000,
+      "last_verified": "2026-06-01"
+    },
+    {
+      "protocol": "Yuzu Money",
+      "slug": "yuzu-money",
+      "chains": [
+        "eth",
+        "plasma",
+        "monad"
+      ],
+      "category": "synthetic-dollar",
+      "assessment_type": "light",
+      "date": "2026-04-08",
+      "default_scores": {
+        "contract_score": 3.5,
+        "economic_score": 4.0,
+        "project_score": 2.5,
+        "overall_score": 3.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 3.5,
+          "economic_score": 4.0,
+          "project_score": 2.5,
+          "overall_score": 3.0
+        },
+        "plasma": {
+          "contract_score": 3.5,
+          "economic_score": 4.0,
+          "project_score": 2.5,
+          "overall_score": 3.0
+        },
+        "monad": {
+          "contract_score": 2.5,
+          "economic_score": 4.0,
+          "project_score": 2.0,
+          "overall_score": 2.5
+        }
+      },
+      "report_file": "reports/yuzu-money.md",
+      "last_verified": "2026-05-26"
+    }
+  ],
+  "alias_map": {
+    "$up": "superform",
+    "aave": "aave-v3",
+    "aave lending": "aave-v3",
+    "aave protocol": "aave-v3",
+    "aave v3": "aave-v3",
+    "aave-v3": "aave-v3",
+    "aavev3": "aave-v3",
+    "aladdin f(x)": "fx-protocol",
+    "apxusd": "apyx",
+    "apyusd": "apyx",
+    "apyx": "apyx",
+    "arbusd": "auto-finance",
+    "aura": "aura-finance",
+    "aura finance": "aura-finance",
+    "aura-finance": "aura-finance",
+    "auto finance": "auto-finance",
+    "auto-finance": "auto-finance",
+    "auto.finance": "auto-finance",
+    "autoeth": "auto-finance",
+    "autofinance": "auto-finance",
+    "autopilot": "auto-finance",
+    "autopools": "auto-finance",
+    "autousd": "auto-finance",
+    "balancer": "balancer",
+    "balancer finance": "balancer",
+    "balancer v2": "balancer",
+    "balancer v3": "balancer",
+    "balancerv2": "balancer",
+    "balancerv3": "balancer",
+    "baseeth": "auto-finance",
+    "baseusd": "auto-finance",
+    "bbqausd": "steakhouse-financial",
+    "bbqcbbtc": "steakhouse-financial",
+    "bbqdai": "steakhouse-financial",
+    "bbqeth": "steakhouse-financial",
+    "bbqusdc": "steakhouse-financial",
+    "bbqusdt": "steakhouse-financial",
+    "bbqwsteth": "steakhouse-financial",
+    "beefy": "beefy",
+    "beefy finance": "beefy",
+    "blackhaven": "blackhaven",
+    "blackhaven.xyz": "blackhaven",
+    "box vaults": "steakhouse-financial",
+    "clo": "yei-finance",
+    "clovis": "yei-finance",
+    "convex": "convex",
+    "convex finance": "convex",
+    "current": "current-finance",
+    "current finance": "current-finance",
+    "current margin": "current-finance",
+    "current multiply": "current-finance",
+    "current-finance": "current-finance",
+    "current.finance": "current-finance",
+    "currentsui": "current-finance",
+    "curvance": "curvance",
+    "curve": "curve",
+    "curve finance": "curve",
+    "curve lend": "curve",
+    "curve llamalend": "curve",
+    "curve protocol": "curve",
+    "curve v1": "curve",
+    "curve v2": "curve",
+    "curve.fi": "curve",
+    "curvefi": "curve",
+    "cvx": "convex",
+    "d-squared": "d2-finance",
+    "d2": "d2-finance",
+    "d2 finance": "d2-finance",
+    "d2-finance": "d2-finance",
+    "dinero": "dinero",
+    "dinero (pirex eth)": "dinero",
+    "dinero protocol": "dinero",
+    "dolomite": "dolomite",
+    "dolomite exchange": "dolomite",
+    "dolomite margin": "dolomite",
+    "dolomitemargin": "dolomite",
+    "dsq": "d2-finance",
+    "dsquared": "d2-finance",
+    "ethena": "ethena",
+    "ethena labs": "ethena",
+    "ether.fi": "etherfi",
+    "ethereal": "ethereal",
+    "ethereal chain": "ethereal",
+    "ethereal dex": "ethereal",
+    "etherfi": "etherfi",
+    "euler": "euler",
+    "euler finance": "euler",
+    "euler v2": "euler",
+    "f(x) protocol": "fx-protocol",
+    "fire protocol": "kumbaya",
+    "fluid": "fluid",
+    "fluid dex": "fluid",
+    "fluid lending": "fluid",
+    "fluid protocol": "fluid",
+    "fluid vault": "fluid",
+    "fx protocol": "fx-protocol",
+    "fx-protocol": "fx-protocol",
+    "fxprotocol": "fx-protocol",
+    "fxusd": "fx-protocol",
+    "gains": "gtrade",
+    "gains network": "gtrade",
+    "gearbox": "gearbox",
+    "gearbox protocol": "gearbox",
+    "gns": "gtrade",
+    "gtrade": "gtrade",
+    "gtrade (gains network)": "gtrade",
+    "helio protocol": "lista-dao",
+    "hl": "hyperliquid",
+    "hyena": "hyena",
+    "hyena dex": "hyena",
+    "hyena trade": "hyena",
+    "hyna": "hyena",
+    "hyperlend": "hyperlend",
+    "hyperlendx": "hyperlend",
+    "hyperliquid": "hyperliquid",
+    "hyperliquid dex": "hyperliquid",
+    "hyperliquid l1": "hyperliquid",
+    "hyperloop": "hyperlend",
+    "instadapp fluid": "fluid",
+    "ipor": "ipor",
+    "ipor fusion": "ipor",
+    "ipor labs": "ipor",
+    "k-lend": "kamino-lend",
+    "kamino": "kamino-lend",
+    "kamino finance": "kamino-lend",
+    "kamino lend": "kamino-lend",
+    "kamino-lend": "kamino-lend",
+    "kelp": "kelpdao",
+    "kelp dao": "kelpdao",
+    "kelpdao": "kelpdao",
+    "klend": "kamino-lend",
+    "kumbaya": "kumbaya",
+    "kumbaya dex": "kumbaya",
+    "kumbaya.xyz": "kumbaya",
+    "kumbaya_xyz": "kumbaya",
+    "lagoon": "lagoon",
+    "lagoon finance": "lagoon",
+    "lagoon vaults": "lagoon",
+    "lfj": "lfj",
+    "lido": "lido",
+    "lido dao": "lido",
+    "lido finance": "lido",
+    "lido staked eth": "lido",
+    "lidodao": "lido",
+    "lista": "lista-dao",
+    "lista dao": "lista-dao",
+    "lista-dao": "lista-dao",
+    "llamalend": "curve",
+    "maple": "maple",
+    "maple finance": "maple",
+    "mellow": "mellow",
+    "mellow finance": "mellow",
+    "mellow protocol": "mellow",
+    "mellow vaults": "mellow",
+    "mento": "mento",
+    "mento asset exchange": "mento",
+    "mento labs": "mento",
+    "mento protocol": "mento",
+    "mento v3": "mento",
+    "metamorpho": "morpho",
+    "midas": "midas",
+    "morpho": "morpho",
+    "morpho blue": "morpho",
+    "morpho labs": "morpho",
+    "nest": "nest",
+    "nest exchange": "nest",
+    "nestexchange": "nest",
+    "neverland": "neverland-money",
+    "neverland money": "neverland-money",
+    "neverland-money": "neverland-money",
+    "parrate": "supernova",
+    "pebble": "current-finance",
+    "pendle": "pendle-v2",
+    "pendle finance": "pendle-v2",
+    "pendle v2": "pendle-v2",
+    "pendle-v2": "pendle-v2",
+    "pirex": "dinero",
+    "pirex eth": "dinero",
+    "pirex ether": "dinero",
+    "pirex finance": "dinero",
+    "prodigy": "prodigy-fi",
+    "prodigy-fi": "prodigy-fi",
+    "prodigy.fi": "prodigy-fi",
+    "prodigyfi": "prodigy-fi",
+    "rbt": "blackhaven",
+    "redacted": "dinero",
+    "redacted cartel": "dinero",
+    "reserve backed token": "blackhaven",
+    "revert": "revert-lend",
+    "revert compoundor": "revert-lend",
+    "revert finance": "revert-lend",
+    "revert lend": "revert-lend",
+    "revert-compoundor": "revert-lend",
+    "revert-lend": "revert-lend",
+    "saturn": "saturn",
+    "saturn credit": "saturn",
+    "saturn labs": "saturn",
+    "sdt": "stake-dao",
+    "smokehouse": "steakhouse-financial",
+    "spark": "spark",
+    "spark protocol": "spark",
+    "sparklend": "spark",
+    "spl": "steakhouse-financial",
+    "spuc": "steakhouse-financial",
+    "stake capital": "stake-dao",
+    "stake dao": "stake-dao",
+    "stake-dao": "stake-dao",
+    "staked thusd": "thusd",
+    "stakedao": "stake-dao",
+    "steaketh": "steakhouse-financial",
+    "steakeurc": "steakhouse-financial",
+    "steakeurcv": "steakhouse-financial",
+    "steakeure": "steakhouse-financial",
+    "steakhouse": "steakhouse-financial",
+    "steakhouse financial": "steakhouse-financial",
+    "steakhouse high yield": "steakhouse-financial",
+    "steakhouse prime": "steakhouse-financial",
+    "steakhouse turbo": "steakhouse-financial",
+    "steakhouse-financial": "steakhouse-financial",
+    "steakhouse.financial": "steakhouse-financial",
+    "steakpaxg": "steakhouse-financial",
+    "steakpyusd": "steakhouse-financial",
+    "steaksusds": "steakhouse-financial",
+    "steakusda": "steakhouse-financial",
+    "steakusdc": "steakhouse-financial",
+    "steakusdm": "steakhouse-financial",
+    "steakusdt": "steakhouse-financial",
+    "steakwbtc": "steakhouse-financial",
+    "sthusd": "thusd",
+    "suhy": "steakhouse-financial",
+    "super positions": "superform",
+    "superform": "superform",
+    "superform.xyz": "superform",
+    "superformrouter": "superform",
+    "supernova": "supernova",
+    "supernova labs": "supernova",
+    "supernova rate exchange": "supernova",
+    "supernovalabs_": "supernova",
+    "superpositions": "superform",
+    "supervaults": "superform",
+    "susdat": "saturn",
+    "syrup": "maple",
+    "syrup.fi": "maple",
+    "syrupfi": "maple",
+    "term max": "termmax",
+    "term structure": "termmax",
+    "termmax": "termmax",
+    "thbill": "thbill",
+    "theo (thbill)": "thbill",
+    "theo network thusd": "thusd",
+    "theo short duration us treasury fund": "thbill",
+    "theo thbill": "thbill",
+    "theo thusd": "thusd",
+    "theo usd": "thusd",
+    "thusd": "thusd",
+    "thusd (theo)": "thusd",
+    "tid": "tid-capital",
+    "tid capital": "tid-capital",
+    "tid-capital": "tid-capital",
+    "tidmm": "tid-capital",
+    "tokemak": "auto-finance",
+    "trader joe": "lfj",
+    "traderjoe": "lfj",
+    "up": "superform",
+    "usdat": "saturn",
+    "usenest": "nest",
+    "velodrome": "velodrome",
+    "velodrome finance": "velodrome",
+    "velodrome slipstream": "velodrome",
+    "velodrome v3": "velodrome",
+    "wcm": "world-markets",
+    "wm": "world-markets",
+    "world": "world-markets",
+    "world capital markets": "world-markets",
+    "world markets": "world-markets",
+    "world-markets": "world-markets",
+    "world.inc": "world-markets",
+    "worldmarketsinc": "world-markets",
+    "yb": "yield-basis",
+    "yei": "yei-finance",
+    "yei finance": "yei-finance",
+    "yei-finance": "yei-finance",
+    "yei.finance": "yei-finance",
+    "yeibridge": "yei-finance",
+    "yeilend": "yei-finance",
+    "yeiswap": "yei-finance",
+    "yield basis": "yield-basis",
+    "yield-basis": "yield-basis",
+    "yieldbasis": "yield-basis",
+    "yuzu": "yuzu-money",
+    "yuzu money": "yuzu-money",
+    "yuzu-money": "yuzu-money",
+    "yuzumoney": "yuzu-money"
+  }
+}

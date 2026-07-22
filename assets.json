@@ -1,0 +1,6632 @@
+{
+  "assets": [
+    {
+      "asset": "AavEthena Loop Mainnet",
+      "slug": "aavethena-loop-mainnet",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-04-07",
+      "default_scores": {
+        "volatility_score": 3.0,
+        "liquidity_score": 3.5,
+        "structural_score": 2.5,
+        "redemption_score": 3.5,
+        "overall_score": 3.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 3.0,
+          "liquidity_score": 3.5,
+          "structural_score": 2.5,
+          "redemption_score": 3.5,
+          "overall_score": 3.0
+        }
+      },
+      "report_file": "assets/aavethena-loop-mainnet.md",
+      "last_verified": "2026-04-07",
+      "underlying_assets": [
+        "USDe"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "alETH",
+      "slug": "aleth",
+      "chains": [
+        "eth"
+      ],
+      "category": "synthetic",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 4.5,
+        "structural_score": 4.5,
+        "redemption_score": 4.5,
+        "issuer_score": 4.5,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 4.5,
+          "structural_score": 4.5,
+          "redemption_score": 4.5,
+          "issuer_score": 4.5,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/aleth.md",
+      "last_verified": "2026-06-07",
+      "issuer": "Alchemix DAO",
+      "underlying_assets": [
+        "ETH",
+        "yield-bearing ETH collateral"
+      ],
+      "yield_bearing": false
+    },
+    {
+      "asset": "apxETH",
+      "slug": "apxeth",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-26",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 2.5,
+        "structural_score": 4.5,
+        "redemption_score": 3.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 2.5,
+          "structural_score": 4.5,
+          "redemption_score": 3.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/apxeth.md",
+      "last_verified": "2026-05-26",
+      "underlying_assets": [
+        "pxETH",
+        "ETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "apxUSD",
+      "slug": "apxusd",
+      "chains": [
+        "eth",
+        "base"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-04-10",
+      "default_scores": {
+        "peg_mechanism_score": 2.5,
+        "backing_score": 2.0,
+        "liquidity_score": 3.0,
+        "issuer_score": 5.0,
+        "overall_score": 3.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 2.5,
+          "backing_score": 2.0,
+          "liquidity_score": 3.0,
+          "issuer_score": 5.0,
+          "overall_score": 3.0
+        },
+        "base": {
+          "peg_mechanism_score": 2.5,
+          "backing_score": 2.0,
+          "liquidity_score": 3.0,
+          "issuer_score": 5.0,
+          "overall_score": 3.0
+        }
+      },
+      "report_file": "assets/apxusd.md",
+      "last_verified": "2026-07-13",
+      "peg_mechanism": "hybrid",
+      "issuer": "Apyx",
+      "market_cap_approx": 372000000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "apyUSD",
+      "slug": "apyusd",
+      "chains": [
+        "eth",
+        "base"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-07",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 3.5,
+        "structural_score": 5.0,
+        "redemption_score": 3.5,
+        "issuer_score": 5.0,
+        "overall_score": 3.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.5,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 3.5,
+          "issuer_score": 5.0,
+          "overall_score": 3.0
+        },
+        "base": {
+          "volatility_score": 6.5,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 3.5,
+          "issuer_score": 5.0,
+          "overall_score": 3.0
+        }
+      },
+      "report_file": "assets/apyusd.md",
+      "last_verified": "2026-07-13",
+      "issuer": "Apyx",
+      "underlying_assets": [
+        "apxUSD"
+      ],
+      "yield_bearing": true,
+      "audited_reserves": true
+    },
+    {
+      "asset": "AUSD",
+      "slug": "ausd",
+      "chains": [
+        "eth",
+        "arb",
+        "avax",
+        "base",
+        "polygon",
+        "bnb",
+        "sol",
+        "sui",
+        "mantle",
+        "monad",
+        "katana",
+        "gnosis",
+        "plume",
+        "core",
+        "fraxtal",
+        "immutable",
+        "injective"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-04-23",
+      "default_scores": {
+        "peg_mechanism_score": 8.5,
+        "backing_score": 8.0,
+        "liquidity_score": 6.5,
+        "issuer_score": 7.0,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "arb": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "avax": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "base": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "polygon": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "bnb": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "sol": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "sui": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "mantle": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "monad": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "katana": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "gnosis": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "plume": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "core": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "fraxtal": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "immutable": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        },
+        "injective": {
+          "peg_mechanism_score": 8.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "assets/ausd.md",
+      "last_verified": "2026-07-08",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Agora Finance (Agora Bermuda Limited)",
+      "market_cap_approx": 181000000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "AUSDCT0",
+      "slug": "ausdct0",
+      "chains": [
+        "monad"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-08",
+      "default_scores": {
+        "peg_mechanism_score": 7.0,
+        "backing_score": 8.0,
+        "liquidity_score": 5.5,
+        "issuer_score": 7.5,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "monad": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 8.0,
+          "liquidity_score": 5.5,
+          "issuer_score": 7.5,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "assets/ausdct0.md",
+      "last_verified": "2026-06-08",
+      "peg_mechanism": "bridged",
+      "issuer": "Agora Finance (via LayerZero OFT)",
+      "market_cap_approx": 50000000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "avETH",
+      "slug": "aveth",
+      "chains": [
+        "eth",
+        "avax",
+        "linea"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-06-08",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 3.5,
+        "structural_score": 4.5,
+        "redemption_score": 4.5,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 4.5,
+          "redemption_score": 4.5,
+          "overall_score": 4.5
+        },
+        "avax": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 4.5,
+          "redemption_score": 4.5,
+          "overall_score": 4.5
+        },
+        "linea": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 4.5,
+          "redemption_score": 4.5,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/aveth.md",
+      "last_verified": "2026-07-10",
+      "underlying_assets": [
+        "ETH"
+      ],
+      "yield_bearing": false
+    },
+    {
+      "asset": "AVLT",
+      "slug": "avlt",
+      "chains": [
+        "hyperevm"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-04-10",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 3.5,
+        "structural_score": 3.5,
+        "redemption_score": 4.5,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "hyperevm": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 3.5,
+          "redemption_score": 4.5,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/avlt.md",
+      "last_verified": "2026-04-10",
+      "underlying_assets": [
+        "USDT"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "avUSD",
+      "slug": "avusd",
+      "chains": [
+        "avax",
+        "eth",
+        "linea"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-08",
+      "default_scores": {
+        "peg_mechanism_score": 5.5,
+        "backing_score": 4.5,
+        "liquidity_score": 4.0,
+        "issuer_score": 5.5,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "avax": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 4.5,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 4.5
+        },
+        "eth": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 4.5,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 4.5
+        },
+        "linea": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 4.5,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/avusd.md",
+      "last_verified": "2026-07-10",
+      "peg_mechanism": "active-strategy",
+      "issuer": "Avant Protocol",
+      "underlying_assets": [
+        "USDe",
+        "syrupUSDT",
+        "syrupUSDC",
+        "stablecoin strategies"
+      ],
+      "yield_bearing": false,
+      "market_cap_approx": 108000000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "Beefy CurveLend sfrxETH-crvUSD (Fraxtal)",
+      "slug": "beefy-curvelend-sfrxeth-crvusd-fraxtal",
+      "chains": [
+        "frax"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-14",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 4.5,
+        "structural_score": 4.5,
+        "redemption_score": 5.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "frax": {
+          "volatility_score": 6.5,
+          "liquidity_score": 4.5,
+          "structural_score": 4.5,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/beefy-curvelend-sfrxeth-crvusd-fraxtal.md",
+      "last_verified": "2026-05-27",
+      "underlying_assets": [
+        "crvusd"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "BMNR",
+      "slug": "bmnr",
+      "chains": [],
+      "category": "tradfi-equity",
+      "assessment_type": "dependency",
+      "date": "2026-05-30",
+      "default_scores": {
+        "overall_score": 5.0
+      },
+      "chain_scores": {},
+      "report_file": "assets/bmnr.md",
+      "last_verified": "2026-05-31",
+      "issuer": "BitMine Immersion Technologies, Inc.",
+      "underlying_assets": [
+        "eth"
+      ],
+      "yield_bearing": false
+    },
+    {
+      "asset": "BOLD",
+      "slug": "bold",
+      "chains": [
+        "eth",
+        "op",
+        "base",
+        "arb",
+        "avax",
+        "scroll"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-07-21",
+      "default_scores": {
+        "peg_mechanism_score": 7.0,
+        "backing_score": 7.5,
+        "liquidity_score": 4.5,
+        "issuer_score": 8.0,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 8.0,
+          "overall_score": 6.5
+        },
+        "op": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 8.0,
+          "overall_score": 6.5
+        },
+        "base": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 8.0,
+          "overall_score": 6.5
+        },
+        "arb": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 8.0,
+          "overall_score": 6.5
+        },
+        "avax": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 8.0,
+          "overall_score": 6.5
+        },
+        "scroll": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 8.0,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "assets/bold.md",
+      "last_verified": "2026-07-21",
+      "peg_mechanism": "hybrid",
+      "issuer": "Liquity (immutable protocol, no issuer counterparty)",
+      "market_cap_approx": 30100000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "bsdETH",
+      "slug": "bsdeth",
+      "chains": [
+        "base"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-26",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 5.5,
+        "structural_score": 5.5,
+        "redemption_score": 7.0,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "base": {
+          "volatility_score": 6.5,
+          "liquidity_score": 5.5,
+          "structural_score": 5.5,
+          "redemption_score": 7.0,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "assets/bsdeth.md",
+      "last_verified": "2026-05-26",
+      "underlying_assets": [
+        "wsuperOETHb",
+        "cbETH",
+        "wstETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "cbBTC",
+      "slug": "cbbtc",
+      "chains": [
+        "eth",
+        "base",
+        "solana",
+        "arb"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 8.0,
+        "structural_score": 7.0,
+        "redemption_score": 7.0,
+        "issuer_score": 7.5,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.5,
+          "liquidity_score": 8.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "issuer_score": 7.5,
+          "overall_score": 7.0
+        },
+        "base": {
+          "volatility_score": 6.5,
+          "liquidity_score": 8.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "issuer_score": 7.5,
+          "overall_score": 7.0
+        },
+        "solana": {
+          "volatility_score": 6.5,
+          "liquidity_score": 8.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "issuer_score": 7.5,
+          "overall_score": 7.0
+        },
+        "arb": {
+          "volatility_score": 6.5,
+          "liquidity_score": 8.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "issuer_score": 7.5,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "assets/cbbtc.md",
+      "last_verified": "2026-06-07",
+      "issuer": "Coinbase",
+      "underlying_assets": [
+        "BTC"
+      ],
+      "yield_bearing": false,
+      "audited_reserves": true
+    },
+    {
+      "asset": "cbETH",
+      "slug": "cbeth",
+      "chains": [
+        "eth",
+        "base"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-05-26",
+      "default_scores": {
+        "volatility_score": 7.5,
+        "liquidity_score": 6.5,
+        "structural_score": 5.5,
+        "redemption_score": 5.0,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.5,
+          "liquidity_score": 6.5,
+          "structural_score": 5.5,
+          "redemption_score": 5.0,
+          "overall_score": 6.5
+        },
+        "base": {
+          "volatility_score": 7.5,
+          "liquidity_score": 6.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "assets/cbeth.md",
+      "last_verified": "2026-05-26",
+      "underlying_assets": [
+        "ETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "crvUSD",
+      "slug": "crvusd",
+      "chains": [
+        "eth",
+        "arb",
+        "op",
+        "fraxtal",
+        "bsc",
+        "avax",
+        "fantom"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-03-28",
+      "default_scores": {
+        "peg_mechanism_score": 6.0,
+        "backing_score": 5.0,
+        "liquidity_score": 6.0,
+        "issuer_score": 6.0,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 6.0,
+          "issuer_score": 6.0,
+          "overall_score": 5.0
+        },
+        "arb": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 6.0,
+          "issuer_score": 6.0,
+          "overall_score": 5.0
+        },
+        "op": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 6.0,
+          "issuer_score": 6.0,
+          "overall_score": 5.0
+        },
+        "fraxtal": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 6.0,
+          "issuer_score": 6.0,
+          "overall_score": 5.0
+        },
+        "bsc": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 6.0,
+          "issuer_score": 6.0,
+          "overall_score": 5.0
+        },
+        "avax": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 6.0,
+          "issuer_score": 6.0,
+          "overall_score": 5.0
+        },
+        "fantom": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 6.0,
+          "issuer_score": 6.0,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/crvusd.md",
+      "last_verified": "2026-06-09",
+      "peg_mechanism": "algorithmic",
+      "issuer": "Curve Finance",
+      "market_cap_approx": 225000000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "cUSD",
+      "slug": "cusd",
+      "chains": [
+        "eth",
+        "megaeth"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-07-14",
+      "default_scores": {
+        "peg_mechanism_score": 6.0,
+        "backing_score": 5.5,
+        "liquidity_score": 4.5,
+        "issuer_score": 5.0,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        },
+        "megaeth": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/cusd.md",
+      "last_verified": "2026-07-14",
+      "peg_mechanism": "basket",
+      "issuer": "Cap Labs",
+      "market_cap_approx": 62000000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "DOLA",
+      "slug": "dola",
+      "chains": [
+        "eth",
+        "base",
+        "arb",
+        "optimism",
+        "bsc",
+        "fantom"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-07-01",
+      "default_scores": {
+        "peg_mechanism_score": 5.5,
+        "backing_score": 4.5,
+        "liquidity_score": 4.5,
+        "issuer_score": 5.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 4.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "base": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 4.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "arb": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 4.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "optimism": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 4.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "bsc": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 4.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "fantom": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 4.5,
+          "liquidity_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/dola.md",
+      "last_verified": "2026-07-01",
+      "peg_mechanism": "hybrid",
+      "issuer": "Inverse Finance DAO",
+      "market_cap_approx": 39000000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "Echo BTC (aBTC / eBTC / mBTC / mphBTC)",
+      "slug": "echo-btc",
+      "chains": [
+        "aptos",
+        "monad",
+        "movement",
+        "morph"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-05-19",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "liquidity_score": 4.5,
+        "structural_score": 3.0,
+        "redemption_score": 3.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "aptos": {
+          "volatility_score": 5.5,
+          "liquidity_score": 5.5,
+          "structural_score": 3.0,
+          "redemption_score": 3.5,
+          "overall_score": 4.0
+        },
+        "monad": {
+          "volatility_score": 5.5,
+          "liquidity_score": 2.5,
+          "structural_score": 2.5,
+          "redemption_score": 3.5,
+          "overall_score": 3.0
+        },
+        "movement": {
+          "volatility_score": 5.5,
+          "liquidity_score": 4.5,
+          "structural_score": 3.0,
+          "redemption_score": 3.5,
+          "overall_score": 3.5
+        },
+        "morph": {
+          "volatility_score": 5.5,
+          "liquidity_score": 4.5,
+          "structural_score": 3.0,
+          "redemption_score": 3.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/echo-btc.md",
+      "last_verified": "2026-05-19",
+      "underlying_assets": [
+        "BTC",
+        "uBTC",
+        "FBTC",
+        "wBTC",
+        "enzoBTC"
+      ],
+      "yield_bearing": false
+    },
+    {
+      "asset": "EDGE UltraYield USDC (Monad)",
+      "slug": "edge-ultrayield-usdc-monad",
+      "chains": [
+        "monad"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-14",
+      "default_scores": {
+        "volatility_score": 7.5,
+        "liquidity_score": 2.5,
+        "structural_score": 5.0,
+        "redemption_score": 3.5,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "monad": {
+          "volatility_score": 7.5,
+          "liquidity_score": 2.5,
+          "structural_score": 5.0,
+          "redemption_score": 3.5,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/edge-ultrayield-usdc-monad.md",
+      "last_verified": "2026-05-14",
+      "underlying_assets": [
+        "usdc"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "ETH",
+      "slug": "eth",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "optimism",
+        "base",
+        "polygon",
+        "avax",
+        "bsc"
+      ],
+      "category": "native",
+      "assessment_type": "stub",
+      "date": "2026-06-08",
+      "default_scores": {
+        "volatility_score": 7.0,
+        "liquidity_score": 10.0,
+        "structural_score": 10.0,
+        "redemption_score": 10.0,
+        "overall_score": 9.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 10.0,
+          "redemption_score": 10.0,
+          "overall_score": 9.5
+        },
+        "arbitrum": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 10.0,
+          "redemption_score": 10.0,
+          "overall_score": 9.5
+        },
+        "optimism": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 10.0,
+          "redemption_score": 10.0,
+          "overall_score": 9.5
+        },
+        "base": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 10.0,
+          "redemption_score": 10.0,
+          "overall_score": 9.5
+        },
+        "polygon": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 10.0,
+          "redemption_score": 10.0,
+          "overall_score": 9.5
+        },
+        "avax": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 10.0,
+          "redemption_score": 10.0,
+          "overall_score": 9.5
+        },
+        "bsc": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 10.0,
+          "redemption_score": 10.0,
+          "overall_score": 9.5
+        }
+      },
+      "report_file": "assets/eth.md",
+      "last_verified": "2026-06-08",
+      "underlying_assets": [],
+      "yield_bearing": false
+    },
+    {
+      "asset": "ETH+",
+      "slug": "ethplus",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-03-29",
+      "default_scores": {
+        "volatility_score": 7.0,
+        "liquidity_score": 5.0,
+        "structural_score": 6.0,
+        "redemption_score": 6.5,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.0,
+          "structural_score": 6.0,
+          "redemption_score": 6.5,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "assets/ethplus.md",
+      "last_verified": "2026-07-05",
+      "underlying_assets": [
+        "wstETH",
+        "weETH",
+        "sfrxETH",
+        "ETHx",
+        "rETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "ETHx",
+      "slug": "ethx",
+      "chains": [
+        "eth"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-05-22",
+      "default_scores": {
+        "volatility_score": 7.0,
+        "liquidity_score": 4.0,
+        "structural_score": 6.0,
+        "redemption_score": 7.0,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.0,
+          "liquidity_score": 4.0,
+          "structural_score": 6.0,
+          "redemption_score": 7.0,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/ethx.md",
+      "last_verified": "2026-05-22",
+      "underlying_assets": [
+        "ETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "Euler Prime USDC",
+      "slug": "euler-prime-usdc",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-14",
+      "default_scores": {
+        "volatility_score": 8.5,
+        "liquidity_score": 6.0,
+        "structural_score": 7.0,
+        "redemption_score": 7.0,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 8.5,
+          "liquidity_score": 6.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "assets/euler-prime-usdc.md",
+      "last_verified": "2026-05-14",
+      "underlying_assets": [
+        "USDC"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "eUSD",
+      "slug": "eusd",
+      "chains": [
+        "eth"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-03-18",
+      "default_scores": {
+        "peg_mechanism_score": 6.5,
+        "backing_score": 5.5,
+        "liquidity_score": 6.0,
+        "issuer_score": 7.0,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 5.5,
+          "liquidity_score": 6.0,
+          "issuer_score": 7.0,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "assets/eusd.md",
+      "last_verified": "2026-03-18",
+      "peg_mechanism": "basket",
+      "issuer": "Reserve Protocol",
+      "market_cap_approx": 22000000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "eUSDC",
+      "slug": "eusdc",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 7.0,
+        "liquidity_score": 5.0,
+        "structural_score": 6.5,
+        "redemption_score": 6.0,
+        "issuer_score": 6.0,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.0,
+          "structural_score": 6.5,
+          "redemption_score": 6.0,
+          "issuer_score": 6.0,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "assets/eusdc.md",
+      "last_verified": "2026-06-07",
+      "issuer": "Euler DAO / vault curator",
+      "underlying_assets": [
+        "usdc"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "Felix USDC (Frontier)",
+      "slug": "felix-usdc-frontier",
+      "chains": [
+        "hyper"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-27",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 6.0,
+        "structural_score": 4.5,
+        "redemption_score": 5.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "hyper": {
+          "volatility_score": 6.5,
+          "liquidity_score": 6.0,
+          "structural_score": 4.5,
+          "redemption_score": 5.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/felix-usdc-frontier.md",
+      "last_verified": "2026-05-27",
+      "underlying_assets": [
+        "usdc"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "FRAX",
+      "slug": "frax",
+      "chains": [
+        "eth",
+        "fraxtal",
+        "arbitrum",
+        "optimism",
+        "avax",
+        "bsc",
+        "polygon"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-06-01",
+      "default_scores": {
+        "peg_mechanism_score": 4.0,
+        "backing_score": 2.0,
+        "liquidity_score": 3.0,
+        "issuer_score": 5.0,
+        "overall_score": 2.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 4.0,
+          "backing_score": 2.0,
+          "liquidity_score": 3.0,
+          "issuer_score": 5.0,
+          "overall_score": 2.5
+        },
+        "fraxtal": {
+          "peg_mechanism_score": 4.0,
+          "backing_score": 2.0,
+          "liquidity_score": 3.0,
+          "issuer_score": 5.0,
+          "overall_score": 2.5
+        },
+        "arbitrum": {
+          "peg_mechanism_score": 4.0,
+          "backing_score": 2.0,
+          "liquidity_score": 3.0,
+          "issuer_score": 5.0,
+          "overall_score": 2.5
+        },
+        "optimism": {
+          "peg_mechanism_score": 4.0,
+          "backing_score": 2.0,
+          "liquidity_score": 3.0,
+          "issuer_score": 5.0,
+          "overall_score": 2.5
+        },
+        "avax": {
+          "peg_mechanism_score": 4.0,
+          "backing_score": 2.0,
+          "liquidity_score": 3.0,
+          "issuer_score": 5.0,
+          "overall_score": 2.5
+        },
+        "bsc": {
+          "peg_mechanism_score": 4.0,
+          "backing_score": 2.0,
+          "liquidity_score": 3.0,
+          "issuer_score": 5.0,
+          "overall_score": 2.5
+        },
+        "polygon": {
+          "peg_mechanism_score": 4.0,
+          "backing_score": 2.0,
+          "liquidity_score": 3.0,
+          "issuer_score": 5.0,
+          "overall_score": 2.5
+        }
+      },
+      "report_file": "assets/frax.md",
+      "last_verified": "2026-06-01",
+      "peg_mechanism": "hybrid",
+      "issuer": "Frax Finance",
+      "market_cap_approx": 132000000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "frxUSD",
+      "slug": "frxusd",
+      "chains": [
+        "eth",
+        "fraxtal",
+        "sonic",
+        "arbitrum",
+        "optimism",
+        "base",
+        "bsc",
+        "avax",
+        "polygon",
+        "linea",
+        "solana"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-08",
+      "default_scores": {
+        "peg_mechanism_score": 6.5,
+        "backing_score": 6.5,
+        "liquidity_score": 5.5,
+        "issuer_score": 5.0,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
+        },
+        "fraxtal": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
+        },
+        "sonic": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
+        },
+        "arbitrum": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
+        },
+        "optimism": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
+        },
+        "base": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
+        },
+        "bsc": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
+        },
+        "avax": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
+        },
+        "polygon": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
+        },
+        "linea": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
+        },
+        "solana": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/frxusd.md",
+      "last_verified": "2026-06-08",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Frax Finance",
+      "market_cap_approx": 124000000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "FXB_20261231",
+      "slug": "fxb-20261231",
+      "chains": [
+        "eth",
+        "fraxtal",
+        "arbitrum"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-06-01",
+      "default_scores": {
+        "volatility_score": 4.5,
+        "liquidity_score": 5.0,
+        "structural_score": 4.0,
+        "redemption_score": 5.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 4.5,
+          "liquidity_score": 5.0,
+          "structural_score": 4.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.0
+        },
+        "fraxtal": {
+          "volatility_score": 4.5,
+          "liquidity_score": 5.0,
+          "structural_score": 4.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.0
+        },
+        "arbitrum": {
+          "volatility_score": 4.5,
+          "liquidity_score": 5.0,
+          "structural_score": 4.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/fxb-20261231.md",
+      "last_verified": "2026-06-01",
+      "underlying_assets": [
+        "frax"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "FXB20271231",
+      "slug": "fxb-20271231",
+      "chains": [
+        "fraxtal"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-06-01",
+      "default_scores": {
+        "volatility_score": 4.0,
+        "liquidity_score": 4.0,
+        "structural_score": 3.5,
+        "redemption_score": 5.0,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "fraxtal": {
+          "volatility_score": 4.0,
+          "liquidity_score": 4.0,
+          "structural_score": 3.5,
+          "redemption_score": 5.0,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/fxb-20271231.md",
+      "last_verified": "2026-06-01",
+      "underlying_assets": [
+        "frax"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "FXB20291231",
+      "slug": "fxb-20291231",
+      "chains": [
+        "fraxtal"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-06-01",
+      "default_scores": {
+        "volatility_score": 3.5,
+        "liquidity_score": 4.0,
+        "structural_score": 3.5,
+        "redemption_score": 5.0,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "fraxtal": {
+          "volatility_score": 3.5,
+          "liquidity_score": 4.0,
+          "structural_score": 3.5,
+          "redemption_score": 5.0,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/fxb-20291231.md",
+      "last_verified": "2026-06-01",
+      "underlying_assets": [
+        "frax"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "FXB20551231",
+      "slug": "fxb-20551231",
+      "chains": [
+        "fraxtal"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-06-01",
+      "default_scores": {
+        "volatility_score": 3.0,
+        "liquidity_score": 3.5,
+        "structural_score": 3.5,
+        "redemption_score": 4.0,
+        "overall_score": 3.0
+      },
+      "chain_scores": {
+        "fraxtal": {
+          "volatility_score": 3.0,
+          "liquidity_score": 3.5,
+          "structural_score": 3.5,
+          "redemption_score": 4.0,
+          "overall_score": 3.0
+        }
+      },
+      "report_file": "assets/fxb-20551231.md",
+      "last_verified": "2026-06-01",
+      "underlying_assets": [
+        "frax"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "Gauntlet eUSD Core",
+      "slug": "gauntlet-eusd-core",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-14",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 5.5,
+        "structural_score": 6.5,
+        "redemption_score": 6.0,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.5,
+          "liquidity_score": 5.5,
+          "structural_score": 6.5,
+          "redemption_score": 6.0,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "assets/gauntlet-eusd-core.md",
+      "last_verified": "2026-05-14",
+      "underlying_assets": [
+        "eusd"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "GHO",
+      "slug": "gho",
+      "chains": [
+        "eth",
+        "arb",
+        "base"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "peg_mechanism_score": 6.5,
+        "backing_score": 6.5,
+        "liquidity_score": 6.0,
+        "issuer_score": 6.5,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 6.0,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        },
+        "arb": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 6.0,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        },
+        "base": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 6.0,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "assets/gho.md",
+      "last_verified": "2026-06-07",
+      "peg_mechanism": "crypto-overcollateralized",
+      "issuer": "Aave DAO",
+      "underlying_assets": [
+        "Aave collateral basket"
+      ],
+      "yield_bearing": false,
+      "audited_reserves": false
+    },
+    {
+      "asset": "Gains gUSDC",
+      "slug": "gusdc",
+      "chains": [
+        "arb"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-30",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 6.0,
+        "structural_score": 5.0,
+        "redemption_score": 4.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "arb": {
+          "volatility_score": 6.0,
+          "liquidity_score": 6.0,
+          "structural_score": 5.0,
+          "redemption_score": 4.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/gusdc.md",
+      "last_verified": "2026-07-16",
+      "underlying_assets": [
+        "usdc"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "Hastra PRIME",
+      "slug": "hastra-prime",
+      "chains": [
+        "solana"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-22",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 4.0,
+        "structural_score": 5.0,
+        "redemption_score": 5.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "solana": {
+          "volatility_score": 6.0,
+          "liquidity_score": 4.0,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/hastra-prime.md",
+      "last_verified": "2026-05-22",
+      "underlying_assets": [
+        "wYLDS",
+        "YLDS"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "HYPE",
+      "slug": "hype",
+      "chains": [
+        "hyperevm",
+        "hyperliquid"
+      ],
+      "category": "native",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 4.5,
+        "liquidity_score": 7.0,
+        "structural_score": 6.0,
+        "redemption_score": 10.0,
+        "issuer_score": 5.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "hyperevm": {
+          "volatility_score": 4.5,
+          "liquidity_score": 7.0,
+          "structural_score": 6.0,
+          "redemption_score": 10.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.5
+        },
+        "hyperliquid": {
+          "volatility_score": 4.5,
+          "liquidity_score": 7.0,
+          "structural_score": 6.0,
+          "redemption_score": 10.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/hype.md",
+      "last_verified": "2026-06-07",
+      "issuer": "Hyperliquid",
+      "underlying_assets": [],
+      "yield_bearing": false
+    },
+    {
+      "asset": "JAAA",
+      "slug": "jaaa",
+      "chains": [
+        "eth",
+        "base",
+        "arbitrum",
+        "avalanche",
+        "bnb",
+        "solana",
+        "monad",
+        "stellar"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-30",
+      "default_scores": {
+        "volatility_score": 7.5,
+        "liquidity_score": 4.5,
+        "structural_score": 5.5,
+        "redemption_score": 5.5,
+        "issuer_score": 6.5,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.5,
+          "liquidity_score": 4.5,
+          "structural_score": 5.5,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        },
+        "base": {
+          "volatility_score": 7.5,
+          "liquidity_score": 4.5,
+          "structural_score": 5.5,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        },
+        "arbitrum": {
+          "volatility_score": 7.5,
+          "liquidity_score": 4.5,
+          "structural_score": 5.5,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        },
+        "avalanche": {
+          "volatility_score": 7.5,
+          "liquidity_score": 4.5,
+          "structural_score": 5.5,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        },
+        "bnb": {
+          "volatility_score": 7.5,
+          "liquidity_score": 4.5,
+          "structural_score": 5.5,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        },
+        "solana": {
+          "volatility_score": 7.5,
+          "liquidity_score": 4.5,
+          "structural_score": 5.5,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        },
+        "monad": {
+          "volatility_score": 7.5,
+          "liquidity_score": 4.5,
+          "structural_score": 5.5,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        },
+        "stellar": {
+          "volatility_score": 7.5,
+          "liquidity_score": 4.5,
+          "structural_score": 5.5,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "assets/jaaa.md",
+      "last_verified": "2026-06-30",
+      "issuer": "Anemoy / Janus Henderson / Centrifuge",
+      "underlying_assets": [
+        "AAA CLOs",
+        "Janus Henderson AAA CLO strategy"
+      ],
+      "yield_bearing": true,
+      "market_cap_approx": 686000000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "mEDGE",
+      "slug": "medge",
+      "chains": [
+        "eth",
+        "monad"
+      ],
+      "category": "vault-share",
+      "assessment_type": "full",
+      "date": "2026-03-24",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 2.5,
+        "structural_score": 4.5,
+        "redemption_score": 4.5,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 2.5,
+          "structural_score": 4.5,
+          "redemption_score": 4.5,
+          "overall_score": 4.5
+        },
+        "monad": {
+          "volatility_score": 6.0,
+          "liquidity_score": 2.5,
+          "structural_score": 4.5,
+          "redemption_score": 4.5,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/medge.md",
+      "last_verified": "2026-04-26",
+      "underlying_assets": [
+        "USDC"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "mHYPER",
+      "slug": "mhyper",
+      "chains": [
+        "eth",
+        "monad",
+        "plasma",
+        "katana"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "liquidity_score": 3.5,
+        "structural_score": 4.0,
+        "redemption_score": 3.5,
+        "issuer_score": 5.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 5.5,
+          "liquidity_score": 3.5,
+          "structural_score": 4.0,
+          "redemption_score": 3.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.0
+        },
+        "monad": {
+          "volatility_score": 5.5,
+          "liquidity_score": 3.5,
+          "structural_score": 4.0,
+          "redemption_score": 3.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.0
+        },
+        "plasma": {
+          "volatility_score": 5.5,
+          "liquidity_score": 3.5,
+          "structural_score": 4.0,
+          "redemption_score": 3.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.0
+        },
+        "katana": {
+          "volatility_score": 5.5,
+          "liquidity_score": 3.5,
+          "structural_score": 4.0,
+          "redemption_score": 3.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/mhyper.md",
+      "last_verified": "2026-06-07",
+      "issuer": "Midas / Hyperithm",
+      "underlying_assets": [
+        "Hyperithm market-neutral stablecoin strategies"
+      ],
+      "yield_bearing": true,
+      "audited_reserves": true
+    },
+    {
+      "asset": "MON",
+      "slug": "mon",
+      "chains": [
+        "monad"
+      ],
+      "category": "native",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 4.0,
+        "liquidity_score": 5.5,
+        "structural_score": 5.5,
+        "redemption_score": 10.0,
+        "issuer_score": 5.0,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "monad": {
+          "volatility_score": 4.0,
+          "liquidity_score": 5.5,
+          "structural_score": 5.5,
+          "redemption_score": 10.0,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/mon.md",
+      "last_verified": "2026-06-07",
+      "issuer": "Monad",
+      "underlying_assets": [],
+      "yield_bearing": false
+    },
+    {
+      "asset": "msETH",
+      "slug": "mseth",
+      "chains": [
+        "eth",
+        "optimism",
+        "base"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-03-27",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "liquidity_score": 3.5,
+        "structural_score": 4.0,
+        "redemption_score": 4.5,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 5.5,
+          "liquidity_score": 3.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.5,
+          "overall_score": 4.0
+        },
+        "optimism": {
+          "volatility_score": 5.5,
+          "liquidity_score": 3.0,
+          "structural_score": 4.0,
+          "redemption_score": 4.5,
+          "overall_score": 3.5
+        },
+        "base": {
+          "volatility_score": 5.5,
+          "liquidity_score": 3.0,
+          "structural_score": 4.0,
+          "redemption_score": 4.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/mseth.md",
+      "last_verified": "2026-04-09",
+      "underlying_assets": [
+        "ETH"
+      ],
+      "yield_bearing": false
+    },
+    {
+      "asset": "MSTR",
+      "slug": "mstr",
+      "chains": [],
+      "category": "tradfi-equity",
+      "assessment_type": "dependency",
+      "date": "2026-05-30",
+      "default_scores": {
+        "overall_score": 4.5
+      },
+      "chain_scores": {},
+      "report_file": "assets/mstr.md",
+      "last_verified": "2026-07-20",
+      "issuer": "Strategy Inc. (formerly MicroStrategy Incorporated)",
+      "underlying_assets": [
+        "btc"
+      ],
+      "yield_bearing": false
+    },
+    {
+      "asset": "msUSD (Metronome)",
+      "slug": "msusd-metronome",
+      "chains": [
+        "eth",
+        "optimism",
+        "base",
+        "plasma"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-04-29",
+      "default_scores": {
+        "peg_mechanism_score": 3.0,
+        "backing_score": 5.5,
+        "liquidity_score": 4.0,
+        "issuer_score": 4.0,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 3.0,
+          "backing_score": 5.5,
+          "liquidity_score": 4.0,
+          "issuer_score": 4.0,
+          "overall_score": 3.5
+        },
+        "optimism": {
+          "peg_mechanism_score": 3.0,
+          "backing_score": 5.5,
+          "liquidity_score": 3.0,
+          "issuer_score": 4.0,
+          "overall_score": 3.0
+        },
+        "base": {
+          "peg_mechanism_score": 3.0,
+          "backing_score": 5.5,
+          "liquidity_score": 4.0,
+          "issuer_score": 4.0,
+          "overall_score": 3.5
+        },
+        "plasma": {
+          "peg_mechanism_score": 3.0,
+          "backing_score": 5.5,
+          "liquidity_score": 2.5,
+          "issuer_score": 4.0,
+          "overall_score": 3.0
+        }
+      },
+      "report_file": "assets/msusd-metronome.md",
+      "last_verified": "2026-04-30",
+      "peg_mechanism": "crypto-overcollateralized",
+      "issuer": "Metronome Synth",
+      "market_cap_approx": 27500000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "msUSD",
+      "slug": "msusd",
+      "chains": [
+        "eth",
+        "sonic"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-07-09",
+      "default_scores": {
+        "peg_mechanism_score": 2.5,
+        "backing_score": 3.0,
+        "liquidity_score": 2.0,
+        "issuer_score": 3.0,
+        "overall_score": 2.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 2.5,
+          "backing_score": 3.0,
+          "liquidity_score": 2.0,
+          "issuer_score": 3.0,
+          "overall_score": 2.5
+        },
+        "sonic": {
+          "peg_mechanism_score": 2.5,
+          "backing_score": 3.0,
+          "liquidity_score": 2.0,
+          "issuer_score": 3.0,
+          "overall_score": 2.5
+        }
+      },
+      "report_file": "assets/msusd.md",
+      "last_verified": "2026-07-09",
+      "peg_mechanism": "hybrid",
+      "issuer": "Mainstreet Finance",
+      "market_cap_approx": 19800000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "mUSD (MetaMask)",
+      "slug": "musd-metamask",
+      "chains": [
+        "eth",
+        "linea"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "peg_mechanism_score": 7.0,
+        "backing_score": 7.0,
+        "liquidity_score": 5.0,
+        "issuer_score": 6.5,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.0,
+          "liquidity_score": 5.0,
+          "issuer_score": 6.5,
+          "overall_score": 6.5
+        },
+        "linea": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.0,
+          "liquidity_score": 5.0,
+          "issuer_score": 6.5,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "assets/musd-metamask.md",
+      "last_verified": "2026-06-07",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Bridge / M0 / MetaMask",
+      "underlying_assets": [
+        "M",
+        "short-term U.S. Treasury bills"
+      ],
+      "yield_bearing": false,
+      "audited_reserves": true
+    },
+    {
+      "asset": "MUSD (Mezo)",
+      "slug": "musd-mezo",
+      "chains": [
+        "mezo",
+        "eth"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "peg_mechanism_score": 6.0,
+        "backing_score": 6.0,
+        "liquidity_score": 4.0,
+        "issuer_score": 4.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "mezo": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 6.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 4.5,
+          "overall_score": 5.0
+        },
+        "eth": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 6.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 4.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/musd-mezo.md",
+      "last_verified": "2026-06-07",
+      "peg_mechanism": "crypto-overcollateralized",
+      "issuer": "Mezo MUSD Protocol",
+      "underlying_assets": [
+        "BTC"
+      ],
+      "yield_bearing": false,
+      "audited_reserves": false
+    },
+    {
+      "asset": "nALPHA",
+      "slug": "nalpha",
+      "chains": [
+        "plume",
+        "eth",
+        "bnb",
+        "solana"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 5.0,
+        "liquidity_score": 3.5,
+        "structural_score": 4.5,
+        "redemption_score": 4.0,
+        "issuer_score": 5.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "plume": {
+          "volatility_score": 5.0,
+          "liquidity_score": 3.5,
+          "structural_score": 4.5,
+          "redemption_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.0
+        },
+        "eth": {
+          "volatility_score": 5.0,
+          "liquidity_score": 3.5,
+          "structural_score": 4.5,
+          "redemption_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.0
+        },
+        "bnb": {
+          "volatility_score": 5.0,
+          "liquidity_score": 3.5,
+          "structural_score": 4.5,
+          "redemption_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.0
+        },
+        "solana": {
+          "volatility_score": 5.0,
+          "liquidity_score": 3.5,
+          "structural_score": 4.5,
+          "redemption_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/nalpha.md",
+      "last_verified": "2026-06-07",
+      "issuer": "Nest / Plume",
+      "underlying_assets": [
+        "tokenized RWAs",
+        "payment financing",
+        "private credit"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "nOPAL",
+      "slug": "nopal",
+      "chains": [
+        "plume",
+        "eth",
+        "bnb",
+        "solana"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 4.5,
+        "liquidity_score": 3.0,
+        "structural_score": 4.0,
+        "redemption_score": 3.5,
+        "issuer_score": 4.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "plume": {
+          "volatility_score": 4.5,
+          "liquidity_score": 3.0,
+          "structural_score": 4.0,
+          "redemption_score": 3.5,
+          "issuer_score": 4.5,
+          "overall_score": 3.5
+        },
+        "eth": {
+          "volatility_score": 4.5,
+          "liquidity_score": 3.0,
+          "structural_score": 4.0,
+          "redemption_score": 3.5,
+          "issuer_score": 4.5,
+          "overall_score": 3.5
+        },
+        "bnb": {
+          "volatility_score": 4.5,
+          "liquidity_score": 3.0,
+          "structural_score": 4.0,
+          "redemption_score": 3.5,
+          "issuer_score": 4.5,
+          "overall_score": 3.5
+        },
+        "solana": {
+          "volatility_score": 4.5,
+          "liquidity_score": 3.0,
+          "structural_score": 4.0,
+          "redemption_score": 3.5,
+          "issuer_score": 4.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/nopal.md",
+      "last_verified": "2026-06-07",
+      "issuer": "Nest / BlackOpal / Plume",
+      "underlying_assets": [
+        "BlackOpal LiquidStone II",
+        "Brazilian credit card receivables",
+        "stablecoin liquidity buffer"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "Origin Ether",
+      "slug": "oeth",
+      "chains": [
+        "eth"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-07-15",
+      "default_scores": {
+        "volatility_score": 7.0,
+        "liquidity_score": 7.0,
+        "structural_score": 6.0,
+        "redemption_score": 7.5,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.0,
+          "liquidity_score": 7.0,
+          "structural_score": 6.0,
+          "redemption_score": 7.5,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "assets/oeth.md",
+      "last_verified": "2026-07-15",
+      "underlying_assets": [
+        "ETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "OUSD",
+      "slug": "ousd",
+      "chains": [
+        "eth"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-07-13",
+      "default_scores": {
+        "peg_mechanism_score": 5.5,
+        "backing_score": 4.5,
+        "liquidity_score": 5.0,
+        "issuer_score": 6.0,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 4.5,
+          "liquidity_score": 5.0,
+          "issuer_score": 6.0,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/ousd.md",
+      "last_verified": "2026-07-13",
+      "peg_mechanism": "hybrid",
+      "issuer": "Origin Protocol",
+      "market_cap_approx": 6940000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "PT-apxUSD",
+      "slug": "pt-apxusd",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-31",
+      "default_scores": {
+        "volatility_score": 3.0,
+        "liquidity_score": 3.0,
+        "structural_score": 4.0,
+        "redemption_score": 3.0,
+        "overall_score": 2.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 3.0,
+          "liquidity_score": 3.0,
+          "structural_score": 4.0,
+          "redemption_score": 3.0,
+          "overall_score": 2.5
+        }
+      },
+      "report_file": "assets/pt-apxusd.md",
+      "last_verified": "2026-06-25",
+      "underlying_assets": [
+        "apxusd"
+      ],
+      "yield_bearing": false
+    },
+    {
+      "asset": "PT-srUSDat",
+      "slug": "pt-srusdat",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-31",
+      "default_scores": {
+        "volatility_score": 3.5,
+        "liquidity_score": 3.5,
+        "structural_score": 3.5,
+        "redemption_score": 3.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 3.5,
+          "liquidity_score": 3.5,
+          "structural_score": 3.5,
+          "redemption_score": 3.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/pt-srusdat.md",
+      "last_verified": "2026-06-26",
+      "underlying_assets": [
+        "srusdat"
+      ],
+      "yield_bearing": false
+    },
+    {
+      "asset": "pxETH",
+      "slug": "pxeth",
+      "chains": [
+        "eth"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-05-26",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 2.5,
+        "structural_score": 4.5,
+        "redemption_score": 3.0,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 2.5,
+          "structural_score": 4.5,
+          "redemption_score": 3.0,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/pxeth.md",
+      "last_verified": "2026-05-26",
+      "underlying_assets": [
+        "ETH"
+      ],
+      "yield_bearing": false
+    },
+    {
+      "asset": "PYUSD",
+      "slug": "pyusd",
+      "chains": [
+        "eth",
+        "sol",
+        "arb",
+        "stellar"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-04-12",
+      "default_scores": {
+        "peg_mechanism_score": 7.5,
+        "backing_score": 8.0,
+        "liquidity_score": 6.5,
+        "issuer_score": 7.5,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.5,
+          "overall_score": 7.0
+        },
+        "sol": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.5,
+          "overall_score": 7.0
+        },
+        "arb": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.5,
+          "overall_score": 7.0
+        },
+        "stellar": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 8.0,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.5,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "assets/pyusd.md",
+      "last_verified": "2026-07-09",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Paxos Trust Company (on behalf of PayPal)",
+      "market_cap_approx": 2770000000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "QQQon",
+      "slug": "qqqon",
+      "chains": [
+        "eth",
+        "solana",
+        "bnb"
+      ],
+      "category": "tokenized-equity",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 6.0,
+        "structural_score": 6.0,
+        "redemption_score": 5.5,
+        "issuer_score": 6.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 5.5
+        },
+        "solana": {
+          "volatility_score": 6.0,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 5.5
+        },
+        "bnb": {
+          "volatility_score": 6.0,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/qqqon.md",
+      "last_verified": "2026-06-07",
+      "issuer": "Ondo Global Markets (BVI) Limited",
+      "underlying_assets": [
+        "QQQ",
+        "Invesco QQQ Trust"
+      ],
+      "yield_bearing": true,
+      "audited_reserves": true
+    },
+    {
+      "asset": "rETH",
+      "slug": "reth",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "optimism",
+        "base",
+        "polygon"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-04-13",
+      "default_scores": {
+        "volatility_score": 8.5,
+        "liquidity_score": 6.5,
+        "structural_score": 7.5,
+        "redemption_score": 7.5,
+        "overall_score": 7.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 8.5,
+          "liquidity_score": 6.5,
+          "structural_score": 7.5,
+          "redemption_score": 7.5,
+          "overall_score": 7.5
+        },
+        "arbitrum": {
+          "volatility_score": 8.5,
+          "liquidity_score": 5.5,
+          "structural_score": 7.5,
+          "redemption_score": 7.5,
+          "overall_score": 7.0
+        },
+        "optimism": {
+          "volatility_score": 8.5,
+          "liquidity_score": 5.0,
+          "structural_score": 7.5,
+          "redemption_score": 7.5,
+          "overall_score": 6.5
+        },
+        "base": {
+          "volatility_score": 8.5,
+          "liquidity_score": 5.0,
+          "structural_score": 7.5,
+          "redemption_score": 7.5,
+          "overall_score": 6.5
+        },
+        "polygon": {
+          "volatility_score": 8.5,
+          "liquidity_score": 6.5,
+          "structural_score": 7.5,
+          "redemption_score": 7.5,
+          "overall_score": 7.5
+        }
+      },
+      "report_file": "assets/reth.md",
+      "last_verified": "2026-04-13",
+      "underlying_assets": [
+        "ETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "reUSD (Re Protocol)",
+      "slug": "reusd-re",
+      "chains": [
+        "eth",
+        "arb",
+        "base",
+        "avax"
+      ],
+      "category": "vault-share",
+      "assessment_type": "full",
+      "date": "2026-05-14",
+      "default_scores": {
+        "volatility_score": 7.0,
+        "liquidity_score": 5.0,
+        "structural_score": 5.5,
+        "redemption_score": 4.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.0,
+          "structural_score": 5.5,
+          "redemption_score": 4.5,
+          "overall_score": 5.5
+        },
+        "arb": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.0,
+          "structural_score": 5.5,
+          "redemption_score": 4.5,
+          "overall_score": 5.5
+        },
+        "base": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.0,
+          "structural_score": 5.5,
+          "redemption_score": 4.5,
+          "overall_score": 5.5
+        },
+        "avax": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.0,
+          "structural_score": 5.5,
+          "redemption_score": 4.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/reusd-re.md",
+      "last_verified": "2026-07-13",
+      "issuer": "Resilience BVI Ltd.",
+      "underlying_assets": [
+        "USDC",
+        "USDe",
+        "sUSDe",
+        "T-Bills"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "reUSD (Resupply)",
+      "slug": "reusd-resupply",
+      "chains": [
+        "eth"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-05-14",
+      "default_scores": {
+        "peg_mechanism_score": 4.5,
+        "backing_score": 3.5,
+        "liquidity_score": 3.0,
+        "issuer_score": 3.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 3.5,
+          "liquidity_score": 3.0,
+          "issuer_score": 3.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/reusd-resupply.md",
+      "last_verified": "2026-05-14",
+      "peg_mechanism": "hybrid",
+      "issuer": "Resupply (subDAO of Convex Finance + Yearn Finance)",
+      "market_cap_approx": 33400000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "reUSDe (Re Protocol)",
+      "slug": "reusde-re",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "full",
+      "date": "2026-05-18",
+      "default_scores": {
+        "volatility_score": 3.5,
+        "liquidity_score": 2.5,
+        "structural_score": 4.5,
+        "redemption_score": 2.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 3.5,
+          "liquidity_score": 2.5,
+          "structural_score": 4.5,
+          "redemption_score": 2.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/reusde-re.md",
+      "last_verified": "2026-05-18",
+      "issuer": "Resilience BVI Ltd.",
+      "underlying_assets": [
+        "USDe",
+        "sUSDe",
+        "reinsurance premiums"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "RLUSD",
+      "slug": "rlusd",
+      "chains": [
+        "eth",
+        "xrpl"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-08",
+      "default_scores": {
+        "peg_mechanism_score": 7.0,
+        "backing_score": 7.0,
+        "liquidity_score": 7.0,
+        "issuer_score": 7.5,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.0,
+          "liquidity_score": 7.0,
+          "issuer_score": 7.5,
+          "overall_score": 7.0
+        },
+        "xrpl": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.0,
+          "liquidity_score": 7.0,
+          "issuer_score": 7.5,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "assets/rlusd.md",
+      "last_verified": "2026-07-08",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Standard Custody & Trust Company (Ripple)",
+      "market_cap_approx": 1780000000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "rsETH",
+      "slug": "rseth",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "optimism",
+        "base",
+        "linea",
+        "scroll",
+        "blast"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-04-15",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 3.0,
+        "structural_score": 2.5,
+        "redemption_score": 3.0,
+        "overall_score": 3.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.0,
+          "structural_score": 2.5,
+          "redemption_score": 3.0,
+          "overall_score": 3.0
+        },
+        "arbitrum": {
+          "volatility_score": 6.0,
+          "liquidity_score": 2.0,
+          "structural_score": 2.0,
+          "redemption_score": 3.0,
+          "overall_score": 2.5
+        },
+        "optimism": {
+          "volatility_score": 6.0,
+          "liquidity_score": 2.0,
+          "structural_score": 2.0,
+          "redemption_score": 3.0,
+          "overall_score": 2.0
+        },
+        "base": {
+          "volatility_score": 6.0,
+          "liquidity_score": 2.0,
+          "structural_score": 2.0,
+          "redemption_score": 3.0,
+          "overall_score": 2.5
+        },
+        "linea": {
+          "volatility_score": 6.0,
+          "liquidity_score": 1.5,
+          "structural_score": 2.0,
+          "redemption_score": 3.0,
+          "overall_score": 2.0
+        },
+        "scroll": {
+          "volatility_score": 6.0,
+          "liquidity_score": 1.5,
+          "structural_score": 2.0,
+          "redemption_score": 3.0,
+          "overall_score": 2.0
+        },
+        "blast": {
+          "volatility_score": 6.0,
+          "liquidity_score": 1.5,
+          "structural_score": 2.0,
+          "redemption_score": 3.0,
+          "overall_score": 2.0
+        }
+      },
+      "report_file": "assets/rseth.md",
+      "last_verified": "2026-06-02",
+      "underlying_assets": [
+        "ETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "rUSD",
+      "slug": "rusd",
+      "chains": [
+        "eth",
+        "arb",
+        "base",
+        "berachain",
+        "plume",
+        "sonic",
+        "world",
+        "sei",
+        "unichain",
+        "hyperevm",
+        "bnb",
+        "avax",
+        "katana",
+        "linea",
+        "monad",
+        "solana"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-07-03",
+      "default_scores": {
+        "peg_mechanism_score": 5.5,
+        "backing_score": 5.0,
+        "liquidity_score": 4.0,
+        "issuer_score": 5.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "arb": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "base": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "berachain": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "plume": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "sonic": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "world": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "sei": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "unichain": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "hyperevm": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "bnb": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "avax": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "katana": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "linea": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "monad": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "solana": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/rusd.md",
+      "last_verified": "2026-07-03",
+      "peg_mechanism": "hybrid",
+      "issuer": "FortunaFi (Reservoir)",
+      "market_cap_approx": 44640000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "savETH",
+      "slug": "saveth",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-14",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 3.5,
+        "structural_score": 4.0,
+        "redemption_score": 4.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/saveth.md",
+      "last_verified": "2026-07-10",
+      "underlying_assets": [
+        "avETH",
+        "ETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "savUSD",
+      "slug": "savusd",
+      "chains": [
+        "avax"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-07-04",
+      "default_scores": {
+        "liquidity_score": 3.5,
+        "structural_score": 4.5,
+        "redemption_score": 4.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "avax": {
+          "liquidity_score": 3.5,
+          "structural_score": 4.5,
+          "redemption_score": 4.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/savusd.md",
+      "last_verified": "2026-07-10",
+      "issuer": "Avant Protocol",
+      "underlying_assets": [
+        "avUSD",
+        "USDe"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "scrvUSD",
+      "slug": "scrvusd",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "full",
+      "date": "2026-06-08",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 5.5,
+        "structural_score": 7.0,
+        "redemption_score": 8.0,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 5.5,
+          "structural_score": 7.0,
+          "redemption_score": 8.0,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/scrvusd.md",
+      "last_verified": "2026-06-08",
+      "underlying_assets": [
+        "crvUSD"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "sDOLA",
+      "slug": "sdola",
+      "chains": [
+        "eth",
+        "base",
+        "arb",
+        "optimism",
+        "berachain"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-07-01",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "liquidity_score": 5.0,
+        "structural_score": 5.5,
+        "redemption_score": 5.0,
+        "issuer_score": 5.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 5.5,
+          "liquidity_score": 5.0,
+          "structural_score": 5.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "base": {
+          "volatility_score": 5.5,
+          "liquidity_score": 5.0,
+          "structural_score": 5.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "arb": {
+          "volatility_score": 5.5,
+          "liquidity_score": 5.0,
+          "structural_score": 5.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "optimism": {
+          "volatility_score": 5.5,
+          "liquidity_score": 5.0,
+          "structural_score": 5.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "berachain": {
+          "volatility_score": 5.5,
+          "liquidity_score": 5.0,
+          "structural_score": 5.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/sdola.md",
+      "last_verified": "2026-07-01",
+      "issuer": "Inverse Finance DAO",
+      "underlying_assets": [
+        "DOLA"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "shUSD",
+      "slug": "shusd",
+      "chains": [
+        "eth",
+        "base",
+        "monad"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-27",
+      "default_scores": {
+        "volatility_score": 3.0,
+        "liquidity_score": 2.0,
+        "structural_score": 2.0,
+        "redemption_score": 2.5,
+        "overall_score": 2.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 3.0,
+          "liquidity_score": 2.0,
+          "structural_score": 2.0,
+          "redemption_score": 2.5,
+          "overall_score": 2.5
+        },
+        "base": {
+          "volatility_score": 3.0,
+          "liquidity_score": 2.0,
+          "structural_score": 2.0,
+          "redemption_score": 2.5,
+          "overall_score": 2.5
+        },
+        "monad": {
+          "volatility_score": 3.0,
+          "liquidity_score": 2.0,
+          "structural_score": 2.0,
+          "redemption_score": 2.5,
+          "overall_score": 2.5
+        }
+      },
+      "report_file": "assets/shusd.md",
+      "last_verified": "2026-05-27",
+      "issuer": "Sherpa (formerly Hedgemony)",
+      "underlying_assets": [
+        "USDC"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "siUSD",
+      "slug": "siusd",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "liquidity_score": 3.5,
+        "structural_score": 4.0,
+        "redemption_score": 3.5,
+        "issuer_score": 4.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 5.5,
+          "liquidity_score": 3.5,
+          "structural_score": 4.0,
+          "redemption_score": 3.5,
+          "issuer_score": 4.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/siusd.md",
+      "last_verified": "2026-06-07",
+      "issuer": "InfiniFi",
+      "underlying_assets": [
+        "iUSD",
+        "USDC",
+        "private credit strategies",
+        "DeFi lending markets"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "SPX",
+      "slug": "spx",
+      "chains": [
+        "eth",
+        "solana",
+        "base"
+      ],
+      "category": "memecoin",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 1.5,
+        "liquidity_score": 6.0,
+        "structural_score": 3.0,
+        "redemption_score": 10.0,
+        "issuer_score": 2.0,
+        "overall_score": 2.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 1.5,
+          "liquidity_score": 6.0,
+          "structural_score": 3.0,
+          "redemption_score": 10.0,
+          "issuer_score": 2.0,
+          "overall_score": 2.5
+        },
+        "solana": {
+          "volatility_score": 1.5,
+          "liquidity_score": 6.0,
+          "structural_score": 3.0,
+          "redemption_score": 10.0,
+          "issuer_score": 2.0,
+          "overall_score": 2.5
+        },
+        "base": {
+          "volatility_score": 1.5,
+          "liquidity_score": 6.0,
+          "structural_score": 3.0,
+          "redemption_score": 10.0,
+          "issuer_score": 2.0,
+          "overall_score": 2.5
+        }
+      },
+      "report_file": "assets/spx.md",
+      "last_verified": "2026-06-07",
+      "issuer": "SPX6900 community",
+      "underlying_assets": [],
+      "yield_bearing": false
+    },
+    {
+      "asset": "SPYon",
+      "slug": "spyon",
+      "chains": [
+        "eth",
+        "solana",
+        "bnb"
+      ],
+      "category": "tokenized-equity",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 6.0,
+        "structural_score": 6.0,
+        "redemption_score": 5.5,
+        "issuer_score": 6.5,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.5,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        },
+        "solana": {
+          "volatility_score": 6.5,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        },
+        "bnb": {
+          "volatility_score": 6.5,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "assets/spyon.md",
+      "last_verified": "2026-06-07",
+      "issuer": "Ondo Global Markets (BVI) Limited",
+      "underlying_assets": [
+        "SPY",
+        "SPDR S&P 500 ETF Trust"
+      ],
+      "yield_bearing": true,
+      "audited_reserves": true
+    },
+    {
+      "asset": "srUSD",
+      "slug": "srusd",
+      "chains": [
+        "eth",
+        "berachain"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-07-03",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 4.0,
+        "structural_score": 4.5,
+        "redemption_score": 5.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 4.0,
+          "structural_score": 4.5,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "berachain": {
+          "volatility_score": 6.0,
+          "liquidity_score": 4.0,
+          "structural_score": 4.5,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/srusd.md",
+      "last_verified": "2026-07-03",
+      "underlying_assets": [
+        "rUSD"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "srUSDat",
+      "slug": "srusdat",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 4.0,
+        "liquidity_score": 3.0,
+        "structural_score": 3.5,
+        "redemption_score": 3.5,
+        "issuer_score": 4.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 4.0,
+          "liquidity_score": 3.0,
+          "structural_score": 3.5,
+          "redemption_score": 3.5,
+          "issuer_score": 4.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/srusdat.md",
+      "last_verified": "2026-06-26",
+      "issuer": "Saturn Credit / Strata Markets",
+      "underlying_assets": [
+        "susdat",
+        "usdat",
+        "strc"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "Stake DAO frxUSD v2",
+      "slug": "stakedao-frxusd-v2",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-14",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 6.0,
+        "structural_score": 5.0,
+        "redemption_score": 5.0,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.5,
+          "liquidity_score": 6.0,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/stakedao-frxusd-v2.md",
+      "last_verified": "2026-05-28",
+      "underlying_assets": [
+        "frxusd"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "stcUSD",
+      "slug": "stcusd",
+      "chains": [
+        "eth",
+        "megaeth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-07-14",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "liquidity_score": 4.0,
+        "structural_score": 4.5,
+        "redemption_score": 5.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 5.5,
+          "liquidity_score": 4.0,
+          "structural_score": 4.5,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "megaeth": {
+          "volatility_score": 5.5,
+          "liquidity_score": 4.0,
+          "structural_score": 4.5,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/stcusd.md",
+      "last_verified": "2026-07-14",
+      "underlying_assets": [
+        "cUSD"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "stETH",
+      "slug": "steth",
+      "chains": [
+        "eth"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-03-29",
+      "default_scores": {
+        "volatility_score": 9.0,
+        "liquidity_score": 9.0,
+        "structural_score": 8.0,
+        "redemption_score": 8.5,
+        "overall_score": 8.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 9.0,
+          "liquidity_score": 9.0,
+          "structural_score": 8.0,
+          "redemption_score": 8.5,
+          "overall_score": 8.5
+        }
+      },
+      "report_file": "assets/steth.md",
+      "last_verified": "2026-03-29",
+      "underlying_assets": [
+        "ETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "STRC",
+      "slug": "strc",
+      "chains": [],
+      "category": "tradfi-preferred",
+      "assessment_type": "dependency",
+      "date": "2026-05-29",
+      "default_scores": {
+        "volatility_score": 5.0,
+        "liquidity_score": 7.0,
+        "redemption_score": 5.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {},
+      "report_file": "assets/strc.md",
+      "last_verified": "2026-07-20",
+      "issuer": "Strategy Inc.",
+      "underlying_assets": [
+        "mstr"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "STRCx",
+      "slug": "strcx",
+      "chains": [
+        "eth"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-05-21",
+      "default_scores": {
+        "volatility_score": 4.5,
+        "liquidity_score": 3.0,
+        "structural_score": 6.0,
+        "redemption_score": 3.0,
+        "overall_score": 3.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 4.5,
+          "liquidity_score": 3.0,
+          "structural_score": 6.0,
+          "redemption_score": 3.0,
+          "overall_score": 3.0
+        }
+      },
+      "report_file": "assets/strcx.md",
+      "last_verified": "2026-07-20",
+      "underlying_assets": [
+        "STRC"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "Super OETH",
+      "slug": "superoethb",
+      "chains": [
+        "base"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-05-26",
+      "default_scores": {
+        "volatility_score": 7.0,
+        "liquidity_score": 6.5,
+        "structural_score": 6.0,
+        "redemption_score": 6.5,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "base": {
+          "volatility_score": 7.0,
+          "liquidity_score": 6.5,
+          "structural_score": 6.0,
+          "redemption_score": 6.5,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "assets/superoethb.md",
+      "last_verified": "2026-05-26",
+      "underlying_assets": [
+        "ETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "sUSDai",
+      "slug": "susdai",
+      "chains": [
+        "arb"
+      ],
+      "category": "vault-share",
+      "assessment_type": "full",
+      "date": "2026-05-28",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 4.5,
+        "structural_score": 5.5,
+        "redemption_score": 4.0,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "arb": {
+          "volatility_score": 6.0,
+          "liquidity_score": 4.5,
+          "structural_score": 5.5,
+          "redemption_score": 4.0,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/susdai.md",
+      "last_verified": "2026-05-28",
+      "issuer": "Permian Labs",
+      "underlying_assets": [
+        "USDai",
+        "PYUSD",
+        "GPU-backed equipment loans"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "sUSDat",
+      "slug": "susdat",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-04-17",
+      "default_scores": {
+        "volatility_score": 3.5,
+        "liquidity_score": 3.5,
+        "structural_score": 4.5,
+        "redemption_score": 3.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 3.5,
+          "liquidity_score": 3.5,
+          "structural_score": 4.5,
+          "redemption_score": 3.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/susdat.md",
+      "last_verified": "2026-07-13",
+      "underlying_assets": [
+        "USDat"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "sUSDe",
+      "slug": "susde",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "base",
+        "optimism",
+        "bsc",
+        "mantle",
+        "blast",
+        "fraxtal"
+      ],
+      "category": "vault-share",
+      "assessment_type": "full",
+      "date": "2026-06-10",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 7.0,
+        "structural_score": 7.0,
+        "redemption_score": 6.5,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.5,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 6.5,
+          "overall_score": 6.5
+        },
+        "arbitrum": {
+          "volatility_score": 6.5,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 6.5,
+          "overall_score": 6.5
+        },
+        "base": {
+          "volatility_score": 6.5,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 6.5,
+          "overall_score": 6.5
+        },
+        "optimism": {
+          "volatility_score": 6.5,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 6.5,
+          "overall_score": 6.5
+        },
+        "bsc": {
+          "volatility_score": 6.5,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 6.5,
+          "overall_score": 6.5
+        },
+        "mantle": {
+          "volatility_score": 6.5,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 6.5,
+          "overall_score": 6.5
+        },
+        "blast": {
+          "volatility_score": 6.5,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 6.5,
+          "overall_score": 6.5
+        },
+        "fraxtal": {
+          "volatility_score": 6.5,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 6.5,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "assets/susde.md",
+      "last_verified": "2026-07-15",
+      "underlying_assets": [
+        "USDe"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "sUSDp",
+      "slug": "susdp",
+      "chains": [
+        "eth",
+        "base",
+        "sonic",
+        "hyperevm",
+        "avax"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 3.5,
+        "structural_score": 5.0,
+        "redemption_score": 4.5,
+        "issuer_score": 5.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "base": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "sonic": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "hyperevm": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "avax": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/susdp.md",
+      "last_verified": "2026-06-17",
+      "issuer": "Parallel Protocol DAO",
+      "underlying_assets": [
+        "usdp-parallel"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "sUSDS",
+      "slug": "susds",
+      "chains": [
+        "eth",
+        "base",
+        "arb",
+        "optimism"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-27",
+      "default_scores": {
+        "volatility_score": 9.0,
+        "liquidity_score": 8.5,
+        "structural_score": 7.0,
+        "redemption_score": 8.5,
+        "overall_score": 8.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 9.0,
+          "liquidity_score": 8.5,
+          "structural_score": 7.0,
+          "redemption_score": 8.5,
+          "overall_score": 8.0
+        },
+        "base": {
+          "volatility_score": 9.0,
+          "liquidity_score": 8.5,
+          "structural_score": 7.0,
+          "redemption_score": 8.5,
+          "overall_score": 8.0
+        },
+        "arb": {
+          "volatility_score": 9.0,
+          "liquidity_score": 8.5,
+          "structural_score": 7.0,
+          "redemption_score": 8.5,
+          "overall_score": 8.0
+        },
+        "optimism": {
+          "volatility_score": 9.0,
+          "liquidity_score": 8.5,
+          "structural_score": 7.0,
+          "redemption_score": 8.5,
+          "overall_score": 8.0
+        }
+      },
+      "report_file": "assets/susds.md",
+      "last_verified": "2026-05-27",
+      "underlying_assets": [
+        "USDS"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "sUSN",
+      "slug": "susn",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "liquidity_score": 3.5,
+        "structural_score": 4.5,
+        "redemption_score": 4.0,
+        "issuer_score": 4.5,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 5.5,
+          "liquidity_score": 3.5,
+          "structural_score": 4.5,
+          "redemption_score": 4.0,
+          "issuer_score": 4.5,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/susn.md",
+      "last_verified": "2026-06-07",
+      "issuer": "Noon",
+      "underlying_assets": [
+        "USN"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "syrupUSDC",
+      "slug": "syrupusdc",
+      "chains": [
+        "eth",
+        "sol",
+        "arb",
+        "base",
+        "plasma"
+      ],
+      "category": "vault-share",
+      "assessment_type": "full",
+      "date": "2026-04-25",
+      "default_scores": {
+        "volatility_score": 8.5,
+        "liquidity_score": 7.5,
+        "structural_score": 6.5,
+        "redemption_score": 7.5,
+        "overall_score": 6.75
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 8.5,
+          "liquidity_score": 7.5,
+          "structural_score": 6.5,
+          "redemption_score": 7.5,
+          "overall_score": 6.75
+        },
+        "sol": {
+          "volatility_score": 8.5,
+          "liquidity_score": 7.5,
+          "structural_score": 6.5,
+          "redemption_score": 7.5,
+          "overall_score": 6.75
+        },
+        "arb": {
+          "volatility_score": 8.5,
+          "liquidity_score": 7.5,
+          "structural_score": 6.5,
+          "redemption_score": 7.5,
+          "overall_score": 6.75
+        },
+        "base": {
+          "volatility_score": 8.5,
+          "liquidity_score": 7.5,
+          "structural_score": 6.5,
+          "redemption_score": 7.5,
+          "overall_score": 6.75
+        },
+        "plasma": {
+          "volatility_score": 8.5,
+          "liquidity_score": 7.5,
+          "structural_score": 6.5,
+          "redemption_score": 7.5,
+          "overall_score": 6.75
+        }
+      },
+      "report_file": "assets/syrupusdc.md",
+      "last_verified": "2026-07-02",
+      "underlying_assets": [
+        "USDC"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "syrupUSDT",
+      "slug": "syrupusdt",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "full",
+      "date": "2026-05-03",
+      "default_scores": {
+        "volatility_score": 8.5,
+        "liquidity_score": 6.0,
+        "structural_score": 6.0,
+        "redemption_score": 6.5,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 8.5,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "redemption_score": 6.5,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "assets/syrupusdt.md",
+      "last_verified": "2026-07-02",
+      "underlying_assets": [
+        "USDT"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "syzUSD",
+      "slug": "syzusd",
+      "chains": [
+        "eth",
+        "plasma",
+        "monad"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-08",
+      "default_scores": {
+        "volatility_score": 3.0,
+        "liquidity_score": 3.0,
+        "structural_score": 2.0,
+        "redemption_score": 2.5,
+        "overall_score": 2.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 3.0,
+          "liquidity_score": 3.0,
+          "structural_score": 2.0,
+          "redemption_score": 2.5,
+          "overall_score": 2.5
+        },
+        "plasma": {
+          "volatility_score": 3.0,
+          "liquidity_score": 3.0,
+          "structural_score": 2.0,
+          "redemption_score": 2.5,
+          "overall_score": 2.5
+        },
+        "monad": {
+          "volatility_score": 3.0,
+          "liquidity_score": 3.0,
+          "structural_score": 1.5,
+          "redemption_score": 2.0,
+          "overall_score": 2.0
+        }
+      },
+      "report_file": "assets/syzusd.md",
+      "last_verified": "2026-06-08",
+      "underlying_assets": [
+        "yzUSD"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "thBILL",
+      "slug": "thbill",
+      "chains": [
+        "eth",
+        "arb",
+        "solana"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-04-15",
+      "default_scores": {
+        "volatility_score": 8.0,
+        "liquidity_score": 3.0,
+        "structural_score": 4.5,
+        "redemption_score": 3.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 8.0,
+          "liquidity_score": 3.0,
+          "structural_score": 4.5,
+          "redemption_score": 3.5,
+          "overall_score": 5.0
+        },
+        "arb": {
+          "volatility_score": 8.0,
+          "liquidity_score": 3.0,
+          "structural_score": 4.5,
+          "redemption_score": 3.5,
+          "overall_score": 5.0
+        },
+        "solana": {
+          "volatility_score": 8.0,
+          "liquidity_score": 3.0,
+          "structural_score": 4.5,
+          "redemption_score": 3.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/thbill.md",
+      "last_verified": "2026-07-02",
+      "underlying_assets": [
+        "tULTRA",
+        "FILQ"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "thUSD",
+      "slug": "thusd",
+      "chains": [
+        "eth",
+        "arb",
+        "stable"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-07-13",
+      "default_scores": {
+        "peg_mechanism_score": 4.0,
+        "backing_score": 3.5,
+        "liquidity_score": 3.5,
+        "issuer_score": 5.5,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 4.0,
+          "backing_score": 3.5,
+          "liquidity_score": 3.5,
+          "issuer_score": 5.5,
+          "overall_score": 4.0
+        },
+        "arb": {
+          "peg_mechanism_score": 4.0,
+          "backing_score": 3.5,
+          "liquidity_score": 3.5,
+          "issuer_score": 5.5,
+          "overall_score": 4.0
+        },
+        "stable": {
+          "peg_mechanism_score": 4.0,
+          "backing_score": 3.5,
+          "liquidity_score": 3.5,
+          "issuer_score": 5.5,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/thusd.md",
+      "last_verified": "2026-07-13",
+      "peg_mechanism": "delta-neutral synthetic",
+      "issuer": "Theo Network (Panama)",
+      "underlying_assets": [
+        "thBILL",
+        "gold-carry (physical gold + short CME futures)"
+      ],
+      "yield_bearing": true,
+      "market_cap_approx": 106700000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "TIDMM",
+      "slug": "tidmm",
+      "chains": [
+        "arb"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-08",
+      "default_scores": {
+        "volatility_score": 4.5,
+        "liquidity_score": 2.0,
+        "structural_score": 3.5,
+        "redemption_score": 3.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "arb": {
+          "volatility_score": 4.5,
+          "liquidity_score": 2.0,
+          "structural_score": 3.5,
+          "redemption_score": 3.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/tidmm.md",
+      "last_verified": "2026-06-08",
+      "underlying_assets": [
+        "USDC"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "TSLAon",
+      "slug": "tslaon",
+      "chains": [
+        "eth",
+        "solana",
+        "bnb"
+      ],
+      "category": "tokenized-equity",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 4.0,
+        "liquidity_score": 6.0,
+        "structural_score": 6.0,
+        "redemption_score": 5.5,
+        "issuer_score": 6.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 4.0,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 5.0
+        },
+        "solana": {
+          "volatility_score": 4.0,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 5.0
+        },
+        "bnb": {
+          "volatility_score": 4.0,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "redemption_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/tslaon.md",
+      "last_verified": "2026-06-07",
+      "issuer": "Ondo Global Markets (BVI) Limited",
+      "underlying_assets": [
+        "TSLA",
+        "Tesla Inc."
+      ],
+      "yield_bearing": true,
+      "audited_reserves": true
+    },
+    {
+      "asset": "USD1",
+      "slug": "usd1",
+      "chains": [
+        "eth",
+        "bsc",
+        "tron"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-04-10",
+      "default_scores": {
+        "peg_mechanism_score": 7.0,
+        "backing_score": 6.5,
+        "liquidity_score": 5.5,
+        "issuer_score": 4.0,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 4.0,
+          "overall_score": 5.5
+        },
+        "bsc": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 4.0,
+          "overall_score": 5.5
+        },
+        "tron": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 4.0,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/usd1.md",
+      "last_verified": "2026-04-12",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "World Liberty Financial / BitGo Trust",
+      "market_cap_approx": 4400000000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "USD3 (3Jane)",
+      "slug": "usd3-3jane",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-11",
+      "default_scores": {
+        "volatility_score": 4.5,
+        "liquidity_score": 3.0,
+        "structural_score": 3.5,
+        "redemption_score": 3.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 4.5,
+          "liquidity_score": 3.0,
+          "structural_score": 3.5,
+          "redemption_score": 3.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/usd3-3jane.md",
+      "last_verified": "2026-06-25",
+      "issuer": "3Jane",
+      "underlying_assets": [
+        "USDC"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "USD3",
+      "slug": "usd3",
+      "chains": [
+        "eth"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-08",
+      "default_scores": {
+        "peg_mechanism_score": 6.5,
+        "backing_score": 5.5,
+        "liquidity_score": 5.0,
+        "issuer_score": 6.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 5.5,
+          "liquidity_score": 5.0,
+          "issuer_score": 6.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/usd3.md",
+      "last_verified": "2026-06-08",
+      "peg_mechanism": "basket",
+      "issuer": "Reserve Protocol",
+      "market_cap_approx": 4900000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "USDai",
+      "slug": "usdai",
+      "chains": [
+        "arb"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-05-28",
+      "default_scores": {
+        "peg_mechanism_score": 7.0,
+        "backing_score": 7.0,
+        "liquidity_score": 4.5,
+        "issuer_score": 6.0,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "arb": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.0,
+          "liquidity_score": 4.5,
+          "issuer_score": 6.0,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "assets/usdai.md",
+      "last_verified": "2026-05-28",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Permian Labs",
+      "market_cap_approx": 283500000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "USDat",
+      "slug": "usdat",
+      "chains": [
+        "eth"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-04-17",
+      "default_scores": {
+        "peg_mechanism_score": 6.5,
+        "backing_score": 6.5,
+        "liquidity_score": 7.5,
+        "issuer_score": 4.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 7.5,
+          "issuer_score": 4.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/usdat.md",
+      "last_verified": "2026-06-03",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Saturn Labs",
+      "market_cap_approx": 149280000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "USDC",
+      "slug": "usdc",
+      "chains": [
+        "eth",
+        "arb",
+        "monad"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-08",
+      "default_scores": {
+        "peg_mechanism_score": 9.0,
+        "backing_score": 9.0,
+        "liquidity_score": 9.5,
+        "issuer_score": 8.5,
+        "overall_score": 9.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 9.0,
+          "backing_score": 9.0,
+          "liquidity_score": 9.5,
+          "issuer_score": 8.5,
+          "overall_score": 9.0
+        },
+        "arb": {
+          "peg_mechanism_score": 9.0,
+          "backing_score": 9.0,
+          "liquidity_score": 9.5,
+          "issuer_score": 8.5,
+          "overall_score": 9.0
+        },
+        "monad": {
+          "peg_mechanism_score": 9.0,
+          "backing_score": 9.0,
+          "liquidity_score": 7.0,
+          "issuer_score": 8.5,
+          "overall_score": 8.0
+        }
+      },
+      "report_file": "assets/usdc.md",
+      "last_verified": "2026-06-08",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Circle",
+      "market_cap_approx": 75500000000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "USDD",
+      "slug": "usdd",
+      "chains": [
+        "tron",
+        "eth",
+        "bsc"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-07-13",
+      "default_scores": {
+        "peg_mechanism_score": 4.0,
+        "backing_score": 3.0,
+        "liquidity_score": 3.0,
+        "issuer_score": 2.0,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "tron": {
+          "peg_mechanism_score": 4.0,
+          "backing_score": 3.0,
+          "liquidity_score": 3.0,
+          "issuer_score": 2.0,
+          "overall_score": 3.5
+        },
+        "eth": {
+          "peg_mechanism_score": 4.0,
+          "backing_score": 3.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 2.0,
+          "overall_score": 4.0
+        },
+        "bsc": {
+          "peg_mechanism_score": 4.0,
+          "backing_score": 3.0,
+          "liquidity_score": 2.5,
+          "issuer_score": 2.0,
+          "overall_score": 3.0
+        }
+      },
+      "report_file": "assets/usdd.md",
+      "last_verified": "2026-07-13",
+      "peg_mechanism": "hybrid",
+      "issuer": "TRON DAO Reserve",
+      "market_cap_approx": 1558000000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "USDe",
+      "slug": "usde",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "base",
+        "optimism",
+        "bsc",
+        "mantle",
+        "blast",
+        "fraxtal"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-06-10",
+      "default_scores": {
+        "peg_mechanism_score": 6.5,
+        "backing_score": 6.5,
+        "liquidity_score": 7.0,
+        "issuer_score": 7.0,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 7.0,
+          "issuer_score": 7.0,
+          "overall_score": 6.5
+        },
+        "arbitrum": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 7.0,
+          "issuer_score": 7.0,
+          "overall_score": 6.5
+        },
+        "base": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 7.0,
+          "issuer_score": 7.0,
+          "overall_score": 6.5
+        },
+        "optimism": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 7.0,
+          "issuer_score": 7.0,
+          "overall_score": 6.5
+        },
+        "bsc": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 7.0,
+          "issuer_score": 7.0,
+          "overall_score": 6.5
+        },
+        "mantle": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 7.0,
+          "issuer_score": 7.0,
+          "overall_score": 6.5
+        },
+        "blast": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 7.0,
+          "issuer_score": 7.0,
+          "overall_score": 6.5
+        },
+        "fraxtal": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 7.0,
+          "issuer_score": 7.0,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "assets/usde.md",
+      "last_verified": "2026-07-14",
+      "peg_mechanism": "hybrid",
+      "issuer": "Ethena Labs",
+      "market_cap_approx": 4480000000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "USDG",
+      "slug": "usdg",
+      "chains": [
+        "eth",
+        "solana"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "peg_mechanism_score": 8.0,
+        "backing_score": 7.5,
+        "liquidity_score": 6.5,
+        "issuer_score": 7.5,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 8.0,
+          "backing_score": 7.5,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.5,
+          "overall_score": 7.0
+        },
+        "solana": {
+          "peg_mechanism_score": 8.0,
+          "backing_score": 7.5,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.5,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "assets/usdg.md",
+      "last_verified": "2026-07-08",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Paxos Digital Singapore",
+      "underlying_assets": [
+        "cash",
+        "cash equivalents",
+        "short-duration U.S. government securities"
+      ],
+      "yield_bearing": false,
+      "market_cap_approx": 3150000000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "USDm",
+      "slug": "usdm",
+      "chains": [
+        "celo",
+        "monad",
+        "eth"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-05-29",
+      "default_scores": {
+        "peg_mechanism_score": 7.0,
+        "backing_score": 5.0,
+        "liquidity_score": 5.0,
+        "issuer_score": 6.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "celo": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.0,
+          "liquidity_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.5
+        },
+        "monad": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 4.0,
+          "liquidity_score": 4.5,
+          "issuer_score": 6.5,
+          "overall_score": 5.0
+        },
+        "eth": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 5.0,
+          "liquidity_score": 5.0,
+          "issuer_score": 6.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/usdm.md",
+      "last_verified": "2026-06-25",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Mento Labs (Germany)",
+      "market_cap_approx": 1730000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "USDp (Parallel)",
+      "slug": "usdp-parallel",
+      "chains": [
+        "eth",
+        "base",
+        "sonic",
+        "hyperevm",
+        "avax",
+        "polygon",
+        "arb",
+        "optimism",
+        "sei",
+        "bsc",
+        "berachain",
+        "scroll"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "peg_mechanism_score": 6.0,
+        "backing_score": 5.0,
+        "liquidity_score": 4.0,
+        "issuer_score": 5.0,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        },
+        "base": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        },
+        "sonic": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        },
+        "hyperevm": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        },
+        "avax": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        },
+        "polygon": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        },
+        "arb": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        },
+        "optimism": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        },
+        "sei": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        },
+        "bsc": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        },
+        "berachain": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        },
+        "scroll": {
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/usdp-parallel.md",
+      "last_verified": "2026-06-17",
+      "peg_mechanism": "crypto-overcollateralized",
+      "issuer": "Parallel Protocol DAO",
+      "underlying_assets": [
+        "frxUSD",
+        "sfrxUSD",
+        "USDe",
+        "sUSDe",
+        "USDS",
+        "sUSDS",
+        "USDC",
+        "ygamiUSDC",
+        "Silo-mevUSDC",
+        "scUSD",
+        "gami_scUSD"
+      ],
+      "yield_bearing": false,
+      "audited_reserves": false
+    },
+    {
+      "asset": "USDS",
+      "slug": "usds",
+      "chains": [
+        "eth",
+        "solana",
+        "base",
+        "arb"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-05-27",
+      "default_scores": {
+        "peg_mechanism_score": 7.5,
+        "backing_score": 7.0,
+        "liquidity_score": 8.5,
+        "issuer_score": 7.0,
+        "overall_score": 7.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 7.0,
+          "liquidity_score": 8.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.5
+        },
+        "solana": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 7.0,
+          "liquidity_score": 8.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.5
+        },
+        "base": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 7.0,
+          "liquidity_score": 8.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.5
+        },
+        "arb": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 7.0,
+          "liquidity_score": 8.5,
+          "issuer_score": 7.0,
+          "overall_score": 7.5
+        }
+      },
+      "report_file": "assets/usds.md",
+      "last_verified": "2026-05-27",
+      "peg_mechanism": "hybrid",
+      "issuer": "Sky Protocol (formerly MakerDAO)",
+      "market_cap_approx": 8411000000,
+      "audited_reserves": true
+    },
+    {
+      "asset": "USDT",
+      "slug": "usdt",
+      "chains": [
+        "eth",
+        "tron",
+        "bsc",
+        "solana",
+        "arbitrum",
+        "avalanche",
+        "optimism",
+        "polygon"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-08",
+      "default_scores": {
+        "peg_mechanism_score": 7.5,
+        "backing_score": 6.5,
+        "liquidity_score": 9.5,
+        "issuer_score": 5.5,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 6.5,
+          "liquidity_score": 9.5,
+          "issuer_score": 5.5,
+          "overall_score": 7.0
+        },
+        "tron": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 6.5,
+          "liquidity_score": 9.5,
+          "issuer_score": 5.5,
+          "overall_score": 7.0
+        },
+        "bsc": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 6.5,
+          "liquidity_score": 9.5,
+          "issuer_score": 5.5,
+          "overall_score": 7.0
+        },
+        "solana": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 6.5,
+          "liquidity_score": 9.5,
+          "issuer_score": 5.5,
+          "overall_score": 7.0
+        },
+        "arbitrum": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 6.5,
+          "liquidity_score": 9.5,
+          "issuer_score": 5.5,
+          "overall_score": 7.0
+        },
+        "avalanche": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 6.5,
+          "liquidity_score": 9.5,
+          "issuer_score": 5.5,
+          "overall_score": 7.0
+        },
+        "optimism": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 6.5,
+          "liquidity_score": 9.5,
+          "issuer_score": 5.5,
+          "overall_score": 7.0
+        },
+        "polygon": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 6.5,
+          "liquidity_score": 9.5,
+          "issuer_score": 5.5,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "assets/usdt.md",
+      "last_verified": "2026-06-08",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Tether Limited (BVI) / iFinex",
+      "market_cap_approx": 187000000000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "USDT0",
+      "slug": "usdt0",
+      "chains": [
+        "monad"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-08",
+      "default_scores": {
+        "peg_mechanism_score": 8.0,
+        "backing_score": 7.5,
+        "liquidity_score": 6.0,
+        "issuer_score": 6.5,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "monad": {
+          "peg_mechanism_score": 8.0,
+          "backing_score": 7.5,
+          "liquidity_score": 6.0,
+          "issuer_score": 6.5,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "assets/usdt0.md",
+      "last_verified": "2026-06-08",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Tether (via LayerZero OFT)",
+      "market_cap_approx": 187000000000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "USDtb",
+      "slug": "usdtb",
+      "chains": [
+        "eth",
+        "solana"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "peg_mechanism_score": 7.0,
+        "backing_score": 7.0,
+        "liquidity_score": 5.5,
+        "issuer_score": 6.5,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.0,
+          "liquidity_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.5
+        },
+        "solana": {
+          "peg_mechanism_score": 7.0,
+          "backing_score": 7.0,
+          "liquidity_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "assets/usdtb.md",
+      "last_verified": "2026-06-07",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Anchorage Digital Bank / Ethena Labs",
+      "underlying_assets": [
+        "BlackRock BUIDL",
+        "USDC",
+        "short-term U.S. Treasury products"
+      ],
+      "yield_bearing": false,
+      "audited_reserves": true
+    },
+    {
+      "asset": "USDY",
+      "slug": "usdy",
+      "chains": [
+        "eth",
+        "plume",
+        "sei",
+        "solana",
+        "stellar",
+        "mantle",
+        "arb",
+        "aptos",
+        "sui",
+        "mantra",
+        "noble",
+        "xrp",
+        "osmosis"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-28",
+      "default_scores": {
+        "volatility_score": 9.0,
+        "liquidity_score": 7.0,
+        "structural_score": 7.0,
+        "redemption_score": 7.0,
+        "overall_score": 7.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "plume": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "sei": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "solana": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "stellar": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "mantle": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "arb": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "aptos": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "sui": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "mantra": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "noble": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "xrp": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "osmosis": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        }
+      },
+      "report_file": "assets/usdy.md",
+      "last_verified": "2026-05-28",
+      "underlying_assets": [
+        "US T-Bills",
+        "Bank Demand Deposits"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "USG",
+      "slug": "usg",
+      "chains": [
+        "eth"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-10",
+      "default_scores": {
+        "peg_mechanism_score": 5.0,
+        "backing_score": 5.0,
+        "liquidity_score": 3.5,
+        "issuer_score": 4.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 5.0,
+          "backing_score": 5.0,
+          "liquidity_score": 3.5,
+          "issuer_score": 4.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/usg.md",
+      "last_verified": "2026-06-10",
+      "peg_mechanism": "hybrid",
+      "issuer": "Tangent Finance",
+      "market_cap_approx": 3210000,
+      "audited_reserves": false
+    },
+    {
+      "asset": "USPC",
+      "slug": "uspc",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-25",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 2.5,
+        "structural_score": 4.0,
+        "redemption_score": 3.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 2.5,
+          "structural_score": 4.0,
+          "redemption_score": 3.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/uspc.md",
+      "last_verified": "2026-06-25",
+      "issuer": "Shift Capital Ltd (BVI) / Coinshift; manager AM Switzerland AG (FINMA); custody Archax (FCA)",
+      "underlying_assets": [
+        "iUSPC",
+        "BlackRock ICS USD MMF",
+        "Fidelity ILF USD MMF",
+        "Apollo ACRED"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "USYC",
+      "slug": "usyc",
+      "chains": [
+        "eth",
+        "bnb",
+        "solana"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-05-27",
+      "default_scores": {
+        "volatility_score": 9.0,
+        "liquidity_score": 6.5,
+        "structural_score": 7.5,
+        "redemption_score": 7.0,
+        "overall_score": 7.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 9.0,
+          "liquidity_score": 6.5,
+          "structural_score": 7.5,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "bnb": {
+          "volatility_score": 9.0,
+          "liquidity_score": 6.5,
+          "structural_score": 7.5,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        },
+        "solana": {
+          "volatility_score": 9.0,
+          "liquidity_score": 6.5,
+          "structural_score": 7.5,
+          "redemption_score": 7.0,
+          "overall_score": 7.5
+        }
+      },
+      "report_file": "assets/usyc.md",
+      "last_verified": "2026-05-27",
+      "underlying_assets": [
+        "US T-Bills",
+        "Reverse Repo (Treasury-collateralized)"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "vUSD (Valos)",
+      "slug": "vusd-valos",
+      "chains": [
+        "monad"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "liquidity_score": 3.0,
+        "structural_score": 4.0,
+        "redemption_score": 3.5,
+        "issuer_score": 4.5,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "monad": {
+          "volatility_score": 5.5,
+          "liquidity_score": 3.0,
+          "structural_score": 4.0,
+          "redemption_score": 3.5,
+          "issuer_score": 4.5,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/vusd-valos.md",
+      "last_verified": "2026-06-07",
+      "issuer": "Valos",
+      "underlying_assets": [
+        "AUSD",
+        "Valos institutional private credit loans"
+      ],
+      "yield_bearing": true,
+      "audited_reserves": false
+    },
+    {
+      "asset": "weETH",
+      "slug": "weeth",
+      "chains": [
+        "eth",
+        "base",
+        "arbitrum",
+        "optimism"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-05-26",
+      "default_scores": {
+        "volatility_score": 7.0,
+        "liquidity_score": 6.5,
+        "structural_score": 6.5,
+        "redemption_score": 6.5,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.0,
+          "liquidity_score": 6.5,
+          "structural_score": 6.5,
+          "redemption_score": 6.5,
+          "overall_score": 6.5
+        },
+        "base": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.0,
+          "structural_score": 5.5,
+          "redemption_score": 5.5,
+          "overall_score": 5.5
+        },
+        "arbitrum": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.5,
+          "structural_score": 5.5,
+          "redemption_score": 6.5,
+          "overall_score": 5.5
+        },
+        "optimism": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.0,
+          "structural_score": 5.5,
+          "redemption_score": 6.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/weeth.md",
+      "last_verified": "2026-05-26",
+      "underlying_assets": [
+        "ETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "WETH",
+      "slug": "weth",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "optimism",
+        "base",
+        "polygon",
+        "avax",
+        "bsc"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "stub",
+      "date": "2026-06-08",
+      "default_scores": {
+        "volatility_score": 7.0,
+        "liquidity_score": 10.0,
+        "structural_score": 9.5,
+        "redemption_score": 10.0,
+        "overall_score": 9.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 9.5,
+          "redemption_score": 10.0,
+          "overall_score": 9.0
+        },
+        "arbitrum": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 9.5,
+          "redemption_score": 10.0,
+          "overall_score": 9.0
+        },
+        "optimism": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 9.5,
+          "redemption_score": 10.0,
+          "overall_score": 9.0
+        },
+        "base": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 9.5,
+          "redemption_score": 10.0,
+          "overall_score": 9.0
+        },
+        "polygon": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 9.5,
+          "redemption_score": 10.0,
+          "overall_score": 9.0
+        },
+        "avax": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 9.5,
+          "redemption_score": 10.0,
+          "overall_score": 9.0
+        },
+        "bsc": {
+          "volatility_score": 7.0,
+          "liquidity_score": 10.0,
+          "structural_score": 9.5,
+          "redemption_score": 10.0,
+          "overall_score": 9.0
+        }
+      },
+      "report_file": "assets/weth.md",
+      "last_verified": "2026-06-08",
+      "underlying_assets": [
+        "ETH"
+      ],
+      "yield_bearing": false
+    },
+    {
+      "asset": "wHLP",
+      "slug": "whlp",
+      "chains": [
+        "hyperevm"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-04-08",
+      "default_scores": {
+        "volatility_score": 4.5,
+        "liquidity_score": 3.5,
+        "structural_score": 4.0,
+        "redemption_score": 4.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "hyperevm": {
+          "volatility_score": 4.5,
+          "liquidity_score": 3.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/whlp.md",
+      "last_verified": "2026-04-18",
+      "underlying_assets": [
+        "HLP",
+        "USDT0"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "wnAUSD",
+      "slug": "wnausd",
+      "chains": [
+        "monad"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-05-27",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "liquidity_score": 4.0,
+        "structural_score": 4.0,
+        "redemption_score": 4.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "monad": {
+          "volatility_score": 5.5,
+          "liquidity_score": 4.0,
+          "structural_score": 4.0,
+          "redemption_score": 4.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/wnausd.md",
+      "last_verified": "2026-05-27",
+      "underlying_assets": [
+        "ausd"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "wnUSDC",
+      "slug": "wnusdc",
+      "chains": [
+        "monad"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-05-27",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 4.0,
+        "structural_score": 4.0,
+        "redemption_score": 4.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "monad": {
+          "volatility_score": 6.0,
+          "liquidity_score": 4.0,
+          "structural_score": 4.0,
+          "redemption_score": 4.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/wnusdc.md",
+      "last_verified": "2026-05-27",
+      "underlying_assets": [
+        "usdc"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "wnUSDT0",
+      "slug": "wnusdt0",
+      "chains": [
+        "monad"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-05-27",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "liquidity_score": 4.0,
+        "structural_score": 4.0,
+        "redemption_score": 4.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "monad": {
+          "volatility_score": 5.5,
+          "liquidity_score": 4.0,
+          "structural_score": 4.0,
+          "redemption_score": 4.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/wnusdt0.md",
+      "last_verified": "2026-05-27",
+      "underlying_assets": [
+        "usdt0"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "wsrUSD",
+      "slug": "wsrusd",
+      "chains": [
+        "eth",
+        "berachain",
+        "base",
+        "plume",
+        "sonic",
+        "world",
+        "arb",
+        "sei",
+        "unichain",
+        "hyperevm",
+        "bnb",
+        "avax",
+        "katana",
+        "linea",
+        "monad",
+        "solana"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-07-03",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 3.5,
+        "structural_score": 5.0,
+        "redemption_score": 5.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "berachain": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "base": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "plume": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "sonic": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "world": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "arb": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "sei": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "unichain": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "hyperevm": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "bnb": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "avax": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "katana": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "linea": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "monad": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        },
+        "solana": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/wsrusd.md",
+      "last_verified": "2026-07-03",
+      "underlying_assets": [
+        "rUSD",
+        "srUSD"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "wstETH",
+      "slug": "wsteth",
+      "chains": [
+        "eth",
+        "base"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-05-26",
+      "default_scores": {
+        "volatility_score": 9.0,
+        "liquidity_score": 9.0,
+        "structural_score": 8.0,
+        "redemption_score": 8.5,
+        "overall_score": 8.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 9.0,
+          "liquidity_score": 9.0,
+          "structural_score": 8.0,
+          "redemption_score": 8.5,
+          "overall_score": 8.5
+        },
+        "base": {
+          "volatility_score": 9.0,
+          "liquidity_score": 7.5,
+          "structural_score": 7.0,
+          "redemption_score": 7.5,
+          "overall_score": 7.5
+        }
+      },
+      "report_file": "assets/wsteth.md",
+      "last_verified": "2026-05-26",
+      "underlying_assets": [
+        "stETH",
+        "ETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "XAUT",
+      "slug": "xaut",
+      "chains": [
+        "eth",
+        "bnb"
+      ],
+      "category": "commodity-backed-token",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 7.0,
+        "liquidity_score": 6.0,
+        "structural_score": 6.0,
+        "redemption_score": 5.5,
+        "issuer_score": 5.5,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.0,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "redemption_score": 5.5,
+          "issuer_score": 5.5,
+          "overall_score": 6.0
+        },
+        "bnb": {
+          "volatility_score": 7.0,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "redemption_score": 5.5,
+          "issuer_score": 5.5,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "assets/xaut.md",
+      "last_verified": "2026-06-07",
+      "issuer": "TG Commodities / Tether",
+      "underlying_assets": [
+        "physical gold"
+      ],
+      "yield_bearing": false,
+      "audited_reserves": true
+    },
+    {
+      "asset": "ynRWA",
+      "slug": "ynrwa",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 5.0,
+        "liquidity_score": 2.5,
+        "structural_score": 4.0,
+        "redemption_score": 3.0,
+        "issuer_score": 4.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 5.0,
+          "liquidity_score": 2.5,
+          "structural_score": 4.0,
+          "redemption_score": 3.0,
+          "issuer_score": 4.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/ynrwa.md",
+      "last_verified": "2026-06-07",
+      "issuer": "YieldNest DAO / third-party fund managers",
+      "underlying_assets": [
+        "USDC",
+        "real estate private credit"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "ynUSD",
+      "slug": "ynusd",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-06-07",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "liquidity_score": 3.0,
+        "structural_score": 4.5,
+        "redemption_score": 4.0,
+        "issuer_score": 5.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 5.5,
+          "liquidity_score": 3.0,
+          "structural_score": 4.5,
+          "redemption_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/ynusd.md",
+      "last_verified": "2026-06-07",
+      "issuer": "YieldNest DAO",
+      "underlying_assets": [
+        "USDC",
+        "Morpho USDC vaults",
+        "SuperUSDC",
+        "ynRWA"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "yzUSD",
+      "slug": "yzusd",
+      "chains": [
+        "eth",
+        "plasma",
+        "monad"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-06-08",
+      "default_scores": {
+        "peg_mechanism_score": 4.5,
+        "backing_score": 4.5,
+        "liquidity_score": 4.0,
+        "issuer_score": 3.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 4.5,
+          "liquidity_score": 4.0,
+          "issuer_score": 3.0,
+          "overall_score": 4.0
+        },
+        "plasma": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 4.5,
+          "liquidity_score": 4.0,
+          "issuer_score": 3.0,
+          "overall_score": 4.0
+        },
+        "monad": {
+          "peg_mechanism_score": 3.5,
+          "backing_score": 4.5,
+          "liquidity_score": 2.5,
+          "issuer_score": 2.5,
+          "overall_score": 3.0
+        }
+      },
+      "report_file": "assets/yzusd.md",
+      "last_verified": "2026-06-08",
+      "peg_mechanism": "active-strategy",
+      "issuer": "Yuzu Money",
+      "market_cap_approx": 42000000,
+      "audited_reserves": false
+    }
+  ],
+  "alias_map": {
+    "$aavethena": "aavethena-loop-mainnet",
+    "3jane senior": "usd3-3jane",
+    "3jane usd3": "usd3-3jane",
+    "3usd": "usd3",
+    "aave ethena loop mainnet": "aavethena-loop-mainnet",
+    "aave gho": "gho",
+    "aavethena loop": "aavethena-loop-mainnet",
+    "aavethena loop mainnet": "aavethena-loop-mainnet",
+    "aavethena-loop-mainnet": "aavethena-loop-mainnet",
+    "abtc": "echo-btc",
+    "agora dollar": "ausd",
+    "agora usd": "ausd",
+    "agora usd ct0": "ausdct0",
+    "alchemix eth": "aleth",
+    "aleth": "aleth",
+    "altura": "avlt",
+    "altura vault": "avlt",
+    "apxeth": "apxeth",
+    "apxusd": "apxusd",
+    "apyusd": "apyusd",
+    "apyx usd": "apxusd",
+    "apyx usd yield": "apyusd",
+    "apyx yield-bearing": "apyusd",
+    "ausd": "ausd",
+    "ausd oft": "ausdct0",
+    "ausd0": "ausd",
+    "ausdct0": "ausdct0",
+    "auto pirex eth": "apxeth",
+    "autocompounding pirex ether": "apxeth",
+    "autopxeth": "apxeth",
+    "avant eth": "aveth",
+    "avant saveth": "saveth",
+    "avant savusd": "savusd",
+    "avant usd": "avusd",
+    "aveth": "aveth",
+    "avlt": "avlt",
+    "avusd": "avusd",
+    "backed strc": "strcx",
+    "based eth": "bsdeth",
+    "beefy curvelend sfrxeth-crvusd": "beefy-curvelend-sfrxeth-crvusd-fraxtal",
+    "beefy curvelend sfrxeth-crvusd (fraxtal)": "beefy-curvelend-sfrxeth-crvusd-fraxtal",
+    "beefy sfrxeth-crvusd": "beefy-curvelend-sfrxeth-crvusd-fraxtal",
+    "beefy-curvelend-sfrxeth-crvusd-fraxtal": "beefy-curvelend-sfrxeth-crvusd-fraxtal",
+    "bitmine": "bmnr",
+    "bitmine immersion": "bmnr",
+    "bitmine immersion technologies": "bmnr",
+    "bmnr": "bmnr",
+    "bold": "bold",
+    "bold stablecoin": "bold",
+    "bridge musd": "musd-metamask",
+    "bsdeth": "bsdeth",
+    "cap labs cusd": "cusd",
+    "cap money cusd": "cusd",
+    "cap stcusd": "stcusd",
+    "cap usd": "cusd",
+    "cbbtc": "cbbtc",
+    "cbeth": "cbeth",
+    "circle usyc": "usyc",
+    "coinbase bitcoin": "cbbtc",
+    "coinbase staked eth": "cbeth",
+    "coinbase wrapped btc": "cbbtc",
+    "coinbase wrapped staked eth": "cbeth",
+    "coinshift uspc": "uspc",
+    "crvusd": "crvusd",
+    "cusd": "cusd",
+    "decentralized usd": "usdd",
+    "dinero staked eth": "pxeth",
+    "dola": "dola",
+    "dola usd": "dola",
+    "ebtc": "echo-btc",
+    "echo btc": "echo-btc",
+    "echo btc (abtc / ebtc / mbtc / mphbtc)": "echo-btc",
+    "echo-btc": "echo-btc",
+    "edge ultrayield usdc": "edge-ultrayield-usdc-monad",
+    "edge ultrayield usdc (monad)": "edge-ultrayield-usdc-monad",
+    "edge-ultrayield-usdc-monad": "edge-ultrayield-usdc-monad",
+    "edgeusdc": "edge-ultrayield-usdc-monad",
+    "electronic dollar": "eusd",
+    "eth": "eth",
+    "eth plus": "ethplus",
+    "eth+": "ethplus",
+    "ethena staked usde": "susde",
+    "ethena synthetic dollar": "usde",
+    "ethena usde": "usde",
+    "ethena usdtb": "usdtb",
+    "ether": "eth",
+    "ether.fi weeth": "weeth",
+    "ethereum": "eth",
+    "etherfi weeth": "weeth",
+    "ethplus": "ethplus",
+    "ethx": "ethx",
+    "euler eusdc": "eusdc",
+    "euler prime": "euler-prime-usdc",
+    "euler prime usdc": "euler-prime-usdc",
+    "euler usdc vault": "eusdc",
+    "euler-prime-usdc": "euler-prime-usdc",
+    "eusd": "eusd",
+    "eusdc": "eusdc",
+    "eusdc (prime)": "euler-prime-usdc",
+    "felix feusdc2": "felix-usdc-frontier",
+    "felix usdc (frontier)": "felix-usdc-frontier",
+    "felix usdc frontier": "felix-usdc-frontier",
+    "felix-usdc-frontier": "felix-usdc-frontier",
+    "feusdc2": "felix-usdc-frontier",
+    "fluid lending gho": "gho",
+    "frax": "frax",
+    "frax bond dec 2026": "fxb-20261231",
+    "frax bond dec 2027": "fxb-20271231",
+    "frax bond dec 2029": "fxb-20291231",
+    "frax bond dec 2055": "fxb-20551231",
+    "frax usd": "frxusd",
+    "frxusd": "frxusd",
+    "fxb 20261231": "fxb-20261231",
+    "fxb 20271231": "fxb-20271231",
+    "fxb 20291231": "fxb-20291231",
+    "fxb 20551231": "fxb-20551231",
+    "fxb-20261231": "fxb-20261231",
+    "fxb-20271231": "fxb-20271231",
+    "fxb-20291231": "fxb-20291231",
+    "fxb-20551231": "fxb-20551231",
+    "fxb20271231": "fxb-20271231",
+    "fxb20291231": "fxb-20291231",
+    "fxb20551231": "fxb-20551231",
+    "fxb_20261231": "fxb-20261231",
+    "gains gusdc": "gusdc",
+    "gains network gusdc": "gusdc",
+    "gauntlet eusd core": "gauntlet-eusd-core",
+    "gauntlet-eusd-core": "gauntlet-eusd-core",
+    "gdai/gusdc": "gusdc",
+    "gearbox ultrayield usdc monad": "edge-ultrayield-usdc-monad",
+    "gho": "gho",
+    "global dollar": "usdg",
+    "gteusdc": "gauntlet-eusd-core",
+    "gtoken usdc": "gusdc",
+    "gtrade usdc vault": "gusdc",
+    "gusdc": "gusdc",
+    "hashnote us yield coin": "usyc",
+    "hastra prime": "hastra-prime",
+    "hastra-prime": "hastra-prime",
+    "hype": "hype",
+    "hyperliquid": "hype",
+    "infinifi siusd": "siusd",
+    "institutional uspc": "uspc",
+    "inverse finance dola": "dola",
+    "inverse sdola": "sdola",
+    "invesco qqq tokenized etf (ondo)": "qqqon",
+    "iuspc": "uspc",
+    "jaaa": "jaaa",
+    "jaaaon": "jaaa",
+    "janus henderson anemoy aaa clo fund": "jaaa",
+    "kelp rseth": "rseth",
+    "kelpdao rseth": "rseth",
+    "lagoon perp": "tidmm",
+    "legacy frax": "frax",
+    "legacy frax dollar": "frax",
+    "lido staked eth": "steth",
+    "liquity bold": "bold",
+    "m0 musd": "musd-metamask",
+    "main street usd": "msusd",
+    "maple syrup": "syrupusdc",
+    "maple syrup usdt": "syrupusdt",
+    "mbtc": "echo-btc",
+    "medge": "medge",
+    "mento usd": "usdm",
+    "mento usdm": "usdm",
+    "metamask usd": "musd-metamask",
+    "metronome synth eth": "mseth",
+    "metronome synth usd": "msusd-metronome",
+    "meusd": "musd-mezo",
+    "mezo musd": "musd-mezo",
+    "mezo usd": "musd-mezo",
+    "mhyper": "mhyper",
+    "microstrategy": "mstr",
+    "midas hyperithm": "mhyper",
+    "midas mhyper": "mhyper",
+    "mon": "mon",
+    "monad": "mon",
+    "moo curvelend sfrxeth-crvusd": "beefy-curvelend-sfrxeth-crvusd-fraxtal",
+    "moocurvelend-sfrxeth-crvusd": "beefy-curvelend-sfrxeth-crvusd-fraxtal",
+    "mphbtc": "echo-btc",
+    "mseth": "mseth",
+    "mstr": "mstr",
+    "msusd": "msusd",
+    "msusd (metronome)": "msusd-metronome",
+    "msusd-metronome": "msusd-metronome",
+    "msyrupusdp underlying": "syrupusdc",
+    "musd": "musd-mezo",
+    "musd (metamask)": "musd-metamask",
+    "musd (mezo)": "musd-mezo",
+    "musd-metamask": "musd-metamask",
+    "musd-mezo": "musd-mezo",
+    "nalpha": "nalpha",
+    "nest alpha vault": "nalpha",
+    "nest blackopal liquidstone ii vault": "nopal",
+    "neverland wnausd": "wnausd",
+    "neverland wnusdc": "wnusdc",
+    "neverland wnusdt0": "wnusdt0",
+    "noon susn": "susn",
+    "nopal": "nopal",
+    "oeth": "oeth",
+    "ondo qqq": "qqqon",
+    "ondo spy": "spyon",
+    "ondo tsla": "tslaon",
+    "ondo us dollar yield": "usdy",
+    "ondo usd yield": "usdy",
+    "origin dollar": "ousd",
+    "origin ether": "oeth",
+    "ousd": "ousd",
+    "parallel usdp": "usdp-parallel",
+    "parallelizer dollar": "usdp-parallel",
+    "paypal usd": "pyusd",
+    "pendle pt apxusd": "pt-apxusd",
+    "pendle pt srusdat": "pt-srusdat",
+    "permian usdai": "usdai",
+    "pirex eth": "pxeth",
+    "pirex ether": "pxeth",
+    "prime": "hastra-prime",
+    "prime usdc": "euler-prime-usdc",
+    "pt apxusd": "pt-apxusd",
+    "pt srusdat": "pt-srusdat",
+    "pt-apxusd": "pt-apxusd",
+    "pt-srusdat": "pt-srusdat",
+    "pxeth": "pxeth",
+    "pyusd": "pyusd",
+    "qqqon": "qqqon",
+    "re protocol reusd": "reusd-re",
+    "re protocol reusde": "reusde-re",
+    "reservoir rusd": "rusd",
+    "reservoir srusd": "srusd",
+    "reservoir wsrusd": "wsrusd",
+    "resilience reusd": "reusd-re",
+    "resilience reusde": "reusde-re",
+    "resupply reusd": "reusd-resupply",
+    "resupply usd": "reusd-resupply",
+    "reth": "reth",
+    "reusd": "reusd-re",
+    "reusd (re protocol)": "reusd-re",
+    "reusd (resupply)": "reusd-resupply",
+    "reusd-re": "reusd-re",
+    "reusd-resupply": "reusd-resupply",
+    "reusde": "reusde-re",
+    "reusde (re protocol)": "reusde-re",
+    "reusde-re": "reusde-re",
+    "ripple usd": "rlusd",
+    "rlusd": "rlusd",
+    "rocket pool eth": "reth",
+    "rocket pool reth": "reth",
+    "rseth": "rseth",
+    "rusd": "rusd",
+    "rusdy": "usdy",
+    "saturn susdat": "susdat",
+    "saturn usdat": "usdat",
+    "saveth": "saveth",
+    "savings crvusd": "scrvusd",
+    "savings rusd": "srusd",
+    "savings usdp": "susdp",
+    "savings usds": "susds",
+    "savusd": "savusd",
+    "scrvusd": "scrvusd",
+    "sdfrxusdv2": "stakedao-frxusd-v2",
+    "sdola": "sdola",
+    "senior usdat": "srusdat",
+    "series a perpetual strategy preferred stock": "strc",
+    "sherpa earn": "shusd",
+    "sherpaearn": "shusd",
+    "sherpausd": "shusd",
+    "shusd": "shusd",
+    "siusd": "siusd",
+    "sky dollar": "usds",
+    "sky savings usds": "susds",
+    "sky usds": "usds",
+    "spdr s&p 500 etf tokenized stock (ondo)": "spyon",
+    "spx": "spx",
+    "spx6900": "spx",
+    "spyon": "spyon",
+    "srusd": "srusd",
+    "srusdat": "srusdat",
+    "stader ethx": "ethx",
+    "stader labs ethx": "ethx",
+    "stake dao frxusd v2": "stakedao-frxusd-v2",
+    "staked aveth": "saveth",
+    "staked avusd": "savusd",
+    "staked cap usd": "stcusd",
+    "staked cusd": "stcusd",
+    "staked dola": "sdola",
+    "staked iusd": "siusd",
+    "staked sherpa usd": "shusd",
+    "staked thusd": "thusd",
+    "staked usd.ai": "susdai",
+    "staked usdai": "susdai",
+    "staked usdat": "susdat",
+    "staked usde": "susde",
+    "staked usdp": "susdp",
+    "staked usn": "susn",
+    "staked wylds": "hastra-prime",
+    "staked yuzu money": "syzusd",
+    "staked yuzu usd": "syzusd",
+    "stakedao frxusd v2": "stakedao-frxusd-v2",
+    "stakedao-frxusd-v2": "stakedao-frxusd-v2",
+    "stcusd": "stcusd",
+    "steth": "steth",
+    "sthusd": "thusd",
+    "strata senior usdat": "srusdat",
+    "strata srusdat": "srusdat",
+    "strategy": "mstr",
+    "strategy inc": "mstr",
+    "strategy variable rate preferred": "strc",
+    "strc": "strc",
+    "strc.x": "strcx",
+    "strcx": "strcx",
+    "stretch": "strc",
+    "super oeth": "superoethb",
+    "super oethb": "superoethb",
+    "superoethb": "superoethb",
+    "susdai": "susdai",
+    "susdat": "susdat",
+    "susde": "susde",
+    "susdp": "susdp",
+    "susds": "susds",
+    "susn": "susn",
+    "syrup usdc": "syrupusdc",
+    "syrup usdt": "syrupusdt",
+    "syrupusd": "syrupusdc",
+    "syrupusdc": "syrupusdc",
+    "syrupusdt": "syrupusdt",
+    "syuzu usd": "syzusd",
+    "syzusd": "syzusd",
+    "tangent usd": "usg",
+    "tangent usg": "usg",
+    "tesla tokenized stock (ondo)": "tslaon",
+    "tether": "usdt",
+    "tether gold": "xaut",
+    "tether usd": "usdt",
+    "thbill": "thbill",
+    "theo network thusd": "thusd",
+    "theo short duration us treasury fund": "thbill",
+    "theo thusd": "thusd",
+    "theo usd": "thusd",
+    "thusd": "thusd",
+    "tid market maker": "tidmm",
+    "tid perp": "tidmm",
+    "tidmm": "tidmm",
+    "tslaon": "tslaon",
+    "us yield coin": "usyc",
+    "usd ai": "usdai",
+    "usd.ai": "usdai",
+    "usd1": "usd1",
+    "usd3": "usd3",
+    "usd3 (3jane)": "usd3-3jane",
+    "usd3 3jane": "usd3-3jane",
+    "usd3 senior tranche": "usd3-3jane",
+    "usd3-3jane": "usd3-3jane",
+    "usdai": "usdai",
+    "usdat": "usdat",
+    "usdc": "usdc",
+    "usdc.e": "usdc",
+    "usdd": "usdd",
+    "usdd 2.0": "usdd",
+    "usde": "usde",
+    "usdg": "usdg",
+    "usdm": "usdm",
+    "usdp": "usdp-parallel",
+    "usdp (parallel)": "usdp-parallel",
+    "usdp-parallel": "usdp-parallel",
+    "usds": "usds",
+    "usds stablecoin": "usds",
+    "usdt": "usdt",
+    "usdt.0": "usdt0",
+    "usdt0": "usdt0",
+    "usdtb": "usdtb",
+    "usdy": "usdy",
+    "usd\u20ae0": "usdt0",
+    "usg": "usg",
+    "uspc": "uspc",
+    "uspc vault": "uspc",
+    "usyc": "usyc",
+    "valos private credit vault": "vusd-valos",
+    "valos vusd": "vusd-valos",
+    "vusd": "vusd-valos",
+    "vusd (valos)": "vusd-valos",
+    "vusd-valos": "vusd-valos",
+    "web 3 dollar": "usd3",
+    "web3 dollar": "usd3",
+    "weeth": "weeth",
+    "weth": "weth",
+    "whlp": "whlp",
+    "whype": "hype",
+    "wlfi usd1": "usd1",
+    "wmon": "mon",
+    "wn-ausd": "wnausd",
+    "wn-usdc": "wnusdc",
+    "wn-usdt0": "wnusdt0",
+    "wnausd": "wnausd",
+    "wnusdc": "wnusdc",
+    "wnusdt0": "wnusdt0",
+    "woeth": "oeth",
+    "wrapped eeth": "weeth",
+    "wrapped eth": "weth",
+    "wrapped ether": "weth",
+    "wrapped hlp": "whlp",
+    "wrapped liquid staked ether": "wsteth",
+    "wrapped oeth": "oeth",
+    "wrapped origin ether": "oeth",
+    "wrapped savings rusd": "wsrusd",
+    "wrapped srusd": "wsrusd",
+    "wrapped steth": "wsteth",
+    "wrapped super oeth": "superoethb",
+    "wsrusd": "wsrusd",
+    "wsteth": "wsteth",
+    "wsuperoethb": "superoethb",
+    "xaut": "xaut",
+    "yieldnest ynrwa": "ynrwa",
+    "yieldnest ynusd": "ynusd",
+    "ynrwa": "ynrwa",
+    "ynrwax": "ynrwa",
+    "ynusd": "ynusd",
+    "ynusd max": "ynusd",
+    "ynusdx": "ynusd",
+    "yuzu money usd": "yzusd",
+    "yuzu usd": "yzusd",
+    "yzusd": "yzusd"
+  }
+}

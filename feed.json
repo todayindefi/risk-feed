@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-22T08:40:44Z",
+  "score_scale": "0-10, higher = lower risk",
+  "endpoints": {
+    "assets": "https://todayindefi.github.io/risk-feed/assets.json",
+    "protocols": "https://todayindefi.github.io/risk-feed/protocols.json"
+  },
+  "assets": {
+    "count": 126,
+    "record_shape": "array under key 'assets'; alias_map resolves names/tickers \u2192 slug",
+    "score_fields": {
+      "volatility_score": "Price stability / peg volatility",
+      "liquidity_score": "On-chain exit depth (observed, not TVL)",
+      "structural_score": "Collateral / backing structure soundness",
+      "redemption_score": "Ability to redeem to underlying at par",
+      "issuer_score": "Issuer / counterparty trust (present when applicable)",
+      "overall_score": "Blended asset risk score"
+    }
+  },
+  "protocols": {
+    "count": 58,
+    "record_shape": "array under key 'protocols'; alias_map resolves names \u2192 slug",
+    "score_fields": {
+      "contract_score": "Smart-contract security",
+      "economic_score": "Economic / market-design risk",
+      "project_score": "Project / counterparty / governance risk",
+      "overall_score": "Blended protocol risk score"
+    }
+  },
+  "notes": [
+    "default_scores apply to every chain; chain_scores overrides per chain.",
+    "report_file is a path into the private source repo, not a public URL.",
+    "issuer_score appears on assets only where a distinct issuer is assessed."
+  ]
+}

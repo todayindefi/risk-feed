@@ -1,0 +1,23 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TID Risk Score Feed</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 15px/1.6 system-ui, sans-serif; max-width: 46rem; margin: 3rem auto; padding: 0 1.2rem; }
+  code { background: color-mix(in srgb, currentColor 10%, transparent); padding: .1em .4em; border-radius: 4px; }
+  a { color: inherit; }
+  .meta { opacity: .7; font-size: .9em; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  td, th { text-align: left; padding: .35rem .6rem; border-bottom: 1px solid color-mix(in srgb, currentColor 15%, transparent); }
+</style>
+<h1>TID Risk Score Feed</h1>
+<p class="meta">Schema 1.0 · generated 2026-07-22T08:40:44Z</p>
+<p>Machine-readable asset &amp; protocol risk scores. Scores are 0–10, higher = lower risk.</p>
+<table>
+  <tr><th>Feed</th><th>Records</th><th>Endpoint</th></tr>
+  <tr><td>Assets</td><td>126</td><td><a href="assets.json"><code>assets.json</code></a></td></tr>
+  <tr><td>Protocols</td><td>58</td><td><a href="protocols.json"><code>protocols.json</code></a></td></tr>
+  <tr><td>Manifest</td><td>—</td><td><a href="feed.json"><code>feed.json</code></a></td></tr>
+</table>
+<p class="meta">Pin your client to <code>feed.json</code> → <code>schema_version</code>. Use <code>alias_map</code> to resolve names/tickers to slugs.</p>
