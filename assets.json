@@ -4981,39 +4981,39 @@
       "date": "2026-05-29",
       "default_scores": {
         "peg_mechanism_score": 7.0,
-        "backing_score": 5.0,
+        "backing_score": 4.5,
         "liquidity_score": 5.0,
         "issuer_score": 6.5,
-        "overall_score": 5.5
+        "overall_score": 5.0
       },
       "chain_scores": {
         "celo": {
           "peg_mechanism_score": 7.0,
-          "backing_score": 7.0,
+          "backing_score": 6.0,
           "liquidity_score": 5.5,
           "issuer_score": 6.5,
-          "overall_score": 6.5
+          "overall_score": 6.0
         },
         "monad": {
           "peg_mechanism_score": 7.0,
-          "backing_score": 4.0,
+          "backing_score": 3.0,
           "liquidity_score": 4.5,
           "issuer_score": 6.5,
-          "overall_score": 5.0
+          "overall_score": 4.5
         },
         "eth": {
           "peg_mechanism_score": 7.0,
-          "backing_score": 5.0,
+          "backing_score": 4.5,
           "liquidity_score": 5.0,
           "issuer_score": 6.5,
-          "overall_score": 5.5
+          "overall_score": 5.0
         }
       },
       "report_file": "assets/usdm.md",
-      "last_verified": "2026-06-25",
+      "last_verified": "2026-07-23",
       "peg_mechanism": "fiat-backed",
       "issuer": "Mento Labs (Germany)",
-      "market_cap_approx": 1730000,
+      "market_cap_approx": 15820000,
       "audited_reserves": true
     },
     {
