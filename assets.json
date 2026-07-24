@@ -1789,29 +1789,37 @@
       "asset": "Hastra PRIME",
       "slug": "hastra-prime",
       "chains": [
-        "solana"
+        "solana",
+        "ethereum"
       ],
       "category": "vault-share",
       "assessment_type": "light",
-      "date": "2026-07-22",
+      "date": "2026-07-24",
       "default_scores": {
         "volatility_score": 6.0,
         "liquidity_score": 4.0,
-        "structural_score": 5.5,
-        "redemption_score": 5.0,
-        "overall_score": 5.0
+        "structural_score": 6.0,
+        "redemption_score": 5.5,
+        "overall_score": 5.5
       },
       "chain_scores": {
         "solana": {
           "volatility_score": 6.0,
           "liquidity_score": 4.0,
-          "structural_score": 5.5,
-          "redemption_score": 5.0,
-          "overall_score": 5.0
+          "structural_score": 6.0,
+          "redemption_score": 5.5,
+          "overall_score": 5.5
+        },
+        "ethereum": {
+          "volatility_score": 6.0,
+          "liquidity_score": 4.0,
+          "structural_score": 6.0,
+          "redemption_score": 5.5,
+          "overall_score": 5.5
         }
       },
       "report_file": "assets/hastra-prime.md",
-      "last_verified": "2026-07-22",
+      "last_verified": "2026-07-24",
       "issuer": "Hastra (Figure / Provenance)",
       "underlying_assets": [
         "wYLDS",
@@ -6158,6 +6166,54 @@
       "audited_reserves": true
     },
     {
+      "asset": "YLDS",
+      "slug": "ylds",
+      "chains": [
+        "provenance",
+        "stellar",
+        "sui"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "dependency",
+      "date": "2026-07-24",
+      "default_scores": {
+        "peg_mechanism_score": 8.0,
+        "backing_score": 8.0,
+        "liquidity_score": 5.0,
+        "issuer_score": 8.0,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "provenance": {
+          "peg_mechanism_score": 8.0,
+          "backing_score": 8.0,
+          "liquidity_score": 5.0,
+          "issuer_score": 8.0,
+          "overall_score": 7.0
+        },
+        "stellar": {
+          "peg_mechanism_score": 8.0,
+          "backing_score": 8.0,
+          "liquidity_score": 5.0,
+          "issuer_score": 8.0,
+          "overall_score": 7.0
+        },
+        "sui": {
+          "peg_mechanism_score": 8.0,
+          "backing_score": 8.0,
+          "liquidity_score": 5.0,
+          "issuer_score": 8.0,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "assets/ylds.md",
+      "last_verified": "2026-07-24",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Figure Certificate Company (Figure Technology Solutions, Nasdaq: FIGR)",
+      "market_cap_approx": 561900000,
+      "audited_reserves": true
+    },
+    {
       "asset": "ynRWA",
       "slug": "ynrwa",
       "chains": [
@@ -6385,6 +6441,8 @@
     "felix usdc frontier": "felix-usdc-frontier",
     "felix-usdc-frontier": "felix-usdc-frontier",
     "feusdc2": "felix-usdc-frontier",
+    "figure certificate": "ylds",
+    "figure ylds": "ylds",
     "fluid lending gho": "gho",
     "frax": "frax",
     "frax bond dec 2026": "fxb-20261231",
@@ -6703,6 +6761,7 @@
     "xaut": "xaut",
     "yieldnest ynrwa": "ynrwa",
     "yieldnest ynusd": "ynusd",
+    "ylds": "ylds",
     "ynrwa": "ynrwa",
     "ynrwax": "ynrwa",
     "ynusd": "ynusd",
