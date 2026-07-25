@@ -1797,25 +1797,25 @@
       "date": "2026-07-24",
       "default_scores": {
         "volatility_score": 6.0,
-        "liquidity_score": 4.0,
+        "liquidity_score": 6.0,
         "structural_score": 6.0,
-        "redemption_score": 5.5,
-        "overall_score": 5.5
+        "redemption_score": 6.0,
+        "overall_score": 6.0
       },
       "chain_scores": {
         "solana": {
           "volatility_score": 6.0,
-          "liquidity_score": 4.0,
+          "liquidity_score": 6.0,
           "structural_score": 6.0,
-          "redemption_score": 5.5,
-          "overall_score": 5.5
+          "redemption_score": 6.0,
+          "overall_score": 6.0
         },
         "ethereum": {
           "volatility_score": 6.0,
-          "liquidity_score": 4.0,
+          "liquidity_score": 6.0,
           "structural_score": 6.0,
-          "redemption_score": 5.5,
-          "overall_score": 5.5
+          "redemption_score": 6.0,
+          "overall_score": 6.0
         }
       },
       "report_file": "assets/hastra-prime.md",
@@ -6121,6 +6121,40 @@
       "yield_bearing": true
     },
     {
+      "asset": "wYLDS",
+      "slug": "wylds",
+      "chains": [
+        "solana"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "dependency",
+      "date": "2026-07-24",
+      "default_scores": {
+        "volatility_score": 7.0,
+        "liquidity_score": 4.0,
+        "structural_score": 6.5,
+        "redemption_score": 6.5,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "solana": {
+          "volatility_score": 7.0,
+          "liquidity_score": 4.0,
+          "structural_score": 6.5,
+          "redemption_score": 6.5,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "assets/wylds.md",
+      "last_verified": "2026-07-24",
+      "issuer": "Hastra (wrapper) / Figure Certificate Company (YLDS backing)",
+      "underlying_assets": [
+        "YLDS"
+      ],
+      "yield_bearing": true,
+      "market_cap_approx": 200000000
+    },
+    {
       "asset": "XAUT",
       "slug": "xaut",
       "chains": [
@@ -6163,54 +6197,6 @@
         "physical gold"
       ],
       "yield_bearing": false,
-      "audited_reserves": true
-    },
-    {
-      "asset": "YLDS",
-      "slug": "ylds",
-      "chains": [
-        "provenance",
-        "stellar",
-        "sui"
-      ],
-      "category": "stablecoin",
-      "assessment_type": "dependency",
-      "date": "2026-07-24",
-      "default_scores": {
-        "peg_mechanism_score": 8.0,
-        "backing_score": 8.0,
-        "liquidity_score": 5.0,
-        "issuer_score": 8.0,
-        "overall_score": 7.0
-      },
-      "chain_scores": {
-        "provenance": {
-          "peg_mechanism_score": 8.0,
-          "backing_score": 8.0,
-          "liquidity_score": 5.0,
-          "issuer_score": 8.0,
-          "overall_score": 7.0
-        },
-        "stellar": {
-          "peg_mechanism_score": 8.0,
-          "backing_score": 8.0,
-          "liquidity_score": 5.0,
-          "issuer_score": 8.0,
-          "overall_score": 7.0
-        },
-        "sui": {
-          "peg_mechanism_score": 8.0,
-          "backing_score": 8.0,
-          "liquidity_score": 5.0,
-          "issuer_score": 8.0,
-          "overall_score": 7.0
-        }
-      },
-      "report_file": "assets/ylds.md",
-      "last_verified": "2026-07-24",
-      "peg_mechanism": "fiat-backed",
-      "issuer": "Figure Certificate Company (Figure Technology Solutions, Nasdaq: FIGR)",
-      "market_cap_approx": 561900000,
       "audited_reserves": true
     },
     {
@@ -6441,8 +6427,6 @@
     "felix usdc frontier": "felix-usdc-frontier",
     "felix-usdc-frontier": "felix-usdc-frontier",
     "feusdc2": "felix-usdc-frontier",
-    "figure certificate": "ylds",
-    "figure ylds": "ylds",
     "fluid lending gho": "gho",
     "frax": "frax",
     "frax bond dec 2026": "fxb-20261231",
@@ -6477,6 +6461,7 @@
     "gusdc": "gusdc",
     "hashnote us yield coin": "usyc",
     "hastra prime": "hastra-prime",
+    "hastra wrapped ylds": "wylds",
     "hastra-prime": "hastra-prime",
     "hype": "hype",
     "hyperliquid": "hype",
@@ -6755,13 +6740,14 @@
     "wrapped srusd": "wsrusd",
     "wrapped steth": "wsteth",
     "wrapped super oeth": "superoethb",
+    "wrapped ylds": "wylds",
     "wsrusd": "wsrusd",
     "wsteth": "wsteth",
     "wsuperoethb": "superoethb",
+    "wylds": "wylds",
     "xaut": "xaut",
     "yieldnest ynrwa": "ynrwa",
     "yieldnest ynusd": "ynusd",
-    "ylds": "ylds",
     "ynrwa": "ynrwa",
     "ynrwax": "ynrwa",
     "ynusd": "ynusd",
