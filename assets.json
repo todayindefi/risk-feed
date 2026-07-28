@@ -1794,39 +1794,39 @@
       ],
       "category": "vault-share",
       "assessment_type": "light",
-      "date": "2026-07-24",
+      "date": "2026-07-27",
       "default_scores": {
         "volatility_score": 6.0,
         "liquidity_score": 6.0,
-        "structural_score": 6.0,
-        "redemption_score": 6.0,
-        "overall_score": 6.0
+        "structural_score": 5.5,
+        "redemption_score": 5.5,
+        "overall_score": 5.5
       },
       "chain_scores": {
         "solana": {
           "volatility_score": 6.0,
           "liquidity_score": 6.0,
-          "structural_score": 6.0,
-          "redemption_score": 6.0,
-          "overall_score": 6.0
+          "structural_score": 5.5,
+          "redemption_score": 5.5,
+          "overall_score": 5.5
         },
         "ethereum": {
           "volatility_score": 6.0,
           "liquidity_score": 6.0,
-          "structural_score": 6.0,
-          "redemption_score": 6.0,
-          "overall_score": 6.0
+          "structural_score": 5.5,
+          "redemption_score": 5.5,
+          "overall_score": 5.5
         }
       },
       "report_file": "assets/hastra-prime.md",
-      "last_verified": "2026-07-24",
+      "last_verified": "2026-07-27",
       "issuer": "Hastra (Figure / Provenance)",
       "underlying_assets": [
         "wYLDS",
         "YLDS"
       ],
       "yield_bearing": true,
-      "market_cap_approx": 284000000
+      "market_cap_approx": 457000000
     },
     {
       "asset": "HYPE",
@@ -2167,7 +2167,7 @@
       },
       "chain_scores": {},
       "report_file": "assets/mstr.md",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-27",
       "issuer": "Strategy Inc. (formerly MicroStrategy Incorporated)",
       "underlying_assets": [
         "btc"
@@ -3848,7 +3848,7 @@
       },
       "chain_scores": {},
       "report_file": "assets/strc.md",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-27",
       "issuer": "Strategy Inc.",
       "underlying_assets": [
         "mstr"
@@ -3881,7 +3881,7 @@
         }
       },
       "report_file": "assets/strcx.md",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-27",
       "underlying_assets": [
         "STRC"
       ],
@@ -6128,31 +6128,31 @@
       ],
       "category": "wrapped-token",
       "assessment_type": "dependency",
-      "date": "2026-07-24",
+      "date": "2026-07-27",
       "default_scores": {
         "volatility_score": 7.0,
         "liquidity_score": 4.0,
-        "structural_score": 6.5,
+        "structural_score": 6.0,
         "redemption_score": 6.5,
-        "overall_score": 6.5
+        "overall_score": 6.0
       },
       "chain_scores": {
         "solana": {
           "volatility_score": 7.0,
           "liquidity_score": 4.0,
-          "structural_score": 6.5,
+          "structural_score": 6.0,
           "redemption_score": 6.5,
-          "overall_score": 6.5
+          "overall_score": 6.0
         }
       },
       "report_file": "assets/wylds.md",
-      "last_verified": "2026-07-24",
+      "last_verified": "2026-07-27",
       "issuer": "Hastra (wrapper) / Figure Certificate Company (YLDS backing)",
       "underlying_assets": [
         "YLDS"
       ],
       "yield_bearing": true,
-      "market_cap_approx": 200000000
+      "market_cap_approx": 459000000
     },
     {
       "asset": "XAUT",
