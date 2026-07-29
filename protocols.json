@@ -94,10 +94,10 @@
         }
       },
       "report_file": "reports/aave-v3.md",
-      "tvl_gross": 26000000000,
-      "tvl_net": 26000000000,
-      "tvl_borrowed": 14300000000,
-      "last_verified": "2026-07-22"
+      "tvl_gross": 24590000000,
+      "tvl_net": 13750000000,
+      "tvl_borrowed": 10840000000,
+      "last_verified": "2026-07-28"
     },
     {
       "protocol": "Apyx",
@@ -1709,6 +1709,35 @@
       "last_verified": "2026-03-13"
     },
     {
+      "protocol": "Monetrix",
+      "slug": "monetrix",
+      "chains": [
+        "hyperevm"
+      ],
+      "category": "synthetic-dollar",
+      "assessment_type": "full",
+      "date": "2026-07-28",
+      "default_scores": {
+        "contract_score": 4.5,
+        "economic_score": 3.0,
+        "project_score": 3.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "hyperevm": {
+          "contract_score": 4.5,
+          "economic_score": 3.0,
+          "project_score": 3.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "reports/monetrix.md",
+      "tvl_gross": 2670000,
+      "tvl_net": 2670000,
+      "tvl_borrowed": 0,
+      "last_verified": "2026-07-28"
+    },
+    {
       "protocol": "Morpho",
       "slug": "morpho",
       "chains": [
@@ -2414,6 +2443,35 @@
       "last_verified": "2026-06-08"
     },
     {
+      "protocol": "Twyne",
+      "slug": "twyne",
+      "chains": [
+        "eth"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-07-28",
+      "default_scores": {
+        "contract_score": 6.0,
+        "economic_score": 3.5,
+        "project_score": 5.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 6.0,
+          "economic_score": 3.5,
+          "project_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "reports/twyne.md",
+      "tvl_gross": 13670000,
+      "tvl_net": 13670000,
+      "tvl_borrowed": 11860000,
+      "last_verified": "2026-07-28"
+    },
+    {
       "protocol": "Velodrome Finance",
       "slug": "velodrome",
       "chains": [
@@ -2729,6 +2787,8 @@
     "mento v3": "mento",
     "metamorpho": "morpho",
     "midas": "midas",
+    "monetrix": "monetrix",
+    "monetrix finance": "monetrix",
     "morpho": "morpho",
     "morpho blue": "morpho",
     "morpho labs": "morpho",
@@ -2809,6 +2869,7 @@
     "superpositions": "superform",
     "supervaults": "superform",
     "susdat": "saturn",
+    "susdm": "monetrix",
     "syrup": "maple",
     "syrup.fi": "maple",
     "syrupfi": "maple",
@@ -2831,8 +2892,13 @@
     "tokemak": "auto-finance",
     "trader joe": "lfj",
     "traderjoe": "lfj",
+    "twyne": "twyne",
+    "twyne credit delegation": "twyne",
+    "twyne finance": "twyne",
+    "twyne.xyz": "twyne",
     "up": "superform",
     "usdat": "saturn",
+    "usdm (monetrix)": "monetrix",
     "usenest": "nest",
     "velodrome": "velodrome",
     "velodrome finance": "velodrome",
