@@ -2185,49 +2185,49 @@
       ],
       "category": "stablecoin",
       "assessment_type": "light",
-      "date": "2026-04-29",
+      "date": "2026-07-30",
       "default_scores": {
         "peg_mechanism_score": 3.0,
-        "backing_score": 5.5,
-        "liquidity_score": 4.0,
-        "issuer_score": 4.0,
-        "overall_score": 3.5
+        "backing_score": 3.0,
+        "liquidity_score": 3.0,
+        "issuer_score": 3.0,
+        "overall_score": 2.5
       },
       "chain_scores": {
         "eth": {
           "peg_mechanism_score": 3.0,
-          "backing_score": 5.5,
-          "liquidity_score": 4.0,
-          "issuer_score": 4.0,
-          "overall_score": 3.5
+          "backing_score": 3.0,
+          "liquidity_score": 3.0,
+          "issuer_score": 3.0,
+          "overall_score": 2.5
         },
         "optimism": {
           "peg_mechanism_score": 3.0,
-          "backing_score": 5.5,
-          "liquidity_score": 3.0,
-          "issuer_score": 4.0,
-          "overall_score": 3.0
+          "backing_score": 3.0,
+          "liquidity_score": 2.5,
+          "issuer_score": 3.0,
+          "overall_score": 2.5
         },
         "base": {
           "peg_mechanism_score": 3.0,
-          "backing_score": 5.5,
-          "liquidity_score": 4.0,
-          "issuer_score": 4.0,
-          "overall_score": 3.5
+          "backing_score": 3.0,
+          "liquidity_score": 3.0,
+          "issuer_score": 3.0,
+          "overall_score": 2.5
         },
         "plasma": {
           "peg_mechanism_score": 3.0,
-          "backing_score": 5.5,
-          "liquidity_score": 2.5,
-          "issuer_score": 4.0,
-          "overall_score": 3.0
+          "backing_score": 3.0,
+          "liquidity_score": 1.5,
+          "issuer_score": 3.0,
+          "overall_score": 2.0
         }
       },
       "report_file": "assets/msusd-metronome.md",
-      "last_verified": "2026-04-30",
+      "last_verified": "2026-07-30",
       "peg_mechanism": "crypto-overcollateralized",
       "issuer": "Metronome Synth",
-      "market_cap_approx": 27500000,
+      "market_cap_approx": 42400000,
       "audited_reserves": false
     },
     {
@@ -5018,7 +5018,7 @@
         }
       },
       "report_file": "assets/usdm.md",
-      "last_verified": "2026-07-23",
+      "last_verified": "2026-07-30",
       "peg_mechanism": "fiat-backed",
       "issuer": "Mento Labs (Germany)",
       "market_cap_approx": 15820000,
