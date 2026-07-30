@@ -1800,7 +1800,7 @@
         "liquidity_score": 6.0,
         "structural_score": 5.5,
         "redemption_score": 5.5,
-        "overall_score": 5.5
+        "overall_score": 5.0
       },
       "chain_scores": {
         "solana": {
@@ -1808,25 +1808,25 @@
           "liquidity_score": 6.0,
           "structural_score": 5.5,
           "redemption_score": 5.5,
-          "overall_score": 5.5
+          "overall_score": 5.0
         },
         "ethereum": {
           "volatility_score": 6.0,
           "liquidity_score": 6.0,
           "structural_score": 5.5,
           "redemption_score": 5.5,
-          "overall_score": 5.5
+          "overall_score": 5.0
         }
       },
       "report_file": "assets/hastra-prime.md",
-      "last_verified": "2026-07-27",
+      "last_verified": "2026-07-30",
       "issuer": "Hastra (Figure / Provenance)",
       "underlying_assets": [
         "wYLDS",
         "YLDS"
       ],
       "yield_bearing": true,
-      "market_cap_approx": 457000000
+      "market_cap_approx": 482000000
     },
     {
       "asset": "HYPE",
