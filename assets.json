@@ -1816,7 +1816,7 @@
         "volatility_score": 6.0,
         "liquidity_score": 6.0,
         "structural_score": 5.5,
-        "redemption_score": 5.5,
+        "redemption_score": 6.0,
         "overall_score": 5.0
       },
       "chain_scores": {
@@ -1824,19 +1824,19 @@
           "volatility_score": 6.0,
           "liquidity_score": 6.0,
           "structural_score": 5.5,
-          "redemption_score": 5.5,
+          "redemption_score": 6.0,
           "overall_score": 5.0
         },
         "ethereum": {
           "volatility_score": 6.0,
           "liquidity_score": 6.0,
           "structural_score": 5.5,
-          "redemption_score": 5.5,
+          "redemption_score": 6.0,
           "overall_score": 5.0
         }
       },
       "report_file": "assets/hastra-prime.md",
-      "last_verified": "2026-07-30",
+      "last_verified": "2026-07-31",
       "issuer": "Hastra (Figure / Provenance)",
       "underlying_assets": [
         "wYLDS",
