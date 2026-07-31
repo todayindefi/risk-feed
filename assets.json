@@ -1335,6 +1335,23 @@
       "yield_bearing": true
     },
     {
+      "asset": "Figure",
+      "slug": "figure",
+      "chains": [],
+      "category": "tradfi-equity",
+      "assessment_type": "dependency",
+      "date": "2026-07-31",
+      "default_scores": {
+        "overall_score": 5.0
+      },
+      "chain_scores": {},
+      "report_file": "assets/figure.md",
+      "last_verified": "2026-07-31",
+      "issuer": "Figure Technology Solutions, Inc. (Nasdaq: FIGR)",
+      "underlying_assets": [],
+      "yield_bearing": false
+    },
+    {
       "asset": "FRAX",
       "slug": "frax",
       "chains": [
@@ -1826,7 +1843,7 @@
         "YLDS"
       ],
       "yield_bearing": true,
-      "market_cap_approx": 482000000
+      "market_cap_approx": 457000000
     },
     {
       "asset": "HYPE",
@@ -6422,11 +6439,17 @@
     "eusd": "eusd",
     "eusdc": "eusdc",
     "eusdc (prime)": "euler-prime-usdc",
+    "fcc": "figure",
     "felix feusdc2": "felix-usdc-frontier",
     "felix usdc (frontier)": "felix-usdc-frontier",
     "felix usdc frontier": "felix-usdc-frontier",
     "felix-usdc-frontier": "felix-usdc-frontier",
     "feusdc2": "felix-usdc-frontier",
+    "figr": "figure",
+    "figure": "figure",
+    "figure certificate company": "figure",
+    "figure lending": "figure",
+    "figure technology solutions": "figure",
     "fluid lending gho": "gho",
     "frax": "frax",
     "frax bond dec 2026": "fxb-20261231",
