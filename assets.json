@@ -1815,7 +1815,7 @@
       "default_scores": {
         "volatility_score": 6.0,
         "liquidity_score": 6.0,
-        "structural_score": 5.5,
+        "structural_score": 5.0,
         "redemption_score": 6.0,
         "overall_score": 5.0
       },
