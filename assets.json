@@ -671,6 +671,39 @@
       "yield_bearing": true
     },
     {
+      "asset": "CASH",
+      "slug": "cash",
+      "chains": [
+        "solana"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-07-31",
+      "default_scores": {
+        "peg_mechanism_score": 7.5,
+        "backing_score": 6.5,
+        "liquidity_score": 5.0,
+        "issuer_score": 7.5,
+        "overall_score": 6.5
+      },
+      "chain_scores": {
+        "solana": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 6.5,
+          "liquidity_score": 5.0,
+          "issuer_score": 7.5,
+          "overall_score": 6.5
+        }
+      },
+      "report_file": "assets/cash.md",
+      "last_verified": "2026-07-31",
+      "peg_mechanism": "fiat-backed",
+      "issuer": "Bridge Building Inc. (Stripe) \u2014 distributed under the Phantom brand",
+      "yield_bearing": false,
+      "market_cap_approx": 123100000,
+      "audited_reserves": false
+    },
+    {
       "asset": "cbBTC",
       "slug": "cbbtc",
       "chains": [
@@ -1817,21 +1850,24 @@
         "liquidity_score": 6.0,
         "structural_score": 5.0,
         "redemption_score": 6.0,
+        "issuer_score": 6.5,
         "overall_score": 5.0
       },
       "chain_scores": {
         "solana": {
           "volatility_score": 6.0,
           "liquidity_score": 6.0,
-          "structural_score": 5.5,
+          "structural_score": 5.0,
           "redemption_score": 6.0,
+          "issuer_score": 6.5,
           "overall_score": 5.0
         },
         "ethereum": {
           "volatility_score": 6.0,
           "liquidity_score": 6.0,
-          "structural_score": 5.5,
+          "structural_score": 5.0,
           "redemption_score": 6.0,
+          "issuer_score": 6.5,
           "overall_score": 5.0
         }
       },
@@ -2202,49 +2238,49 @@
       ],
       "category": "stablecoin",
       "assessment_type": "light",
-      "date": "2026-07-30",
+      "date": "2026-07-31",
       "default_scores": {
-        "peg_mechanism_score": 3.0,
-        "backing_score": 3.0,
-        "liquidity_score": 3.0,
-        "issuer_score": 3.0,
-        "overall_score": 2.5
+        "peg_mechanism_score": 1.0,
+        "backing_score": 1.5,
+        "liquidity_score": 1.0,
+        "issuer_score": 2.0,
+        "overall_score": 1.5
       },
       "chain_scores": {
         "eth": {
-          "peg_mechanism_score": 3.0,
-          "backing_score": 3.0,
-          "liquidity_score": 3.0,
-          "issuer_score": 3.0,
-          "overall_score": 2.5
+          "peg_mechanism_score": 1.0,
+          "backing_score": 1.5,
+          "liquidity_score": 1.0,
+          "issuer_score": 2.0,
+          "overall_score": 1.5
         },
         "optimism": {
-          "peg_mechanism_score": 3.0,
-          "backing_score": 3.0,
-          "liquidity_score": 2.5,
-          "issuer_score": 3.0,
-          "overall_score": 2.5
+          "peg_mechanism_score": 1.0,
+          "backing_score": 1.5,
+          "liquidity_score": 1.0,
+          "issuer_score": 2.0,
+          "overall_score": 1.5
         },
         "base": {
-          "peg_mechanism_score": 3.0,
-          "backing_score": 3.0,
-          "liquidity_score": 3.0,
-          "issuer_score": 3.0,
-          "overall_score": 2.5
+          "peg_mechanism_score": 1.0,
+          "backing_score": 1.5,
+          "liquidity_score": 1.0,
+          "issuer_score": 2.0,
+          "overall_score": 1.5
         },
         "plasma": {
-          "peg_mechanism_score": 3.0,
-          "backing_score": 3.0,
-          "liquidity_score": 1.5,
-          "issuer_score": 3.0,
-          "overall_score": 2.0
+          "peg_mechanism_score": 1.0,
+          "backing_score": 1.5,
+          "liquidity_score": 1.0,
+          "issuer_score": 2.0,
+          "overall_score": 1.0
         }
       },
       "report_file": "assets/msusd-metronome.md",
-      "last_verified": "2026-07-30",
+      "last_verified": "2026-07-31",
       "peg_mechanism": "crypto-overcollateralized",
       "issuer": "Metronome Synth",
-      "market_cap_approx": 42400000,
+      "market_cap_approx": 31100000,
       "audited_reserves": false
     },
     {
@@ -3772,7 +3808,7 @@
         }
       },
       "report_file": "assets/stakedao-frxusd-v2.md",
-      "last_verified": "2026-05-28",
+      "last_verified": "2026-07-31",
       "underlying_assets": [
         "frxusd"
       ],
@@ -4396,6 +4432,58 @@
         "yzUSD"
       ],
       "yield_bearing": true
+    },
+    {
+      "asset": "tETH",
+      "slug": "teth",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "base"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-07-31",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 1.5,
+        "structural_score": 4.0,
+        "redemption_score": 4.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 1.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.0,
+          "overall_score": 4.0
+        },
+        "arbitrum": {
+          "volatility_score": 6.0,
+          "liquidity_score": 1.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.0,
+          "overall_score": 4.0
+        },
+        "base": {
+          "volatility_score": 6.0,
+          "liquidity_score": 1.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/teth.md",
+      "last_verified": "2026-07-31",
+      "issuer": "Treehouse Protocol",
+      "underlying_assets": [
+        "wsteth",
+        "weeth",
+        "eth"
+      ],
+      "yield_bearing": true,
+      "audited_reserves": false
     },
     {
       "asset": "thBILL",
@@ -6395,6 +6483,7 @@
     "cap money cusd": "cusd",
     "cap stcusd": "stcusd",
     "cap usd": "cusd",
+    "cash": "cash",
     "cbbtc": "cbbtc",
     "cbeth": "cbeth",
     "circle usyc": "usyc",
@@ -6570,6 +6659,7 @@
     "pendle pt apxusd": "pt-apxusd",
     "pendle pt srusdat": "pt-srusdat",
     "permian usdai": "usdai",
+    "phantom cash": "cash",
     "pirex eth": "pxeth",
     "pirex ether": "pxeth",
     "prime": "hastra-prime",
@@ -6686,6 +6776,7 @@
     "tangent usd": "usg",
     "tangent usg": "usg",
     "tesla tokenized stock (ondo)": "tslaon",
+    "teth": "teth",
     "tether": "usdt",
     "tether gold": "xaut",
     "tether usd": "usdt",
@@ -6698,6 +6789,8 @@
     "tid market maker": "tidmm",
     "tid perp": "tidmm",
     "tidmm": "tidmm",
+    "treehouse eth": "teth",
+    "treehouseeth": "teth",
     "tslaon": "tslaon",
     "us yield coin": "usyc",
     "usd ai": "usdai",
