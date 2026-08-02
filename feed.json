@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-01T01:45:02Z",
+  "generated_at": "2026-08-02T01:45:03Z",
   "score_scale": "0-10, higher = lower risk",
   "endpoints": {
     "assets": "https://todayindefi.github.io/risk-feed/assets.json",

@@ -394,6 +394,7 @@
         "liquidity_score": 3.5,
         "structural_score": 4.5,
         "redemption_score": 4.5,
+        "issuer_score": 4.0,
         "overall_score": 4.5
       },
       "chain_scores": {
@@ -402,6 +403,7 @@
           "liquidity_score": 3.5,
           "structural_score": 4.5,
           "redemption_score": 4.5,
+          "issuer_score": 4.0,
           "overall_score": 4.5
         },
         "avax": {
@@ -409,6 +411,7 @@
           "liquidity_score": 3.5,
           "structural_score": 4.5,
           "redemption_score": 4.5,
+          "issuer_score": 4.0,
           "overall_score": 4.5
         },
         "linea": {
@@ -416,6 +419,7 @@
           "liquidity_score": 3.5,
           "structural_score": 4.5,
           "redemption_score": 4.5,
+          "issuer_score": 4.0,
           "overall_score": 4.5
         }
       },
@@ -557,7 +561,7 @@
       },
       "chain_scores": {},
       "report_file": "assets/bmnr.md",
-      "last_verified": "2026-05-31",
+      "last_verified": "2026-08-01",
       "issuer": "BitMine Immersion Technologies, Inc.",
       "underlying_assets": [
         "eth"
@@ -1458,7 +1462,7 @@
         }
       },
       "report_file": "assets/frax.md",
-      "last_verified": "2026-06-01",
+      "last_verified": "2026-08-01",
       "peg_mechanism": "hybrid",
       "issuer": "Frax Finance",
       "market_cap_approx": 132000000,
@@ -2620,6 +2624,7 @@
         "liquidity_score": 3.5,
         "structural_score": 4.0,
         "redemption_score": 3.5,
+        "issuer_score": 5.0,
         "overall_score": 4.0
       },
       "chain_scores": {
@@ -2628,6 +2633,7 @@
           "liquidity_score": 3.5,
           "structural_score": 4.0,
           "redemption_score": 3.5,
+          "issuer_score": 5.0,
           "overall_score": 4.0
         }
       },
@@ -3358,6 +3364,7 @@
         "liquidity_score": 3.5,
         "structural_score": 4.0,
         "redemption_score": 4.0,
+        "issuer_score": 4.0,
         "overall_score": 4.0
       },
       "chain_scores": {
@@ -3366,6 +3373,7 @@
           "liquidity_score": 3.5,
           "structural_score": 4.0,
           "redemption_score": 4.0,
+          "issuer_score": 4.0,
           "overall_score": 4.0
         }
       },
@@ -3390,6 +3398,7 @@
         "liquidity_score": 3.5,
         "structural_score": 4.5,
         "redemption_score": 4.0,
+        "issuer_score": 4.0,
         "overall_score": 4.5
       },
       "chain_scores": {
@@ -3397,6 +3406,7 @@
           "liquidity_score": 3.5,
           "structural_score": 4.5,
           "redemption_score": 4.0,
+          "issuer_score": 4.0,
           "overall_score": 4.5
         }
       },
@@ -3922,6 +3932,7 @@
         "liquidity_score": 3.0,
         "structural_score": 6.0,
         "redemption_score": 3.0,
+        "issuer_score": 6.0,
         "overall_score": 3.0
       },
       "chain_scores": {
@@ -3930,6 +3941,7 @@
           "liquidity_score": 3.0,
           "structural_score": 6.0,
           "redemption_score": 3.0,
+          "issuer_score": 6.0,
           "overall_score": 3.0
         }
       },
@@ -3986,6 +3998,7 @@
         "liquidity_score": 4.5,
         "structural_score": 5.5,
         "redemption_score": 4.0,
+        "issuer_score": 6.0,
         "overall_score": 5.0
       },
       "chain_scores": {
@@ -3994,6 +4007,7 @@
           "liquidity_score": 4.5,
           "structural_score": 5.5,
           "redemption_score": 4.0,
+          "issuer_score": 6.0,
           "overall_score": 5.0
         }
       },
@@ -4021,6 +4035,7 @@
         "liquidity_score": 3.5,
         "structural_score": 4.5,
         "redemption_score": 3.5,
+        "issuer_score": 4.5,
         "overall_score": 3.5
       },
       "chain_scores": {
@@ -4029,6 +4044,7 @@
           "liquidity_score": 3.5,
           "structural_score": 4.5,
           "redemption_score": 3.5,
+          "issuer_score": 4.5,
           "overall_score": 3.5
         }
       },
@@ -4215,6 +4231,7 @@
         "liquidity_score": 8.5,
         "structural_score": 7.0,
         "redemption_score": 8.5,
+        "issuer_score": 7.0,
         "overall_score": 7.5
       },
       "chain_scores": {
@@ -4223,32 +4240,36 @@
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
-          "overall_score": 8.0
+          "issuer_score": 7.0,
+          "overall_score": 7.5
         },
         "base": {
           "volatility_score": 9.0,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
-          "overall_score": 8.0
+          "issuer_score": 7.0,
+          "overall_score": 7.5
         },
         "arb": {
           "volatility_score": 9.0,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
-          "overall_score": 8.0
+          "issuer_score": 7.0,
+          "overall_score": 7.5
         },
         "optimism": {
           "volatility_score": 9.0,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
-          "overall_score": 8.0
+          "issuer_score": 7.0,
+          "overall_score": 7.5
         }
       },
       "report_file": "assets/susds.md",
-      "last_verified": "2026-05-27",
+      "last_verified": "2026-08-01",
       "underlying_assets": [
         "USDS"
       ],
@@ -4307,6 +4328,7 @@
         "liquidity_score": 7.5,
         "structural_score": 6.5,
         "redemption_score": 7.5,
+        "issuer_score": 5.5,
         "overall_score": 6.75
       },
       "chain_scores": {
@@ -4315,6 +4337,7 @@
           "liquidity_score": 7.5,
           "structural_score": 6.5,
           "redemption_score": 7.5,
+          "issuer_score": 5.5,
           "overall_score": 6.75
         },
         "sol": {
@@ -4322,6 +4345,7 @@
           "liquidity_score": 7.5,
           "structural_score": 6.5,
           "redemption_score": 7.5,
+          "issuer_score": 5.5,
           "overall_score": 6.75
         },
         "arb": {
@@ -4329,6 +4353,7 @@
           "liquidity_score": 7.5,
           "structural_score": 6.5,
           "redemption_score": 7.5,
+          "issuer_score": 5.5,
           "overall_score": 6.75
         },
         "base": {
@@ -4336,6 +4361,7 @@
           "liquidity_score": 7.5,
           "structural_score": 6.5,
           "redemption_score": 7.5,
+          "issuer_score": 5.5,
           "overall_score": 6.75
         },
         "plasma": {
@@ -4343,6 +4369,7 @@
           "liquidity_score": 7.5,
           "structural_score": 6.5,
           "redemption_score": 7.5,
+          "issuer_score": 5.5,
           "overall_score": 6.75
         }
       },
@@ -4367,6 +4394,7 @@
         "liquidity_score": 6.0,
         "structural_score": 6.0,
         "redemption_score": 6.5,
+        "issuer_score": 5.5,
         "overall_score": 6.0
       },
       "chain_scores": {
@@ -4375,6 +4403,7 @@
           "liquidity_score": 6.0,
           "structural_score": 6.0,
           "redemption_score": 6.5,
+          "issuer_score": 5.5,
           "overall_score": 6.0
         }
       },
@@ -4501,6 +4530,7 @@
         "liquidity_score": 3.0,
         "structural_score": 4.5,
         "redemption_score": 3.5,
+        "issuer_score": 4.5,
         "overall_score": 5.0
       },
       "chain_scores": {
@@ -4509,6 +4539,7 @@
           "liquidity_score": 3.0,
           "structural_score": 4.5,
           "redemption_score": 3.5,
+          "issuer_score": 4.5,
           "overall_score": 5.0
         },
         "arb": {
@@ -4516,6 +4547,7 @@
           "liquidity_score": 3.0,
           "structural_score": 4.5,
           "redemption_score": 3.5,
+          "issuer_score": 4.5,
           "overall_score": 5.0
         },
         "solana": {
@@ -4523,6 +4555,7 @@
           "liquidity_score": 3.0,
           "structural_score": 4.5,
           "redemption_score": 3.5,
+          "issuer_score": 4.5,
           "overall_score": 5.0
         }
       },
@@ -4736,6 +4769,7 @@
         "liquidity_score": 3.0,
         "structural_score": 3.5,
         "redemption_score": 3.5,
+        "issuer_score": 4.5,
         "overall_score": 3.5
       },
       "chain_scores": {
@@ -4744,6 +4778,7 @@
           "liquidity_score": 3.0,
           "structural_score": 3.5,
           "redemption_score": 3.5,
+          "issuer_score": 4.5,
           "overall_score": 3.5
         }
       },
@@ -5312,7 +5347,7 @@
         }
       },
       "report_file": "assets/usds.md",
-      "last_verified": "2026-05-27",
+      "last_verified": "2026-08-01",
       "peg_mechanism": "hybrid",
       "issuer": "Sky Protocol (formerly MakerDAO)",
       "market_cap_approx": 8411000000,
@@ -5658,6 +5693,7 @@
         "liquidity_score": 2.5,
         "structural_score": 4.0,
         "redemption_score": 3.0,
+        "issuer_score": 5.0,
         "overall_score": 4.0
       },
       "chain_scores": {
@@ -5666,6 +5702,7 @@
           "liquidity_score": 2.5,
           "structural_score": 4.0,
           "redemption_score": 3.0,
+          "issuer_score": 5.0,
           "overall_score": 4.0
         }
       },
