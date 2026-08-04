@@ -104,7 +104,8 @@
       "slug": "apyx",
       "chains": [
         "eth",
-        "base"
+        "base",
+        "bnb"
       ],
       "category": "rwa-stablecoin",
       "assessment_type": "light",
@@ -123,6 +124,12 @@
           "overall_score": 4.8
         },
         "base": {
+          "contract_score": 6.0,
+          "economic_score": 3.7,
+          "project_score": 5.0,
+          "overall_score": 4.8
+        },
+        "bnb": {
           "contract_score": 6.0,
           "economic_score": 3.7,
           "project_score": 5.0,
@@ -1977,7 +1984,9 @@
       "protocol": "Saturn Labs",
       "slug": "saturn",
       "chains": [
-        "eth"
+        "eth",
+        "bnb",
+        "monad"
       ],
       "category": "rwa-stablecoin",
       "assessment_type": "light",
@@ -1990,6 +1999,18 @@
       },
       "chain_scores": {
         "eth": {
+          "contract_score": 5.0,
+          "economic_score": 5.0,
+          "project_score": 4.5,
+          "overall_score": 5.0
+        },
+        "bnb": {
+          "contract_score": 5.0,
+          "economic_score": 5.0,
+          "project_score": 4.5,
+          "overall_score": 5.0
+        },
+        "monad": {
           "contract_score": 5.0,
           "economic_score": 5.0,
           "project_score": 4.5,

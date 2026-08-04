@@ -106,7 +106,8 @@
       "slug": "apxusd",
       "chains": [
         "eth",
-        "base"
+        "base",
+        "bnb"
       ],
       "category": "stablecoin",
       "assessment_type": "light",
@@ -132,10 +133,17 @@
           "liquidity_score": 3.0,
           "issuer_score": 5.0,
           "overall_score": 3.0
+        },
+        "bnb": {
+          "peg_mechanism_score": 2.5,
+          "backing_score": 2.0,
+          "liquidity_score": 3.0,
+          "issuer_score": 5.0,
+          "overall_score": 3.0
         }
       },
       "report_file": "assets/apxusd.md",
-      "last_verified": "2026-07-13",
+      "last_verified": "2026-08-01",
       "peg_mechanism": "hybrid",
       "issuer": "Apyx",
       "market_cap_approx": 372000000,
@@ -146,7 +154,8 @@
       "slug": "apyusd",
       "chains": [
         "eth",
-        "base"
+        "base",
+        "bnb"
       ],
       "category": "vault-share",
       "assessment_type": "light",
@@ -175,10 +184,18 @@
           "redemption_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 3.0
+        },
+        "bnb": {
+          "volatility_score": 6.5,
+          "liquidity_score": 3.5,
+          "structural_score": 5.0,
+          "redemption_score": 3.5,
+          "issuer_score": 5.0,
+          "overall_score": 3.0
         }
       },
       "report_file": "assets/apyusd.md",
-      "last_verified": "2026-07-13",
+      "last_verified": "2026-08-01",
       "issuer": "Apyx",
       "underlying_assets": [
         "apxUSD"
@@ -2224,7 +2241,7 @@
       },
       "chain_scores": {},
       "report_file": "assets/mstr.md",
-      "last_verified": "2026-07-27",
+      "last_verified": "2026-08-01",
       "issuer": "Strategy Inc. (formerly MicroStrategy Incorporated)",
       "underlying_assets": [
         "btc"
@@ -3911,7 +3928,7 @@
       },
       "chain_scores": {},
       "report_file": "assets/strc.md",
-      "last_verified": "2026-07-27",
+      "last_verified": "2026-08-01",
       "issuer": "Strategy Inc.",
       "underlying_assets": [
         "mstr"
@@ -4025,7 +4042,9 @@
       "asset": "sUSDat",
       "slug": "susdat",
       "chains": [
-        "eth"
+        "eth",
+        "bnb",
+        "monad"
       ],
       "category": "vault-share",
       "assessment_type": "light",
@@ -4046,10 +4065,26 @@
           "redemption_score": 3.5,
           "issuer_score": 4.5,
           "overall_score": 3.5
+        },
+        "bnb": {
+          "volatility_score": 3.5,
+          "liquidity_score": 3.5,
+          "structural_score": 4.5,
+          "redemption_score": 3.5,
+          "issuer_score": 4.5,
+          "overall_score": 3.5
+        },
+        "monad": {
+          "volatility_score": 3.5,
+          "liquidity_score": 3.5,
+          "structural_score": 4.5,
+          "redemption_score": 3.5,
+          "issuer_score": 4.5,
+          "overall_score": 3.5
         }
       },
       "report_file": "assets/susdat.md",
-      "last_verified": "2026-07-13",
+      "last_verified": "2026-08-01",
       "underlying_assets": [
         "USDat"
       ],
@@ -4475,36 +4510,36 @@
       "date": "2026-07-31",
       "default_scores": {
         "volatility_score": 6.0,
-        "liquidity_score": 1.5,
+        "liquidity_score": 3.0,
         "structural_score": 4.0,
         "redemption_score": 4.0,
-        "overall_score": 4.0
+        "overall_score": 4.5
       },
       "chain_scores": {
         "eth": {
           "volatility_score": 6.0,
-          "liquidity_score": 1.5,
+          "liquidity_score": 3.0,
           "structural_score": 4.0,
           "redemption_score": 4.0,
-          "overall_score": 4.0
+          "overall_score": 4.5
         },
         "arbitrum": {
           "volatility_score": 6.0,
-          "liquidity_score": 1.5,
+          "liquidity_score": 3.0,
           "structural_score": 4.0,
           "redemption_score": 4.0,
-          "overall_score": 4.0
+          "overall_score": 4.5
         },
         "base": {
           "volatility_score": 6.0,
-          "liquidity_score": 1.5,
+          "liquidity_score": 3.0,
           "structural_score": 4.0,
           "redemption_score": 4.0,
-          "overall_score": 4.0
+          "overall_score": 4.5
         }
       },
       "report_file": "assets/teth.md",
-      "last_verified": "2026-07-31",
+      "last_verified": "2026-08-03",
       "issuer": "Treehouse Protocol",
       "underlying_assets": [
         "wsteth",
@@ -5371,7 +5406,7 @@
       "date": "2026-06-08",
       "default_scores": {
         "peg_mechanism_score": 7.5,
-        "backing_score": 6.5,
+        "backing_score": 6.0,
         "liquidity_score": 9.5,
         "issuer_score": 5.5,
         "overall_score": 7.0
@@ -5379,66 +5414,66 @@
       "chain_scores": {
         "eth": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 6.5,
+          "backing_score": 6.0,
           "liquidity_score": 9.5,
           "issuer_score": 5.5,
           "overall_score": 7.0
         },
         "tron": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 6.5,
+          "backing_score": 6.0,
           "liquidity_score": 9.5,
           "issuer_score": 5.5,
           "overall_score": 7.0
         },
         "bsc": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 6.5,
+          "backing_score": 6.0,
           "liquidity_score": 9.5,
           "issuer_score": 5.5,
           "overall_score": 7.0
         },
         "solana": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 6.5,
+          "backing_score": 6.0,
           "liquidity_score": 9.5,
           "issuer_score": 5.5,
           "overall_score": 7.0
         },
         "arbitrum": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 6.5,
+          "backing_score": 6.0,
           "liquidity_score": 9.5,
           "issuer_score": 5.5,
           "overall_score": 7.0
         },
         "avalanche": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 6.5,
+          "backing_score": 6.0,
           "liquidity_score": 9.5,
           "issuer_score": 5.5,
           "overall_score": 7.0
         },
         "optimism": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 6.5,
+          "backing_score": 6.0,
           "liquidity_score": 9.5,
           "issuer_score": 5.5,
           "overall_score": 7.0
         },
         "polygon": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 6.5,
+          "backing_score": 6.0,
           "liquidity_score": 9.5,
           "issuer_score": 5.5,
           "overall_score": 7.0
         }
       },
       "report_file": "assets/usdt.md",
-      "last_verified": "2026-06-08",
+      "last_verified": "2026-08-03",
       "peg_mechanism": "fiat-backed",
       "issuer": "Tether Limited (BVI) / iFinex",
-      "market_cap_approx": 187000000000,
+      "market_cap_approx": 183500000000,
       "audited_reserves": false
     },
     {
