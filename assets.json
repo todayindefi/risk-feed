@@ -4851,10 +4851,11 @@
         }
       },
       "report_file": "assets/usd3.md",
-      "last_verified": "2026-06-08",
+      "last_verified": "2026-08-04",
       "peg_mechanism": "basket",
       "issuer": "Reserve Protocol",
-      "market_cap_approx": 4900000,
+      "yield_bearing": true,
+      "market_cap_approx": 3320000,
       "audited_reserves": false
     },
     {
@@ -5470,7 +5471,7 @@
         }
       },
       "report_file": "assets/usdt.md",
-      "last_verified": "2026-08-03",
+      "last_verified": "2026-08-04",
       "peg_mechanism": "fiat-backed",
       "issuer": "Tether Limited (BVI) / iFinex",
       "market_cap_approx": 183500000000,
