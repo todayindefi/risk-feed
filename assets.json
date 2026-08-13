@@ -2046,6 +2046,38 @@
       "audited_reserves": true
     },
     {
+      "asset": "$M",
+      "slug": "m0",
+      "chains": [
+        "eth"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "dependency",
+      "date": "2026-08-12",
+      "default_scores": {
+        "peg_mechanism_score": 6.5,
+        "backing_score": 5.5,
+        "liquidity_score": 2.0,
+        "issuer_score": 5.5,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 5.5,
+          "liquidity_score": 2.0,
+          "issuer_score": 5.5,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/m0.md",
+      "last_verified": "2026-08-12",
+      "peg_mechanism": "rwa-backed",
+      "issuer": "M^0 Foundation (protocol) \u2014 collateral held by permissioned Minters",
+      "underlying_assets": [],
+      "yield_bearing": true
+    },
+    {
       "asset": "mEDGE",
       "slug": "medge",
       "chains": [
@@ -2983,42 +3015,42 @@
       "default_scores": {
         "volatility_score": 7.0,
         "liquidity_score": 5.0,
-        "structural_score": 5.5,
+        "structural_score": 6.0,
         "redemption_score": 4.5,
-        "overall_score": 5.5
+        "overall_score": 6.0
       },
       "chain_scores": {
         "eth": {
           "volatility_score": 7.0,
           "liquidity_score": 5.0,
-          "structural_score": 5.5,
+          "structural_score": 6.0,
           "redemption_score": 4.5,
-          "overall_score": 5.5
+          "overall_score": 6.0
         },
         "arb": {
           "volatility_score": 7.0,
           "liquidity_score": 5.0,
-          "structural_score": 5.5,
+          "structural_score": 6.0,
           "redemption_score": 4.5,
-          "overall_score": 5.5
+          "overall_score": 6.0
         },
         "base": {
           "volatility_score": 7.0,
           "liquidity_score": 5.0,
-          "structural_score": 5.5,
+          "structural_score": 6.0,
           "redemption_score": 4.5,
-          "overall_score": 5.5
+          "overall_score": 6.0
         },
         "avax": {
           "volatility_score": 7.0,
           "liquidity_score": 5.0,
-          "structural_score": 5.5,
+          "structural_score": 6.0,
           "redemption_score": 4.5,
-          "overall_score": 5.5
+          "overall_score": 6.0
         }
       },
       "report_file": "assets/reusd-re.md",
-      "last_verified": "2026-07-13",
+      "last_verified": "2026-08-12",
       "issuer": "Resilience BVI Ltd.",
       "underlying_assets": [
         "USDC",
@@ -3072,21 +3104,21 @@
       "default_scores": {
         "volatility_score": 3.5,
         "liquidity_score": 2.5,
-        "structural_score": 4.5,
-        "redemption_score": 2.5,
+        "structural_score": 5.0,
+        "redemption_score": 2.0,
         "overall_score": 3.5
       },
       "chain_scores": {
         "eth": {
           "volatility_score": 3.5,
           "liquidity_score": 2.5,
-          "structural_score": 4.5,
-          "redemption_score": 2.5,
+          "structural_score": 5.0,
+          "redemption_score": 2.0,
           "overall_score": 3.5
         }
       },
       "report_file": "assets/reusde-re.md",
-      "last_verified": "2026-05-18",
+      "last_verified": "2026-08-12",
       "issuer": "Resilience BVI Ltd.",
       "underlying_assets": [
         "USDe",
@@ -4012,7 +4044,7 @@
       "date": "2026-07-22",
       "default_scores": {
         "volatility_score": 5.5,
-        "liquidity_score": 4.5,
+        "liquidity_score": 5.0,
         "structural_score": 5.5,
         "redemption_score": 4.0,
         "issuer_score": 6.0,
@@ -4021,7 +4053,7 @@
       "chain_scores": {
         "arb": {
           "volatility_score": 5.5,
-          "liquidity_score": 4.5,
+          "liquidity_score": 5.0,
           "structural_score": 5.5,
           "redemption_score": 4.0,
           "issuer_score": 6.0,
@@ -4029,7 +4061,7 @@
         }
       },
       "report_file": "assets/susdai.md",
-      "last_verified": "2026-07-22",
+      "last_verified": "2026-08-12",
       "issuer": "Permian Labs",
       "underlying_assets": [
         "USDai",
@@ -4884,7 +4916,7 @@
         }
       },
       "report_file": "assets/usdai.md",
-      "last_verified": "2026-07-23",
+      "last_verified": "2026-08-12",
       "peg_mechanism": "fiat-backed",
       "issuer": "Permian Labs",
       "market_cap_approx": 155000000,
@@ -6502,6 +6534,7 @@
   ],
   "alias_map": {
     "$aavethena": "aavethena-loop-mainnet",
+    "$m": "m0",
     "3jane senior": "usd3-3jane",
     "3jane usd3": "usd3-3jane",
     "3usd": "usd3",
@@ -6666,7 +6699,12 @@
     "legacy frax dollar": "frax",
     "lido staked eth": "steth",
     "liquity bold": "bold",
+    "m": "m0",
+    "m by m^0": "m0",
+    "m zero": "m0",
+    "m0": "m0",
     "m0 musd": "musd-metamask",
+    "m^0": "m0",
     "main street usd": "msusd",
     "maple syrup": "syrupusdc",
     "maple syrup usdt": "syrupusdt",
@@ -6700,6 +6738,7 @@
     "musd (mezo)": "musd-mezo",
     "musd-metamask": "musd-metamask",
     "musd-mezo": "musd-mezo",
+    "mzero": "m0",
     "nalpha": "nalpha",
     "nest alpha vault": "nalpha",
     "nest blackopal liquidstone ii vault": "nopal",
