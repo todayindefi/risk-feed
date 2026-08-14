@@ -901,7 +901,7 @@
         }
       },
       "report_file": "assets/crvusd.md",
-      "last_verified": "2026-06-09",
+      "last_verified": "2026-08-13",
       "peg_mechanism": "algorithmic",
       "issuer": "Curve Finance",
       "market_cap_approx": 225000000,
@@ -1508,7 +1508,7 @@
         "peg_mechanism_score": 6.5,
         "backing_score": 6.5,
         "liquidity_score": 5.5,
-        "issuer_score": 5.0,
+        "issuer_score": 5.5,
         "overall_score": 5.5
       },
       "chain_scores": {
@@ -1516,85 +1516,85 @@
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.0,
+          "issuer_score": 5.5,
           "overall_score": 5.5
         },
         "fraxtal": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.0,
+          "issuer_score": 5.5,
           "overall_score": 5.5
         },
         "sonic": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.0,
+          "issuer_score": 5.5,
           "overall_score": 5.5
         },
         "arbitrum": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.0,
+          "issuer_score": 5.5,
           "overall_score": 5.5
         },
         "optimism": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.0,
+          "issuer_score": 5.5,
           "overall_score": 5.5
         },
         "base": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.0,
+          "issuer_score": 5.5,
           "overall_score": 5.5
         },
         "bsc": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.0,
+          "issuer_score": 5.5,
           "overall_score": 5.5
         },
         "avax": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.0,
+          "issuer_score": 5.5,
           "overall_score": 5.5
         },
         "polygon": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.0,
+          "issuer_score": 5.5,
           "overall_score": 5.5
         },
         "linea": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.0,
+          "issuer_score": 5.5,
           "overall_score": 5.5
         },
         "solana": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.0,
+          "issuer_score": 5.5,
           "overall_score": 5.5
         }
       },
       "report_file": "assets/frxusd.md",
-      "last_verified": "2026-06-08",
+      "last_verified": "2026-08-13",
       "peg_mechanism": "fiat-backed",
       "issuer": "Frax Finance",
-      "market_cap_approx": 124000000,
+      "market_cap_approx": 105500000,
       "audited_reserves": false
     },
     {
@@ -1785,37 +1785,37 @@
       "assessment_type": "light",
       "date": "2026-06-07",
       "default_scores": {
-        "peg_mechanism_score": 6.5,
-        "backing_score": 6.5,
+        "peg_mechanism_score": 5.5,
+        "backing_score": 6.0,
         "liquidity_score": 6.0,
         "issuer_score": 6.5,
-        "overall_score": 6.0
+        "overall_score": 5.5
       },
       "chain_scores": {
         "eth": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
+          "peg_mechanism_score": 5.5,
+          "backing_score": 6.0,
           "liquidity_score": 6.0,
           "issuer_score": 6.5,
-          "overall_score": 6.0
+          "overall_score": 5.5
         },
         "arb": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
+          "peg_mechanism_score": 5.5,
+          "backing_score": 6.0,
           "liquidity_score": 6.0,
           "issuer_score": 6.5,
-          "overall_score": 6.0
+          "overall_score": 5.5
         },
         "base": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
+          "peg_mechanism_score": 5.5,
+          "backing_score": 6.0,
           "liquidity_score": 6.0,
           "issuer_score": 6.5,
-          "overall_score": 6.0
+          "overall_score": 5.5
         }
       },
       "report_file": "assets/gho.md",
-      "last_verified": "2026-06-07",
+      "last_verified": "2026-08-13",
       "peg_mechanism": "crypto-overcollateralized",
       "issuer": "Aave DAO",
       "underlying_assets": [
@@ -3058,7 +3058,27 @@
         "sUSDe",
         "T-Bills"
       ],
-      "yield_bearing": true
+      "yield_bearing": true,
+      "unlevered_alternatives": [
+        {
+          "comparator": "pt",
+          "instrument": "PT-reUSD-10DEC2026",
+          "market_address": "0x13285bcbc27f92b47b4edb99d744c07b48c977c0",
+          "pt_address": "0xecfafdc7741323a945a163ed068b5a3c43483957",
+          "reachable": true,
+          "capacity_usd": 250000,
+          "note": "$9.07M market liquidity, 10.75% implied, 119d to maturity (Pendle API, 2026-08-13). Adds Pendle contract surface and pre-maturity exit risk the loop does not carry. Symbol verified on-chain: symbol() on 0xecfafdc7\u20263957 = PT-reUSD-10DEC2026.",
+          "review_if": "market liquidity < $3M, or within 90d of maturity"
+        },
+        {
+          "comparator": "spot",
+          "instrument": "reUSD",
+          "reachable": true,
+          "capacity_usd": 150000,
+          "note": "DEX-only for U.S. persons \u2014 no primary redemption (\u00a7II). ~$1.4M/day across Fluid + Curve, no CEX.",
+          "review_if": "DEX volume < $500k/day"
+        }
+      ]
     },
     {
       "asset": "reUSD (Resupply)",
@@ -3925,7 +3945,7 @@
       "default_scores": {
         "volatility_score": 9.0,
         "liquidity_score": 9.0,
-        "structural_score": 8.0,
+        "structural_score": 8.5,
         "redemption_score": 8.5,
         "overall_score": 8.5
       },
@@ -3933,13 +3953,13 @@
         "eth": {
           "volatility_score": 9.0,
           "liquidity_score": 9.0,
-          "structural_score": 8.0,
+          "structural_score": 8.5,
           "redemption_score": 8.5,
           "overall_score": 8.5
         }
       },
       "report_file": "assets/steth.md",
-      "last_verified": "2026-03-29",
+      "last_verified": "2026-08-13",
       "underlying_assets": [
         "ETH"
       ],
@@ -4340,7 +4360,27 @@
       "underlying_assets": [
         "USDS"
       ],
-      "yield_bearing": true
+      "yield_bearing": true,
+      "unlevered_alternatives": [
+        {
+          "comparator": "pt",
+          "instrument": "PT-sUSDS-26NOV2026",
+          "market_address": "0x9c560ebaf78e596cbcc27411d633a74d628dd7dc",
+          "pt_address": "0xdc169abe56461a2e0c034da431ac2a3ebf596094",
+          "reachable": true,
+          "capacity_usd": 100000,
+          "note": "5.07% implied, $3.46M market liquidity, 105d to maturity (Pendle API, 2026-08-13). Loop strips to 7.52% against it, i.e. clear by ~245bp on this pull (~237bp against FarmTracker's 5.15% read \u2014 pull timing, not a different conclusion). Symbol verified on-chain: symbol() on 0xdc169abe\u20266094 = PT-sUSDS-26NOV2026.",
+          "review_if": "market liquidity < $1.5M, or within 90d of maturity"
+        },
+        {
+          "comparator": "spot",
+          "instrument": "sUSDS",
+          "reachable": true,
+          "capacity_usd": 5000000,
+          "note": "ERC-4626 on USDS with on-chain redemption at share price \u2014 not liquidity-gated the way a secondary-only comparator is. Deep across 4 chains.",
+          "review_if": "Sky Savings Rate module USDS availability constrained, or on-chain redemption gated"
+        }
+      ]
     },
     {
       "asset": "sUSN",
@@ -5884,44 +5924,44 @@
       "assessment_type": "light",
       "date": "2026-05-26",
       "default_scores": {
-        "volatility_score": 7.0,
+        "volatility_score": 7.5,
         "liquidity_score": 6.5,
-        "structural_score": 6.5,
-        "redemption_score": 6.5,
-        "overall_score": 6.5
+        "structural_score": 7.0,
+        "redemption_score": 7.0,
+        "overall_score": 7.0
       },
       "chain_scores": {
         "eth": {
-          "volatility_score": 7.0,
+          "volatility_score": 7.5,
           "liquidity_score": 6.5,
-          "structural_score": 6.5,
-          "redemption_score": 6.5,
-          "overall_score": 6.5
+          "structural_score": 7.0,
+          "redemption_score": 7.0,
+          "overall_score": 7.0
         },
         "base": {
-          "volatility_score": 7.0,
+          "volatility_score": 7.5,
           "liquidity_score": 5.0,
-          "structural_score": 5.5,
-          "redemption_score": 5.5,
-          "overall_score": 5.5
+          "structural_score": 6.0,
+          "redemption_score": 6.0,
+          "overall_score": 6.0
         },
         "arbitrum": {
-          "volatility_score": 7.0,
+          "volatility_score": 7.5,
           "liquidity_score": 5.5,
-          "structural_score": 5.5,
-          "redemption_score": 6.5,
-          "overall_score": 5.5
+          "structural_score": 6.0,
+          "redemption_score": 7.0,
+          "overall_score": 6.0
         },
         "optimism": {
-          "volatility_score": 7.0,
+          "volatility_score": 7.5,
           "liquidity_score": 5.0,
-          "structural_score": 5.5,
-          "redemption_score": 6.5,
-          "overall_score": 5.5
+          "structural_score": 6.0,
+          "redemption_score": 7.0,
+          "overall_score": 6.0
         }
       },
       "report_file": "assets/weeth.md",
-      "last_verified": "2026-05-26",
+      "last_verified": "2026-08-13",
       "underlying_assets": [
         "ETH"
       ],
@@ -6328,7 +6368,27 @@
         "stETH",
         "ETH"
       ],
-      "yield_bearing": true
+      "yield_bearing": true,
+      "unlevered_alternatives": [
+        {
+          "comparator": "pt",
+          "instrument": "PT-stETH-30DEC2027",
+          "market_address": "0x34280882267ffa6383b363e278b027be083bbe3b",
+          "pt_address": "0xb253eff1104802b97ac7e3ac9fdd73aece295a2c",
+          "reachable": true,
+          "capacity_usd": 100000,
+          "note": "2.04% implied, $3.51M market liquidity, 504d to maturity (Pendle API, 2026-08-13). When quoting a PT comparator, take the deepest market with \u226560d to maturity and \u2265$1.5M liquidity \u2014 not the nearest by symbol match; short-dated implied APY annualizes mark error by 365/t and is not a measurement. On-chain PT symbol says stETH; the underlier is wstETH.",
+          "review_if": "market liquidity < $1.5M, or within 90d of maturity"
+        },
+        {
+          "comparator": "spot",
+          "instrument": "wstETH",
+          "reachable": true,
+          "capacity_usd": 2000000,
+          "note": "Deepest LST wrapper in DeFi; CEX-listed, multi-chain, and unwrappable to stETH on-chain with no gate. Effectively unconstrained at this book's size.",
+          "review_if": "stETH/ETH secondary discount > 50bp sustained, or Lido withdrawal queue > 14d"
+        }
+      ]
     },
     {
       "asset": "wYLDS",
