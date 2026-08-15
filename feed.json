@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-14T01:45:02Z",
+  "generated_at": "2026-08-15T01:45:02Z",
   "score_scale": "0-10, higher = lower risk",
   "endpoints": {
     "assets": "https://todayindefi.github.io/risk-feed/assets.json",
@@ -19,7 +19,7 @@
     }
   },
   "protocols": {
-    "count": 60,
+    "count": 61,
     "record_shape": "array under key 'protocols'; alias_map resolves names \u2192 slug",
     "score_fields": {
       "contract_score": "Smart-contract security",

@@ -1981,6 +1981,84 @@
       "last_verified": "2026-05-27"
     },
     {
+      "protocol": "Royco",
+      "slug": "royco",
+      "chains": [
+        "eth",
+        "avalanche",
+        "base",
+        "arbitrum",
+        "berachain",
+        "sonic",
+        "plume",
+        "corn"
+      ],
+      "category": "structured-product",
+      "assessment_type": "full",
+      "date": "2026-08-14",
+      "default_scores": {
+        "contract_score": 5.0,
+        "economic_score": 3.5,
+        "project_score": 3.5,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 5.0,
+          "economic_score": 3.5,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "avalanche": {
+          "contract_score": 5.0,
+          "economic_score": 3.5,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "base": {
+          "contract_score": 5.0,
+          "economic_score": 3.5,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "arbitrum": {
+          "contract_score": 5.0,
+          "economic_score": 3.5,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "berachain": {
+          "contract_score": 5.0,
+          "economic_score": 3.0,
+          "project_score": 3.5,
+          "overall_score": 3.5
+        },
+        "sonic": {
+          "contract_score": 5.0,
+          "economic_score": 3.5,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "plume": {
+          "contract_score": 5.0,
+          "economic_score": 3.5,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        },
+        "corn": {
+          "contract_score": 5.0,
+          "economic_score": 3.5,
+          "project_score": 3.5,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "reports/royco.md",
+      "tvl_gross": 40095523,
+      "tvl_net": 23029647,
+      "tvl_borrowed": 0,
+      "last_verified": "2026-08-14"
+    },
+    {
       "protocol": "Saturn Labs",
       "slug": "saturn",
       "chains": [
@@ -2690,6 +2768,7 @@
     "blackhaven": "blackhaven",
     "blackhaven.xyz": "blackhaven",
     "box vaults": "steakhouse-financial",
+    "boyco": "royco",
     "clo": "yei-finance",
     "clovis": "yei-finance",
     "convex": "convex",
@@ -2843,16 +2922,26 @@
     "revert lend": "revert-lend",
     "revert-compoundor": "revert-lend",
     "revert-lend": "revert-lend",
+    "royco": "royco",
+    "royco dawn": "royco",
+    "royco day": "royco",
+    "royco eth": "royco",
+    "royco protocol": "royco",
+    "royco v1": "royco",
+    "royco v2": "royco",
+    "roywsteth": "royco",
     "saturn": "saturn",
     "saturn credit": "saturn",
     "saturn labs": "saturn",
     "sdt": "stake-dao",
+    "senior royco usdc": "royco",
     "smokehouse": "steakhouse-financial",
     "spark": "spark",
     "spark protocol": "spark",
     "sparklend": "spark",
     "spl": "steakhouse-financial",
     "spuc": "steakhouse-financial",
+    "srroyusdc": "royco",
     "stake capital": "stake-dao",
     "stake dao": "stake-dao",
     "stake-dao": "stake-dao",
