@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-15T01:45:02Z",
+  "generated_at": "2026-08-17T01:45:02Z",
   "score_scale": "0-10, higher = lower risk",
   "endpoints": {
     "assets": "https://todayindefi.github.io/risk-feed/assets.json",
     "protocols": "https://todayindefi.github.io/risk-feed/protocols.json"
   },
   "assets": {
-    "count": 133,
+    "count": 134,
     "record_shape": "array under key 'assets'; alias_map resolves names/tickers \u2192 slug",
     "score_fields": {
       "volatility_score": "Price stability / peg volatility",

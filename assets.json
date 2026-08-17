@@ -1774,6 +1774,38 @@
       "yield_bearing": true
     },
     {
+      "asset": "Gauntlet USDT0 Vault (HyperEVM)",
+      "slug": "gauntlet-usdt0-hyperevm",
+      "chains": [
+        "hyper"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-08-16",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 3.5,
+        "structural_score": 4.0,
+        "redemption_score": 4.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "hyper": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/gauntlet-usdt0-hyperevm.md",
+      "last_verified": "2026-08-16",
+      "underlying_assets": [
+        "usdt0"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "GHO",
       "slug": "gho",
       "chains": [
@@ -2291,7 +2323,7 @@
       ],
       "category": "stablecoin",
       "assessment_type": "light",
-      "date": "2026-07-31",
+      "date": "2026-08-16",
       "default_scores": {
         "peg_mechanism_score": 1.0,
         "backing_score": 1.5,
@@ -2330,7 +2362,7 @@
         }
       },
       "report_file": "assets/msusd-metronome.md",
-      "last_verified": "2026-07-31",
+      "last_verified": "2026-08-16",
       "peg_mechanism": "crypto-overcollateralized",
       "issuer": "Metronome Synth",
       "market_cap_approx": 31100000,
@@ -3502,7 +3534,7 @@
         "liquidity_score": 5.5,
         "structural_score": 7.0,
         "redemption_score": 8.0,
-        "overall_score": 5.5
+        "overall_score": 5.0
       },
       "chain_scores": {
         "eth": {
@@ -3510,11 +3542,11 @@
           "liquidity_score": 5.5,
           "structural_score": 7.0,
           "redemption_score": 8.0,
-          "overall_score": 5.5
+          "overall_score": 5.0
         }
       },
       "report_file": "assets/scrvusd.md",
-      "last_verified": "2026-06-08",
+      "last_verified": "2026-08-17",
       "underlying_assets": [
         "crvUSD"
       ],
@@ -3832,27 +3864,27 @@
       ],
       "category": "vault-share",
       "assessment_type": "light",
-      "date": "2026-06-07",
+      "date": "2026-08-16",
       "default_scores": {
-        "volatility_score": 4.0,
+        "volatility_score": 4.5,
         "liquidity_score": 3.0,
-        "structural_score": 3.5,
+        "structural_score": 4.0,
         "redemption_score": 3.5,
-        "issuer_score": 4.5,
-        "overall_score": 3.5
+        "issuer_score": 5.0,
+        "overall_score": 4.0
       },
       "chain_scores": {
         "eth": {
-          "volatility_score": 4.0,
+          "volatility_score": 4.5,
           "liquidity_score": 3.0,
-          "structural_score": 3.5,
+          "structural_score": 4.0,
           "redemption_score": 3.5,
-          "issuer_score": 4.5,
-          "overall_score": 3.5
+          "issuer_score": 5.0,
+          "overall_score": 4.0
         }
       },
       "report_file": "assets/srusdat.md",
-      "last_verified": "2026-06-26",
+      "last_verified": "2026-08-16",
       "issuer": "Saturn Credit / Strata Markets",
       "underlying_assets": [
         "susdat",
@@ -4735,25 +4767,25 @@
       ],
       "category": "vault-share",
       "assessment_type": "light",
-      "date": "2026-06-08",
+      "date": "2026-08-16",
       "default_scores": {
         "volatility_score": 4.5,
         "liquidity_score": 2.0,
-        "structural_score": 3.5,
-        "redemption_score": 3.5,
-        "overall_score": 3.5
+        "structural_score": 3.0,
+        "redemption_score": 3.0,
+        "overall_score": 3.0
       },
       "chain_scores": {
         "arb": {
           "volatility_score": 4.5,
           "liquidity_score": 2.0,
-          "structural_score": 3.5,
-          "redemption_score": 3.5,
-          "overall_score": 3.5
+          "structural_score": 3.0,
+          "redemption_score": 3.0,
+          "overall_score": 3.0
         }
       },
       "report_file": "assets/tidmm.md",
-      "last_verified": "2026-06-08",
+      "last_verified": "2026-08-16",
       "underlying_assets": [
         "USDC"
       ],
@@ -5543,7 +5575,7 @@
         }
       },
       "report_file": "assets/usdt.md",
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-08-16",
       "peg_mechanism": "fiat-backed",
       "issuer": "Tether Limited (BVI) / iFinex",
       "market_cap_approx": 183500000000,
@@ -5553,29 +5585,37 @@
       "asset": "USDT0",
       "slug": "usdt0",
       "chains": [
-        "monad"
+        "monad",
+        "hyper"
       ],
       "category": "stablecoin",
       "assessment_type": "light",
-      "date": "2026-06-08",
+      "date": "2026-08-16",
       "default_scores": {
-        "peg_mechanism_score": 8.0,
-        "backing_score": 7.5,
+        "peg_mechanism_score": 7.5,
+        "backing_score": 6.0,
         "liquidity_score": 6.0,
-        "issuer_score": 6.5,
-        "overall_score": 6.5
+        "issuer_score": 5.5,
+        "overall_score": 6.0
       },
       "chain_scores": {
         "monad": {
-          "peg_mechanism_score": 8.0,
-          "backing_score": 7.5,
+          "peg_mechanism_score": 7.5,
+          "backing_score": 6.0,
           "liquidity_score": 6.0,
-          "issuer_score": 6.5,
-          "overall_score": 6.5
+          "issuer_score": 5.5,
+          "overall_score": 6.0
+        },
+        "hyper": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 6.0,
+          "liquidity_score": 6.0,
+          "issuer_score": 5.5,
+          "overall_score": 6.0
         }
       },
       "report_file": "assets/usdt0.md",
-      "last_verified": "2026-06-08",
+      "last_verified": "2026-08-16",
       "peg_mechanism": "fiat-backed",
       "issuer": "Tether (via LayerZero OFT)",
       "market_cap_approx": 187000000000,
@@ -6728,7 +6768,12 @@
     "gains gusdc": "gusdc",
     "gains network gusdc": "gusdc",
     "gauntlet eusd core": "gauntlet-eusd-core",
+    "gauntlet usdt0": "gauntlet-usdt0-hyperevm",
+    "gauntlet usdt0 vault": "gauntlet-usdt0-hyperevm",
+    "gauntlet usdt0 vault (hyperevm)": "gauntlet-usdt0-hyperevm",
+    "gauntlet usd\u20ae0 vault": "gauntlet-usdt0-hyperevm",
     "gauntlet-eusd-core": "gauntlet-eusd-core",
+    "gauntlet-usdt0-hyperevm": "gauntlet-usdt0-hyperevm",
     "gdai/gusdc": "gusdc",
     "gearbox ultrayield usdc monad": "edge-ultrayield-usdc-monad",
     "gho": "gho",
@@ -6736,6 +6781,7 @@
     "gteusdc": "gauntlet-eusd-core",
     "gtoken usdc": "gusdc",
     "gtrade usdc vault": "gusdc",
+    "gtusdt0": "gauntlet-usdt0-hyperevm",
     "gusdc": "gusdc",
     "hashnote us yield coin": "usyc",
     "hastra prime": "hastra-prime",
