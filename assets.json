@@ -143,7 +143,7 @@
         }
       },
       "report_file": "assets/apxusd.md",
-      "last_verified": "2026-08-10",
+      "last_verified": "2026-08-17",
       "peg_mechanism": "hybrid",
       "issuer": "Apyx",
       "market_cap_approx": 372000000,
@@ -195,7 +195,7 @@
         }
       },
       "report_file": "assets/apyusd.md",
-      "last_verified": "2026-08-10",
+      "last_verified": "2026-08-17",
       "issuer": "Apyx",
       "underlying_assets": [
         "apxUSD"
@@ -901,7 +901,7 @@
         }
       },
       "report_file": "assets/crvusd.md",
-      "last_verified": "2026-08-13",
+      "last_verified": "2026-08-17",
       "peg_mechanism": "algorithmic",
       "issuer": "Curve Finance",
       "market_cap_approx": 225000000,
@@ -1215,7 +1215,7 @@
         }
       },
       "report_file": "assets/ethplus.md",
-      "last_verified": "2026-07-05",
+      "last_verified": "2026-08-17",
       "underlying_assets": [
         "wstETH",
         "weETH",
@@ -1806,6 +1806,39 @@
       "yield_bearing": true
     },
     {
+      "asset": "Gearbox WETH Market (kpkWETH)",
+      "slug": "gearbox-weth-market",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-08-17",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "liquidity_score": 3.5,
+        "structural_score": 4.5,
+        "redemption_score": 4.5,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.0,
+          "liquidity_score": 3.5,
+          "structural_score": 4.5,
+          "redemption_score": 4.5,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/gearbox-weth-market.md",
+      "last_verified": "2026-08-17",
+      "issuer": "Gearbox Protocol (pool curated by Karpatkey)",
+      "underlying_assets": [
+        "WETH"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "GHO",
       "slug": "gho",
       "chains": [
@@ -2078,6 +2111,72 @@
       "audited_reserves": true
     },
     {
+      "asset": "K3 Capital Earn USDC",
+      "slug": "k3-capital-earn-usdc",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-08-17",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 3.0,
+        "structural_score": 4.0,
+        "redemption_score": 4.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.5,
+          "liquidity_score": 3.0,
+          "structural_score": 4.0,
+          "redemption_score": 4.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/k3-capital-earn-usdc.md",
+      "last_verified": "2026-08-17",
+      "issuer": "Euler (vault operated by K3 Capital)",
+      "underlying_assets": [
+        "USDC"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "K3 Capital Earn WETH (Monad)",
+      "slug": "k3-capital-earn-weth-monad",
+      "chains": [
+        "monad"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-08-17",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 5.5,
+        "structural_score": 4.5,
+        "redemption_score": 5.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "monad": {
+          "volatility_score": 6.5,
+          "liquidity_score": 5.5,
+          "structural_score": 4.5,
+          "redemption_score": 5.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/k3-capital-earn-weth-monad.md",
+      "last_verified": "2026-08-17",
+      "issuer": "Euler (vault operated by K3 Capital)",
+      "underlying_assets": [
+        "WETH"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "$M",
       "slug": "m0",
       "chains": [
@@ -2305,7 +2404,7 @@
       },
       "chain_scores": {},
       "report_file": "assets/mstr.md",
-      "last_verified": "2026-08-10",
+      "last_verified": "2026-08-17",
       "issuer": "Strategy Inc. (formerly MicroStrategy Incorporated)",
       "underlying_assets": [
         "btc"
@@ -3138,7 +3237,7 @@
         }
       },
       "report_file": "assets/reusd-resupply.md",
-      "last_verified": "2026-05-14",
+      "last_verified": "2026-08-17",
       "peg_mechanism": "hybrid",
       "issuer": "Resupply (subDAO of Convex Finance + Yearn Finance)",
       "market_cap_approx": 33400000,
@@ -3213,10 +3312,10 @@
         }
       },
       "report_file": "assets/rlusd.md",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-08-17",
       "peg_mechanism": "fiat-backed",
       "issuer": "Standard Custody & Trust Company (Ripple)",
-      "market_cap_approx": 1780000000,
+      "market_cap_approx": 1716000000,
       "audited_reserves": true
     },
     {
@@ -3624,6 +3723,39 @@
       "yield_bearing": true
     },
     {
+      "asset": "Sentora RLUSD Main",
+      "slug": "sentora-rlusd-main",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-08-17",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 5.5,
+        "structural_score": 5.0,
+        "redemption_score": 5.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.5,
+          "liquidity_score": 5.5,
+          "structural_score": 5.0,
+          "redemption_score": 5.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/sentora-rlusd-main.md",
+      "last_verified": "2026-08-17",
+      "issuer": "Morpho (vault curated by Sentora)",
+      "underlying_assets": [
+        "RLUSD"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "shUSD",
       "slug": "shusd",
       "chains": [
@@ -3966,6 +4098,72 @@
       "yield_bearing": true
     },
     {
+      "asset": "Steakhouse Prime ETH (Monad)",
+      "slug": "steakhouse-prime-eth-monad",
+      "chains": [
+        "monad"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-08-17",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 5.0,
+        "structural_score": 4.5,
+        "redemption_score": 5.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "monad": {
+          "volatility_score": 6.5,
+          "liquidity_score": 5.0,
+          "structural_score": 4.5,
+          "redemption_score": 5.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/steakhouse-prime-eth-monad.md",
+      "last_verified": "2026-08-17",
+      "issuer": "Morpho (vault curated by Steakhouse Financial)",
+      "underlying_assets": [
+        "WETH"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "Steakhouse Prime ETH (Ethereum)",
+      "slug": "steakhouse-prime-instant-eth",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-08-17",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "liquidity_score": 5.5,
+        "structural_score": 5.0,
+        "redemption_score": 6.0,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 6.5,
+          "liquidity_score": 5.5,
+          "structural_score": 5.0,
+          "redemption_score": 6.0,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/steakhouse-prime-instant-eth.md",
+      "last_verified": "2026-08-17",
+      "issuer": "Morpho (vault curated by Steakhouse Financial)",
+      "underlying_assets": [
+        "WETH"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "stETH",
       "slug": "steth",
       "chains": [
@@ -4012,7 +4210,7 @@
       },
       "chain_scores": {},
       "report_file": "assets/strc.md",
-      "last_verified": "2026-08-10",
+      "last_verified": "2026-08-17",
       "issuer": "Strategy Inc.",
       "underlying_assets": [
         "mstr"
@@ -4030,7 +4228,7 @@
       "date": "2026-05-21",
       "default_scores": {
         "volatility_score": 4.5,
-        "liquidity_score": 3.0,
+        "liquidity_score": 2.5,
         "structural_score": 6.0,
         "redemption_score": 3.0,
         "issuer_score": 6.0,
@@ -4039,7 +4237,7 @@
       "chain_scores": {
         "eth": {
           "volatility_score": 4.5,
-          "liquidity_score": 3.0,
+          "liquidity_score": 2.5,
           "structural_score": 6.0,
           "redemption_score": 3.0,
           "issuer_score": 6.0,
@@ -4047,7 +4245,7 @@
         }
       },
       "report_file": "assets/strcx.md",
-      "last_verified": "2026-08-10",
+      "last_verified": "2026-08-18",
       "underlying_assets": [
         "STRC"
       ],
@@ -4168,7 +4366,7 @@
         }
       },
       "report_file": "assets/susdat.md",
-      "last_verified": "2026-08-10",
+      "last_verified": "2026-08-18",
       "underlying_assets": [
         "USDat"
       ],
@@ -4256,7 +4454,7 @@
         }
       },
       "report_file": "assets/susde.md",
-      "last_verified": "2026-07-15",
+      "last_verified": "2026-08-17",
       "underlying_assets": [
         "USDe"
       ],
@@ -4513,7 +4711,7 @@
         }
       },
       "report_file": "assets/syrupusdc.md",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-08-17",
       "underlying_assets": [
         "USDC"
       ],
@@ -4547,7 +4745,7 @@
         }
       },
       "report_file": "assets/syrupusdt.md",
-      "last_verified": "2026-07-02",
+      "last_verified": "2026-08-17",
       "underlying_assets": [
         "USDT"
       ],
@@ -4748,7 +4946,7 @@
         }
       },
       "report_file": "assets/thusd.md",
-      "last_verified": "2026-07-13",
+      "last_verified": "2026-08-18",
       "peg_mechanism": "delta-neutral synthetic",
       "issuer": "Theo Network (Panama)",
       "underlying_assets": [
@@ -4756,7 +4954,7 @@
         "gold-carry (physical gold + short CME futures)"
       ],
       "yield_bearing": true,
-      "market_cap_approx": 106700000,
+      "market_cap_approx": 136140000,
       "audited_reserves": false
     },
     {
@@ -5068,7 +5266,7 @@
         }
       },
       "report_file": "assets/usdc.md",
-      "last_verified": "2026-06-08",
+      "last_verified": "2026-08-17",
       "peg_mechanism": "fiat-backed",
       "issuer": "Circle",
       "market_cap_approx": 75500000000,
@@ -6008,6 +6206,39 @@
       "yield_bearing": true
     },
     {
+      "asset": "weETHs",
+      "slug": "weeths",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-08-17",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "liquidity_score": 3.0,
+        "structural_score": 3.0,
+        "redemption_score": 3.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 5.5,
+          "liquidity_score": 3.0,
+          "structural_score": 3.0,
+          "redemption_score": 3.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/weeths.md",
+      "last_verified": "2026-08-17",
+      "issuer": "ether.fi (vault infrastructure by Veda)",
+      "underlying_assets": [
+        "WETH"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "WETH",
       "slug": "weth",
       "chains": [
@@ -6403,7 +6634,7 @@
         }
       },
       "report_file": "assets/wsteth.md",
-      "last_verified": "2026-05-26",
+      "last_verified": "2026-08-17",
       "underlying_assets": [
         "stETH",
         "ETH"
@@ -6721,11 +6952,14 @@
     "ethena usde": "usde",
     "ethena usdtb": "usdtb",
     "ether": "eth",
+    "ether.fi super symbiotic": "weeths",
     "ether.fi weeth": "weeth",
     "ethereum": "eth",
     "etherfi weeth": "weeth",
     "ethplus": "ethplus",
     "ethx": "ethx",
+    "euler earn usdc": "k3-capital-earn-usdc",
+    "euler earn weth": "k3-capital-earn-weth-monad",
     "euler eusdc": "eusdc",
     "euler prime": "euler-prime-usdc",
     "euler prime usdc": "euler-prime-usdc",
@@ -6775,7 +7009,11 @@
     "gauntlet-eusd-core": "gauntlet-eusd-core",
     "gauntlet-usdt0-hyperevm": "gauntlet-usdt0-hyperevm",
     "gdai/gusdc": "gusdc",
+    "gearbox kpkweth": "gearbox-weth-market",
     "gearbox ultrayield usdc monad": "edge-ultrayield-usdc-monad",
+    "gearbox weth market": "gearbox-weth-market",
+    "gearbox weth market (kpkweth)": "gearbox-weth-market",
+    "gearbox-weth-market": "gearbox-weth-market",
     "gho": "gho",
     "global dollar": "usdg",
     "gteusdc": "gauntlet-eusd-core",
@@ -6798,8 +7036,17 @@
     "jaaa": "jaaa",
     "jaaaon": "jaaa",
     "janus henderson anemoy aaa clo fund": "jaaa",
+    "k3 capital earn usdc": "k3-capital-earn-usdc",
+    "k3 capital earn weth": "k3-capital-earn-weth-monad",
+    "k3 capital earn weth (monad)": "k3-capital-earn-weth-monad",
+    "k3-capital-earn-usdc": "k3-capital-earn-usdc",
+    "k3-capital-earn-weth-monad": "k3-capital-earn-weth-monad",
+    "k3usdc": "k3-capital-earn-usdc",
+    "k3weth": "k3-capital-earn-weth-monad",
+    "karpatkey weth market": "gearbox-weth-market",
     "kelp rseth": "rseth",
     "kelpdao rseth": "rseth",
+    "kpkweth": "gearbox-weth-market",
     "lagoon perp": "tidmm",
     "legacy frax": "frax",
     "legacy frax dollar": "frax",
@@ -6926,6 +7173,10 @@
     "sdfrxusdv2": "stakedao-frxusd-v2",
     "sdola": "sdola",
     "senior usdat": "srusdat",
+    "senrlusdv2": "sentora-rlusd-main",
+    "sentora rlusd": "sentora-rlusd-main",
+    "sentora rlusd main": "sentora-rlusd-main",
+    "sentora-rlusd-main": "sentora-rlusd-main",
     "series a perpetual strategy preferred stock": "strc",
     "sherpa earn": "shusd",
     "sherpaearn": "shusd",
@@ -6964,6 +7215,16 @@
     "stakedao frxusd v2": "stakedao-frxusd-v2",
     "stakedao-frxusd-v2": "stakedao-frxusd-v2",
     "stcusd": "stcusd",
+    "steaketh ethereum": "steakhouse-prime-instant-eth",
+    "steaketh monad": "steakhouse-prime-eth-monad",
+    "steakhouse prime eth": "steakhouse-prime-eth-monad",
+    "steakhouse prime eth (ethereum)": "steakhouse-prime-instant-eth",
+    "steakhouse prime eth (monad)": "steakhouse-prime-eth-monad",
+    "steakhouse prime eth ethereum": "steakhouse-prime-instant-eth",
+    "steakhouse prime eth monad": "steakhouse-prime-eth-monad",
+    "steakhouse prime instant": "steakhouse-prime-instant-eth",
+    "steakhouse-prime-eth-monad": "steakhouse-prime-eth-monad",
+    "steakhouse-prime-instant-eth": "steakhouse-prime-instant-eth",
     "steth": "steth",
     "sthusd": "thusd",
     "strata senior usdat": "srusdat",
@@ -6977,6 +7238,7 @@
     "stretch": "strc",
     "super oeth": "superoethb",
     "super oethb": "superoethb",
+    "super symbiotic lrt": "weeths",
     "superoethb": "superoethb",
     "susdai": "susdai",
     "susdat": "susdat",
@@ -7051,7 +7313,10 @@
     "web 3 dollar": "usd3",
     "web3 dollar": "usd3",
     "weeth": "weeth",
+    "weeth-s": "weeths",
+    "weeths": "weeths",
     "weth": "weth",
+    "weth market": "gearbox-weth-market",
     "whlp": "whlp",
     "whype": "hype",
     "wlfi usd1": "usd1",
