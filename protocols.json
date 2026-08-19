@@ -2153,14 +2153,14 @@
       "assessment_type": "full",
       "date": "2026-03-18",
       "default_scores": {
-        "contract_score": 5.0,
+        "contract_score": 5.5,
         "economic_score": 6.0,
         "project_score": 5.5,
         "overall_score": 5.5
       },
       "chain_scores": {
         "eth": {
-          "contract_score": 5.0,
+          "contract_score": 5.5,
           "economic_score": 6.0,
           "project_score": 5.5,
           "overall_score": 5.5
@@ -2168,7 +2168,7 @@
       },
       "report_file": "reports/stake-dao.md",
       "tvl_gross": 166000000,
-      "last_verified": "2026-05-28"
+      "last_verified": "2026-08-18"
     },
     {
       "protocol": "Steakhouse Financial",
