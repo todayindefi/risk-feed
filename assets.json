@@ -4675,6 +4675,62 @@
       "yield_bearing": true
     },
     {
+      "asset": "svZCHF",
+      "slug": "svzchf",
+      "chains": [
+        "eth",
+        "gnosis",
+        "base",
+        "optimism"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-08-20",
+      "default_scores": {
+        "volatility_score": 7.0,
+        "liquidity_score": 5.5,
+        "structural_score": 7.5,
+        "redemption_score": 8.5,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.5,
+          "structural_score": 7.5,
+          "redemption_score": 8.5,
+          "overall_score": 4.5
+        },
+        "gnosis": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.5,
+          "structural_score": 7.5,
+          "redemption_score": 8.5,
+          "overall_score": 4.5
+        },
+        "base": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.5,
+          "structural_score": 6.0,
+          "redemption_score": 8.5,
+          "overall_score": 4.0
+        },
+        "optimism": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.5,
+          "structural_score": 6.0,
+          "redemption_score": 8.5,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/svzchf.md",
+      "last_verified": "2026-08-20",
+      "underlying_assets": [
+        "ZCHF"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "syrupUSDC",
       "slug": "syrupusdc",
       "chains": [
@@ -6912,6 +6968,94 @@
       "issuer": "Yuzu Money",
       "market_cap_approx": 42000000,
       "audited_reserves": false
+    },
+    {
+      "asset": "ZCHF",
+      "slug": "zchf",
+      "chains": [
+        "eth",
+        "gnosis",
+        "optimism",
+        "base",
+        "polygon",
+        "arb",
+        "avax",
+        "sonic"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "light",
+      "date": "2026-08-20",
+      "default_scores": {
+        "peg_mechanism_score": 6.5,
+        "backing_score": 5.0,
+        "liquidity_score": 5.5,
+        "issuer_score": 5.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 5.0,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "gnosis": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 5.0,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "optimism": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 5.0,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "base": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 5.0,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "polygon": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 5.0,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "arb": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 5.0,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "avax": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 5.0,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "sonic": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 5.0,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/zchf.md",
+      "last_verified": "2026-08-20",
+      "peg_mechanism": "crypto-overcollateralized",
+      "issuer": "none \u2014 decentralised protocol (Frankencoin Association develops, does not issue)",
+      "market_cap_approx": 42800000,
+      "audited_reserves": false
     }
   ],
   "alias_map": {
@@ -7031,6 +7175,8 @@
     "figure lending": "figure",
     "figure technology solutions": "figure",
     "fluid lending gho": "gho",
+    "frankencoin": "zchf",
+    "frankencoin savings vault": "svzchf",
     "frax": "frax",
     "frax bond dec 2026": "fxb-20261231",
     "frax bond dec 2027": "fxb-20271231",
@@ -7219,6 +7365,7 @@
     "savings rusd": "srusd",
     "savings usdp": "susdp",
     "savings usds": "susds",
+    "savingsvault zchf": "svzchf",
     "savusd": "savusd",
     "scrvusd": "scrvusd",
     "sdfrxusdv2": "stakedao-frxusd-v2",
@@ -7297,6 +7444,7 @@
     "susdp": "susdp",
     "susds": "susds",
     "susn": "susn",
+    "svzchf": "svzchf",
     "syrup usdc": "syrupusdc",
     "syrup usdt": "syrupusdt",
     "syrupusd": "syrupusdc",
@@ -7405,6 +7553,7 @@
     "ynusdx": "ynusd",
     "yuzu money usd": "yzusd",
     "yuzu usd": "yzusd",
-    "yzusd": "yzusd"
+    "yzusd": "yzusd",
+    "zchf": "zchf"
   }
 }
