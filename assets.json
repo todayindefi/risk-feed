@@ -5566,8 +5566,7 @@
       "slug": "usdm",
       "chains": [
         "celo",
-        "monad",
-        "eth"
+        "monad"
       ],
       "category": "stablecoin",
       "assessment_type": "full",
@@ -5593,13 +5592,6 @@
           "liquidity_score": 4.5,
           "issuer_score": 6.5,
           "overall_score": 4.5
-        },
-        "eth": {
-          "peg_mechanism_score": 7.0,
-          "backing_score": 4.5,
-          "liquidity_score": 5.0,
-          "issuer_score": 6.5,
-          "overall_score": 5.0
         }
       },
       "report_file": "assets/usdm.md",
@@ -6984,77 +6976,77 @@
       ],
       "category": "stablecoin",
       "assessment_type": "light",
-      "date": "2026-08-20",
+      "date": "2026-08-21",
       "default_scores": {
         "peg_mechanism_score": 6.5,
-        "backing_score": 5.0,
+        "backing_score": 4.0,
         "liquidity_score": 5.5,
         "issuer_score": 5.5,
-        "overall_score": 5.0
+        "overall_score": 4.0
       },
       "chain_scores": {
         "eth": {
           "peg_mechanism_score": 6.5,
-          "backing_score": 5.0,
+          "backing_score": 4.0,
           "liquidity_score": 5.5,
           "issuer_score": 5.5,
-          "overall_score": 5.0
+          "overall_score": 4.0
         },
         "gnosis": {
           "peg_mechanism_score": 6.5,
-          "backing_score": 5.0,
+          "backing_score": 4.0,
           "liquidity_score": 5.5,
           "issuer_score": 5.5,
-          "overall_score": 5.0
+          "overall_score": 4.0
         },
         "optimism": {
           "peg_mechanism_score": 6.5,
-          "backing_score": 5.0,
+          "backing_score": 4.0,
           "liquidity_score": 5.5,
           "issuer_score": 5.5,
-          "overall_score": 5.0
+          "overall_score": 4.0
         },
         "base": {
           "peg_mechanism_score": 6.5,
-          "backing_score": 5.0,
+          "backing_score": 4.0,
           "liquidity_score": 5.5,
           "issuer_score": 5.5,
-          "overall_score": 5.0
+          "overall_score": 4.0
         },
         "polygon": {
           "peg_mechanism_score": 6.5,
-          "backing_score": 5.0,
+          "backing_score": 4.0,
           "liquidity_score": 5.5,
           "issuer_score": 5.5,
-          "overall_score": 5.0
+          "overall_score": 4.0
         },
         "arb": {
           "peg_mechanism_score": 6.5,
-          "backing_score": 5.0,
+          "backing_score": 4.0,
           "liquidity_score": 5.5,
           "issuer_score": 5.5,
-          "overall_score": 5.0
+          "overall_score": 4.0
         },
         "avax": {
           "peg_mechanism_score": 6.5,
-          "backing_score": 5.0,
+          "backing_score": 4.0,
           "liquidity_score": 5.5,
           "issuer_score": 5.5,
-          "overall_score": 5.0
+          "overall_score": 4.0
         },
         "sonic": {
           "peg_mechanism_score": 6.5,
-          "backing_score": 5.0,
+          "backing_score": 4.0,
           "liquidity_score": 5.5,
           "issuer_score": 5.5,
-          "overall_score": 5.0
+          "overall_score": 4.0
         }
       },
       "report_file": "assets/zchf.md",
-      "last_verified": "2026-08-20",
+      "last_verified": "2026-08-21",
       "peg_mechanism": "crypto-overcollateralized",
       "issuer": "none \u2014 decentralised protocol (Frankencoin Association develops, does not issue)",
-      "market_cap_approx": 42800000,
+      "market_cap_approx": 34230000,
       "audited_reserves": false
     }
   ],
