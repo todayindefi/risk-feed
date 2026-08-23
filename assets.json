@@ -232,132 +232,132 @@
         "peg_mechanism_score": 8.5,
         "backing_score": 8.0,
         "liquidity_score": 6.5,
-        "issuer_score": 7.0,
-        "overall_score": 7.0
+        "issuer_score": 6.5,
+        "overall_score": 6.5
       },
       "chain_scores": {
         "eth": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "arb": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "avax": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "base": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "polygon": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "bnb": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "sol": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "sui": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "mantle": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "monad": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "katana": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "gnosis": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "plume": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "core": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "fraxtal": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "immutable": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         },
         "injective": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
           "liquidity_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "issuer_score": 6.5,
+          "overall_score": 6.5
         }
       },
       "report_file": "assets/ausd.md",
-      "last_verified": "2026-07-08",
+      "last_verified": "2026-08-22",
       "peg_mechanism": "fiat-backed",
       "issuer": "Agora Finance (Agora Bermuda Limited)",
       "market_cap_approx": 181000000,
@@ -835,9 +835,7 @@
         "arb",
         "op",
         "fraxtal",
-        "bsc",
-        "avax",
-        "fantom"
+        "bsc"
       ],
       "category": "stablecoin",
       "assessment_type": "full",
@@ -879,20 +877,6 @@
           "overall_score": 5.0
         },
         "bsc": {
-          "peg_mechanism_score": 6.0,
-          "backing_score": 5.0,
-          "liquidity_score": 6.0,
-          "issuer_score": 6.0,
-          "overall_score": 5.0
-        },
-        "avax": {
-          "peg_mechanism_score": 6.0,
-          "backing_score": 5.0,
-          "liquidity_score": 6.0,
-          "issuer_score": 6.0,
-          "overall_score": 5.0
-        },
-        "fantom": {
           "peg_mechanism_score": 6.0,
           "backing_score": 5.0,
           "liquidity_score": 6.0,
@@ -2896,7 +2880,8 @@
       "asset": "PT-srUSDat",
       "slug": "pt-srusdat",
       "chains": [
-        "eth"
+        "eth",
+        "monad"
       ],
       "category": "vault-share",
       "assessment_type": "light",
@@ -2910,6 +2895,13 @@
       },
       "chain_scores": {
         "eth": {
+          "volatility_score": 3.5,
+          "liquidity_score": 3.5,
+          "structural_score": 3.5,
+          "redemption_score": 3.5,
+          "overall_score": 3.5
+        },
+        "monad": {
           "volatility_score": 3.5,
           "liquidity_score": 3.5,
           "structural_score": 3.5,
@@ -4410,7 +4402,8 @@
         "bsc",
         "mantle",
         "blast",
-        "fraxtal"
+        "fraxtal",
+        "monad"
       ],
       "category": "vault-share",
       "assessment_type": "full",
@@ -4478,10 +4471,17 @@
           "structural_score": 7.0,
           "redemption_score": 6.5,
           "overall_score": 6.5
+        },
+        "monad": {
+          "volatility_score": 6.5,
+          "liquidity_score": 7.0,
+          "structural_score": 7.0,
+          "redemption_score": 6.5,
+          "overall_score": 6.5
         }
       },
       "report_file": "assets/susde.md",
-      "last_verified": "2026-08-17",
+      "last_verified": "2026-08-22",
       "underlying_assets": [
         "USDe"
       ],
@@ -4738,7 +4738,8 @@
         "sol",
         "arb",
         "base",
-        "plasma"
+        "plasma",
+        "monad"
       ],
       "category": "vault-share",
       "assessment_type": "full",
@@ -4791,6 +4792,14 @@
           "redemption_score": 7.5,
           "issuer_score": 5.5,
           "overall_score": 6.75
+        },
+        "monad": {
+          "volatility_score": 8.5,
+          "liquidity_score": 7.5,
+          "structural_score": 6.5,
+          "redemption_score": 7.5,
+          "issuer_score": 5.5,
+          "overall_score": 6.75
         }
       },
       "report_file": "assets/syrupusdc.md",
@@ -4804,7 +4813,8 @@
       "asset": "syrupUSDT",
       "slug": "syrupusdt",
       "chains": [
-        "eth"
+        "eth",
+        "plasma"
       ],
       "category": "vault-share",
       "assessment_type": "full",
@@ -4819,6 +4829,14 @@
       },
       "chain_scores": {
         "eth": {
+          "volatility_score": 8.5,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "redemption_score": 6.5,
+          "issuer_score": 5.5,
+          "overall_score": 6.0
+        },
+        "plasma": {
           "volatility_score": 8.5,
           "liquidity_score": 6.0,
           "structural_score": 6.0,
@@ -5303,7 +5321,8 @@
       "asset": "USDat",
       "slug": "usdat",
       "chains": [
-        "eth"
+        "eth",
+        "bnb"
       ],
       "category": "stablecoin",
       "assessment_type": "light",
@@ -5317,6 +5336,13 @@
       },
       "chain_scores": {
         "eth": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 6.5,
+          "liquidity_score": 5.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "bnb": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
@@ -5337,7 +5363,9 @@
       "chains": [
         "eth",
         "arb",
-        "monad"
+        "monad",
+        "base",
+        "hyper"
       ],
       "category": "stablecoin",
       "assessment_type": "light",
@@ -5346,34 +5374,48 @@
         "peg_mechanism_score": 9.0,
         "backing_score": 9.0,
         "liquidity_score": 9.5,
-        "issuer_score": 8.5,
-        "overall_score": 9.0
+        "issuer_score": 8.0,
+        "overall_score": 8.5
       },
       "chain_scores": {
         "eth": {
           "peg_mechanism_score": 9.0,
           "backing_score": 9.0,
           "liquidity_score": 9.5,
-          "issuer_score": 8.5,
-          "overall_score": 9.0
+          "issuer_score": 8.0,
+          "overall_score": 8.5
         },
         "arb": {
           "peg_mechanism_score": 9.0,
           "backing_score": 9.0,
           "liquidity_score": 9.5,
-          "issuer_score": 8.5,
-          "overall_score": 9.0
+          "issuer_score": 8.0,
+          "overall_score": 8.5
         },
         "monad": {
           "peg_mechanism_score": 9.0,
           "backing_score": 9.0,
           "liquidity_score": 7.0,
-          "issuer_score": 8.5,
+          "issuer_score": 8.0,
           "overall_score": 8.0
+        },
+        "base": {
+          "peg_mechanism_score": 9.0,
+          "backing_score": 9.0,
+          "liquidity_score": 9.5,
+          "issuer_score": 8.0,
+          "overall_score": 8.5
+        },
+        "hyper": {
+          "peg_mechanism_score": 9.0,
+          "backing_score": 9.0,
+          "liquidity_score": 9.5,
+          "issuer_score": 8.0,
+          "overall_score": 8.5
         }
       },
       "report_file": "assets/usdc.md",
-      "last_verified": "2026-08-17",
+      "last_verified": "2026-08-22",
       "peg_mechanism": "fiat-backed",
       "issuer": "Circle",
       "market_cap_approx": 75500000000,
@@ -5509,7 +5551,7 @@
         }
       },
       "report_file": "assets/usde.md",
-      "last_verified": "2026-07-14",
+      "last_verified": "2026-08-22",
       "peg_mechanism": "hybrid",
       "issuer": "Ethena Labs",
       "market_cap_approx": 4480000000,
@@ -5883,7 +5925,8 @@
       "slug": "usdt0",
       "chains": [
         "monad",
-        "hyper"
+        "hyperevm",
+        "plasma"
       ],
       "category": "stablecoin",
       "assessment_type": "light",
@@ -5903,7 +5946,14 @@
           "issuer_score": 5.5,
           "overall_score": 6.0
         },
-        "hyper": {
+        "hyperevm": {
+          "peg_mechanism_score": 7.5,
+          "backing_score": 6.0,
+          "liquidity_score": 6.0,
+          "issuer_score": 5.5,
+          "overall_score": 6.0
+        },
+        "plasma": {
           "peg_mechanism_score": 7.5,
           "backing_score": 6.0,
           "liquidity_score": 6.0,
@@ -6704,7 +6754,8 @@
       "slug": "wsteth",
       "chains": [
         "eth",
-        "base"
+        "base",
+        "monad"
       ],
       "category": "wrapped-token",
       "assessment_type": "light",
@@ -6730,6 +6781,13 @@
           "structural_score": 7.0,
           "redemption_score": 7.5,
           "overall_score": 7.5
+        },
+        "monad": {
+          "volatility_score": 9.0,
+          "liquidity_score": 9.0,
+          "structural_score": 6.5,
+          "redemption_score": 8.5,
+          "overall_score": 7.0
         }
       },
       "report_file": "assets/wsteth.md",
