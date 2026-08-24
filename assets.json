@@ -4202,7 +4202,7 @@
       },
       "chain_scores": {},
       "report_file": "assets/strc.md",
-      "last_verified": "2026-08-17",
+      "last_verified": "2026-08-24",
       "issuer": "Strategy Inc.",
       "underlying_assets": [
         "mstr"
@@ -4330,7 +4330,7 @@
         }
       },
       "report_file": "assets/susdai.md",
-      "last_verified": "2026-08-18",
+      "last_verified": "2026-08-24",
       "issuer": "Permian Labs",
       "underlying_assets": [
         "USDai",
@@ -5311,7 +5311,7 @@
         }
       },
       "report_file": "assets/usdai.md",
-      "last_verified": "2026-08-18",
+      "last_verified": "2026-08-24",
       "peg_mechanism": "fiat-backed",
       "issuer": "Permian Labs",
       "market_cap_approx": 155000000,
@@ -5551,7 +5551,7 @@
         }
       },
       "report_file": "assets/usde.md",
-      "last_verified": "2026-08-22",
+      "last_verified": "2026-08-24",
       "peg_mechanism": "hybrid",
       "issuer": "Ethena Labs",
       "market_cap_approx": 4480000000,
@@ -6168,7 +6168,7 @@
         }
       },
       "report_file": "assets/usg.md",
-      "last_verified": "2026-08-05",
+      "last_verified": "2026-08-24",
       "peg_mechanism": "hybrid",
       "issuer": "Tangent Finance",
       "market_cap_approx": 3760000,
