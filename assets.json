@@ -925,7 +925,7 @@
         }
       },
       "report_file": "assets/cusd.md",
-      "last_verified": "2026-07-14",
+      "last_verified": "2026-08-24",
       "peg_mechanism": "basket",
       "issuer": "Cap Labs",
       "market_cap_approx": 62000000,
@@ -2838,7 +2838,7 @@
         }
       },
       "report_file": "assets/ousd.md",
-      "last_verified": "2026-07-13",
+      "last_verified": "2026-08-24",
       "peg_mechanism": "hybrid",
       "issuer": "Origin Protocol",
       "market_cap_approx": 6940000,
@@ -4083,7 +4083,7 @@
         }
       },
       "report_file": "assets/stcusd.md",
-      "last_verified": "2026-07-14",
+      "last_verified": "2026-08-24",
       "underlying_assets": [
         "cUSD"
       ],
@@ -4481,7 +4481,7 @@
         }
       },
       "report_file": "assets/susde.md",
-      "last_verified": "2026-08-22",
+      "last_verified": "2026-08-24",
       "underlying_assets": [
         "USDe"
       ],
@@ -5463,7 +5463,7 @@
         }
       },
       "report_file": "assets/usdd.md",
-      "last_verified": "2026-07-13",
+      "last_verified": "2026-08-24",
       "peg_mechanism": "hybrid",
       "issuer": "TRON DAO Reserve",
       "market_cap_approx": 1558000000,
@@ -5637,7 +5637,7 @@
         }
       },
       "report_file": "assets/usdm.md",
-      "last_verified": "2026-08-14",
+      "last_verified": "2026-08-24",
       "peg_mechanism": "fiat-backed",
       "issuer": "Mento Labs (Germany)",
       "market_cap_approx": 16314105,
