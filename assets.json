@@ -195,7 +195,7 @@
         }
       },
       "report_file": "assets/apyusd.md",
-      "last_verified": "2026-08-17",
+      "last_verified": "2026-08-25",
       "issuer": "Apyx",
       "underlying_assets": [
         "apxUSD"
@@ -842,50 +842,50 @@
       "date": "2026-03-28",
       "default_scores": {
         "peg_mechanism_score": 6.0,
-        "backing_score": 5.0,
+        "backing_score": 4.5,
         "liquidity_score": 6.0,
         "issuer_score": 6.0,
-        "overall_score": 5.0
+        "overall_score": 4.5
       },
       "chain_scores": {
         "eth": {
           "peg_mechanism_score": 6.0,
-          "backing_score": 5.0,
+          "backing_score": 4.5,
           "liquidity_score": 6.0,
           "issuer_score": 6.0,
-          "overall_score": 5.0
+          "overall_score": 4.5
         },
         "arb": {
           "peg_mechanism_score": 6.0,
-          "backing_score": 5.0,
+          "backing_score": 4.5,
           "liquidity_score": 6.0,
           "issuer_score": 6.0,
-          "overall_score": 5.0
+          "overall_score": 4.5
         },
         "op": {
           "peg_mechanism_score": 6.0,
-          "backing_score": 5.0,
+          "backing_score": 4.5,
           "liquidity_score": 6.0,
           "issuer_score": 6.0,
-          "overall_score": 5.0
+          "overall_score": 4.5
         },
         "fraxtal": {
           "peg_mechanism_score": 6.0,
-          "backing_score": 5.0,
+          "backing_score": 4.5,
           "liquidity_score": 6.0,
           "issuer_score": 6.0,
-          "overall_score": 5.0
+          "overall_score": 4.5
         },
         "bsc": {
           "peg_mechanism_score": 6.0,
-          "backing_score": 5.0,
+          "backing_score": 4.5,
           "liquidity_score": 6.0,
           "issuer_score": 6.0,
-          "overall_score": 5.0
+          "overall_score": 4.5
         }
       },
       "report_file": "assets/crvusd.md",
-      "last_verified": "2026-08-17",
+      "last_verified": "2026-08-24",
       "peg_mechanism": "algorithmic",
       "issuer": "Curve Finance",
       "market_cap_approx": 225000000,
@@ -1492,7 +1492,7 @@
         "peg_mechanism_score": 6.5,
         "backing_score": 6.5,
         "liquidity_score": 5.5,
-        "issuer_score": 5.5,
+        "issuer_score": 5.0,
         "overall_score": 5.5
       },
       "chain_scores": {
@@ -1500,82 +1500,82 @@
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.5,
+          "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "fraxtal": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.5,
+          "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "sonic": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.5,
+          "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "arbitrum": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.5,
+          "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "optimism": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.5,
+          "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "base": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.5,
+          "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "bsc": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.5,
+          "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "avax": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.5,
+          "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "polygon": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.5,
+          "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "linea": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.5,
+          "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "solana": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
           "liquidity_score": 5.5,
-          "issuer_score": 5.5,
+          "issuer_score": 5.0,
           "overall_score": 5.5
         }
       },
       "report_file": "assets/frxusd.md",
-      "last_verified": "2026-08-13",
+      "last_verified": "2026-08-24",
       "peg_mechanism": "fiat-backed",
       "issuer": "Frax Finance",
       "market_cap_approx": 105500000,
@@ -3173,7 +3173,7 @@
         }
       },
       "report_file": "assets/reusd-re.md",
-      "last_verified": "2026-08-12",
+      "last_verified": "2026-08-24",
       "issuer": "Resilience BVI Ltd.",
       "underlying_assets": [
         "USDC",
@@ -3304,7 +3304,7 @@
         }
       },
       "report_file": "assets/rlusd.md",
-      "last_verified": "2026-08-17",
+      "last_verified": "2026-08-24",
       "peg_mechanism": "fiat-backed",
       "issuer": "Standard Custody & Trust Company (Ripple)",
       "market_cap_approx": 1716000000,
@@ -4613,7 +4613,7 @@
         }
       },
       "report_file": "assets/susds.md",
-      "last_verified": "2026-08-01",
+      "last_verified": "2026-08-24",
       "underlying_assets": [
         "USDS"
       ],
@@ -5018,36 +5018,36 @@
       "date": "2026-07-13",
       "default_scores": {
         "peg_mechanism_score": 4.0,
-        "backing_score": 3.0,
+        "backing_score": 2.5,
         "liquidity_score": 3.5,
         "issuer_score": 5.5,
-        "overall_score": 4.0
+        "overall_score": 3.5
       },
       "chain_scores": {
         "eth": {
           "peg_mechanism_score": 4.0,
-          "backing_score": 3.0,
+          "backing_score": 2.5,
           "liquidity_score": 3.5,
           "issuer_score": 5.5,
-          "overall_score": 4.0
+          "overall_score": 3.5
         },
         "arb": {
           "peg_mechanism_score": 4.0,
-          "backing_score": 3.0,
+          "backing_score": 2.5,
           "liquidity_score": 3.5,
           "issuer_score": 5.5,
-          "overall_score": 4.0
+          "overall_score": 3.5
         },
         "stable": {
           "peg_mechanism_score": 4.0,
-          "backing_score": 3.0,
+          "backing_score": 2.5,
           "liquidity_score": 3.5,
           "issuer_score": 5.5,
-          "overall_score": 4.0
+          "overall_score": 3.5
         }
       },
       "report_file": "assets/thusd.md",
-      "last_verified": "2026-08-18",
+      "last_verified": "2026-08-24",
       "peg_mechanism": "delta-neutral synthetic",
       "issuer": "Theo Network (Panama)",
       "underlying_assets": [
@@ -5826,7 +5826,7 @@
         }
       },
       "report_file": "assets/usds.md",
-      "last_verified": "2026-08-01",
+      "last_verified": "2026-08-25",
       "peg_mechanism": "hybrid",
       "issuer": "Sky Protocol (formerly MakerDAO)",
       "market_cap_approx": 8411000000,
@@ -5914,7 +5914,7 @@
         }
       },
       "report_file": "assets/usdt.md",
-      "last_verified": "2026-08-16",
+      "last_verified": "2026-08-25",
       "peg_mechanism": "fiat-backed",
       "issuer": "Tether Limited (BVI) / iFinex",
       "market_cap_approx": 183500000000,
@@ -6348,7 +6348,7 @@
         }
       },
       "report_file": "assets/weeth.md",
-      "last_verified": "2026-08-13",
+      "last_verified": "2026-08-24",
       "underlying_assets": [
         "ETH"
       ],
