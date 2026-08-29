@@ -4938,7 +4938,7 @@
         "liquidity_score": 3.0,
         "structural_score": 2.0,
         "redemption_score": 2.5,
-        "issuer_score": 3.0,
+        "issuer_score": 4.0,
         "overall_score": 2.5
       },
       "chain_scores": {
@@ -4947,7 +4947,7 @@
           "liquidity_score": 3.0,
           "structural_score": 2.0,
           "redemption_score": 2.5,
-          "issuer_score": 3.0,
+          "issuer_score": 4.0,
           "overall_score": 2.5
         },
         "monad": {
@@ -4955,7 +4955,7 @@
           "liquidity_score": 3.0,
           "structural_score": 1.5,
           "redemption_score": 2.0,
-          "issuer_score": 3.0,
+          "issuer_score": 4.0,
           "overall_score": 2.0
         },
         "sei": {
@@ -4963,7 +4963,7 @@
           "liquidity_score": 3.0,
           "structural_score": 2.0,
           "redemption_score": 2.5,
-          "issuer_score": 3.0,
+          "issuer_score": 4.0,
           "overall_score": 2.5
         },
         "pharos": {
@@ -4971,7 +4971,7 @@
           "liquidity_score": 3.0,
           "structural_score": 2.0,
           "redemption_score": 2.5,
-          "issuer_score": 3.0,
+          "issuer_score": 4.0,
           "overall_score": 2.5
         },
         "eth": {
@@ -4979,7 +4979,7 @@
           "liquidity_score": 3.0,
           "structural_score": 2.0,
           "redemption_score": 2.5,
-          "issuer_score": 3.0,
+          "issuer_score": 4.0,
           "overall_score": 2.5
         },
         "berachain": {
@@ -4987,7 +4987,7 @@
           "liquidity_score": 3.0,
           "structural_score": 2.0,
           "redemption_score": 2.5,
-          "issuer_score": 3.0,
+          "issuer_score": 4.0,
           "overall_score": 2.5
         },
         "hyperevm": {
@@ -4995,7 +4995,7 @@
           "liquidity_score": 3.0,
           "structural_score": 2.0,
           "redemption_score": 2.5,
-          "issuer_score": 3.0,
+          "issuer_score": 4.0,
           "overall_score": 2.5
         }
       },
@@ -7091,7 +7091,7 @@
         "liquidity_score": 2.0,
         "structural_score": 4.0,
         "redemption_score": 2.0,
-        "issuer_score": 3.0,
+        "issuer_score": 4.0,
         "overall_score": 2.5
       },
       "chain_scores": {
@@ -7100,7 +7100,7 @@
           "liquidity_score": 2.0,
           "structural_score": 4.0,
           "redemption_score": 2.0,
-          "issuer_score": 3.0,
+          "issuer_score": 4.0,
           "overall_score": 2.5
         }
       },
@@ -7125,7 +7125,7 @@
         "peg_mechanism_score": 4.5,
         "backing_score": 4.5,
         "liquidity_score": 4.0,
-        "issuer_score": 3.0,
+        "issuer_score": 4.0,
         "overall_score": 4.0
       },
       "chain_scores": {
@@ -7133,7 +7133,7 @@
           "peg_mechanism_score": 4.5,
           "backing_score": 4.5,
           "liquidity_score": 4.0,
-          "issuer_score": 3.0,
+          "issuer_score": 4.0,
           "overall_score": 4.0
         }
       },
