@@ -1864,7 +1864,7 @@
         }
       },
       "report_file": "assets/gho.md",
-      "last_verified": "2026-08-13",
+      "last_verified": "2026-08-29",
       "peg_mechanism": "crypto-overcollateralized",
       "issuer": "Aave DAO",
       "underlying_assets": [
@@ -3261,7 +3261,7 @@
         }
       },
       "report_file": "assets/reusde-re.md",
-      "last_verified": "2026-08-27",
+      "last_verified": "2026-08-29",
       "issuer": "Resilience BVI Ltd.",
       "underlying_assets": [
         "USDe",
@@ -3744,6 +3744,72 @@
       "issuer": "Morpho (vault curated by Sentora)",
       "underlying_assets": [
         "RLUSD"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "sfrxUSD",
+      "slug": "sfrxusd",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-08-29",
+      "default_scores": {
+        "volatility_score": 7.0,
+        "liquidity_score": 5.0,
+        "structural_score": 5.0,
+        "redemption_score": 6.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.0,
+          "liquidity_score": 5.0,
+          "structural_score": 5.0,
+          "redemption_score": 6.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/sfrxusd.md",
+      "last_verified": "2026-08-29",
+      "issuer": "Frax Finance",
+      "underlying_assets": [
+        "frxUSD"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "sGHO",
+      "slug": "sgho",
+      "chains": [
+        "eth"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-08-29",
+      "default_scores": {
+        "volatility_score": 7.5,
+        "liquidity_score": 5.5,
+        "structural_score": 7.0,
+        "redemption_score": 8.0,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "eth": {
+          "volatility_score": 7.5,
+          "liquidity_score": 5.5,
+          "structural_score": 7.0,
+          "redemption_score": 8.0,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/sgho.md",
+      "last_verified": "2026-08-29",
+      "issuer": "Aave DAO",
+      "underlying_assets": [
+        "GHO"
       ],
       "yield_bearing": true
     },
@@ -4481,7 +4547,7 @@
         }
       },
       "report_file": "assets/susde.md",
-      "last_verified": "2026-08-24",
+      "last_verified": "2026-08-29",
       "underlying_assets": [
         "USDe"
       ],
@@ -4856,9 +4922,13 @@
       "asset": "syzUSD",
       "slug": "syzusd",
       "chains": [
-        "eth",
         "plasma",
-        "monad"
+        "monad",
+        "sei",
+        "pharos",
+        "eth",
+        "berachain",
+        "hyperevm"
       ],
       "category": "vault-share",
       "assessment_type": "light",
@@ -4868,21 +4938,16 @@
         "liquidity_score": 3.0,
         "structural_score": 2.0,
         "redemption_score": 2.5,
+        "issuer_score": 3.0,
         "overall_score": 2.5
       },
       "chain_scores": {
-        "eth": {
-          "volatility_score": 3.0,
-          "liquidity_score": 3.0,
-          "structural_score": 2.0,
-          "redemption_score": 2.5,
-          "overall_score": 2.5
-        },
         "plasma": {
           "volatility_score": 3.0,
           "liquidity_score": 3.0,
           "structural_score": 2.0,
           "redemption_score": 2.5,
+          "issuer_score": 3.0,
           "overall_score": 2.5
         },
         "monad": {
@@ -4890,7 +4955,48 @@
           "liquidity_score": 3.0,
           "structural_score": 1.5,
           "redemption_score": 2.0,
+          "issuer_score": 3.0,
           "overall_score": 2.0
+        },
+        "sei": {
+          "volatility_score": 3.0,
+          "liquidity_score": 3.0,
+          "structural_score": 2.0,
+          "redemption_score": 2.5,
+          "issuer_score": 3.0,
+          "overall_score": 2.5
+        },
+        "pharos": {
+          "volatility_score": 3.0,
+          "liquidity_score": 3.0,
+          "structural_score": 2.0,
+          "redemption_score": 2.5,
+          "issuer_score": 3.0,
+          "overall_score": 2.5
+        },
+        "eth": {
+          "volatility_score": 3.0,
+          "liquidity_score": 3.0,
+          "structural_score": 2.0,
+          "redemption_score": 2.5,
+          "issuer_score": 3.0,
+          "overall_score": 2.5
+        },
+        "berachain": {
+          "volatility_score": 3.0,
+          "liquidity_score": 3.0,
+          "structural_score": 2.0,
+          "redemption_score": 2.5,
+          "issuer_score": 3.0,
+          "overall_score": 2.5
+        },
+        "hyperevm": {
+          "volatility_score": 3.0,
+          "liquidity_score": 3.0,
+          "structural_score": 2.0,
+          "redemption_score": 2.5,
+          "issuer_score": 3.0,
+          "overall_score": 2.5
         }
       },
       "report_file": "assets/syzusd.md",
@@ -5351,7 +5457,7 @@
         }
       },
       "report_file": "assets/usdat.md",
-      "last_verified": "2026-08-23",
+      "last_verified": "2026-08-29",
       "peg_mechanism": "fiat-backed",
       "issuer": "Saturn Labs",
       "market_cap_approx": 96323000,
@@ -5551,7 +5657,7 @@
         }
       },
       "report_file": "assets/usde.md",
-      "last_verified": "2026-08-24",
+      "last_verified": "2026-08-29",
       "peg_mechanism": "hybrid",
       "issuer": "Ethena Labs",
       "market_cap_approx": 4480000000,
@@ -6972,12 +7078,45 @@
       "yield_bearing": true
     },
     {
+      "asset": "yzPP",
+      "slug": "yzpp",
+      "chains": [
+        "plasma"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-08-29",
+      "default_scores": {
+        "volatility_score": 3.0,
+        "liquidity_score": 2.0,
+        "structural_score": 4.0,
+        "redemption_score": 2.0,
+        "issuer_score": 3.0,
+        "overall_score": 2.5
+      },
+      "chain_scores": {
+        "plasma": {
+          "volatility_score": 3.0,
+          "liquidity_score": 2.0,
+          "structural_score": 4.0,
+          "redemption_score": 2.0,
+          "issuer_score": 3.0,
+          "overall_score": 2.5
+        }
+      },
+      "report_file": "assets/yzpp.md",
+      "last_verified": "2026-08-29",
+      "issuer": "Yuzu Money",
+      "underlying_assets": [
+        "USDT0"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "yzUSD",
       "slug": "yzusd",
       "chains": [
-        "eth",
-        "plasma",
-        "monad"
+        "plasma"
       ],
       "category": "stablecoin",
       "assessment_type": "light",
@@ -6990,33 +7129,19 @@
         "overall_score": 4.0
       },
       "chain_scores": {
-        "eth": {
-          "peg_mechanism_score": 4.5,
-          "backing_score": 4.5,
-          "liquidity_score": 4.0,
-          "issuer_score": 3.0,
-          "overall_score": 4.0
-        },
         "plasma": {
           "peg_mechanism_score": 4.5,
           "backing_score": 4.5,
           "liquidity_score": 4.0,
           "issuer_score": 3.0,
           "overall_score": 4.0
-        },
-        "monad": {
-          "peg_mechanism_score": 3.5,
-          "backing_score": 4.5,
-          "liquidity_score": 2.5,
-          "issuer_score": 2.5,
-          "overall_score": 3.0
         }
       },
       "report_file": "assets/yzusd.md",
       "last_verified": "2026-06-08",
       "peg_mechanism": "active-strategy",
       "issuer": "Yuzu Money",
-      "market_cap_approx": 42000000,
+      "market_cap_approx": 58497074,
       "audited_reserves": false
     },
     {
@@ -7116,6 +7241,7 @@
     "3usd": "usd3",
     "aave ethena loop mainnet": "aavethena-loop-mainnet",
     "aave gho": "gho",
+    "aave savings gho": "sgho",
     "aavethena loop": "aavethena-loop-mainnet",
     "aavethena loop mainnet": "aavethena-loop-mainnet",
     "aavethena-loop-mainnet": "aavethena-loop-mainnet",
@@ -7412,6 +7538,7 @@
     "saturn usdat": "usdat",
     "saveth": "saveth",
     "savings crvusd": "scrvusd",
+    "savings gho": "sgho",
     "savings rusd": "srusd",
     "savings usdp": "susdp",
     "savings usds": "susds",
@@ -7426,6 +7553,8 @@
     "sentora rlusd main": "sentora-rlusd-main",
     "sentora-rlusd-main": "sentora-rlusd-main",
     "series a perpetual strategy preferred stock": "strc",
+    "sfrxusd": "sfrxusd",
+    "sgho": "sgho",
     "sherpa earn": "shusd",
     "sherpaearn": "shusd",
     "sherpausd": "shusd",
@@ -7448,6 +7577,8 @@
     "staked cap usd": "stcusd",
     "staked cusd": "stcusd",
     "staked dola": "sdola",
+    "staked frax usd": "sfrxusd",
+    "staked frxusd": "sfrxusd",
     "staked iusd": "siusd",
     "staked sherpa usd": "shusd",
     "staked thusd": "thusd",
@@ -7602,7 +7733,10 @@
     "ynusd max": "ynusd",
     "ynusdx": "ynusd",
     "yuzu money usd": "yzusd",
+    "yuzu protection pool": "yzpp",
+    "yuzu protection pool token": "yzpp",
     "yuzu usd": "yzusd",
+    "yzpp": "yzpp",
     "yzusd": "yzusd",
     "zchf": "zchf"
   }
