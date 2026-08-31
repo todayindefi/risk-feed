@@ -162,6 +162,7 @@
       "date": "2026-05-07",
       "default_scores": {
         "volatility_score": 6.5,
+        "backing_score": 2.0,
         "liquidity_score": 3.5,
         "structural_score": 5.0,
         "redemption_score": 3.5,
@@ -171,6 +172,7 @@
       "chain_scores": {
         "eth": {
           "volatility_score": 6.5,
+          "backing_score": 2.0,
           "liquidity_score": 3.5,
           "structural_score": 5.0,
           "redemption_score": 3.5,
@@ -179,6 +181,7 @@
         },
         "base": {
           "volatility_score": 6.5,
+          "backing_score": 2.0,
           "liquidity_score": 3.5,
           "structural_score": 5.0,
           "redemption_score": 3.5,
@@ -187,6 +190,7 @@
         },
         "bnb": {
           "volatility_score": 6.5,
+          "backing_score": 2.0,
           "liquidity_score": 3.5,
           "structural_score": 5.0,
           "redemption_score": 3.5,
@@ -1836,7 +1840,9 @@
       "default_scores": {
         "peg_mechanism_score": 5.5,
         "backing_score": 6.0,
+        "underlying_score": 6.0,
         "liquidity_score": 6.0,
+        "structural_score": 6.0,
         "issuer_score": 6.5,
         "overall_score": 5.5
       },
@@ -1844,21 +1850,27 @@
         "eth": {
           "peg_mechanism_score": 5.5,
           "backing_score": 6.0,
+          "underlying_score": 6.0,
           "liquidity_score": 6.0,
+          "structural_score": 6.0,
           "issuer_score": 6.5,
           "overall_score": 5.5
         },
         "arb": {
           "peg_mechanism_score": 5.5,
           "backing_score": 6.0,
+          "underlying_score": 6.0,
           "liquidity_score": 6.0,
+          "structural_score": 6.0,
           "issuer_score": 6.5,
           "overall_score": 5.5
         },
         "base": {
           "peg_mechanism_score": 5.5,
           "backing_score": 6.0,
+          "underlying_score": 6.0,
           "liquidity_score": 6.0,
+          "structural_score": 6.0,
           "issuer_score": 6.5,
           "overall_score": 5.5
         }
@@ -2785,6 +2797,7 @@
       "date": "2026-07-22",
       "default_scores": {
         "volatility_score": 5.0,
+        "backing_score": 4.0,
         "liquidity_score": 3.5,
         "structural_score": 4.0,
         "redemption_score": 3.5,
@@ -2794,6 +2807,7 @@
       "chain_scores": {
         "solana": {
           "volatility_score": 5.0,
+          "backing_score": 4.0,
           "liquidity_score": 3.5,
           "structural_score": 4.0,
           "redemption_score": 3.5,
@@ -3137,38 +3151,53 @@
       "date": "2026-05-14",
       "default_scores": {
         "volatility_score": 7.0,
+        "backing_score": 5.5,
+        "underlying_score": 5.0,
         "liquidity_score": 5.0,
-        "structural_score": 6.0,
+        "structural_score": 4.0,
         "redemption_score": 4.5,
+        "issuer_score": 5.5,
         "overall_score": 6.0
       },
       "chain_scores": {
         "eth": {
           "volatility_score": 7.0,
+          "backing_score": 5.5,
+          "underlying_score": 5.0,
           "liquidity_score": 5.0,
-          "structural_score": 6.0,
+          "structural_score": 4.0,
           "redemption_score": 4.5,
+          "issuer_score": 5.5,
           "overall_score": 6.0
         },
         "arb": {
           "volatility_score": 7.0,
+          "backing_score": 5.5,
+          "underlying_score": 5.0,
           "liquidity_score": 5.0,
-          "structural_score": 6.0,
+          "structural_score": 4.0,
           "redemption_score": 4.5,
+          "issuer_score": 5.5,
           "overall_score": 6.0
         },
         "base": {
           "volatility_score": 7.0,
+          "backing_score": 5.5,
+          "underlying_score": 5.0,
           "liquidity_score": 5.0,
-          "structural_score": 6.0,
+          "structural_score": 4.0,
           "redemption_score": 4.5,
+          "issuer_score": 5.5,
           "overall_score": 6.0
         },
         "avax": {
           "volatility_score": 7.0,
+          "backing_score": 5.5,
+          "underlying_score": 5.0,
           "liquidity_score": 5.0,
-          "structural_score": 6.0,
+          "structural_score": 4.0,
           "redemption_score": 4.5,
+          "issuer_score": 5.5,
           "overall_score": 6.0
         }
       },
@@ -3246,17 +3275,23 @@
       "date": "2026-05-18",
       "default_scores": {
         "volatility_score": 3.5,
+        "backing_score": 5.5,
+        "underlying_score": 4.0,
         "liquidity_score": 2.5,
         "structural_score": 5.0,
         "redemption_score": 2.0,
+        "issuer_score": 5.5,
         "overall_score": 3.5
       },
       "chain_scores": {
         "eth": {
           "volatility_score": 3.5,
+          "backing_score": 5.5,
+          "underlying_score": 4.0,
           "liquidity_score": 2.5,
           "structural_score": 5.0,
           "redemption_score": 2.0,
+          "issuer_score": 5.5,
           "overall_score": 3.5
         }
       },
@@ -3587,6 +3622,7 @@
       "assessment_type": "light",
       "date": "2026-07-04",
       "default_scores": {
+        "backing_score": 4.5,
         "liquidity_score": 3.5,
         "structural_score": 4.5,
         "redemption_score": 4.0,
@@ -3595,6 +3631,7 @@
       },
       "chain_scores": {
         "avax": {
+          "backing_score": 4.5,
           "liquidity_score": 3.5,
           "structural_score": 4.5,
           "redemption_score": 4.0,
@@ -3758,17 +3795,23 @@
       "date": "2026-08-29",
       "default_scores": {
         "volatility_score": 7.0,
+        "backing_score": 6.5,
+        "underlying_score": 4.5,
         "liquidity_score": 5.0,
         "structural_score": 5.0,
         "redemption_score": 6.5,
+        "issuer_score": 5.0,
         "overall_score": 5.0
       },
       "chain_scores": {
         "eth": {
           "volatility_score": 7.0,
+          "backing_score": 6.5,
+          "underlying_score": 4.5,
           "liquidity_score": 5.0,
           "structural_score": 5.0,
           "redemption_score": 6.5,
+          "issuer_score": 5.0,
           "overall_score": 5.0
         }
       },
@@ -4638,6 +4681,7 @@
       "date": "2026-05-27",
       "default_scores": {
         "volatility_score": 9.0,
+        "backing_score": 7.0,
         "liquidity_score": 8.5,
         "structural_score": 7.0,
         "redemption_score": 8.5,
@@ -4647,6 +4691,7 @@
       "chain_scores": {
         "eth": {
           "volatility_score": 9.0,
+          "backing_score": 7.0,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
@@ -4655,6 +4700,7 @@
         },
         "base": {
           "volatility_score": 9.0,
+          "backing_score": 7.0,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
@@ -4663,6 +4709,7 @@
         },
         "arb": {
           "volatility_score": 9.0,
+          "backing_score": 7.0,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
@@ -4671,6 +4718,7 @@
         },
         "optimism": {
           "volatility_score": 9.0,
+          "backing_score": 7.0,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
@@ -4935,23 +4983,29 @@
       "date": "2026-06-08",
       "default_scores": {
         "volatility_score": 3.0,
+        "backing_score": 4.5,
+        "underlying_score": 2.5,
         "liquidity_score": 3.0,
         "structural_score": 2.0,
-        "redemption_score": 2.5,
+        "redemption_score": 4.0,
         "issuer_score": 4.0,
-        "overall_score": 2.5
+        "overall_score": 3.0
       },
       "chain_scores": {
         "plasma": {
           "volatility_score": 3.0,
+          "backing_score": 4.5,
+          "underlying_score": 2.5,
           "liquidity_score": 3.0,
           "structural_score": 2.0,
-          "redemption_score": 2.5,
+          "redemption_score": 4.0,
           "issuer_score": 4.0,
-          "overall_score": 2.5
+          "overall_score": 3.0
         },
         "monad": {
           "volatility_score": 3.0,
+          "backing_score": 4.5,
+          "underlying_score": 2.5,
           "liquidity_score": 3.0,
           "structural_score": 1.5,
           "redemption_score": 2.0,
@@ -4960,43 +5014,53 @@
         },
         "sei": {
           "volatility_score": 3.0,
+          "backing_score": 4.5,
+          "underlying_score": 2.5,
           "liquidity_score": 3.0,
           "structural_score": 2.0,
-          "redemption_score": 2.5,
+          "redemption_score": 4.0,
           "issuer_score": 4.0,
-          "overall_score": 2.5
+          "overall_score": 3.0
         },
         "pharos": {
           "volatility_score": 3.0,
+          "backing_score": 4.5,
+          "underlying_score": 2.5,
           "liquidity_score": 3.0,
           "structural_score": 2.0,
-          "redemption_score": 2.5,
+          "redemption_score": 4.0,
           "issuer_score": 4.0,
-          "overall_score": 2.5
+          "overall_score": 3.0
         },
         "eth": {
           "volatility_score": 3.0,
+          "backing_score": 4.5,
+          "underlying_score": 2.5,
           "liquidity_score": 3.0,
           "structural_score": 2.0,
-          "redemption_score": 2.5,
+          "redemption_score": 4.0,
           "issuer_score": 4.0,
-          "overall_score": 2.5
+          "overall_score": 3.0
         },
         "berachain": {
           "volatility_score": 3.0,
+          "backing_score": 4.5,
+          "underlying_score": 2.5,
           "liquidity_score": 3.0,
           "structural_score": 2.0,
-          "redemption_score": 2.5,
+          "redemption_score": 4.0,
           "issuer_score": 4.0,
-          "overall_score": 2.5
+          "overall_score": 3.0
         },
         "hyperevm": {
           "volatility_score": 3.0,
+          "backing_score": 4.5,
+          "underlying_score": 2.5,
           "liquidity_score": 3.0,
           "structural_score": 2.0,
-          "redemption_score": 2.5,
+          "redemption_score": 4.0,
           "issuer_score": 4.0,
-          "overall_score": 2.5
+          "overall_score": 3.0
         }
       },
       "report_file": "assets/syzusd.md",
@@ -7088,6 +7152,8 @@
       "date": "2026-08-29",
       "default_scores": {
         "volatility_score": 3.0,
+        "backing_score": 4.5,
+        "underlying_score": 2.0,
         "liquidity_score": 2.0,
         "structural_score": 4.0,
         "redemption_score": 2.0,
@@ -7097,6 +7163,8 @@
       "chain_scores": {
         "plasma": {
           "volatility_score": 3.0,
+          "backing_score": 4.5,
+          "underlying_score": 2.0,
           "liquidity_score": 2.0,
           "structural_score": 4.0,
           "redemption_score": 2.0,
@@ -7124,7 +7192,9 @@
       "default_scores": {
         "peg_mechanism_score": 4.5,
         "backing_score": 4.5,
-        "liquidity_score": 4.0,
+        "underlying_score": 3.0,
+        "liquidity_score": 3.0,
+        "structural_score": 5.0,
         "issuer_score": 4.0,
         "overall_score": 4.0
       },
@@ -7132,7 +7202,9 @@
         "plasma": {
           "peg_mechanism_score": 4.5,
           "backing_score": 4.5,
-          "liquidity_score": 4.0,
+          "underlying_score": 3.0,
+          "liquidity_score": 3.0,
+          "structural_score": 5.0,
           "issuer_score": 4.0,
           "overall_score": 4.0
         }
