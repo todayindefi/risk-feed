@@ -980,6 +980,33 @@
       "last_verified": "2026-03-18"
     },
     {
+      "protocol": "Fables",
+      "slug": "fables",
+      "chains": [
+        "robinhood"
+      ],
+      "category": "dex",
+      "assessment_type": "full",
+      "date": "2026-09-02",
+      "default_scores": {
+        "contract_score": 3.5,
+        "economic_score": 5.5,
+        "project_score": 2.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "robinhood": {
+          "contract_score": 3.5,
+          "economic_score": 5.5,
+          "project_score": 2.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "reports/fables.md",
+      "tvl_gross": 4860000,
+      "last_verified": "2026-09-02"
+    },
+    {
       "protocol": "Fluid",
       "slug": "fluid",
       "chains": [
@@ -1588,6 +1615,35 @@
       "tvl_net": 2800000000,
       "tvl_borrowed": 1350000000,
       "last_verified": "2026-03-17"
+    },
+    {
+      "protocol": "Longbow",
+      "slug": "longbow",
+      "chains": [
+        "robinhood"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-09-02",
+      "default_scores": {
+        "contract_score": 4.5,
+        "economic_score": 3.0,
+        "project_score": 3.0,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "robinhood": {
+          "contract_score": 4.5,
+          "economic_score": 3.0,
+          "project_score": 3.0,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "reports/longbow.md",
+      "tvl_gross": 462260,
+      "tvl_net": 358978,
+      "tvl_borrowed": 144354,
+      "last_verified": "2026-09-02"
     },
     {
       "protocol": "Maple Finance",
@@ -2815,6 +2871,9 @@
     "euler finance": "euler",
     "euler v2": "euler",
     "f(x) protocol": "fx-protocol",
+    "fables": "fables",
+    "fables dex": "fables",
+    "fables finance": "fables",
     "fire protocol": "kumbaya",
     "fluid": "fluid",
     "fluid dex": "fluid",
@@ -2874,6 +2933,9 @@
     "lista dao": "lista-dao",
     "lista-dao": "lista-dao",
     "llamalend": "curve",
+    "longbow": "longbow",
+    "longbow credit": "longbow",
+    "longbow lending": "longbow",
     "maple": "maple",
     "maple finance": "maple",
     "mellow": "mellow",

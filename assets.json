@@ -143,7 +143,7 @@
         }
       },
       "report_file": "assets/apxusd.md",
-      "last_verified": "2026-08-31",
+      "last_verified": "2026-08-26",
       "peg_mechanism": "hybrid",
       "issuer": "Apyx",
       "market_cap_approx": 372000000,
@@ -2400,7 +2400,7 @@
       },
       "chain_scores": {},
       "report_file": "assets/mstr.md",
-      "last_verified": "2026-08-31",
+      "last_verified": "2026-08-26",
       "issuer": "Strategy Inc. (formerly MicroStrategy Incorporated)",
       "underlying_assets": [
         "btc"
@@ -4311,7 +4311,7 @@
       },
       "chain_scores": {},
       "report_file": "assets/strc.md",
-      "last_verified": "2026-08-31",
+      "last_verified": "2026-08-24",
       "issuer": "Strategy Inc.",
       "underlying_assets": [
         "mstr"
