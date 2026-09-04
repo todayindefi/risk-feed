@@ -3277,22 +3277,22 @@
         "volatility_score": 3.5,
         "backing_score": 5.5,
         "underlying_score": 4.0,
-        "liquidity_score": 2.5,
-        "structural_score": 5.0,
+        "liquidity_score": 1.5,
+        "structural_score": 4.0,
         "redemption_score": 2.0,
         "issuer_score": 5.5,
-        "overall_score": 3.5
+        "overall_score": 3.0
       },
       "chain_scores": {
         "eth": {
           "volatility_score": 3.5,
           "backing_score": 5.5,
           "underlying_score": 4.0,
-          "liquidity_score": 2.5,
-          "structural_score": 5.0,
+          "liquidity_score": 1.5,
+          "structural_score": 4.0,
           "redemption_score": 2.0,
           "issuer_score": 5.5,
-          "overall_score": 3.5
+          "overall_score": 3.0
         }
       },
       "report_file": "assets/reusde-re.md",
