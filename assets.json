@@ -539,6 +539,40 @@
       "audited_reserves": false
     },
     {
+      "asset": "Beefy Cowcentrated TSM/USDG (Robinhood Chain)",
+      "slug": "beefy-cowcentrated-tsm-usdg",
+      "chains": [
+        "hood"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-09-06",
+      "default_scores": {
+        "volatility_score": 3.5,
+        "liquidity_score": 3.0,
+        "structural_score": 3.0,
+        "redemption_score": 4.5,
+        "overall_score": 2.5
+      },
+      "chain_scores": {
+        "hood": {
+          "volatility_score": 3.5,
+          "liquidity_score": 3.0,
+          "structural_score": 3.0,
+          "redemption_score": 4.5,
+          "overall_score": 2.5
+        }
+      },
+      "report_file": "assets/beefy-cowcentrated-tsm-usdg.md",
+      "last_verified": "2026-09-06",
+      "issuer": "Beefy Finance",
+      "underlying_assets": [
+        "tsm-rh",
+        "usdg"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "Beefy CurveLend sfrxETH-crvUSD (Fraxtal)",
       "slug": "beefy-curvelend-sfrxeth-crvusd-fraxtal",
       "chains": [
@@ -1728,6 +1762,40 @@
         "frax"
       ],
       "yield_bearing": true
+    },
+    {
+      "asset": "fxUSD",
+      "slug": "fxusd",
+      "chains": [
+        "eth"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "dependency",
+      "date": "2026-09-06",
+      "default_scores": {
+        "peg_mechanism_score": 5.5,
+        "backing_score": 5.0,
+        "liquidity_score": 4.0,
+        "structural_score": 5.0,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "eth": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.0,
+          "liquidity_score": 4.0,
+          "structural_score": 5.0,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/fxusd.md",
+      "last_verified": "2026-09-06",
+      "issuer": "f(x) Protocol (AladdinDAO)",
+      "underlying_assets": [
+        "wstETH",
+        "WBTC"
+      ],
+      "yield_bearing": false
     },
     {
       "asset": "Gauntlet eUSD Core",
@@ -3151,9 +3219,9 @@
       "date": "2026-05-14",
       "default_scores": {
         "volatility_score": 7.0,
-        "backing_score": 5.5,
+        "backing_score": 5.0,
         "underlying_score": 5.0,
-        "liquidity_score": 5.0,
+        "liquidity_score": 4.5,
         "structural_score": 4.0,
         "redemption_score": 4.5,
         "issuer_score": 5.5,
@@ -3162,9 +3230,9 @@
       "chain_scores": {
         "eth": {
           "volatility_score": 7.0,
-          "backing_score": 5.5,
+          "backing_score": 5.0,
           "underlying_score": 5.0,
-          "liquidity_score": 5.0,
+          "liquidity_score": 4.5,
           "structural_score": 4.0,
           "redemption_score": 4.5,
           "issuer_score": 5.5,
@@ -3172,9 +3240,9 @@
         },
         "arb": {
           "volatility_score": 7.0,
-          "backing_score": 5.5,
+          "backing_score": 5.0,
           "underlying_score": 5.0,
-          "liquidity_score": 5.0,
+          "liquidity_score": 4.5,
           "structural_score": 4.0,
           "redemption_score": 4.5,
           "issuer_score": 5.5,
@@ -3182,9 +3250,9 @@
         },
         "base": {
           "volatility_score": 7.0,
-          "backing_score": 5.5,
+          "backing_score": 5.0,
           "underlying_score": 5.0,
-          "liquidity_score": 5.0,
+          "liquidity_score": 4.5,
           "structural_score": 4.0,
           "redemption_score": 4.5,
           "issuer_score": 5.5,
@@ -3192,9 +3260,9 @@
         },
         "avax": {
           "volatility_score": 7.0,
-          "backing_score": 5.5,
+          "backing_score": 5.0,
           "underlying_score": 5.0,
-          "liquidity_score": 5.0,
+          "liquidity_score": 4.5,
           "structural_score": 4.0,
           "redemption_score": 4.5,
           "issuer_score": 5.5,
@@ -3205,10 +3273,7 @@
       "last_verified": "2026-08-27",
       "issuer": "Resilience BVI Ltd.",
       "underlying_assets": [
-        "USDC",
-        "USDe",
-        "sUSDe",
-        "T-Bills"
+        "sUSDe"
       ],
       "yield_bearing": true,
       "unlevered_alternatives": [
@@ -3277,7 +3342,7 @@
         "volatility_score": 3.5,
         "backing_score": 5.5,
         "underlying_score": 4.0,
-        "liquidity_score": 1.5,
+        "liquidity_score": 2.0,
         "structural_score": 4.0,
         "redemption_score": 2.0,
         "issuer_score": 5.5,
@@ -3288,7 +3353,7 @@
           "volatility_score": 3.5,
           "backing_score": 5.5,
           "underlying_score": 4.0,
-          "liquidity_score": 1.5,
+          "liquidity_score": 2.0,
           "structural_score": 4.0,
           "redemption_score": 2.0,
           "issuer_score": 5.5,
@@ -4682,6 +4747,7 @@
       "default_scores": {
         "volatility_score": 9.0,
         "backing_score": 7.0,
+        "underlying_score": 7.0,
         "liquidity_score": 8.5,
         "structural_score": 7.0,
         "redemption_score": 8.5,
@@ -4692,6 +4758,7 @@
         "eth": {
           "volatility_score": 9.0,
           "backing_score": 7.0,
+          "underlying_score": 7.0,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
@@ -4701,6 +4768,7 @@
         "base": {
           "volatility_score": 9.0,
           "backing_score": 7.0,
+          "underlying_score": 7.0,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
@@ -4710,6 +4778,7 @@
         "arb": {
           "volatility_score": 9.0,
           "backing_score": 7.0,
+          "underlying_score": 7.0,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
@@ -4719,6 +4788,7 @@
         "optimism": {
           "volatility_score": 9.0,
           "backing_score": 7.0,
+          "underlying_score": 7.0,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
@@ -4727,7 +4797,7 @@
         }
       },
       "report_file": "assets/susds.md",
-      "last_verified": "2026-08-24",
+      "last_verified": "2026-09-06",
       "underlying_assets": [
         "USDS"
       ],
@@ -4860,8 +4930,10 @@
       "date": "2026-04-25",
       "default_scores": {
         "volatility_score": 8.5,
+        "backing_score": 6.5,
+        "underlying_score": 5.5,
         "liquidity_score": 7.5,
-        "structural_score": 6.5,
+        "structural_score": 4.5,
         "redemption_score": 7.5,
         "issuer_score": 5.5,
         "overall_score": 6.75
@@ -4869,55 +4941,67 @@
       "chain_scores": {
         "eth": {
           "volatility_score": 8.5,
+          "backing_score": 6.5,
+          "underlying_score": 5.5,
           "liquidity_score": 7.5,
-          "structural_score": 6.5,
+          "structural_score": 4.5,
           "redemption_score": 7.5,
           "issuer_score": 5.5,
           "overall_score": 6.75
         },
         "sol": {
           "volatility_score": 8.5,
+          "backing_score": 6.5,
+          "underlying_score": 5.5,
           "liquidity_score": 7.5,
-          "structural_score": 6.5,
+          "structural_score": 4.5,
           "redemption_score": 7.5,
           "issuer_score": 5.5,
           "overall_score": 6.75
         },
         "arb": {
           "volatility_score": 8.5,
+          "backing_score": 6.5,
+          "underlying_score": 5.5,
           "liquidity_score": 7.5,
-          "structural_score": 6.5,
+          "structural_score": 4.5,
           "redemption_score": 7.5,
           "issuer_score": 5.5,
           "overall_score": 6.75
         },
         "base": {
           "volatility_score": 8.5,
+          "backing_score": 6.5,
+          "underlying_score": 5.5,
           "liquidity_score": 7.5,
-          "structural_score": 6.5,
+          "structural_score": 4.5,
           "redemption_score": 7.5,
           "issuer_score": 5.5,
           "overall_score": 6.75
         },
         "plasma": {
           "volatility_score": 8.5,
+          "backing_score": 6.5,
+          "underlying_score": 5.5,
           "liquidity_score": 7.5,
-          "structural_score": 6.5,
+          "structural_score": 4.5,
           "redemption_score": 7.5,
           "issuer_score": 5.5,
           "overall_score": 6.75
         },
         "monad": {
           "volatility_score": 8.5,
+          "backing_score": 6.5,
+          "underlying_score": 5.5,
           "liquidity_score": 7.5,
-          "structural_score": 6.5,
+          "structural_score": 4.5,
           "redemption_score": 7.5,
           "issuer_score": 5.5,
           "overall_score": 6.75
         }
       },
       "report_file": "assets/syrupusdc.md",
-      "last_verified": "2026-08-26",
+      "last_verified": "2026-09-07",
       "underlying_assets": [
         "USDC"
       ],
@@ -4935,8 +5019,10 @@
       "date": "2026-05-03",
       "default_scores": {
         "volatility_score": 8.5,
+        "backing_score": 6.0,
+        "underlying_score": 5.0,
         "liquidity_score": 6.0,
-        "structural_score": 6.0,
+        "structural_score": 4.5,
         "redemption_score": 6.5,
         "issuer_score": 5.5,
         "overall_score": 6.0
@@ -4944,23 +5030,27 @@
       "chain_scores": {
         "eth": {
           "volatility_score": 8.5,
+          "backing_score": 6.0,
+          "underlying_score": 5.0,
           "liquidity_score": 6.0,
-          "structural_score": 6.0,
+          "structural_score": 4.5,
           "redemption_score": 6.5,
           "issuer_score": 5.5,
           "overall_score": 6.0
         },
         "plasma": {
           "volatility_score": 8.5,
+          "backing_score": 6.0,
+          "underlying_score": 5.0,
           "liquidity_score": 6.0,
-          "structural_score": 6.0,
+          "structural_score": 4.5,
           "redemption_score": 6.5,
           "issuer_score": 5.5,
           "overall_score": 6.0
         }
       },
       "report_file": "assets/syrupusdt.md",
-      "last_verified": "2026-08-26",
+      "last_verified": "2026-09-07",
       "underlying_assets": [
         "USDT"
       ],
@@ -5314,6 +5404,67 @@
       ],
       "yield_bearing": true,
       "audited_reserves": true
+    },
+    {
+      "asset": "TSM (Taiwan Semiconductor ADR)",
+      "slug": "tsm-adr",
+      "chains": [],
+      "category": "tradfi-equity",
+      "assessment_type": "dependency",
+      "date": "2026-09-06",
+      "default_scores": {
+        "volatility_score": 4.0,
+        "liquidity_score": 9.0,
+        "redemption_score": 6.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {},
+      "report_file": "assets/tsm-adr.md",
+      "last_verified": "2026-09-06",
+      "issuer": "Taiwan Semiconductor Manufacturing Company Limited",
+      "underlying_assets": [
+        "2330.TW"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "TSM (Robinhood Stock Token)",
+      "slug": "tsm-rh",
+      "chains": [
+        "robinhood"
+      ],
+      "category": "tokenized-equity",
+      "assessment_type": "light",
+      "date": "2026-09-06",
+      "default_scores": {
+        "volatility_score": 4.0,
+        "backing_score": 4.5,
+        "underlying_score": 3.0,
+        "liquidity_score": 3.5,
+        "structural_score": 2.5,
+        "redemption_score": 3.0,
+        "issuer_score": 3.5,
+        "overall_score": 3.0
+      },
+      "chain_scores": {
+        "robinhood": {
+          "volatility_score": 4.0,
+          "backing_score": 4.5,
+          "underlying_score": 3.0,
+          "liquidity_score": 3.5,
+          "structural_score": 2.5,
+          "redemption_score": 3.0,
+          "issuer_score": 3.5,
+          "overall_score": 3.0
+        }
+      },
+      "report_file": "assets/tsm-rh.md",
+      "last_verified": "2026-09-06",
+      "issuer": "Robinhood Assets (Jersey) Limited",
+      "underlying_assets": [
+        "tsm-adr"
+      ],
+      "yield_bearing": false
     },
     {
       "asset": "USD1",
@@ -5732,7 +5883,8 @@
       "slug": "usdg",
       "chains": [
         "eth",
-        "solana"
+        "solana",
+        "hood"
       ],
       "category": "stablecoin",
       "assessment_type": "light",
@@ -5753,6 +5905,13 @@
           "overall_score": 7.0
         },
         "solana": {
+          "peg_mechanism_score": 8.0,
+          "backing_score": 7.5,
+          "liquidity_score": 6.5,
+          "issuer_score": 7.5,
+          "overall_score": 7.0
+        },
+        "hood": {
           "peg_mechanism_score": 8.0,
           "backing_score": 7.5,
           "liquidity_score": 6.5,
@@ -5786,7 +5945,9 @@
       "default_scores": {
         "peg_mechanism_score": 7.0,
         "backing_score": 4.5,
+        "underlying_score": 4.0,
         "liquidity_score": 5.0,
+        "structural_score": 4.0,
         "issuer_score": 6.5,
         "overall_score": 5.0
       },
@@ -5794,14 +5955,18 @@
         "celo": {
           "peg_mechanism_score": 7.0,
           "backing_score": 6.0,
-          "liquidity_score": 5.5,
+          "underlying_score": 4.0,
+          "liquidity_score": 6.0,
+          "structural_score": 4.0,
           "issuer_score": 6.5,
-          "overall_score": 6.0
+          "overall_score": 5.5
         },
         "monad": {
           "peg_mechanism_score": 7.0,
           "backing_score": 3.0,
+          "underlying_score": 4.0,
           "liquidity_score": 4.5,
+          "structural_score": 4.0,
           "issuer_score": 6.5,
           "overall_score": 4.5
         }
@@ -5961,6 +6126,7 @@
       "default_scores": {
         "peg_mechanism_score": 7.5,
         "backing_score": 7.0,
+        "underlying_score": 7.0,
         "liquidity_score": 8.5,
         "issuer_score": 7.0,
         "overall_score": 7.5
@@ -5969,6 +6135,7 @@
         "eth": {
           "peg_mechanism_score": 7.5,
           "backing_score": 7.0,
+          "underlying_score": 7.0,
           "liquidity_score": 8.5,
           "issuer_score": 7.0,
           "overall_score": 7.5
@@ -5976,6 +6143,7 @@
         "solana": {
           "peg_mechanism_score": 7.5,
           "backing_score": 7.0,
+          "underlying_score": 7.0,
           "liquidity_score": 8.5,
           "issuer_score": 7.0,
           "overall_score": 7.5
@@ -5983,6 +6151,7 @@
         "base": {
           "peg_mechanism_score": 7.5,
           "backing_score": 7.0,
+          "underlying_score": 7.0,
           "liquidity_score": 8.5,
           "issuer_score": 7.0,
           "overall_score": 7.5
@@ -5990,13 +6159,14 @@
         "arb": {
           "peg_mechanism_score": 7.5,
           "backing_score": 7.0,
+          "underlying_score": 7.0,
           "liquidity_score": 8.5,
           "issuer_score": 7.0,
           "overall_score": 7.5
         }
       },
       "report_file": "assets/usds.md",
-      "last_verified": "2026-08-25",
+      "last_verified": "2026-09-06",
       "peg_mechanism": "hybrid",
       "issuer": "Sky Protocol (formerly MakerDAO)",
       "market_cap_approx": 8411000000,
@@ -6324,7 +6494,9 @@
       "default_scores": {
         "peg_mechanism_score": 5.0,
         "backing_score": 5.0,
+        "underlying_score": 4.0,
         "liquidity_score": 3.5,
+        "structural_score": 3.5,
         "issuer_score": 4.0,
         "overall_score": 4.0
       },
@@ -6332,7 +6504,9 @@
         "eth": {
           "peg_mechanism_score": 5.0,
           "backing_score": 5.0,
+          "underlying_score": 4.0,
           "liquidity_score": 3.5,
+          "structural_score": 3.5,
           "issuer_score": 4.0,
           "overall_score": 4.0
         }
@@ -7308,6 +7482,7 @@
   "alias_map": {
     "$aavethena": "aavethena-loop-mainnet",
     "$m": "m0",
+    "2330.tw": "tsm-adr",
     "3jane senior": "usd3-3jane",
     "3jane usd3": "usd3-3jane",
     "3usd": "usd3",
@@ -7347,9 +7522,13 @@
     "avusd": "avusd",
     "backed strc": "strcx",
     "based eth": "bsdeth",
+    "beefy cowcentrated tsm/usdg": "beefy-cowcentrated-tsm-usdg",
+    "beefy cowcentrated tsm/usdg (robinhood chain)": "beefy-cowcentrated-tsm-usdg",
     "beefy curvelend sfrxeth-crvusd": "beefy-curvelend-sfrxeth-crvusd-fraxtal",
     "beefy curvelend sfrxeth-crvusd (fraxtal)": "beefy-curvelend-sfrxeth-crvusd-fraxtal",
     "beefy sfrxeth-crvusd": "beefy-curvelend-sfrxeth-crvusd-fraxtal",
+    "beefy tsm/usdg": "beefy-cowcentrated-tsm-usdg",
+    "beefy-cowcentrated-tsm-usdg": "beefy-cowcentrated-tsm-usdg",
     "beefy-curvelend-sfrxeth-crvusd-fraxtal": "beefy-curvelend-sfrxeth-crvusd-fraxtal",
     "bitmine": "bmnr",
     "bitmine immersion": "bmnr",
@@ -7411,6 +7590,8 @@
     "eusd": "eusd",
     "eusdc": "eusdc",
     "eusdc (prime)": "euler-prime-usdc",
+    "f(x) protocol fxusd": "fxusd",
+    "f(x) usd": "fxusd",
     "fcc": "figure",
     "felix feusdc2": "felix-usdc-frontier",
     "felix usdc (frontier)": "felix-usdc-frontier",
@@ -7432,6 +7613,7 @@
     "frax bond dec 2055": "fxb-20551231",
     "frax usd": "frxusd",
     "frxusd": "frxusd",
+    "fx usd": "fxusd",
     "fxb 20261231": "fxb-20261231",
     "fxb 20271231": "fxb-20271231",
     "fxb 20291231": "fxb-20291231",
@@ -7444,6 +7626,7 @@
     "fxb20291231": "fxb-20291231",
     "fxb20551231": "fxb-20551231",
     "fxb_20261231": "fxb-20261231",
+    "fxusd": "fxusd",
     "gains gusdc": "gusdc",
     "gains network gusdc": "gusdc",
     "gauntlet eusd core": "gauntlet-eusd-core",
@@ -7601,6 +7784,7 @@
     "reusde-re": "reusde-re",
     "ripple usd": "rlusd",
     "rlusd": "rlusd",
+    "robinhood tsm": "tsm-rh",
     "rocket pool eth": "reth",
     "rocket pool reth": "reth",
     "rseth": "rseth",
@@ -7705,6 +7889,9 @@
     "syrupusdt": "syrupusdt",
     "syuzu usd": "syzusd",
     "syzusd": "syzusd",
+    "taiwan semiconductor adr": "tsm-adr",
+    "taiwan semiconductor manufacturing company": "tsm-adr",
+    "taiwan semiconductor manufacturing \u2022 robinhood token": "tsm-rh",
     "tangent usd": "usg",
     "tangent usg": "usg",
     "tesla tokenized stock (ondo)": "tslaon",
@@ -7724,6 +7911,16 @@
     "treehouse eth": "teth",
     "treehouseeth": "teth",
     "tslaon": "tslaon",
+    "tsm": "tsm-rh",
+    "tsm (robinhood stock token)": "tsm-rh",
+    "tsm (robinhood)": "tsm-rh",
+    "tsm (taiwan semiconductor adr)": "tsm-adr",
+    "tsm adr": "tsm-adr",
+    "tsm-adr": "tsm-adr",
+    "tsm-n": "tsm-adr",
+    "tsm-rh": "tsm-rh",
+    "tsmc": "tsm-adr",
+    "uniswap-cow-robinhood-tsm-usdg": "beefy-cowcentrated-tsm-usdg",
     "us yield coin": "usyc",
     "usd ai": "usdai",
     "usd.ai": "usdai",
