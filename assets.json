@@ -247,7 +247,9 @@
       "default_scores": {
         "peg_mechanism_score": 8.5,
         "backing_score": 8.0,
+        "underlying_score": 7.0,
         "liquidity_score": 6.5,
+        "structural_score": 2.5,
         "issuer_score": 6.0,
         "overall_score": 6.0
       },
@@ -255,125 +257,159 @@
         "ethereum": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "arbitrum": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "avalanche": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "base": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "polygon": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "bnb": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "solana": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "sui": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "mantle": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "monad": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "katana": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "gnosis": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "plume": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "core": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "fraxtal": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "immutable": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         },
         "injective": {
           "peg_mechanism_score": 8.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
         }
       },
       "report_file": "assets/ausd.md",
-      "last_verified": "2026-08-22",
+      "last_verified": "2026-09-10",
       "peg_mechanism": "fiat-backed",
       "issuer": "Agora Finance (Agora Bermuda Limited)",
       "market_cap_approx": 181000000,

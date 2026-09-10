@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-10T06:39:11Z",
-  "content_changed_at": "2026-09-10T06:39:11Z",
+  "generated_at": "2026-09-10T06:44:19Z",
+  "content_changed_at": "2026-09-10T06:44:19Z",
   "score_scale": "0-10, higher = lower risk",
   "endpoints": {
     "assets": "https://todayindefi.github.io/risk-feed/assets.json",
@@ -37,7 +37,7 @@
     "report_file is a path into the private source repo, not a public URL.",
     "issuer_score appears on assets only where a distinct issuer is assessed.",
     "TWO FRAMES COEXIST: legacy records carry volatility_score/redemption_score; six-axis records carry peg_mechanism_score, backing_score and underlying_score. Read the fields present rather than assuming a fixed set.",
-    "structural_score is CONTRACT & ADMIN authority, not backing. Backing is backing_score. This description was wrong until 2026-09-10 and consumers built before then may have conflated them.",
+    "structural_score is CONTRACT & ADMIN authority, not backing. Backing is backing_score. This description was wrong until 2026-09-10. If you built against the old description, the two fields DISPERSE rather than differ by a constant: across 22 assets publishing both, 8 have structural above backing, 9 below and 5 equal, mean signed gap -0.18, worst over-read +3.5. THERE IS NO CORRECTION FACTOR - each affected asset must be re-read individually.",
     "overall_score is AUTHORED, not computed from the other axes; it will not equal their mean.",
     "generated_at advances on every publish, including no-op heartbeats; use it to tell a live feed from a stopped one.",
     "content_changed_at moves only when assets.json or protocols.json actually differ; use it to tell whether the DATA is new."
