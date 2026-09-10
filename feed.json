@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-10T02:28:21Z",
-  "content_changed_at": "2026-09-10T02:24:43Z",
+  "generated_at": "2026-09-10T06:39:11Z",
+  "content_changed_at": "2026-09-10T06:39:11Z",
   "score_scale": "0-10, higher = lower risk",
   "endpoints": {
     "assets": "https://todayindefi.github.io/risk-feed/assets.json",
@@ -11,12 +11,15 @@
     "count": 150,
     "record_shape": "array under key 'assets'; alias_map resolves names/tickers \u2192 slug",
     "score_fields": {
-      "volatility_score": "Price stability / peg volatility",
-      "liquidity_score": "On-chain exit depth (observed, not TVL)",
-      "structural_score": "Collateral / backing structure soundness",
-      "redemption_score": "Ability to redeem to underlying at par",
-      "issuer_score": "Issuer / counterparty trust (present when applicable)",
-      "overall_score": "Blended asset risk score"
+      "peg_mechanism_score": "Axis 1 (six-axis frame) - peg mechanism soundness. Legacy reports carry volatility_score instead.",
+      "volatility_score": "Axis 1 (legacy frame) - price stability / peg volatility. Six-axis reports carry peg_mechanism_score instead.",
+      "backing_score": "Axis 2 - reserve backing quality and coverage. Present on six-axis reports.",
+      "liquidity_score": "Axis 3 - on-chain exit depth (observed, not TVL).",
+      "underlying_score": "Axis 4 - dependencies: the counterparty and upstream-protocol set the asset relies on but does not control.",
+      "structural_score": "Axis 5 - CONTRACT & ADMIN authority: upgrade paths, timelocks, key control and quorum. NOT a backing measure.",
+      "issuer_score": "Axis 6 - issuer / counterparty trust (present when a distinct issuer is assessed).",
+      "redemption_score": "COMPONENT INPUT, not a peer axis - ability to redeem to underlying at par. Six-axis reports fold redemption into liquidity on the worse-leg rule, so this is a finer-grained input rather than a competing verdict.",
+      "overall_score": "Blended asset risk score. AUTHORED, not derived from the axes -- do not expect it to equal their mean."
     }
   },
   "protocols": {
@@ -33,6 +36,9 @@
     "default_scores apply to every chain; chain_scores overrides per chain.",
     "report_file is a path into the private source repo, not a public URL.",
     "issuer_score appears on assets only where a distinct issuer is assessed.",
+    "TWO FRAMES COEXIST: legacy records carry volatility_score/redemption_score; six-axis records carry peg_mechanism_score, backing_score and underlying_score. Read the fields present rather than assuming a fixed set.",
+    "structural_score is CONTRACT & ADMIN authority, not backing. Backing is backing_score. This description was wrong until 2026-09-10 and consumers built before then may have conflated them.",
+    "overall_score is AUTHORED, not computed from the other axes; it will not equal their mean.",
     "generated_at advances on every publish, including no-op heartbeats; use it to tell a live feed from a stopped one.",
     "content_changed_at moves only when assets.json or protocols.json actually differ; use it to tell whether the DATA is new."
   ]
