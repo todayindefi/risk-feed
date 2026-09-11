@@ -1599,7 +1599,9 @@
       "default_scores": {
         "peg_mechanism_score": 6.5,
         "backing_score": 6.5,
+        "underlying_score": 4.5,
         "liquidity_score": 5.5,
+        "structural_score": 3.5,
         "issuer_score": 5.0,
         "overall_score": 5.5
       },
@@ -1607,83 +1609,105 @@
         "ethereum": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
+          "underlying_score": 4.5,
           "liquidity_score": 5.5,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "fraxtal": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
+          "underlying_score": 4.5,
           "liquidity_score": 5.5,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "sonic": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
+          "underlying_score": 4.5,
           "liquidity_score": 5.5,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "arbitrum": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
+          "underlying_score": 4.5,
           "liquidity_score": 5.5,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "optimism": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
+          "underlying_score": 4.5,
           "liquidity_score": 5.5,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "base": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
+          "underlying_score": 4.5,
           "liquidity_score": 5.5,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "bnb": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
+          "underlying_score": 4.5,
           "liquidity_score": 5.5,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "avalanche": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
+          "underlying_score": 4.5,
           "liquidity_score": 5.5,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "polygon": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
+          "underlying_score": 4.5,
           "liquidity_score": 5.5,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "linea": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
+          "underlying_score": 4.5,
           "liquidity_score": 5.5,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 5.5
         },
         "solana": {
           "peg_mechanism_score": 6.5,
           "backing_score": 6.5,
+          "underlying_score": 4.5,
           "liquidity_score": 5.5,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 5.5
         }
       },
       "report_file": "assets/frxusd.md",
-      "last_verified": "2026-08-24",
+      "last_verified": "2026-09-11",
       "peg_mechanism": "fiat-backed",
       "issuer": "Frax Finance",
       "market_cap_approx": 105500000,
@@ -3115,7 +3139,9 @@
       "default_scores": {
         "peg_mechanism_score": 7.5,
         "backing_score": 8.0,
+        "underlying_score": 7.0,
         "liquidity_score": 6.5,
+        "structural_score": 2.5,
         "issuer_score": 7.5,
         "overall_score": 7.0
       },
@@ -3123,34 +3149,42 @@
         "ethereum": {
           "peg_mechanism_score": 7.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 7.5,
           "overall_score": 7.0
         },
         "solana": {
           "peg_mechanism_score": 7.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 7.5,
           "overall_score": 7.0
         },
         "arbitrum": {
           "peg_mechanism_score": 7.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 7.5,
           "overall_score": 7.0
         },
         "stellar": {
           "peg_mechanism_score": 7.5,
           "backing_score": 8.0,
+          "underlying_score": 7.0,
           "liquidity_score": 6.5,
+          "structural_score": 2.5,
           "issuer_score": 7.5,
           "overall_score": 7.0
         }
       },
       "report_file": "assets/pyusd.md",
-      "last_verified": "2026-08-26",
+      "last_verified": "2026-09-10",
       "peg_mechanism": "fiat-backed",
       "issuer": "Paxos Trust Company (on behalf of PayPal)",
       "market_cap_approx": 2770000000,
@@ -3453,7 +3487,9 @@
       "default_scores": {
         "peg_mechanism_score": 7.0,
         "backing_score": 7.0,
+        "underlying_score": 6.5,
         "liquidity_score": 7.0,
+        "structural_score": 4.0,
         "issuer_score": 7.5,
         "overall_score": 7.0
       },
@@ -3461,20 +3497,24 @@
         "ethereum": {
           "peg_mechanism_score": 7.0,
           "backing_score": 7.0,
+          "underlying_score": 6.5,
           "liquidity_score": 7.0,
+          "structural_score": 4.0,
           "issuer_score": 7.5,
           "overall_score": 7.0
         },
         "xrpl": {
           "peg_mechanism_score": 7.0,
           "backing_score": 7.0,
+          "underlying_score": 6.5,
           "liquidity_score": 7.0,
+          "structural_score": 4.0,
           "issuer_score": 7.5,
           "overall_score": 7.0
         }
       },
       "report_file": "assets/rlusd.md",
-      "last_verified": "2026-08-24",
+      "last_verified": "2026-09-11",
       "peg_mechanism": "fiat-backed",
       "issuer": "Standard Custody & Trust Company (Ripple)",
       "market_cap_approx": 1716000000,
@@ -4666,73 +4706,103 @@
       "date": "2026-06-10",
       "default_scores": {
         "volatility_score": 6.5,
+        "backing_score": 6.5,
+        "underlying_score": 6.0,
         "liquidity_score": 7.0,
         "structural_score": 5.5,
         "redemption_score": 6.5,
+        "issuer_score": 7.0,
         "overall_score": 6.5
       },
       "chain_scores": {
         "ethereum": {
           "volatility_score": 6.5,
+          "backing_score": 6.5,
+          "underlying_score": 6.0,
           "liquidity_score": 7.0,
           "structural_score": 5.5,
           "redemption_score": 6.5,
+          "issuer_score": 7.0,
           "overall_score": 6.5
         },
         "arbitrum": {
           "volatility_score": 6.5,
+          "backing_score": 6.5,
+          "underlying_score": 6.0,
           "liquidity_score": 7.0,
           "structural_score": 5.5,
           "redemption_score": 6.5,
+          "issuer_score": 7.0,
           "overall_score": 6.5
         },
         "base": {
           "volatility_score": 6.5,
+          "backing_score": 6.5,
+          "underlying_score": 6.0,
           "liquidity_score": 7.0,
           "structural_score": 5.5,
           "redemption_score": 6.5,
+          "issuer_score": 7.0,
           "overall_score": 6.5
         },
         "optimism": {
           "volatility_score": 6.5,
+          "backing_score": 6.5,
+          "underlying_score": 6.0,
           "liquidity_score": 7.0,
           "structural_score": 5.5,
           "redemption_score": 6.5,
+          "issuer_score": 7.0,
           "overall_score": 6.5
         },
         "bnb": {
           "volatility_score": 6.5,
+          "backing_score": 6.5,
+          "underlying_score": 6.0,
           "liquidity_score": 7.0,
           "structural_score": 5.5,
           "redemption_score": 6.5,
+          "issuer_score": 7.0,
           "overall_score": 6.5
         },
         "mantle": {
           "volatility_score": 6.5,
+          "backing_score": 6.5,
+          "underlying_score": 6.0,
           "liquidity_score": 7.0,
           "structural_score": 5.5,
           "redemption_score": 6.5,
+          "issuer_score": 7.0,
           "overall_score": 6.5
         },
         "blast": {
           "volatility_score": 6.5,
+          "backing_score": 6.5,
+          "underlying_score": 6.0,
           "liquidity_score": 7.0,
           "structural_score": 5.5,
           "redemption_score": 6.5,
+          "issuer_score": 7.0,
           "overall_score": 6.5
         },
         "fraxtal": {
           "volatility_score": 6.5,
+          "backing_score": 6.5,
+          "underlying_score": 6.0,
           "liquidity_score": 7.0,
           "structural_score": 5.5,
           "redemption_score": 6.5,
+          "issuer_score": 7.0,
           "overall_score": 6.5
         },
         "monad": {
           "volatility_score": 6.5,
+          "backing_score": 6.5,
+          "underlying_score": 6.0,
           "liquidity_score": 7.0,
           "structural_score": 5.5,
           "redemption_score": 6.5,
+          "issuer_score": 7.0,
           "overall_score": 6.5
         }
       },
@@ -5156,7 +5226,7 @@
       "default_scores": {
         "volatility_score": 3.0,
         "backing_score": 4.5,
-        "underlying_score": 2.5,
+        "underlying_score": 3.0,
         "liquidity_score": 3.0,
         "structural_score": 2.0,
         "redemption_score": 4.0,
@@ -5167,7 +5237,7 @@
         "plasma": {
           "volatility_score": 3.0,
           "backing_score": 4.5,
-          "underlying_score": 2.5,
+          "underlying_score": 3.0,
           "liquidity_score": 3.0,
           "structural_score": 2.0,
           "redemption_score": 4.0,
@@ -5177,7 +5247,7 @@
         "monad": {
           "volatility_score": 3.0,
           "backing_score": 4.5,
-          "underlying_score": 2.5,
+          "underlying_score": 3.0,
           "liquidity_score": 3.0,
           "structural_score": 1.5,
           "redemption_score": 2.0,
@@ -5187,7 +5257,7 @@
         "sei": {
           "volatility_score": 3.0,
           "backing_score": 4.5,
-          "underlying_score": 2.5,
+          "underlying_score": 3.0,
           "liquidity_score": 3.0,
           "structural_score": 2.0,
           "redemption_score": 4.0,
@@ -5197,7 +5267,7 @@
         "pharos": {
           "volatility_score": 3.0,
           "backing_score": 4.5,
-          "underlying_score": 2.5,
+          "underlying_score": 3.0,
           "liquidity_score": 3.0,
           "structural_score": 2.0,
           "redemption_score": 4.0,
@@ -5207,7 +5277,7 @@
         "ethereum": {
           "volatility_score": 3.0,
           "backing_score": 4.5,
-          "underlying_score": 2.5,
+          "underlying_score": 3.0,
           "liquidity_score": 3.0,
           "structural_score": 2.0,
           "redemption_score": 4.0,
@@ -5217,7 +5287,7 @@
         "berachain": {
           "volatility_score": 3.0,
           "backing_score": 4.5,
-          "underlying_score": 2.5,
+          "underlying_score": 3.0,
           "liquidity_score": 3.0,
           "structural_score": 2.0,
           "redemption_score": 4.0,
@@ -5227,7 +5297,7 @@
         "hyperevm": {
           "volatility_score": 3.0,
           "backing_score": 4.5,
-          "underlying_score": 2.5,
+          "underlying_score": 3.0,
           "liquidity_score": 3.0,
           "structural_score": 2.0,
           "redemption_score": 4.0,
@@ -5791,7 +5861,9 @@
       "default_scores": {
         "peg_mechanism_score": 9.0,
         "backing_score": 9.0,
+        "underlying_score": 7.0,
         "liquidity_score": 9.5,
+        "structural_score": 3.0,
         "issuer_score": 8.0,
         "overall_score": 8.5
       },
@@ -5799,41 +5871,51 @@
         "ethereum": {
           "peg_mechanism_score": 9.0,
           "backing_score": 9.0,
+          "underlying_score": 7.0,
           "liquidity_score": 9.5,
+          "structural_score": 3.0,
           "issuer_score": 8.0,
           "overall_score": 8.5
         },
         "arbitrum": {
           "peg_mechanism_score": 9.0,
           "backing_score": 9.0,
+          "underlying_score": 7.0,
           "liquidity_score": 9.5,
+          "structural_score": 3.0,
           "issuer_score": 8.0,
           "overall_score": 8.5
         },
         "monad": {
           "peg_mechanism_score": 9.0,
           "backing_score": 9.0,
+          "underlying_score": 7.0,
           "liquidity_score": 7.0,
+          "structural_score": 3.0,
           "issuer_score": 8.0,
           "overall_score": 8.0
         },
         "base": {
           "peg_mechanism_score": 9.0,
           "backing_score": 9.0,
+          "underlying_score": 7.0,
           "liquidity_score": 9.5,
+          "structural_score": 3.0,
           "issuer_score": 8.0,
           "overall_score": 8.5
         },
         "hyperevm": {
           "peg_mechanism_score": 9.0,
           "backing_score": 9.0,
+          "underlying_score": 7.0,
           "liquidity_score": 9.5,
+          "structural_score": 3.0,
           "issuer_score": 8.0,
           "overall_score": 8.5
         }
       },
       "report_file": "assets/usdc.md",
-      "last_verified": "2026-08-22",
+      "last_verified": "2026-09-11",
       "peg_mechanism": "fiat-backed",
       "issuer": "Circle",
       "market_cap_approx": 75500000000,
