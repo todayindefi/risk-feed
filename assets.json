@@ -688,7 +688,9 @@
       "default_scores": {
         "peg_mechanism_score": 7.0,
         "backing_score": 7.5,
-        "liquidity_score": 4.5,
+        "underlying_score": 7.0,
+        "liquidity_score": 5.5,
+        "structural_score": 8.5,
         "issuer_score": 8.0,
         "overall_score": 6.5
       },
@@ -696,42 +698,54 @@
         "ethereum": {
           "peg_mechanism_score": 7.0,
           "backing_score": 7.5,
-          "liquidity_score": 4.5,
+          "underlying_score": 7.0,
+          "liquidity_score": 5.5,
+          "structural_score": 8.5,
           "issuer_score": 8.0,
           "overall_score": 6.5
         },
         "optimism": {
           "peg_mechanism_score": 7.0,
           "backing_score": 7.5,
-          "liquidity_score": 4.5,
+          "underlying_score": 7.0,
+          "liquidity_score": 5.5,
+          "structural_score": 8.5,
           "issuer_score": 8.0,
           "overall_score": 6.5
         },
         "base": {
           "peg_mechanism_score": 7.0,
           "backing_score": 7.5,
-          "liquidity_score": 4.5,
+          "underlying_score": 7.0,
+          "liquidity_score": 5.5,
+          "structural_score": 8.5,
           "issuer_score": 8.0,
           "overall_score": 6.5
         },
         "arbitrum": {
           "peg_mechanism_score": 7.0,
           "backing_score": 7.5,
-          "liquidity_score": 4.5,
+          "underlying_score": 7.0,
+          "liquidity_score": 5.5,
+          "structural_score": 8.5,
           "issuer_score": 8.0,
           "overall_score": 6.5
         },
         "avalanche": {
           "peg_mechanism_score": 7.0,
           "backing_score": 7.5,
-          "liquidity_score": 4.5,
+          "underlying_score": 7.0,
+          "liquidity_score": 5.5,
+          "structural_score": 8.5,
           "issuer_score": 8.0,
           "overall_score": 6.5
         },
         "scroll": {
           "peg_mechanism_score": 7.0,
           "backing_score": 7.5,
-          "liquidity_score": 4.5,
+          "underlying_score": 7.0,
+          "liquidity_score": 5.5,
+          "structural_score": 8.5,
           "issuer_score": 8.0,
           "overall_score": 6.5
         }
@@ -740,7 +754,7 @@
       "last_verified": "2026-07-21",
       "peg_mechanism": "hybrid",
       "issuer": "Liquity (immutable protocol, no issuer counterparty)",
-      "market_cap_approx": 30100000,
+      "market_cap_approx": 34570000,
       "audited_reserves": false
     },
     {
@@ -4292,7 +4306,8 @@
       "asset": "srUSDat",
       "slug": "srusdat",
       "chains": [
-        "eth"
+        "eth",
+        "monad"
       ],
       "category": "vault-share",
       "assessment_type": "light",
@@ -4307,6 +4322,14 @@
       },
       "chain_scores": {
         "ethereum": {
+          "volatility_score": 4.5,
+          "liquidity_score": 3.0,
+          "structural_score": 4.0,
+          "redemption_score": 3.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.0
+        },
+        "monad": {
           "volatility_score": 4.5,
           "liquidity_score": 3.0,
           "structural_score": 4.0,
