@@ -3352,9 +3352,18 @@
       "slug": "reusd-re",
       "chains": [
         "eth",
+        "avax",
         "arb",
         "base",
-        "avax"
+        "megaeth",
+        "katana",
+        "bnb",
+        "ink",
+        "plasma",
+        "bera",
+        "monad",
+        "tempo",
+        "sol"
       ],
       "category": "vault-share",
       "assessment_type": "full",
@@ -3371,6 +3380,16 @@
       },
       "chain_scores": {
         "ethereum": {
+          "volatility_score": 7.0,
+          "backing_score": 5.0,
+          "underlying_score": 5.0,
+          "liquidity_score": 4.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "avalanche": {
           "volatility_score": 7.0,
           "backing_score": 5.0,
           "underlying_score": 5.0,
@@ -3400,7 +3419,87 @@
           "issuer_score": 5.5,
           "overall_score": 5.0
         },
-        "avalanche": {
+        "megaeth": {
+          "volatility_score": 7.0,
+          "backing_score": 5.0,
+          "underlying_score": 5.0,
+          "liquidity_score": 4.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "katana": {
+          "volatility_score": 7.0,
+          "backing_score": 5.0,
+          "underlying_score": 5.0,
+          "liquidity_score": 4.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "bnb": {
+          "volatility_score": 7.0,
+          "backing_score": 5.0,
+          "underlying_score": 5.0,
+          "liquidity_score": 4.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "ink": {
+          "volatility_score": 7.0,
+          "backing_score": 5.0,
+          "underlying_score": 5.0,
+          "liquidity_score": 4.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "plasma": {
+          "volatility_score": 7.0,
+          "backing_score": 5.0,
+          "underlying_score": 5.0,
+          "liquidity_score": 4.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "bera": {
+          "volatility_score": 7.0,
+          "backing_score": 5.0,
+          "underlying_score": 5.0,
+          "liquidity_score": 4.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "monad": {
+          "volatility_score": 7.0,
+          "backing_score": 5.0,
+          "underlying_score": 5.0,
+          "liquidity_score": 4.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "tempo": {
+          "volatility_score": 7.0,
+          "backing_score": 5.0,
+          "underlying_score": 5.0,
+          "liquidity_score": 4.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
+        },
+        "solana": {
           "volatility_score": 7.0,
           "backing_score": 5.0,
           "underlying_score": 5.0,
@@ -3415,7 +3514,8 @@
       "last_verified": "2026-08-27",
       "issuer": "Resilience BVI Ltd.",
       "underlying_assets": [
-        "sUSDe"
+        "sUSDe",
+        "USDC"
       ],
       "yield_bearing": true,
       "unlevered_alternatives": [
@@ -3475,7 +3575,8 @@
       "asset": "reUSDe (Re Protocol)",
       "slug": "reusde-re",
       "chains": [
-        "eth"
+        "eth",
+        "bera"
       ],
       "category": "vault-share",
       "assessment_type": "full",
@@ -3492,6 +3593,16 @@
       },
       "chain_scores": {
         "ethereum": {
+          "volatility_score": 3.5,
+          "backing_score": 5.5,
+          "underlying_score": 4.0,
+          "liquidity_score": 2.0,
+          "structural_score": 4.0,
+          "redemption_score": 2.0,
+          "issuer_score": 5.5,
+          "overall_score": 3.0
+        },
+        "bera": {
           "volatility_score": 3.5,
           "backing_score": 5.5,
           "underlying_score": 4.0,
