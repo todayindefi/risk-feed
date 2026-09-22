@@ -1126,6 +1126,42 @@
       "audited_reserves": false
     },
     {
+      "asset": "DUSD (Alto)",
+      "slug": "dusd-alto",
+      "chains": [
+        "eth"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-09-20",
+      "default_scores": {
+        "peg_mechanism_score": 5.5,
+        "backing_score": 5.5,
+        "underlying_score": 4.5,
+        "liquidity_score": 5.5,
+        "structural_score": 5.0,
+        "issuer_score": 4.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "ethereum": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 5.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 5.5,
+          "structural_score": 5.0,
+          "issuer_score": 4.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "assets/dusd-alto.md",
+      "last_verified": "2026-09-20",
+      "peg_mechanism": "hybrid",
+      "issuer": "Alto Foundation (team not publicly disclosed)",
+      "market_cap_approx": 822000,
+      "audited_reserves": false
+    },
+    {
       "asset": "Echo BTC (aBTC / eBTC / mBTC / mphBTC)",
       "slug": "echo-btc",
       "chains": [
@@ -7980,6 +8016,9 @@
     "agora usd ct0": "ausdct0",
     "alchemix eth": "aleth",
     "aleth": "aleth",
+    "alto dusd": "dusd-alto",
+    "alto money dusd": "dusd-alto",
+    "alto protocol dusd": "dusd-alto",
     "altura": "avlt",
     "altura vault": "avlt",
     "apxeth": "apxeth",
@@ -8039,6 +8078,8 @@
     "dinero staked eth": "pxeth",
     "dola": "dola",
     "dola usd": "dola",
+    "dusd (alto)": "dusd-alto",
+    "dusd-alto": "dusd-alto",
     "ebtc": "echo-btc",
     "echo btc": "echo-btc",
     "echo btc (abtc / ebtc / mbtc / mphbtc)": "echo-btc",
