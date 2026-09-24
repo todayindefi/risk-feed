@@ -1195,6 +1195,55 @@
       "last_verified": "2026-04-26"
     },
     {
+      "protocol": "Grove",
+      "slug": "grove",
+      "chains": [
+        "eth",
+        "base",
+        "avalanche",
+        "plume"
+      ],
+      "category": "allocator",
+      "assessment_type": "light",
+      "date": "2026-09-24",
+      "default_scores": {
+        "contract_score": 6.0,
+        "economic_score": 6.0,
+        "project_score": 6.0,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 6.0,
+          "economic_score": 6.0,
+          "project_score": 6.0,
+          "overall_score": 6.0
+        },
+        "base": {
+          "contract_score": 6.0,
+          "economic_score": 6.0,
+          "project_score": 6.0,
+          "overall_score": 6.0
+        },
+        "avalanche": {
+          "contract_score": 6.0,
+          "economic_score": 6.0,
+          "project_score": 6.0,
+          "overall_score": 6.0
+        },
+        "plume": {
+          "contract_score": 6.0,
+          "economic_score": 6.0,
+          "project_score": 6.0,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "reports/grove.md",
+      "tvl_gross": 1732310806,
+      "tvl_net": 1732310806,
+      "last_verified": "2026-09-24"
+    },
+    {
       "protocol": "gTrade (Gains Network)",
       "slug": "gtrade",
       "chains": [
@@ -2789,6 +2838,8 @@
     "aave-v3": "aave-v3",
     "aavev3": "aave-v3",
     "aladdin f(x)": "fx-protocol",
+    "allocator-bloom-a": "grove",
+    "allocator-grove-a": "grove",
     "apxusd": "apyx",
     "apyusd": "apyx",
     "apyx": "apyx",
@@ -2823,6 +2874,7 @@
     "beefy finance": "beefy",
     "blackhaven": "blackhaven",
     "blackhaven.xyz": "blackhaven",
+    "bloom": "grove",
     "box vaults": "steakhouse-financial",
     "boyco": "royco",
     "clo": "yei-finance",
@@ -2889,6 +2941,9 @@
     "gearbox": "gearbox",
     "gearbox protocol": "gearbox",
     "gns": "gtrade",
+    "grove": "grove",
+    "grove labs": "grove",
+    "grove star": "grove",
     "gtrade": "gtrade",
     "gtrade (gains network)": "gtrade",
     "helio protocol": "lista-dao",

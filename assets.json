@@ -6614,55 +6614,59 @@
       "date": "2026-05-27",
       "default_scores": {
         "peg_mechanism_score": 7.5,
-        "backing_score": 7.0,
-        "underlying_score": 7.0,
+        "backing_score": 6.5,
+        "underlying_score": 6.5,
         "liquidity_score": 8.5,
         "structural_score": 7.0,
         "issuer_score": 7.0,
-        "overall_score": 7.5
+        "overall_score": 7.0
       },
       "chain_scores": {
         "ethereum": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 7.0,
-          "underlying_score": 7.0,
+          "backing_score": 6.5,
+          "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "issuer_score": 7.0,
-          "overall_score": 7.5
+          "overall_score": 7.0
         },
         "solana": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 7.0,
-          "underlying_score": 7.0,
+          "backing_score": 6.5,
+          "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "issuer_score": 7.0,
-          "overall_score": 7.5
+          "overall_score": 7.0
         },
         "base": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 7.0,
-          "underlying_score": 7.0,
+          "backing_score": 6.5,
+          "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "issuer_score": 7.0,
-          "overall_score": 7.5
+          "overall_score": 7.0
         },
         "arbitrum": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 7.0,
-          "underlying_score": 7.0,
+          "backing_score": 6.5,
+          "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "issuer_score": 7.0,
-          "overall_score": 7.5
+          "overall_score": 7.0
         }
       },
       "report_file": "assets/usds.md",
       "last_verified": "2026-09-06",
       "peg_mechanism": "hybrid",
       "issuer": "Sky Protocol (formerly MakerDAO)",
+      "dependency_protocols": [
+        "spark",
+        "grove"
+      ],
       "market_cap_approx": 8411000000,
       "audited_reserves": true
     },
