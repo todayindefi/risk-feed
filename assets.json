@@ -5135,54 +5135,54 @@
       "date": "2026-05-27",
       "default_scores": {
         "volatility_score": 9.0,
-        "backing_score": 7.0,
-        "underlying_score": 7.0,
+        "backing_score": 6.0,
+        "underlying_score": 6.5,
         "liquidity_score": 8.5,
         "structural_score": 7.0,
         "redemption_score": 8.5,
         "issuer_score": 7.0,
-        "overall_score": 7.5
+        "overall_score": 7.0
       },
       "chain_scores": {
         "ethereum": {
           "volatility_score": 9.0,
-          "backing_score": 7.0,
-          "underlying_score": 7.0,
+          "backing_score": 6.0,
+          "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
           "issuer_score": 7.0,
-          "overall_score": 7.5
+          "overall_score": 7.0
         },
         "base": {
           "volatility_score": 9.0,
-          "backing_score": 7.0,
-          "underlying_score": 7.0,
+          "backing_score": 6.0,
+          "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
           "issuer_score": 7.0,
-          "overall_score": 7.5
+          "overall_score": 7.0
         },
         "arbitrum": {
           "volatility_score": 9.0,
-          "backing_score": 7.0,
-          "underlying_score": 7.0,
+          "backing_score": 6.0,
+          "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
           "issuer_score": 7.0,
-          "overall_score": 7.5
+          "overall_score": 7.0
         },
         "optimism": {
           "volatility_score": 9.0,
-          "backing_score": 7.0,
-          "underlying_score": 7.0,
+          "backing_score": 6.0,
+          "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
           "redemption_score": 8.5,
           "issuer_score": 7.0,
-          "overall_score": 7.5
+          "overall_score": 7.0
         }
       },
       "report_file": "assets/susds.md",
@@ -5321,72 +5321,72 @@
         "volatility_score": 8.5,
         "backing_score": 6.5,
         "underlying_score": 5.5,
-        "liquidity_score": 7.5,
+        "liquidity_score": 6.5,
         "structural_score": 4.5,
         "redemption_score": 7.5,
         "issuer_score": 5.5,
-        "overall_score": 6.75
+        "overall_score": 6.5
       },
       "chain_scores": {
         "ethereum": {
           "volatility_score": 8.5,
           "backing_score": 6.5,
           "underlying_score": 5.5,
-          "liquidity_score": 7.5,
+          "liquidity_score": 6.5,
           "structural_score": 4.5,
           "redemption_score": 7.5,
           "issuer_score": 5.5,
-          "overall_score": 6.75
+          "overall_score": 6.5
         },
         "solana": {
           "volatility_score": 8.5,
           "backing_score": 6.5,
           "underlying_score": 5.5,
-          "liquidity_score": 7.5,
+          "liquidity_score": 6.5,
           "structural_score": 4.5,
           "redemption_score": 7.5,
           "issuer_score": 5.5,
-          "overall_score": 6.75
+          "overall_score": 6.5
         },
         "arbitrum": {
           "volatility_score": 8.5,
           "backing_score": 6.5,
           "underlying_score": 5.5,
-          "liquidity_score": 7.5,
+          "liquidity_score": 6.5,
           "structural_score": 4.5,
           "redemption_score": 7.5,
           "issuer_score": 5.5,
-          "overall_score": 6.75
+          "overall_score": 6.5
         },
         "base": {
           "volatility_score": 8.5,
           "backing_score": 6.5,
           "underlying_score": 5.5,
-          "liquidity_score": 7.5,
+          "liquidity_score": 6.5,
           "structural_score": 4.5,
           "redemption_score": 7.5,
           "issuer_score": 5.5,
-          "overall_score": 6.75
+          "overall_score": 6.5
         },
         "plasma": {
           "volatility_score": 8.5,
           "backing_score": 6.5,
           "underlying_score": 5.5,
-          "liquidity_score": 7.5,
+          "liquidity_score": 6.5,
           "structural_score": 4.5,
           "redemption_score": 7.5,
           "issuer_score": 5.5,
-          "overall_score": 6.75
+          "overall_score": 6.5
         },
         "monad": {
           "volatility_score": 8.5,
           "backing_score": 6.5,
           "underlying_score": 5.5,
-          "liquidity_score": 7.5,
+          "liquidity_score": 6.5,
           "structural_score": 4.5,
           "redemption_score": 7.5,
           "issuer_score": 5.5,
-          "overall_score": 6.75
+          "overall_score": 6.5
         }
       },
       "report_file": "assets/syrupusdc.md",
@@ -6614,7 +6614,7 @@
       "date": "2026-05-27",
       "default_scores": {
         "peg_mechanism_score": 7.5,
-        "backing_score": 6.5,
+        "backing_score": 6.0,
         "underlying_score": 6.5,
         "liquidity_score": 8.5,
         "structural_score": 7.0,
@@ -6624,7 +6624,7 @@
       "chain_scores": {
         "ethereum": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 6.5,
+          "backing_score": 6.0,
           "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
@@ -6633,7 +6633,7 @@
         },
         "solana": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 6.5,
+          "backing_score": 6.0,
           "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
@@ -6642,7 +6642,7 @@
         },
         "base": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 6.5,
+          "backing_score": 6.0,
           "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
@@ -6651,7 +6651,7 @@
         },
         "arbitrum": {
           "peg_mechanism_score": 7.5,
-          "backing_score": 6.5,
+          "backing_score": 6.0,
           "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
