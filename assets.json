@@ -2207,17 +2207,23 @@
       "date": "2026-06-30",
       "default_scores": {
         "volatility_score": 6.0,
-        "liquidity_score": 6.0,
+        "backing_score": 5.5,
+        "underlying_score": 4.0,
+        "liquidity_score": 3.5,
         "structural_score": 5.0,
         "redemption_score": 4.5,
+        "issuer_score": 4.5,
         "overall_score": 5.0
       },
       "chain_scores": {
         "arbitrum": {
           "volatility_score": 6.0,
-          "liquidity_score": 6.0,
+          "backing_score": 5.5,
+          "underlying_score": 4.0,
+          "liquidity_score": 3.5,
           "structural_score": 5.0,
           "redemption_score": 4.5,
+          "issuer_score": 4.5,
           "overall_score": 5.0
         }
       },
@@ -4094,17 +4100,23 @@
       "date": "2026-06-08",
       "default_scores": {
         "volatility_score": 6.0,
+        "backing_score": 5.0,
+        "underlying_score": 4.5,
         "liquidity_score": 5.5,
         "structural_score": 5.5,
         "redemption_score": 8.0,
+        "issuer_score": 6.0,
         "overall_score": 5.0
       },
       "chain_scores": {
         "ethereum": {
           "volatility_score": 6.0,
+          "backing_score": 5.0,
+          "underlying_score": 4.5,
           "liquidity_score": 5.5,
           "structural_score": 5.5,
           "redemption_score": 8.0,
+          "issuer_score": 6.0,
           "overall_score": 5.0
         }
       },
@@ -4536,6 +4548,8 @@
       "date": "2026-08-16",
       "default_scores": {
         "volatility_score": 4.5,
+        "backing_score": 3.5,
+        "underlying_score": 2.5,
         "liquidity_score": 3.0,
         "structural_score": 4.0,
         "redemption_score": 3.5,
@@ -4545,6 +4559,8 @@
       "chain_scores": {
         "ethereum": {
           "volatility_score": 4.5,
+          "backing_score": 3.5,
+          "underlying_score": 2.5,
           "liquidity_score": 3.0,
           "structural_score": 4.0,
           "redemption_score": 3.5,
@@ -4553,6 +4569,8 @@
         },
         "monad": {
           "volatility_score": 4.5,
+          "backing_score": 3.5,
+          "underlying_score": 2.5,
           "liquidity_score": 3.0,
           "structural_score": 4.0,
           "redemption_score": 3.5,
@@ -6832,37 +6850,48 @@
       "default_scores": {
         "peg_mechanism_score": 7.5,
         "backing_score": 6.0,
+        "underlying_score": 4.0,
         "liquidity_score": 6.0,
-        "issuer_score": 5.5,
-        "overall_score": 6.0
+        "structural_score": 3.5,
+        "issuer_score": 5.0,
+        "overall_score": 5.5
       },
       "chain_scores": {
         "monad": {
           "peg_mechanism_score": 7.5,
           "backing_score": 6.0,
+          "underlying_score": 4.0,
           "liquidity_score": 6.0,
-          "issuer_score": 5.5,
-          "overall_score": 6.0
+          "structural_score": 3.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
         },
         "hyperevm": {
           "peg_mechanism_score": 7.5,
           "backing_score": 6.0,
+          "underlying_score": 4.0,
           "liquidity_score": 6.0,
-          "issuer_score": 5.5,
-          "overall_score": 6.0
+          "structural_score": 3.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
         },
         "plasma": {
           "peg_mechanism_score": 7.5,
           "backing_score": 6.0,
+          "underlying_score": 4.0,
           "liquidity_score": 6.0,
-          "issuer_score": 5.5,
-          "overall_score": 6.0
+          "structural_score": 3.5,
+          "issuer_score": 5.0,
+          "overall_score": 5.5
         }
       },
       "report_file": "assets/usdt0.md",
       "last_verified": "2026-08-16",
       "peg_mechanism": "fiat-backed",
       "issuer": "Tether (via LayerZero OFT)",
+      "underlying_assets": [
+        "USDT"
+      ],
       "market_cap_approx": 187000000000,
       "audited_reserves": false
     },
@@ -7679,31 +7708,43 @@
       "date": "2026-05-26",
       "default_scores": {
         "volatility_score": 9.0,
+        "backing_score": 9.0,
+        "underlying_score": 6.0,
         "liquidity_score": 9.0,
         "structural_score": 8.0,
         "redemption_score": 8.5,
-        "overall_score": 8.5
+        "issuer_score": 7.0,
+        "overall_score": 8.0
       },
       "chain_scores": {
         "ethereum": {
           "volatility_score": 9.0,
+          "backing_score": 9.0,
+          "underlying_score": 6.0,
           "liquidity_score": 9.0,
           "structural_score": 8.0,
           "redemption_score": 8.5,
-          "overall_score": 8.5
+          "issuer_score": 7.0,
+          "overall_score": 8.0
         },
         "base": {
           "volatility_score": 9.0,
+          "backing_score": 9.0,
+          "underlying_score": 6.0,
           "liquidity_score": 7.5,
           "structural_score": 7.0,
           "redemption_score": 7.5,
+          "issuer_score": 7.0,
           "overall_score": 7.5
         },
         "monad": {
           "volatility_score": 9.0,
+          "backing_score": 6.5,
+          "underlying_score": 4.0,
           "liquidity_score": 9.0,
           "structural_score": 6.5,
           "redemption_score": 8.5,
+          "issuer_score": 6.0,
           "overall_score": 7.0
         }
       },
