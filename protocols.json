@@ -539,6 +539,61 @@
       "last_verified": "2026-05-19"
     },
     {
+      "protocol": "Curve Lend",
+      "slug": "curve-lend",
+      "chains": [
+        "eth",
+        "arbitrum",
+        "optimism",
+        "fraxtal",
+        "sonic"
+      ],
+      "category": "lending",
+      "assessment_type": "full",
+      "date": "2026-10-04",
+      "default_scores": {
+        "contract_score": 6.0,
+        "economic_score": 5.5,
+        "project_score": 7.0,
+        "overall_score": 6.0
+      },
+      "chain_scores": {
+        "eth": {
+          "contract_score": 6.0,
+          "economic_score": 5.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        },
+        "arbitrum": {
+          "contract_score": 6.0,
+          "economic_score": 5.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        },
+        "optimism": {
+          "contract_score": 6.0,
+          "economic_score": 5.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        },
+        "fraxtal": {
+          "contract_score": 6.0,
+          "economic_score": 5.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        },
+        "sonic": {
+          "contract_score": 6.0,
+          "economic_score": 5.5,
+          "project_score": 7.0,
+          "overall_score": 6.0
+        }
+      },
+      "report_file": "reports/curve-lend.md",
+      "tvl_gross": 96787748,
+      "last_verified": "2026-10-04"
+    },
+    {
       "protocol": "Curve",
       "slug": "curve",
       "chains": [
@@ -2891,13 +2946,16 @@
     "curvance": "curvance",
     "curve": "curve",
     "curve finance": "curve",
-    "curve lend": "curve",
-    "curve llamalend": "curve",
+    "curve lend": "curve-lend",
+    "curve lending": "curve-lend",
+    "curve llamalend": "curve-lend",
     "curve protocol": "curve",
     "curve v1": "curve",
     "curve v2": "curve",
+    "curve-lend": "curve-lend",
     "curve.fi": "curve",
     "curvefi": "curve",
+    "curvelend": "curve-lend",
     "cvx": "convex",
     "d-squared": "d2-finance",
     "d2": "d2-finance",
@@ -2987,7 +3045,9 @@
     "lista": "lista-dao",
     "lista dao": "lista-dao",
     "lista-dao": "lista-dao",
-    "llamalend": "curve",
+    "llamalend": "curve-lend",
+    "llamalend v1": "curve-lend",
+    "llamalend v2": "curve-lend",
     "longbow": "longbow",
     "longbow credit": "longbow",
     "longbow lending": "longbow",
