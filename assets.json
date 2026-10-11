@@ -4806,7 +4806,7 @@
         "structural_score": 8.5,
         "redemption_score": 8.5,
         "issuer_score": 7.0,
-        "overall_score": 8.5
+        "overall_score": 8.0
       },
       "chain_scores": {
         "ethereum": {
@@ -4817,7 +4817,7 @@
           "structural_score": 8.5,
           "redemption_score": 8.5,
           "issuer_score": 7.0,
-          "overall_score": 8.5
+          "overall_score": 8.0
         }
       },
       "report_file": "assets/steth.md",
