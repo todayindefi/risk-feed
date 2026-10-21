@@ -873,12 +873,26 @@
       "chains": [
         "eth",
         "arbitrum",
-        "base",
         "optimism",
         "bsc",
+        "avax",
+        "solana",
         "mantle",
+        "base",
         "blast",
-        "fraxtal"
+        "fraxtal",
+        "xlayer",
+        "zircuit",
+        "morph",
+        "ink",
+        "ton",
+        "berachain",
+        "hyperevm",
+        "plasma",
+        "monad",
+        "megaeth",
+        "aptos",
+        "ethereal"
       ],
       "category": "synthetic-dollar",
       "assessment_type": "light",
@@ -902,12 +916,6 @@
           "project_score": 7.0,
           "overall_score": 6.5
         },
-        "base": {
-          "contract_score": 6.5,
-          "economic_score": 6.0,
-          "project_score": 7.0,
-          "overall_score": 6.5
-        },
         "optimism": {
           "contract_score": 6.5,
           "economic_score": 6.0,
@@ -920,7 +928,25 @@
           "project_score": 7.0,
           "overall_score": 6.5
         },
+        "avax": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "solana": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
         "mantle": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "base": {
           "contract_score": 6.5,
           "economic_score": 6.0,
           "project_score": 7.0,
@@ -937,10 +963,82 @@
           "economic_score": 6.0,
           "project_score": 7.0,
           "overall_score": 6.5
+        },
+        "xlayer": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "zircuit": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "morph": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "ink": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "ton": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "berachain": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "hyperevm": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "plasma": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "monad": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "megaeth": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "aptos": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
+        },
+        "ethereal": {
+          "contract_score": 6.5,
+          "economic_score": 6.0,
+          "project_score": 7.0,
+          "overall_score": 6.5
         }
       },
       "report_file": "reports/ethena.md",
-      "last_verified": "2026-08-29"
+      "last_verified": "2026-10-21"
     },
     {
       "protocol": "Ethereal",
