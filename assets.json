@@ -151,7 +151,7 @@
         }
       },
       "report_file": "assets/apxusd.md",
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-10-13",
       "peg_mechanism": "hybrid",
       "issuer": "Apyx",
       "underlying_assets": [
@@ -758,6 +758,114 @@
       "audited_reserves": false
     },
     {
+      "asset": "BRZ",
+      "slug": "brz",
+      "chains": [
+        "polygon",
+        "ethereum",
+        "bnb",
+        "avalanche",
+        "solana",
+        "rootstock",
+        "stellar",
+        "algorand"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-10-12",
+      "default_scores": {
+        "peg_mechanism_score": 4.5,
+        "backing_score": 2.5,
+        "underlying_score": 3.0,
+        "liquidity_score": 2.0,
+        "structural_score": 2.5,
+        "issuer_score": 4.0,
+        "overall_score": 2.5
+      },
+      "chain_scores": {
+        "polygon": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 2.5,
+          "underlying_score": 3.0,
+          "liquidity_score": 2.0,
+          "structural_score": 3.0,
+          "issuer_score": 4.0,
+          "overall_score": 2.5
+        },
+        "ethereum": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 2.5,
+          "underlying_score": 3.0,
+          "liquidity_score": 2.0,
+          "structural_score": 2.5,
+          "issuer_score": 4.0,
+          "overall_score": 2.5
+        },
+        "bnb": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 2.5,
+          "underlying_score": 3.0,
+          "liquidity_score": 2.0,
+          "structural_score": 2.5,
+          "issuer_score": 4.0,
+          "overall_score": 2.5
+        },
+        "avalanche": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 2.5,
+          "underlying_score": 3.0,
+          "liquidity_score": 2.0,
+          "structural_score": 2.5,
+          "issuer_score": 4.0,
+          "overall_score": 2.5
+        },
+        "solana": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 2.5,
+          "underlying_score": 3.0,
+          "liquidity_score": 2.0,
+          "structural_score": 1.5,
+          "issuer_score": 4.0,
+          "overall_score": 2.5
+        },
+        "rootstock": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 2.5,
+          "underlying_score": 3.0,
+          "liquidity_score": 2.0,
+          "structural_score": 2.5,
+          "issuer_score": 4.0,
+          "overall_score": 2.5
+        },
+        "stellar": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 2.5,
+          "underlying_score": 3.0,
+          "liquidity_score": 2.0,
+          "structural_score": 2.5,
+          "issuer_score": 4.0,
+          "overall_score": 2.5
+        },
+        "algorand": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 2.5,
+          "underlying_score": 3.0,
+          "liquidity_score": 2.0,
+          "structural_score": 2.5,
+          "issuer_score": 4.0,
+          "overall_score": 2.5
+        }
+      },
+      "report_file": "assets/brz.md",
+      "last_verified": "2026-10-12",
+      "issuer": "Transfero Asset Management LTD (Bahamas) \u2014 named in the BRZ whitepaper as the entity behind the mint; see \u00a7VI",
+      "underlying_assets": [
+        "BRL"
+      ],
+      "market_cap_approx": 2282782227,
+      "audited_reserves": false
+    },
+    {
       "asset": "bsdETH",
       "slug": "bsdeth",
       "chains": [
@@ -1096,69 +1204,129 @@
         "eth",
         "base",
         "arb",
-        "optimism",
+        "op",
         "bsc",
-        "fantom"
+        "fantom",
+        "polygon",
+        "avax",
+        "mode",
+        "blast"
       ],
       "category": "stablecoin",
-      "assessment_type": "light",
-      "date": "2026-07-01",
+      "assessment_type": "full",
+      "date": "2026-10-14",
       "default_scores": {
-        "peg_mechanism_score": 5.5,
+        "peg_mechanism_score": 5.0,
         "backing_score": 4.5,
+        "underlying_score": 4.5,
         "liquidity_score": 4.5,
+        "structural_score": 5.0,
         "issuer_score": 5.0,
         "overall_score": 4.5
       },
       "chain_scores": {
         "ethereum": {
-          "peg_mechanism_score": 5.5,
+          "peg_mechanism_score": 5.0,
           "backing_score": 4.5,
+          "underlying_score": 4.5,
           "liquidity_score": 4.5,
+          "structural_score": 5.0,
           "issuer_score": 5.0,
           "overall_score": 4.5
         },
         "base": {
-          "peg_mechanism_score": 5.5,
+          "peg_mechanism_score": 5.0,
           "backing_score": 4.5,
+          "underlying_score": 4.5,
           "liquidity_score": 4.5,
+          "structural_score": 5.0,
           "issuer_score": 5.0,
           "overall_score": 4.5
         },
         "arbitrum": {
-          "peg_mechanism_score": 5.5,
+          "peg_mechanism_score": 5.0,
           "backing_score": 4.5,
+          "underlying_score": 4.5,
           "liquidity_score": 4.5,
+          "structural_score": 5.0,
           "issuer_score": 5.0,
           "overall_score": 4.5
         },
         "optimism": {
-          "peg_mechanism_score": 5.5,
+          "peg_mechanism_score": 5.0,
           "backing_score": 4.5,
+          "underlying_score": 4.5,
           "liquidity_score": 4.5,
+          "structural_score": 5.0,
           "issuer_score": 5.0,
           "overall_score": 4.5
         },
         "bnb": {
-          "peg_mechanism_score": 5.5,
+          "peg_mechanism_score": 5.0,
           "backing_score": 4.5,
+          "underlying_score": 4.5,
           "liquidity_score": 4.5,
+          "structural_score": 5.0,
           "issuer_score": 5.0,
           "overall_score": 4.5
         },
         "fantom": {
-          "peg_mechanism_score": 5.5,
+          "peg_mechanism_score": 5.0,
           "backing_score": 4.5,
+          "underlying_score": 4.5,
           "liquidity_score": 4.5,
+          "structural_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "polygon": {
+          "peg_mechanism_score": 5.0,
+          "backing_score": 4.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 4.5,
+          "structural_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "avalanche": {
+          "peg_mechanism_score": 5.0,
+          "backing_score": 4.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 4.5,
+          "structural_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "mode": {
+          "peg_mechanism_score": 5.0,
+          "backing_score": 4.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 4.5,
+          "structural_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "blast": {
+          "peg_mechanism_score": 5.0,
+          "backing_score": 4.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 4.5,
+          "structural_score": 5.0,
           "issuer_score": 5.0,
           "overall_score": 4.5
         }
       },
       "report_file": "assets/dola.md",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-10-14",
       "peg_mechanism": "hybrid",
       "issuer": "Inverse Finance DAO",
-      "market_cap_approx": 39000000,
+      "dependency_protocols": [
+        "inverse-finance",
+        "ethena",
+        "curve",
+        "convex"
+      ],
+      "market_cap_approx": 72573072,
       "audited_reserves": false
     },
     {
@@ -1587,6 +1755,44 @@
       "last_verified": "2026-05-27",
       "underlying_assets": [
         "usdc"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "Figure Automobile / AUTOYLDS",
+      "slug": "figure-automobile",
+      "chains": [
+        "provenance"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-10-15",
+      "default_scores": {
+        "backing_score": 4.5,
+        "underlying_score": 4.5,
+        "liquidity_score": 4.0,
+        "structural_score": 3.5,
+        "redemption_score": 4.0,
+        "issuer_score": 4.5,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "provenance": {
+          "backing_score": 4.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 4.0,
+          "structural_score": 3.5,
+          "redemption_score": 4.0,
+          "issuer_score": 4.5,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/figure-automobile.md",
+      "last_verified": "2026-10-15",
+      "issuer": "Figure-operated Automobile facility; Agora-associated auto receivables",
+      "underlying_assets": [
+        "YLDS",
+        "auto.forge collateral"
       ],
       "yield_bearing": true
     },
@@ -2474,34 +2680,34 @@
       "date": "2026-07-27",
       "default_scores": {
         "volatility_score": 6.0,
-        "backing_score": 5.0,
+        "backing_score": 4.5,
         "underlying_score": 5.5,
         "liquidity_score": 7.0,
         "structural_score": 5.0,
         "redemption_score": 6.0,
         "issuer_score": 6.5,
-        "overall_score": 5.0
+        "overall_score": 4.5
       },
       "chain_scores": {
         "solana": {
           "volatility_score": 6.0,
-          "backing_score": 5.0,
+          "backing_score": 4.5,
           "underlying_score": 5.5,
           "liquidity_score": 7.0,
           "structural_score": 5.0,
           "redemption_score": 6.0,
           "issuer_score": 6.5,
-          "overall_score": 5.0
+          "overall_score": 4.5
         },
         "ethereum": {
           "volatility_score": 6.0,
-          "backing_score": 5.0,
+          "backing_score": 4.5,
           "underlying_score": 5.5,
           "liquidity_score": 7.0,
           "structural_score": 5.0,
           "redemption_score": 6.0,
           "issuer_score": 6.5,
-          "overall_score": 5.0
+          "overall_score": 4.5
         }
       },
       "report_file": "assets/hastra-prime.md",
@@ -2512,7 +2718,7 @@
         "YLDS"
       ],
       "yield_bearing": true,
-      "market_cap_approx": 457000000
+      "market_cap_approx": 585983795
     },
     {
       "asset": "HYPE",
@@ -2939,7 +3145,7 @@
       "assessment_type": "dependency",
       "date": "2026-05-30",
       "default_scores": {
-        "overall_score": 4.5
+        "overall_score": 4.0
       },
       "chain_scores": {},
       "report_file": "assets/mstr.md",
@@ -3404,6 +3610,66 @@
       "audited_reserves": false
     },
     {
+      "asset": "PST",
+      "slug": "pst",
+      "chains": [
+        "ethereum",
+        "solana",
+        "arc"
+      ],
+      "category": "vault-share",
+      "assessment_type": "full",
+      "date": "2026-10-12",
+      "default_scores": {
+        "volatility_score": 5.0,
+        "backing_score": 4.0,
+        "underlying_score": 3.0,
+        "liquidity_score": 6.0,
+        "structural_score": 5.0,
+        "issuer_score": 5.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "volatility_score": 5.0,
+          "backing_score": 4.0,
+          "underlying_score": 3.0,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "solana": {
+          "volatility_score": 5.0,
+          "backing_score": 4.0,
+          "underlying_score": 3.0,
+          "liquidity_score": 6.0,
+          "structural_score": 3.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.0
+        },
+        "arc": {
+          "volatility_score": 5.0,
+          "backing_score": 4.0,
+          "underlying_score": 3.0,
+          "liquidity_score": 6.0,
+          "structural_score": 6.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/pst.md",
+      "last_verified": "2026-10-13",
+      "issuer": "Huma Global Ltd. (BVI) \u2014 operator; originator Arf Financial GmbH (Switzerland) + SPV Arf Capital Ltd. (Liechtenstein); both under 00 Holdings Inc. since 2024",
+      "underlying_assets": [
+        "cross-border payment receivables",
+        "licensed payment institution credit lines",
+        "market-neutral liquid assets"
+      ],
+      "market_cap_approx": 651150000,
+      "audited_reserves": false
+    },
+    {
       "asset": "PT-apxUSD",
       "slug": "pt-apxusd",
       "chains": [
@@ -3767,7 +4033,8 @@
         "bera",
         "monad",
         "tempo",
-        "sol"
+        "sol",
+        "sei"
       ],
       "category": "vault-share",
       "assessment_type": "full",
@@ -3912,6 +4179,16 @@
           "redemption_score": 4.5,
           "issuer_score": 5.5,
           "overall_score": 5.0
+        },
+        "sei": {
+          "volatility_score": 7.0,
+          "backing_score": 5.0,
+          "underlying_score": 5.0,
+          "liquidity_score": 4.5,
+          "structural_score": 4.0,
+          "redemption_score": 4.5,
+          "issuer_score": 5.5,
+          "overall_score": 5.0
         }
       },
       "report_file": "assets/reusd-re.md",
@@ -3930,7 +4207,7 @@
           "pt_address": "0xecfafdc7741323a945a163ed068b5a3c43483957",
           "reachable": true,
           "capacity_usd": 250000,
-          "note": "$9.07M market liquidity, 10.75% implied, 119d to maturity (Pendle API, 2026-08-13). Adds Pendle contract surface and pre-maturity exit risk the loop does not carry. Symbol verified on-chain: symbol() on 0xecfafdc7\u20263957 = PT-reUSD-10DEC2026.",
+          "note": "$9.07M market liquidity and 10.75% implied APY on 2026-08-13; stale and requires remeasurement before use.",
           "review_if": "market liquidity < $3M, or within 90d of maturity"
         },
         {
@@ -3938,7 +4215,7 @@
           "instrument": "reUSD",
           "reachable": true,
           "capacity_usd": 150000,
-          "note": "DEX-only for U.S. persons \u2014 no primary redemption (\u00a7II). ~$1.4M/day across Fluid + Curve, no CEX.",
+          "note": "DEX-only for U.S. persons because primary redemption is unavailable; capacity requires a current ladder.",
           "review_if": "DEX volume < $500k/day"
         }
       ]
@@ -4389,7 +4666,7 @@
         "volatility_score": 6.0,
         "backing_score": 5.0,
         "underlying_score": 4.5,
-        "liquidity_score": 5.5,
+        "liquidity_score": 8.0,
         "structural_score": 5.5,
         "redemption_score": 8.0,
         "issuer_score": 6.0,
@@ -4400,7 +4677,7 @@
           "volatility_score": 6.0,
           "backing_score": 5.0,
           "underlying_score": 4.5,
-          "liquidity_score": 5.5,
+          "liquidity_score": 8.0,
           "structural_score": 5.5,
           "redemption_score": 8.0,
           "issuer_score": 6.0,
@@ -4408,11 +4685,12 @@
         }
       },
       "report_file": "assets/scrvusd.md",
-      "last_verified": "2026-08-17",
+      "last_verified": "2026-10-17",
       "underlying_assets": [
         "crvUSD"
       ],
-      "yield_bearing": true
+      "yield_bearing": true,
+      "market_cap_approx": 14823682
     },
     {
       "asset": "sDOLA",
@@ -4426,10 +4704,12 @@
       ],
       "category": "vault-share",
       "assessment_type": "light",
-      "date": "2026-07-01",
+      "date": "2026-10-14",
       "default_scores": {
         "volatility_score": 5.5,
-        "liquidity_score": 5.0,
+        "backing_score": 4.5,
+        "underlying_score": 4.5,
+        "liquidity_score": 4.5,
         "structural_score": 5.5,
         "redemption_score": 5.0,
         "issuer_score": 5.0,
@@ -4438,7 +4718,9 @@
       "chain_scores": {
         "ethereum": {
           "volatility_score": 5.5,
-          "liquidity_score": 5.0,
+          "backing_score": 4.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 4.5,
           "structural_score": 5.5,
           "redemption_score": 5.0,
           "issuer_score": 5.0,
@@ -4446,7 +4728,9 @@
         },
         "base": {
           "volatility_score": 5.5,
-          "liquidity_score": 5.0,
+          "backing_score": 4.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 4.5,
           "structural_score": 5.5,
           "redemption_score": 5.0,
           "issuer_score": 5.0,
@@ -4454,7 +4738,9 @@
         },
         "arbitrum": {
           "volatility_score": 5.5,
-          "liquidity_score": 5.0,
+          "backing_score": 4.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 4.5,
           "structural_score": 5.5,
           "redemption_score": 5.0,
           "issuer_score": 5.0,
@@ -4462,7 +4748,9 @@
         },
         "optimism": {
           "volatility_score": 5.5,
-          "liquidity_score": 5.0,
+          "backing_score": 4.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 4.5,
           "structural_score": 5.5,
           "redemption_score": 5.0,
           "issuer_score": 5.0,
@@ -4470,7 +4758,9 @@
         },
         "berachain": {
           "volatility_score": 5.5,
-          "liquidity_score": 5.0,
+          "backing_score": 4.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 4.5,
           "structural_score": 5.5,
           "redemption_score": 5.0,
           "issuer_score": 5.0,
@@ -4478,10 +4768,13 @@
         }
       },
       "report_file": "assets/sdola.md",
-      "last_verified": "2026-07-01",
+      "last_verified": "2026-10-14",
       "issuer": "Inverse Finance DAO",
       "underlying_assets": [
         "DOLA"
+      ],
+      "dependency_protocols": [
+        "inverse-finance"
       ],
       "yield_bearing": true
     },
@@ -4522,40 +4815,151 @@
       "asset": "sfrxUSD",
       "slug": "sfrxusd",
       "chains": [
-        "eth"
+        "ethereum",
+        "fraxtal",
+        "arbitrum",
+        "avalanche",
+        "base",
+        "bnb",
+        "katana",
+        "optimism",
+        "polygon",
+        "sei",
+        "sonic"
       ],
       "category": "vault-share",
-      "assessment_type": "light",
+      "assessment_type": "full",
       "date": "2026-08-29",
       "default_scores": {
-        "volatility_score": 7.0,
-        "backing_score": 6.5,
-        "underlying_score": 4.5,
+        "volatility_score": 6.5,
+        "backing_score": 5.0,
+        "underlying_score": 4.0,
         "liquidity_score": 5.0,
-        "structural_score": 5.0,
-        "redemption_score": 6.5,
+        "structural_score": 3.5,
+        "redemption_score": 5.0,
         "issuer_score": 5.0,
-        "overall_score": 5.0
+        "overall_score": 4.5
       },
       "chain_scores": {
         "ethereum": {
-          "volatility_score": 7.0,
-          "backing_score": 6.5,
-          "underlying_score": 4.5,
+          "volatility_score": 6.5,
+          "backing_score": 5.0,
+          "underlying_score": 4.0,
           "liquidity_score": 5.0,
-          "structural_score": 5.0,
-          "redemption_score": 6.5,
+          "structural_score": 3.5,
+          "redemption_score": 5.0,
           "issuer_score": 5.0,
-          "overall_score": 5.0
+          "overall_score": 4.5
+        },
+        "fraxtal": {
+          "volatility_score": 6.5,
+          "backing_score": 5.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 5.0,
+          "structural_score": 3.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "arbitrum": {
+          "volatility_score": 6.5,
+          "backing_score": 5.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 5.0,
+          "structural_score": 3.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "avalanche": {
+          "volatility_score": 6.5,
+          "backing_score": 5.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 5.0,
+          "structural_score": 3.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "base": {
+          "volatility_score": 6.5,
+          "backing_score": 5.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 5.0,
+          "structural_score": 3.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "bnb": {
+          "volatility_score": 6.5,
+          "backing_score": 5.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 5.0,
+          "structural_score": 3.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "katana": {
+          "volatility_score": 6.5,
+          "backing_score": 5.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 5.0,
+          "structural_score": 3.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "optimism": {
+          "volatility_score": 6.5,
+          "backing_score": 5.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 5.0,
+          "structural_score": 3.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "polygon": {
+          "volatility_score": 6.5,
+          "backing_score": 5.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 5.0,
+          "structural_score": 3.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "sei": {
+          "volatility_score": 6.5,
+          "backing_score": 5.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 5.0,
+          "structural_score": 3.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "sonic": {
+          "volatility_score": 6.5,
+          "backing_score": 5.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 5.0,
+          "structural_score": 3.5,
+          "redemption_score": 5.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
         }
       },
       "report_file": "assets/sfrxusd.md",
-      "last_verified": "2026-08-29",
-      "issuer": "Frax Finance",
+      "last_verified": "2026-10-15",
+      "issuer": "Frax Finance / Frax Inc",
       "underlying_assets": [
         "frxUSD"
       ],
-      "yield_bearing": true
+      "yield_bearing": true,
+      "market_cap_approx": 37963164
     },
     {
       "asset": "sGHO",
@@ -4838,7 +5242,7 @@
         "backing_score": 3.5,
         "underlying_score": 2.5,
         "liquidity_score": 3.0,
-        "structural_score": 4.0,
+        "structural_score": 3.5,
         "issuer_score": 5.0,
         "overall_score": 4.0
       },
@@ -4848,7 +5252,7 @@
           "backing_score": 3.5,
           "underlying_score": 2.5,
           "liquidity_score": 3.0,
-          "structural_score": 4.0,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 4.0
         },
@@ -4857,7 +5261,7 @@
           "backing_score": 3.5,
           "underlying_score": 2.5,
           "liquidity_score": 3.0,
-          "structural_score": 4.0,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 4.0
         }
@@ -5058,7 +5462,7 @@
         "volatility_score": 5.0,
         "liquidity_score": 7.0,
         "redemption_score": 5.0,
-        "overall_score": 4.0
+        "overall_score": 3.5
       },
       "chain_scores": {},
       "report_file": "assets/strc.md",
@@ -5101,7 +5505,7 @@
         }
       },
       "report_file": "assets/strcx.md",
-      "last_verified": "2026-09-13",
+      "last_verified": "2026-10-13",
       "underlying_assets": [
         "STRC"
       ],
@@ -5229,7 +5633,7 @@
         "backing_score": 2.5,
         "underlying_score": 2.5,
         "liquidity_score": 2.0,
-        "structural_score": 4.0,
+        "structural_score": 3.5,
         "issuer_score": 5.0,
         "overall_score": 3.0
       },
@@ -5239,7 +5643,7 @@
           "backing_score": 2.5,
           "underlying_score": 2.5,
           "liquidity_score": 2.0,
-          "structural_score": 4.0,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 3.0
         },
@@ -5248,7 +5652,7 @@
           "backing_score": 2.5,
           "underlying_score": 2.5,
           "liquidity_score": 2.0,
-          "structural_score": 4.0,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 3.0
         },
@@ -5257,13 +5661,13 @@
           "backing_score": 2.5,
           "underlying_score": 2.5,
           "liquidity_score": 2.0,
-          "structural_score": 4.0,
+          "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 3.0
         }
       },
       "report_file": "assets/susdat.md",
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-10-13",
       "underlying_assets": [
         "USDat",
         "strc"
@@ -5488,7 +5892,7 @@
         "optimism"
       ],
       "category": "vault-share",
-      "assessment_type": "light",
+      "assessment_type": "full",
       "date": "2026-05-27",
       "default_scores": {
         "volatility_score": 9.0,
@@ -5496,7 +5900,6 @@
         "underlying_score": 6.5,
         "liquidity_score": 8.5,
         "structural_score": 7.0,
-        "redemption_score": 8.5,
         "issuer_score": 7.0,
         "overall_score": 7.0
       },
@@ -5507,7 +5910,6 @@
           "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
-          "redemption_score": 8.5,
           "issuer_score": 7.0,
           "overall_score": 7.0
         },
@@ -5517,7 +5919,6 @@
           "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
-          "redemption_score": 8.5,
           "issuer_score": 7.0,
           "overall_score": 7.0
         },
@@ -5527,7 +5928,6 @@
           "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
-          "redemption_score": 8.5,
           "issuer_score": 7.0,
           "overall_score": 7.0
         },
@@ -5537,37 +5937,16 @@
           "underlying_score": 6.5,
           "liquidity_score": 8.5,
           "structural_score": 7.0,
-          "redemption_score": 8.5,
           "issuer_score": 7.0,
           "overall_score": 7.0
         }
       },
       "report_file": "assets/susds.md",
-      "last_verified": "2026-09-06",
+      "last_verified": "2026-10-12",
       "underlying_assets": [
         "USDS"
       ],
-      "yield_bearing": true,
-      "unlevered_alternatives": [
-        {
-          "comparator": "pt",
-          "instrument": "PT-sUSDS-26NOV2026",
-          "market_address": "0x9c560ebaf78e596cbcc27411d633a74d628dd7dc",
-          "pt_address": "0xdc169abe56461a2e0c034da431ac2a3ebf596094",
-          "reachable": true,
-          "capacity_usd": 100000,
-          "note": "5.07% implied, $3.46M market liquidity, 105d to maturity (Pendle API, 2026-08-13). Loop strips to 7.52% against it, i.e. clear by ~245bp on this pull (~237bp against FarmTracker's 5.15% read \u2014 pull timing, not a different conclusion). Symbol verified on-chain: symbol() on 0xdc169abe\u20266094 = PT-sUSDS-26NOV2026.",
-          "review_if": "market liquidity < $1.5M, or within 90d of maturity"
-        },
-        {
-          "comparator": "spot",
-          "instrument": "sUSDS",
-          "reachable": true,
-          "capacity_usd": 5000000,
-          "note": "ERC-4626 on USDS with on-chain redemption at share price \u2014 not liquidity-gated the way a secondary-only comparator is. Deep across 4 chains.",
-          "review_if": "Sky Savings Rate module USDS availability constrained, or on-chain redemption gated"
-        }
-      ]
+      "yield_bearing": true
     },
     {
       "asset": "sUSN",
@@ -5747,7 +6126,7 @@
         }
       },
       "report_file": "assets/syrupusdc.md",
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-10-13",
       "underlying_assets": [
         "USDC"
       ],
@@ -5796,7 +6175,7 @@
         }
       },
       "report_file": "assets/syrupusdt.md",
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-10-13",
       "underlying_assets": [
         "USDT"
       ],
@@ -6337,11 +6716,11 @@
         }
       },
       "report_file": "assets/usd3.md",
-      "last_verified": "2026-08-24",
+      "last_verified": "2026-10-17",
       "peg_mechanism": "basket",
       "issuer": "Reserve Protocol",
       "yield_bearing": true,
-      "market_cap_approx": 3320000,
+      "market_cap_approx": 1756000,
       "audited_reserves": false
     },
     {
@@ -6415,7 +6794,8 @@
       "slug": "usdat",
       "chains": [
         "eth",
-        "bnb"
+        "bnb",
+        "monad"
       ],
       "category": "stablecoin",
       "assessment_type": "light",
@@ -6424,8 +6804,8 @@
         "peg_mechanism_score": 6.5,
         "backing_score": 5.5,
         "underlying_score": 5.0,
-        "liquidity_score": 5.5,
-        "structural_score": 4.0,
+        "liquidity_score": 5.0,
+        "structural_score": 4.5,
         "issuer_score": 5.0,
         "overall_score": 4.5
       },
@@ -6434,8 +6814,8 @@
           "peg_mechanism_score": 6.5,
           "backing_score": 5.5,
           "underlying_score": 5.0,
-          "liquidity_score": 5.5,
-          "structural_score": 4.0,
+          "liquidity_score": 5.0,
+          "structural_score": 4.5,
           "issuer_score": 5.0,
           "overall_score": 4.5
         },
@@ -6443,18 +6823,27 @@
           "peg_mechanism_score": 6.5,
           "backing_score": 5.5,
           "underlying_score": 5.0,
-          "liquidity_score": 5.5,
-          "structural_score": 4.0,
+          "liquidity_score": 5.0,
+          "structural_score": 4.5,
+          "issuer_score": 5.0,
+          "overall_score": 4.5
+        },
+        "monad": {
+          "peg_mechanism_score": 6.5,
+          "backing_score": 5.5,
+          "underlying_score": 5.0,
+          "liquidity_score": 5.0,
+          "structural_score": 4.5,
           "issuer_score": 5.0,
           "overall_score": 4.5
         }
       },
       "report_file": "assets/usdat.md",
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-10-14",
       "peg_mechanism": "fiat-backed",
       "issuer": "Saturn Labs",
-      "market_cap_approx": 96323000,
-      "audited_reserves": true
+      "market_cap_approx": 97317231,
+      "audited_reserves": false
     },
     {
       "asset": "USDC",
@@ -6941,26 +7330,26 @@
           "peg_mechanism_score": 7.0,
           "backing_score": 6.0,
           "underlying_score": 4.0,
-          "liquidity_score": 6.0,
+          "liquidity_score": 5.0,
           "structural_score": 4.0,
           "issuer_score": 6.5,
-          "overall_score": 5.5
+          "overall_score": 5.0
         },
         "monad": {
           "peg_mechanism_score": 7.0,
           "backing_score": 3.0,
           "underlying_score": 4.0,
-          "liquidity_score": 4.5,
+          "liquidity_score": 5.0,
           "structural_score": 4.0,
           "issuer_score": 6.5,
           "overall_score": 4.5
         }
       },
       "report_file": "assets/usdm.md",
-      "last_verified": "2026-08-28",
+      "last_verified": "2026-10-17",
       "peg_mechanism": "fiat-backed",
       "issuer": "Mento Labs (Germany)",
-      "market_cap_approx": 16575377,
+      "market_cap_approx": 16072117,
       "audited_reserves": true
     },
     {
@@ -7156,14 +7545,14 @@
         }
       },
       "report_file": "assets/usds.md",
-      "last_verified": "2026-09-06",
+      "last_verified": "2026-10-12",
       "peg_mechanism": "hybrid",
       "issuer": "Sky Protocol (formerly MakerDAO)",
       "dependency_protocols": [
         "spark",
         "grove"
       ],
-      "market_cap_approx": 8411000000,
+      "market_cap_approx": 11641806102,
       "audited_reserves": true
     },
     {
@@ -7518,7 +7907,7 @@
         "peg_mechanism_score": 5.0,
         "backing_score": 5.0,
         "underlying_score": 4.0,
-        "liquidity_score": 3.5,
+        "liquidity_score": 3.0,
         "structural_score": 3.5,
         "issuer_score": 4.0,
         "overall_score": 4.0
@@ -7528,14 +7917,14 @@
           "peg_mechanism_score": 5.0,
           "backing_score": 5.0,
           "underlying_score": 4.0,
-          "liquidity_score": 3.5,
+          "liquidity_score": 3.0,
           "structural_score": 3.5,
           "issuer_score": 4.0,
           "overall_score": 4.0
         }
       },
       "report_file": "assets/usg.md",
-      "last_verified": "2026-08-27",
+      "last_verified": "2026-10-16",
       "peg_mechanism": "hybrid",
       "issuer": "Tangent Finance",
       "market_cap_approx": 4340566,
@@ -8590,6 +8979,7 @@
     "auto pirex eth": "apxeth",
     "autocompounding pirex ether": "apxeth",
     "autopxeth": "apxeth",
+    "autoylds": "figure-automobile",
     "avant eth": "aveth",
     "avant saveth": "saveth",
     "avant savusd": "savusd",
@@ -8614,7 +9004,10 @@
     "bmnr": "bmnr",
     "bold": "bold",
     "bold stablecoin": "bold",
+    "brazilian digital": "brz",
+    "brazilian digital token": "brz",
     "bridge musd": "musd-metamask",
+    "brz": "brz",
     "bsdeth": "bsdeth",
     "btc": "btc",
     "cap labs cusd": "cusd",
@@ -8633,6 +9026,7 @@
     "crvusd": "crvusd",
     "cusd": "cusd",
     "decentralized usd": "usdd",
+    "democratized prime automobile": "figure-automobile",
     "dinero staked eth": "pxeth",
     "dola": "dola",
     "dola usd": "dola",
@@ -8682,9 +9076,12 @@
     "feusdc2": "felix-usdc-frontier",
     "figr": "figure",
     "figure": "figure",
+    "figure automobile / autoylds": "figure-automobile",
+    "figure automobile pool": "figure-automobile",
     "figure certificate company": "figure",
     "figure lending": "figure",
     "figure technology solutions": "figure",
+    "figure-automobile": "figure-automobile",
     "fluid lending gho": "gho",
     "frankencoin": "zchf",
     "frankencoin savings vault": "svzchf",
@@ -8737,6 +9134,7 @@
     "hastra prime": "hastra-prime",
     "hastra wrapped ylds": "wylds",
     "hastra-prime": "hastra-prime",
+    "huma pst": "pst",
     "hype": "hype",
     "hyperliquid": "hype",
     "infinifi siusd": "siusd",
@@ -8832,6 +9230,7 @@
     "ousd": "ousd",
     "parallel usdp": "usdp-parallel",
     "parallelizer dollar": "usdp-parallel",
+    "payfi strategy token": "pst",
     "paypal usd": "pyusd",
     "pendle pt apxusd": "pt-apxusd",
     "pendle pt apyusd": "pt-apyusd",
@@ -8843,6 +9242,7 @@
     "pirex ether": "pxeth",
     "prime": "hastra-prime",
     "prime usdc": "euler-prime-usdc",
+    "pst": "pst",
     "pt apxusd": "pt-apxusd",
     "pt apyusd 5nov2026": "pt-apyusd",
     "pt reusd 10dec2026": "pt-reusd",
@@ -9035,7 +9435,6 @@
     "usdp (parallel)": "usdp-parallel",
     "usdp-parallel": "usdp-parallel",
     "usds": "usds",
-    "usds stablecoin": "usds",
     "usdt": "usdt",
     "usdt.0": "usdt0",
     "usdt0": "usdt0",

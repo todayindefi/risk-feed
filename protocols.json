@@ -1420,6 +1420,32 @@
       "last_verified": "2026-05-27"
     },
     {
+      "protocol": "Inverse Finance",
+      "slug": "inverse-finance",
+      "chains": [
+        "ethereum"
+      ],
+      "category": "fixed-rate-lending",
+      "assessment_type": "provisional",
+      "date": "2026-10-14",
+      "default_scores": {
+        "contract_score": 6.0,
+        "economic_score": 5.0,
+        "project_score": 5.5,
+        "overall_score": 5.0
+      },
+      "chain_scores": {
+        "ethereum": {
+          "contract_score": 6.0,
+          "economic_score": 5.0,
+          "project_score": 5.5,
+          "overall_score": 5.0
+        }
+      },
+      "report_file": "reports/inverse-finance.md",
+      "last_verified": "2026-10-14"
+    },
+    {
       "protocol": "IPOR",
       "slug": "ipor",
       "chains": [
@@ -2985,6 +3011,7 @@
     "fables dex": "fables",
     "fables finance": "fables",
     "fire protocol": "kumbaya",
+    "firm": "inverse-finance",
     "fluid": "fluid",
     "fluid dex": "fluid",
     "fluid lending": "fluid",
@@ -3017,6 +3044,9 @@
     "hyperliquid l1": "hyperliquid",
     "hyperloop": "hyperlend",
     "instadapp fluid": "fluid",
+    "inverse": "inverse-finance",
+    "inverse finance": "inverse-finance",
+    "inverse-finance": "inverse-finance",
     "ipor": "ipor",
     "ipor fusion": "ipor",
     "ipor labs": "ipor",
