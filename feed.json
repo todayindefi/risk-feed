@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-21T06:56:22Z",
+  "generated_at": "2026-10-22T01:45:07Z",
   "content_changed_at": "2026-10-21T06:56:22Z",
   "score_scale": "0-10, higher = lower risk",
   "endpoints": {
@@ -42,5 +42,5 @@
     "generated_at advances on every publish, including no-op heartbeats; use it to tell a live feed from a stopped one.",
     "content_changed_at moves only when assets.json or protocols.json actually differ; use it to tell whether the DATA is new."
   ],
-  "source_commit": "18f2f566034dc340cdd196094db79f40bc8d4a20"
+  "source_commit": "31bcc8159349f9203e3a6f4f038804868fbbb14d"
 }
