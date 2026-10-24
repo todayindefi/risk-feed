@@ -60,11 +60,11 @@
         }
       },
       "report_file": "assets/aleth.md",
-      "last_verified": "2026-06-07",
+      "last_verified": "2026-10-23",
       "issuer": "Alchemix DAO",
       "underlying_assets": [
-        "ETH",
-        "yield-bearing ETH collateral"
+        "WETH",
+        "Alchemix ETH MYT"
       ],
       "yield_bearing": false
     },
