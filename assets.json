@@ -2451,22 +2451,22 @@
         "peg_mechanism_score": 5.5,
         "backing_score": 5.0,
         "liquidity_score": 4.5,
-        "structural_score": 4.0,
+        "structural_score": 5.0,
         "issuer_score": 5.5,
-        "overall_score": 4.5
+        "overall_score": 5.0
       },
       "chain_scores": {
         "ethereum": {
           "peg_mechanism_score": 5.5,
           "backing_score": 5.0,
           "liquidity_score": 4.5,
-          "structural_score": 4.0,
+          "structural_score": 5.0,
           "issuer_score": 5.5,
-          "overall_score": 4.5
+          "overall_score": 5.0
         }
       },
       "report_file": "assets/fxusd.md",
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-10-24",
       "issuer": "f(x) Protocol (AladdinDAO)",
       "underlying_assets": [
         "wstETH",

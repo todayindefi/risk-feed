@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-24T01:45:03Z",
-  "content_changed_at": "2026-10-24T01:45:03Z",
+  "generated_at": "2026-10-25T01:45:03Z",
+  "content_changed_at": "2026-10-25T01:45:03Z",
   "score_scale": "0-10, higher = lower risk",
   "endpoints": {
     "assets": "https://todayindefi.github.io/risk-feed/assets.json",
@@ -42,5 +42,5 @@
     "generated_at advances on every publish, including no-op heartbeats; use it to tell a live feed from a stopped one.",
     "content_changed_at moves only when assets.json or protocols.json actually differ; use it to tell whether the DATA is new."
   ],
-  "source_commit": "5aadeb080c86bd8ea38b6410d739c2ec6a630c57"
+  "source_commit": "f8a8b670ec7572aec69b6b7e1f1318d9ba47e449"
 }
