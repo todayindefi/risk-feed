@@ -3801,6 +3801,40 @@
       "yield_bearing": false
     },
     {
+      "asset": "pufETH",
+      "slug": "pufeth",
+      "chains": [
+        "ethereum"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-10-27",
+      "default_scores": {
+        "backing_score": 6.0,
+        "underlying_score": 5.0,
+        "liquidity_score": 6.0,
+        "issuer_score": 5.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "backing_score": 6.0,
+          "underlying_score": 5.0,
+          "liquidity_score": 6.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/pufeth.md",
+      "last_verified": "2026-10-27",
+      "issuer": "Puffer protocol",
+      "underlying_assets": [
+        "ETH",
+        "stETH"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "pxETH",
       "slug": "pxeth",
       "chains": [
@@ -9253,6 +9287,9 @@
     "pt-reusd": "pt-reusd",
     "pt-reusd-10dec2026": "pt-reusd",
     "pt-srusdat": "pt-srusdat",
+    "pufeth": "pufeth",
+    "puffer pufeth": "pufeth",
+    "puffer staked eth": "pufeth",
     "pxeth": "pxeth",
     "pyusd": "pyusd",
     "qqqon": "qqqon",

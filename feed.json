@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-27T01:45:02Z",
-  "content_changed_at": "2026-10-25T01:45:03Z",
+  "generated_at": "2026-10-28T01:45:02Z",
+  "content_changed_at": "2026-10-28T01:45:02Z",
   "score_scale": "0-10, higher = lower risk",
   "endpoints": {
     "assets": "https://todayindefi.github.io/risk-feed/assets.json",
     "protocols": "https://todayindefi.github.io/risk-feed/protocols.json"
   },
   "assets": {
-    "count": 158,
+    "count": 159,
     "record_shape": "array under key 'assets'; alias_map resolves names/tickers \u2192 slug",
     "score_fields": {
       "peg_mechanism_score": "Axis 1 (six-axis frame) - peg mechanism soundness. Legacy reports carry volatility_score instead.",
@@ -42,5 +42,5 @@
     "generated_at advances on every publish, including no-op heartbeats; use it to tell a live feed from a stopped one.",
     "content_changed_at moves only when assets.json or protocols.json actually differ; use it to tell whether the DATA is new."
   ],
-  "source_commit": "f8a8b670ec7572aec69b6b7e1f1318d9ba47e449"
+  "source_commit": "ea1e7a085ddf2ade535822aaf379bd7969d94ca8"
 }
