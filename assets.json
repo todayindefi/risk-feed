@@ -3145,7 +3145,7 @@
       "assessment_type": "dependency",
       "date": "2026-05-30",
       "default_scores": {
-        "overall_score": 4.0
+        "overall_score": 3.5
       },
       "chain_scores": {},
       "report_file": "assets/mstr.md",
@@ -5496,7 +5496,7 @@
         "volatility_score": 5.0,
         "liquidity_score": 7.0,
         "redemption_score": 5.0,
-        "overall_score": 3.5
+        "overall_score": 3.0
       },
       "chain_scores": {},
       "report_file": "assets/strc.md",
@@ -7941,7 +7941,7 @@
         "peg_mechanism_score": 5.0,
         "backing_score": 5.0,
         "underlying_score": 4.0,
-        "liquidity_score": 3.0,
+        "liquidity_score": 3.5,
         "structural_score": 3.5,
         "issuer_score": 4.0,
         "overall_score": 4.0
@@ -7951,17 +7951,17 @@
           "peg_mechanism_score": 5.0,
           "backing_score": 5.0,
           "underlying_score": 4.0,
-          "liquidity_score": 3.0,
+          "liquidity_score": 3.5,
           "structural_score": 3.5,
           "issuer_score": 4.0,
           "overall_score": 4.0
         }
       },
       "report_file": "assets/usg.md",
-      "last_verified": "2026-10-16",
+      "last_verified": "2026-10-28",
       "peg_mechanism": "hybrid",
       "issuer": "Tangent Finance",
-      "market_cap_approx": 4340566,
+      "market_cap_approx": 3874908,
       "audited_reserves": false
     },
     {
