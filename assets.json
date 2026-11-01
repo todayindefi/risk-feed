@@ -2922,6 +2922,43 @@
       "yield_bearing": true
     },
     {
+      "asset": "Kinetiq Staked HYPE",
+      "slug": "khype",
+      "chains": [
+        "hyperevm"
+      ],
+      "category": "vault-share",
+      "assessment_type": "full",
+      "date": "2026-10-31",
+      "default_scores": {
+        "volatility_score": 5.0,
+        "backing_score": 7.0,
+        "underlying_score": 5.5,
+        "liquidity_score": 6.5,
+        "structural_score": 5.0,
+        "issuer_score": 5.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "hyperevm": {
+          "volatility_score": 5.0,
+          "backing_score": 7.0,
+          "underlying_score": 5.5,
+          "liquidity_score": 6.5,
+          "structural_score": 5.0,
+          "issuer_score": 5.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/khype.md",
+      "last_verified": "2026-10-31",
+      "issuer": "Kinetiq Research, PTE \u2014 identified in platform terms, registry identity unverified",
+      "underlying_assets": [
+        "HYPE"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "$M",
       "slug": "m0",
       "chains": [
@@ -6081,8 +6118,11 @@
         "sol",
         "arb",
         "base",
-        "plasma",
-        "monad"
+        "monad",
+        "ink",
+        "tempo",
+        "robinhood",
+        "arc"
       ],
       "category": "vault-share",
       "assessment_type": "full",
@@ -6138,7 +6178,7 @@
           "issuer_score": 5.5,
           "overall_score": 6.5
         },
-        "plasma": {
+        "monad": {
           "volatility_score": 8.5,
           "backing_score": 6.5,
           "underlying_score": 5.5,
@@ -6148,7 +6188,37 @@
           "issuer_score": 5.5,
           "overall_score": 6.5
         },
-        "monad": {
+        "ink": {
+          "volatility_score": 8.5,
+          "backing_score": 6.5,
+          "underlying_score": 5.5,
+          "liquidity_score": 7.0,
+          "structural_score": 4.5,
+          "redemption_score": 7.5,
+          "issuer_score": 5.5,
+          "overall_score": 6.5
+        },
+        "tempo": {
+          "volatility_score": 8.5,
+          "backing_score": 6.5,
+          "underlying_score": 5.5,
+          "liquidity_score": 7.0,
+          "structural_score": 4.5,
+          "redemption_score": 7.5,
+          "issuer_score": 5.5,
+          "overall_score": 6.5
+        },
+        "robinhood": {
+          "volatility_score": 8.5,
+          "backing_score": 6.5,
+          "underlying_score": 5.5,
+          "liquidity_score": 7.0,
+          "structural_score": 4.5,
+          "redemption_score": 7.5,
+          "issuer_score": 5.5,
+          "overall_score": 6.5
+        },
+        "arc": {
           "volatility_score": 8.5,
           "backing_score": 6.5,
           "underlying_score": 5.5,
@@ -6171,7 +6241,10 @@
       "slug": "syrupusdt",
       "chains": [
         "eth",
-        "plasma"
+        "plasma",
+        "mantle",
+        "bsc",
+        "ink"
       ],
       "category": "vault-share",
       "assessment_type": "full",
@@ -6198,6 +6271,36 @@
           "overall_score": 6.0
         },
         "plasma": {
+          "volatility_score": 8.5,
+          "backing_score": 6.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 6.0,
+          "structural_score": 4.5,
+          "redemption_score": 6.5,
+          "issuer_score": 5.5,
+          "overall_score": 6.0
+        },
+        "mantle": {
+          "volatility_score": 8.5,
+          "backing_score": 6.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 6.0,
+          "structural_score": 4.5,
+          "redemption_score": 6.5,
+          "issuer_score": 5.5,
+          "overall_score": 6.0
+        },
+        "bnb": {
+          "volatility_score": 8.5,
+          "backing_score": 6.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 6.0,
+          "structural_score": 4.5,
+          "redemption_score": 6.5,
+          "issuer_score": 5.5,
+          "overall_score": 6.0
+        },
+        "ink": {
           "volatility_score": 8.5,
           "backing_score": 6.0,
           "underlying_score": 4.0,
@@ -8306,6 +8409,37 @@
       "yield_bearing": true
     },
     {
+      "asset": "Wrapped HYPE",
+      "slug": "whype",
+      "chains": [
+        "hyperevm"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-10-31",
+      "default_scores": {
+        "volatility_score": 5.0,
+        "liquidity_score": 8.0,
+        "structural_score": 8.0,
+        "overall_score": 7.0
+      },
+      "chain_scores": {
+        "hyperevm": {
+          "volatility_score": 5.0,
+          "liquidity_score": 8.0,
+          "structural_score": 8.0,
+          "overall_score": 7.0
+        }
+      },
+      "report_file": "assets/whype.md",
+      "last_verified": "2026-10-31",
+      "issuer": "No separate redemption issuer; canonical native-HYPE wrapper",
+      "underlying_assets": [
+        "HYPE"
+      ],
+      "yield_bearing": false
+    },
+    {
       "asset": "wnAUSD",
       "slug": "wnausd",
       "chains": [
@@ -9190,6 +9324,8 @@
     "karpatkey weth market": "gearbox-weth-market",
     "kelp rseth": "rseth",
     "kelpdao rseth": "rseth",
+    "khype": "khype",
+    "kinetiq staked hype": "khype",
     "kpkweth": "gearbox-weth-market",
     "lagoon perp": "tidmm",
     "legacy frax": "frax",
@@ -9495,7 +9631,8 @@
     "weth": "weth",
     "weth market": "gearbox-weth-market",
     "whlp": "whlp",
-    "whype": "hype",
+    "whype": "whype",
+    "whype9": "whype",
     "wlfi usd1": "usd1",
     "wmon": "mon",
     "wn-ausd": "wnausd",
@@ -9509,6 +9646,7 @@
     "wrapped eth": "weth",
     "wrapped ether": "weth",
     "wrapped hlp": "whlp",
+    "wrapped hype": "whype",
     "wrapped liquid staked ether": "wsteth",
     "wrapped oeth": "oeth",
     "wrapped origin ether": "oeth",
