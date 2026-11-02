@@ -1172,7 +1172,7 @@
       ],
       "category": "lending",
       "assessment_type": "full",
-      "date": "2026-05-14",
+      "date": "2026-11-02",
       "default_scores": {
         "contract_score": 7.5,
         "economic_score": 6.5,
@@ -1218,10 +1218,7 @@
         }
       },
       "report_file": "reports/fluid.md",
-      "tvl_gross": 984000000,
-      "tvl_net": 984000000,
-      "tvl_borrowed": 843000000,
-      "last_verified": "2026-06-02"
+      "last_verified": "2026-11-02"
     },
     {
       "protocol": "f(x) Protocol",
