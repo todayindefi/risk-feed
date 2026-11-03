@@ -97,7 +97,7 @@
       "tvl_gross": 24590000000,
       "tvl_net": 13750000000,
       "tvl_borrowed": 10840000000,
-      "last_verified": "2026-07-28"
+      "last_verified": "2026-11-02"
     },
     {
       "protocol": "Apyx",
@@ -140,7 +140,7 @@
       "tvl_gross": null,
       "tvl_net": 356000000,
       "tvl_borrowed": null,
-      "last_verified": "2026-06-16"
+      "last_verified": "2026-11-02"
     },
     {
       "protocol": "Aura Finance",
@@ -1038,7 +1038,7 @@
         }
       },
       "report_file": "reports/ethena.md",
-      "last_verified": "2026-10-21"
+      "last_verified": "2026-11-02"
     },
     {
       "protocol": "Ethereal",
@@ -1101,7 +1101,7 @@
       },
       "report_file": "reports/etherfi.md",
       "tvl_gross": 3500000000,
-      "last_verified": "2026-08-13"
+      "last_verified": "2026-11-02"
     },
     {
       "protocol": "Euler",
@@ -1130,7 +1130,7 @@
       "tvl_gross": 521000000,
       "tvl_net": 521000000,
       "tvl_borrowed": 230000000,
-      "last_verified": "2026-03-18"
+      "last_verified": "2026-11-02"
     },
     {
       "protocol": "Fables",
@@ -1246,7 +1246,7 @@
       "report_file": "reports/fx-protocol.md",
       "tvl_gross": 89300000,
       "tvl_net": 89300000,
-      "last_verified": "2026-05-14"
+      "last_verified": "2026-11-02"
     },
     {
       "protocol": "Gearbox",
@@ -1897,7 +1897,7 @@
       "tvl_gross": 700000000,
       "tvl_net": 700000000,
       "tvl_borrowed": null,
-      "last_verified": "2026-04-26"
+      "last_verified": "2026-11-02"
     },
     {
       "protocol": "Mellow Protocol",
@@ -1968,7 +1968,7 @@
       "tvl_gross": 19060000,
       "tvl_net": 19060000,
       "tvl_borrowed": 0,
-      "last_verified": "2026-06-13"
+      "last_verified": "2026-11-02"
     },
     {
       "protocol": "MIDAS",
@@ -2058,7 +2058,7 @@
       "report_file": "reports/morpho.md",
       "tvl_gross": 6900000000,
       "tvl_net": 6900000000,
-      "last_verified": "2026-03-18"
+      "last_verified": "2026-11-02"
     },
     {
       "protocol": "Nest Exchange",
@@ -2334,9 +2334,6 @@
         }
       },
       "report_file": "reports/royco.md",
-      "tvl_gross": 40095523,
-      "tvl_net": 23029647,
-      "tvl_borrowed": 0,
       "last_verified": "2026-08-14"
     },
     {
@@ -2380,7 +2377,7 @@
       "tvl_gross": null,
       "tvl_net": 20500000,
       "tvl_borrowed": null,
-      "last_verified": "2026-04-27"
+      "last_verified": "2026-11-02"
     },
     {
       "protocol": "Spark",
@@ -2449,7 +2446,7 @@
       },
       "report_file": "reports/stake-dao.md",
       "tvl_gross": 166000000,
-      "last_verified": "2026-08-18"
+      "last_verified": "2026-11-02"
     },
     {
       "protocol": "Steakhouse Financial",

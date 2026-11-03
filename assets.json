@@ -409,7 +409,7 @@
         }
       },
       "report_file": "assets/ausd.md",
-      "last_verified": "2026-09-10",
+      "last_verified": "2026-11-02",
       "peg_mechanism": "fiat-backed",
       "issuer": "Agora Finance (Agora Bermuda Limited)",
       "market_cap_approx": 181000000,
@@ -1151,10 +1151,10 @@
         }
       },
       "report_file": "assets/crvusd.md",
-      "last_verified": "2026-08-24",
+      "last_verified": "2026-10-16",
       "peg_mechanism": "algorithmic",
       "issuer": "Curve Finance",
-      "market_cap_approx": 225000000,
+      "market_cap_approx": 240714016,
       "audited_reserves": false
     },
     {
@@ -1359,7 +1359,7 @@
         }
       },
       "report_file": "assets/dusd-alto.md",
-      "last_verified": "2026-09-20",
+      "last_verified": "2026-11-02",
       "peg_mechanism": "hybrid",
       "issuer": "Alto Foundation (team not publicly disclosed)",
       "market_cap_approx": 822000,
@@ -2621,7 +2621,7 @@
         }
       },
       "report_file": "assets/gho.md",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-11-02",
       "peg_mechanism": "crypto-overcollateralized",
       "issuer": "Aave DAO",
       "underlying_assets": [
@@ -2881,7 +2881,7 @@
         }
       },
       "report_file": "assets/k3-capital-earn-usdc.md",
-      "last_verified": "2026-08-17",
+      "last_verified": "2026-11-02",
       "issuer": "Euler (vault operated by K3 Capital)",
       "underlying_assets": [
         "USDC"
@@ -2914,7 +2914,7 @@
         }
       },
       "report_file": "assets/k3-capital-earn-weth-monad.md",
-      "last_verified": "2026-08-17",
+      "last_verified": "2026-11-02",
       "issuer": "Euler (vault operated by K3 Capital)",
       "underlying_assets": [
         "WETH"
@@ -4263,7 +4263,7 @@
         }
       },
       "report_file": "assets/reusd-re.md",
-      "last_verified": "2026-08-27",
+      "last_verified": "2026-11-02",
       "issuer": "Resilience BVI Ltd.",
       "underlying_assets": [
         "sUSDe",
@@ -4366,7 +4366,7 @@
         }
       },
       "report_file": "assets/reusde-re.md",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-11-02",
       "issuer": "Resilience BVI Ltd.",
       "underlying_assets": [
         "USDe",
@@ -5058,7 +5058,7 @@
         }
       },
       "report_file": "assets/sgho.md",
-      "last_verified": "2026-08-29",
+      "last_verified": "2026-11-02",
       "issuer": "Aave DAO",
       "underlying_assets": [
         "GHO"
@@ -6853,7 +6853,7 @@
         }
       },
       "report_file": "assets/usd3.md",
-      "last_verified": "2026-10-17",
+      "last_verified": "2026-11-02",
       "peg_mechanism": "basket",
       "issuer": "Reserve Protocol",
       "yield_bearing": true,
