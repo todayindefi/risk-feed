@@ -1317,6 +1317,7 @@
         }
       },
       "report_file": "assets/dola.md",
+      "score_status": "provisional",
       "last_verified": "2026-10-14",
       "peg_mechanism": "hybrid",
       "issuer": "Inverse Finance DAO",
@@ -3130,48 +3131,46 @@
       "asset": "msETH",
       "slug": "mseth",
       "chains": [
-        "eth",
-        "optimism",
-        "base"
+        "eth"
       ],
-      "category": "wrapped-token",
+      "category": "synthetic-token",
       "assessment_type": "light",
       "date": "2026-03-27",
       "default_scores": {
-        "volatility_score": 5.5,
+        "volatility_score": 2.5,
         "liquidity_score": 3.5,
         "structural_score": 4.0,
-        "redemption_score": 4.5,
-        "overall_score": 4.0
+        "redemption_score": 2.0,
+        "overall_score": 2.5
       },
       "chain_scores": {
         "ethereum": {
-          "volatility_score": 5.5,
+          "volatility_score": 2.5,
           "liquidity_score": 3.5,
           "structural_score": 4.0,
-          "redemption_score": 4.5,
-          "overall_score": 4.0
-        },
-        "optimism": {
-          "volatility_score": 5.5,
-          "liquidity_score": 3.0,
-          "structural_score": 4.0,
-          "redemption_score": 4.5,
-          "overall_score": 3.5
-        },
-        "base": {
-          "volatility_score": 5.5,
-          "liquidity_score": 3.0,
-          "structural_score": 4.0,
-          "redemption_score": 4.5,
-          "overall_score": 3.5
+          "redemption_score": 2.0,
+          "overall_score": 2.5
         }
       },
       "report_file": "assets/mseth.md",
-      "last_verified": "2026-04-09",
-      "underlying_assets": [
-        "ETH"
+      "last_revised": "2026-11-04",
+      "score_assessed": "2026-11-04",
+      "score_status": "provisional",
+      "score_scope": "Ethereum msETH; bounded documentary, quote and deployed-control review on 2026-11-04; net backing and full execution/bridge assurance unresolved",
+      "axis_verification_status": {
+        "volatility": "provisional: saved history plus dated DEX quotes; upstream history mark age unknown",
+        "liquidity": "provisional 3.5: exact-token indicative 0.1/1/10 msETH quotes; no fills or capacity ceiling",
+        "structural": "provisional 4.0: measured code/quorum/direct powers; inner oracle and receive-library assurance incomplete",
+        "redemption": "provisional 2.0: funded synth swap simulations at 10% fee; no universal native ETH claim"
+      },
+      "unassessed_chains": [
+        "optimism",
+        "base",
+        "hemi",
+        "plasma"
       ],
+      "last_verified": "2026-04-09",
+      "underlying_assets": [],
       "yield_bearing": false
     },
     {
@@ -3337,41 +3336,57 @@
       "asset": "MUSD (Mezo)",
       "slug": "musd-mezo",
       "chains": [
-        "mezo",
         "eth"
       ],
       "category": "stablecoin",
       "assessment_type": "light",
       "date": "2026-06-07",
       "default_scores": {
-        "peg_mechanism_score": 6.0,
-        "backing_score": 6.0,
+        "peg_mechanism_score": 4.0,
+        "backing_score": 2.5,
+        "underlying_score": 3.0,
         "liquidity_score": 4.0,
-        "issuer_score": 4.5,
-        "overall_score": 5.0
+        "structural_score": 4.0,
+        "issuer_score": 3.5,
+        "overall_score": 3.5
       },
       "chain_scores": {
-        "mezo": {
-          "peg_mechanism_score": 6.0,
-          "backing_score": 6.0,
-          "liquidity_score": 4.0,
-          "issuer_score": 4.5,
-          "overall_score": 5.0
-        },
         "ethereum": {
-          "peg_mechanism_score": 6.0,
-          "backing_score": 6.0,
+          "peg_mechanism_score": 4.0,
+          "backing_score": 2.5,
+          "underlying_score": 3.0,
           "liquidity_score": 4.0,
-          "issuer_score": 4.5,
-          "overall_score": 5.0
+          "structural_score": 4.0,
+          "issuer_score": 3.5,
+          "overall_score": 3.5
         }
       },
       "report_file": "assets/musd-mezo.md",
+      "last_revised": "2026-11-04",
+      "score_assessed": "2026-11-04",
+      "score_status": "provisional",
+      "score_scope": "Ethereum MUSD; bounded native collateral/liability, NTT/control and sampled exit review; global backing, custody and full redemption execution unresolved",
+      "axis_verification_status": {
+        "stability": "provisional: bounded November 4 evidence; see scope and residual gaps",
+        "backing": "provisional: bounded November 4 evidence; see scope and residual gaps",
+        "liquidity": "provisional: bounded November 4 evidence; see scope and residual gaps",
+        "dependencies": "provisional: bounded November 4 evidence; see scope and residual gaps",
+        "structural": "provisional: bounded November 4 evidence; see scope and residual gaps",
+        "issuer": "provisional: bounded November 4 evidence; see scope and residual gaps"
+      },
+      "unassessed_chains": [
+        "mezo",
+        "base"
+      ],
+      "evidence_version": "sha256:cc20346762652bc09ab620ba5d885363822d3e07e2879b3bffabce4683c0fe21",
+      "assessment_version": "sha256:d1338c4cd308def41fd36692c4c34ae36bc9130479824c08bcab272338bcc2c7",
+      "evidence_source": "BackingMonitor shared-asset-evidence/1",
       "last_verified": "2026-06-07",
       "peg_mechanism": "crypto-overcollateralized",
-      "issuer": "Mezo MUSD Protocol",
+      "issuer": "Mezo protocol; no universal corporate MUSD redemption obligor established",
       "underlying_assets": [
-        "BTC"
+        "Mezo BTC representation",
+        "native MUSD/NTT"
       ],
       "yield_bearing": false,
       "audited_reserves": false
@@ -4839,6 +4854,7 @@
         }
       },
       "report_file": "assets/sdola.md",
+      "score_status": "provisional",
       "last_verified": "2026-10-14",
       "issuer": "Inverse Finance DAO",
       "underlying_assets": [
