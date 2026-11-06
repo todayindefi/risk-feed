@@ -2090,6 +2090,84 @@
       "last_verified": "2026-06-05"
     },
     {
+      "protocol": "Neverland Isolated Pendle AUSD",
+      "slug": "neverland-isolated-pendle-ausd",
+      "chains": [
+        "monad"
+      ],
+      "category": "lending",
+      "assessment_type": "bounded",
+      "date": "2026-11-05",
+      "default_scores": {
+        "contract_score": 4.0,
+        "economic_score": 4.0,
+        "project_score": 4.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "monad": {
+          "contract_score": 4.0,
+          "economic_score": 4.0,
+          "project_score": 4.0,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "reports/neverland-isolated-pendle-ausd.md",
+      "last_verified": "2026-11-05"
+    },
+    {
+      "protocol": "Neverland Isolated Pendle shMON",
+      "slug": "neverland-isolated-pendle-shmon",
+      "chains": [
+        "monad"
+      ],
+      "category": "lending",
+      "assessment_type": "bounded",
+      "date": "2026-11-05",
+      "default_scores": {
+        "contract_score": 3.5,
+        "economic_score": 3.0,
+        "project_score": 4.0,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "monad": {
+          "contract_score": 3.5,
+          "economic_score": 3.0,
+          "project_score": 4.0,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "reports/neverland-isolated-pendle-shmon.md",
+      "last_verified": "2026-11-05"
+    },
+    {
+      "protocol": "Neverland Isolated Yuzu",
+      "slug": "neverland-isolated-yuzu",
+      "chains": [
+        "monad"
+      ],
+      "category": "lending",
+      "assessment_type": "bounded",
+      "date": "2026-11-05",
+      "default_scores": {
+        "contract_score": 4.0,
+        "economic_score": 3.0,
+        "project_score": 4.0,
+        "overall_score": 3.7
+      },
+      "chain_scores": {
+        "monad": {
+          "contract_score": 4.0,
+          "economic_score": 3.0,
+          "project_score": 4.0,
+          "overall_score": 3.7
+        }
+      },
+      "report_file": "reports/neverland-isolated-yuzu.md",
+      "last_verified": "2026-11-05"
+    },
+    {
       "protocol": "Neverland Money",
       "slug": "neverland-money",
       "chains": [
@@ -3195,7 +3273,19 @@
     "nest exchange": "nest",
     "nestexchange": "nest",
     "neverland": "neverland-money",
+    "neverland isolated pendle ausd": "neverland-isolated-pendle-ausd",
+    "neverland isolated pendle shmon": "neverland-isolated-pendle-shmon",
+    "neverland isolated pt-ausd": "neverland-isolated-pendle-ausd",
+    "neverland isolated pt-shmon": "neverland-isolated-pendle-shmon",
+    "neverland isolated syzusd": "neverland-isolated-yuzu",
+    "neverland isolated yuzu": "neverland-isolated-yuzu",
     "neverland money": "neverland-money",
+    "neverland pendle ausd": "neverland-isolated-pendle-ausd",
+    "neverland pendle shmon": "neverland-isolated-pendle-shmon",
+    "neverland yuzu market": "neverland-isolated-yuzu",
+    "neverland-isolated-pendle-ausd": "neverland-isolated-pendle-ausd",
+    "neverland-isolated-pendle-shmon": "neverland-isolated-pendle-shmon",
+    "neverland-isolated-yuzu": "neverland-isolated-yuzu",
     "neverland-money": "neverland-money",
     "parrate": "supernova",
     "pebble": "current-finance",

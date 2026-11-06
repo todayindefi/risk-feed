@@ -2960,6 +2960,58 @@
       "yield_bearing": true
     },
     {
+      "asset": "LBTC",
+      "slug": "lbtc",
+      "chains": [
+        "eth"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-11-05",
+      "default_scores": {
+        "volatility_score": 5,
+        "backing_score": 3.5,
+        "underlying_score": 3.5,
+        "liquidity_score": 4,
+        "structural_score": 4,
+        "issuer_score": 3,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "volatility_score": 5,
+          "backing_score": 3.5,
+          "underlying_score": 3.5,
+          "liquidity_score": 4,
+          "structural_score": 4,
+          "issuer_score": 3,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/lbtc.md",
+      "last_revised": "2026-11-05",
+      "score_assessed": "2026-11-05",
+      "score_status": "provisional",
+      "score_scope": "Ethereum exact token only; no remote-chain grade, lending-vault approval or current-state assertion",
+      "axis_verification_status": {
+        "stability": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "backing": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "liquidity": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "dependencies": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "structural": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "issuer": "provisional; bounded November 3\u20134 evidence; see rationale"
+      },
+      "evidence_version": "sha256:1af01e1381cd22b8eb781f5b973e0f5728a3560eb0ccf6f55f907c0b0d403d5d",
+      "assessment_version": "sha256:48e04e19d417bec5b229a58d4ad92404d9183b437b135b62add52ebaa5ba474d",
+      "evidence_source": "BackingMonitor shared-asset-evidence/1",
+      "issuer": "LF Operations Inc. (Panama); conditional eligible Direct User obligation",
+      "underlying_assets": [
+        "btc"
+      ],
+      "yield_bearing": true,
+      "audited_reserves": false
+    },
+    {
       "asset": "$M",
       "slug": "m0",
       "chains": [
@@ -5140,33 +5192,48 @@
       "assessment_type": "light",
       "date": "2026-06-07",
       "default_scores": {
-        "volatility_score": 5.5,
-        "liquidity_score": 3.5,
-        "structural_score": 4.0,
-        "redemption_score": 3.5,
-        "issuer_score": 4.0,
-        "overall_score": 4.0
+        "volatility_score": 4.5,
+        "backing_score": 3.5,
+        "underlying_score": 3.5,
+        "liquidity_score": 3,
+        "structural_score": 4,
+        "issuer_score": 3.5,
+        "overall_score": 3.5
       },
       "chain_scores": {
         "ethereum": {
-          "volatility_score": 5.5,
-          "liquidity_score": 3.5,
-          "structural_score": 4.0,
-          "redemption_score": 3.5,
-          "issuer_score": 4.0,
-          "overall_score": 4.0
+          "volatility_score": 4.5,
+          "backing_score": 3.5,
+          "underlying_score": 3.5,
+          "liquidity_score": 3,
+          "structural_score": 4,
+          "issuer_score": 3.5,
+          "overall_score": 3.5
         }
       },
       "report_file": "assets/siusd.md",
+      "last_revised": "2026-11-05",
+      "score_assessed": "2026-11-05",
+      "score_status": "provisional",
+      "score_scope": "Ethereum exact token; dated documentary/wrapper/control/underlying financial review; independent full NAV, all liabilities and holder cash execution unresolved",
+      "axis_verification_status": {
+        "stability": "provisional; dated evidence and limitations in report",
+        "backing": "provisional; dated evidence and limitations in report",
+        "liquidity": "provisional; dated evidence and limitations in report",
+        "dependencies": "provisional; dated evidence and limitations in report",
+        "structural": "provisional; dated evidence and limitations in report",
+        "issuer": "provisional; dated evidence and limitations in report"
+      },
+      "evidence_version": "sha256:b3601f1159904b30d297b9e0aa9c4f325844a6853285c7a871d1058387d91fdd",
+      "assessment_version": "sha256:c88c39edc94e803ad5f6660365446b870fc44b4bc2026ba27ad7b84b4505aa96",
+      "evidence_source": "BackingMonitor shared-asset-evidence/1",
       "last_verified": "2026-06-07",
       "issuer": "InfiniFi",
       "underlying_assets": [
-        "iUSD",
-        "USDC",
-        "private credit strategies",
-        "DeFi lending markets"
+        "iUSD"
       ],
-      "yield_bearing": true
+      "yield_bearing": true,
+      "audited_reserves": false
     },
     {
       "asset": "SPX",
@@ -6045,30 +6112,48 @@
       "assessment_type": "light",
       "date": "2026-06-07",
       "default_scores": {
-        "volatility_score": 5.5,
+        "volatility_score": 4.5,
+        "backing_score": 3,
+        "underlying_score": 3,
         "liquidity_score": 3.5,
-        "structural_score": 4.5,
-        "redemption_score": 4.0,
-        "issuer_score": 4.5,
-        "overall_score": 4.0
+        "structural_score": 4,
+        "issuer_score": 3.5,
+        "overall_score": 3.5
       },
       "chain_scores": {
         "ethereum": {
-          "volatility_score": 5.5,
+          "volatility_score": 4.5,
+          "backing_score": 3,
+          "underlying_score": 3,
           "liquidity_score": 3.5,
-          "structural_score": 4.5,
-          "redemption_score": 4.0,
-          "issuer_score": 4.5,
-          "overall_score": 4.0
+          "structural_score": 4,
+          "issuer_score": 3.5,
+          "overall_score": 3.5
         }
       },
       "report_file": "assets/susn.md",
+      "last_revised": "2026-11-05",
+      "score_assessed": "2026-11-05",
+      "score_status": "provisional",
+      "score_scope": "Ethereum exact token; dated documentary/wrapper/control/underlying financial review; independent full NAV, all liabilities and holder cash execution unresolved",
+      "axis_verification_status": {
+        "stability": "provisional; dated evidence and limitations in report",
+        "backing": "provisional; dated evidence and limitations in report",
+        "liquidity": "provisional; dated evidence and limitations in report",
+        "dependencies": "provisional; dated evidence and limitations in report",
+        "structural": "provisional; dated evidence and limitations in report",
+        "issuer": "provisional; dated evidence and limitations in report"
+      },
+      "evidence_version": "sha256:be2640713db149befe058f25baf0eee5ffb63b8760451f25dcce4398d4247363",
+      "assessment_version": "sha256:e856487b18b6b4a0ad1d6f06677e05b67e0bd4735f1079322b6b54210d0af9a9",
+      "evidence_source": "BackingMonitor shared-asset-evidence/1",
       "last_verified": "2026-06-07",
       "issuer": "Noon",
       "underlying_assets": [
         "USN"
       ],
-      "yield_bearing": true
+      "yield_bearing": true,
+      "audited_reserves": false
     },
     {
       "asset": "svZCHF",
@@ -6437,6 +6522,58 @@
         "yzUSD"
       ],
       "yield_bearing": true
+    },
+    {
+      "asset": "tBTC",
+      "slug": "tbtc",
+      "chains": [
+        "eth"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-11-05",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "backing_score": 5,
+        "underlying_score": 4,
+        "liquidity_score": 4,
+        "structural_score": 4,
+        "issuer_score": 4,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "volatility_score": 5.5,
+          "backing_score": 5,
+          "underlying_score": 4,
+          "liquidity_score": 4,
+          "structural_score": 4,
+          "issuer_score": 4,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "assets/tbtc.md",
+      "last_revised": "2026-11-05",
+      "score_assessed": "2026-11-05",
+      "score_status": "provisional",
+      "score_scope": "Ethereum exact token only; no remote-chain grade, lending-vault approval or current-state assertion",
+      "axis_verification_status": {
+        "stability": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "backing": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "liquidity": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "dependencies": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "structural": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "issuer": "provisional; bounded November 3\u20134 evidence; see rationale"
+      },
+      "evidence_version": "sha256:89ef11f75d4fd3689f9722fcd428c55d12c3999f1b753bacfd636449f7325e7f",
+      "assessment_version": "sha256:b9cef274fa1d5299c6c67e1505993d58d8eecafe4f743010206d361fb7019727",
+      "evidence_source": "BackingMonitor shared-asset-evidence/1",
+      "issuer": "Threshold DAO and authorized operators; no universal corporate BTC repayment obligor established",
+      "underlying_assets": [
+        "btc"
+      ],
+      "yield_bearing": false,
+      "audited_reserves": false
     },
     {
       "asset": "tETH",
@@ -8208,6 +8345,58 @@
       "audited_reserves": false
     },
     {
+      "asset": "WBTC",
+      "slug": "wbtc",
+      "chains": [
+        "eth"
+      ],
+      "category": "wrapped-token",
+      "assessment_type": "light",
+      "date": "2026-11-05",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "backing_score": 6,
+        "underlying_score": 5,
+        "liquidity_score": 6.5,
+        "structural_score": 5.5,
+        "issuer_score": 4.5,
+        "overall_score": 5.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "volatility_score": 6.5,
+          "backing_score": 6,
+          "underlying_score": 5,
+          "liquidity_score": 6.5,
+          "structural_score": 5.5,
+          "issuer_score": 4.5,
+          "overall_score": 5.5
+        }
+      },
+      "report_file": "assets/wbtc.md",
+      "last_revised": "2026-11-05",
+      "score_assessed": "2026-11-05",
+      "score_status": "provisional",
+      "score_scope": "Ethereum exact token only; no remote-chain grade, lending-vault approval or current-state assertion",
+      "axis_verification_status": {
+        "stability": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "backing": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "liquidity": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "dependencies": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "structural": "provisional; bounded November 3\u20134 evidence; see rationale",
+        "issuer": "provisional; bounded November 3\u20134 evidence; see rationale"
+      },
+      "evidence_version": "sha256:8cddb8ad40138d1e95c76ed192bb7e5d2b11eaa17f39a3f16d93cede7cad59c2",
+      "assessment_version": "sha256:c03da1cb0c0519a2e39988cb41c6ceff64958311226a24d7e673691648f38ce9",
+      "evidence_source": "BackingMonitor shared-asset-evidence/1",
+      "issuer": "BiT Global announced custody; approved merchants; effective obligor/control unresolved",
+      "underlying_assets": [
+        "btc"
+      ],
+      "yield_bearing": false,
+      "audited_reserves": false
+    },
+    {
       "asset": "weETH",
       "slug": "weeth",
       "chains": [
@@ -9344,10 +9533,12 @@
     "kinetiq staked hype": "khype",
     "kpkweth": "gearbox-weth-market",
     "lagoon perp": "tidmm",
+    "lbtc": "lbtc",
     "legacy frax": "frax",
     "legacy frax dollar": "frax",
     "lido staked eth": "steth",
     "liquity bold": "bold",
+    "lombard bitcoin": "lbtc",
     "m": "m0",
     "m by m^0": "m0",
     "m zero": "m0",
@@ -9575,6 +9766,7 @@
     "taiwan semiconductor manufacturing \u2022 robinhood token": "tsm-rh",
     "tangent usd": "usg",
     "tangent usg": "usg",
+    "tbtc": "tbtc",
     "tesla tokenized stock (ondo)": "tslaon",
     "teth": "teth",
     "tether": "usdt",
@@ -9585,6 +9777,7 @@
     "theo short duration us treasury fund": "thbill",
     "theo thusd": "thusd",
     "theo usd": "thusd",
+    "threshold bitcoin": "tbtc",
     "thusd": "thusd",
     "tid market maker": "tidmm",
     "tid perp": "tidmm",
@@ -9639,6 +9832,7 @@
     "vusd": "vusd-valos",
     "vusd (valos)": "vusd-valos",
     "vusd-valos": "vusd-valos",
+    "wbtc": "wbtc",
     "web 3 dollar": "usd3",
     "web3 dollar": "usd3",
     "weeth": "weeth",
@@ -9658,6 +9852,7 @@
     "wnusdc": "wnusdc",
     "wnusdt0": "wnusdt0",
     "woeth": "oeth",
+    "wrapped bitcoin": "wbtc",
     "wrapped eeth": "weeth",
     "wrapped eth": "weth",
     "wrapped ether": "weth",
