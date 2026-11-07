@@ -1367,6 +1367,46 @@
       "audited_reserves": false
     },
     {
+      "asset": "earnAUSD",
+      "slug": "earnausd",
+      "chains": [
+        "monad"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-11-05",
+      "default_scores": {
+        "volatility_score": 3.5,
+        "backing_score": 3.0,
+        "underlying_score": 3.0,
+        "liquidity_score": 3.0,
+        "structural_score": 3.5,
+        "issuer_score": 3.5,
+        "overall_score": 3.0
+      },
+      "chain_scores": {
+        "monad": {
+          "volatility_score": 3.5,
+          "backing_score": 3.0,
+          "underlying_score": 3.0,
+          "liquidity_score": 3.0,
+          "structural_score": 3.5,
+          "issuer_score": 3.5,
+          "overall_score": 3.0
+        }
+      },
+      "report_file": "assets/earnausd.md",
+      "last_revised": "2026-11-05",
+      "score_assessed": "2026-11-05",
+      "score_status": "provisional",
+      "evidence_version": "sha256:b06662f3b7d47bd4154c88de7c953c2f38547bb3d54c7baf7e0477bb589747ec",
+      "last_verified": "2026-11-05",
+      "underlying_assets": [
+        "ausd"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "Echo BTC (aBTC / eBTC / mBTC / mphBTC)",
       "slug": "echo-btc",
       "chains": [
@@ -3145,6 +3185,46 @@
       ],
       "yield_bearing": true,
       "audited_reserves": true
+    },
+    {
+      "asset": "mM1-USD",
+      "slug": "mm1-usd",
+      "chains": [
+        "ethereum"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-11-05",
+      "default_scores": {
+        "volatility_score": 3.5,
+        "backing_score": 3.0,
+        "underlying_score": 3.0,
+        "liquidity_score": 2.5,
+        "structural_score": 3.0,
+        "issuer_score": 3.0,
+        "overall_score": 3.0
+      },
+      "chain_scores": {
+        "ethereum": {
+          "volatility_score": 3.5,
+          "backing_score": 3.0,
+          "underlying_score": 3.0,
+          "liquidity_score": 2.5,
+          "structural_score": 3.0,
+          "issuer_score": 3.0,
+          "overall_score": 3.0
+        }
+      },
+      "report_file": "assets/mm1-usd.md",
+      "last_revised": "2026-11-05",
+      "score_assessed": "2026-11-05",
+      "score_status": "provisional",
+      "evidence_version": "sha256:5f4efb12ae48191277cc778415a15ec8d54839cf9b5a093027fddfdf3358a9c8",
+      "last_verified": "2026-11-05",
+      "underlying_assets": [
+        "M1 Capital Master USD Fund"
+      ],
+      "yield_bearing": true
     },
     {
       "asset": "MON",
@@ -9330,6 +9410,7 @@
     "aavethena-loop-mainnet": "aavethena-loop-mainnet",
     "abtc": "echo-btc",
     "agora dollar": "ausd",
+    "agora earnausd": "earnausd",
     "agora usd": "ausd",
     "agora usd ct0": "ausdct0",
     "alchemix eth": "aleth",
@@ -9405,6 +9486,7 @@
     "dola usd": "dola",
     "dusd (alto)": "dusd-alto",
     "dusd-alto": "dusd-alto",
+    "earnausd": "earnausd",
     "ebtc": "echo-btc",
     "echo btc": "echo-btc",
     "echo btc (abtc / ebtc / mbtc / mphbtc)": "echo-btc",
@@ -9561,7 +9643,10 @@
     "mhyper": "mhyper",
     "microstrategy": "mstr",
     "midas hyperithm": "mhyper",
+    "midas m1 usd": "mm1-usd",
+    "midas m1 usd market neutral": "mm1-usd",
     "midas mhyper": "mhyper",
+    "mm1-usd": "mm1-usd",
     "mon": "mon",
     "monad": "mon",
     "moo curvelend sfrxeth-crvusd": "beefy-curvelend-sfrxeth-crvusd-fraxtal",
@@ -9795,6 +9880,7 @@
     "tsm-rh": "tsm-rh",
     "tsmc": "tsm-adr",
     "uniswap-cow-robinhood-tsm-usdg": "beefy-cowcentrated-tsm-usdg",
+    "upshift earnausd": "earnausd",
     "us yield coin": "usyc",
     "usd ai": "usdai",
     "usd.ai": "usdai",
