@@ -1341,29 +1341,28 @@
       "date": "2026-09-20",
       "default_scores": {
         "peg_mechanism_score": 5.5,
-        "backing_score": 5.5,
+        "backing_score": 5.0,
         "underlying_score": 4.5,
         "liquidity_score": 5.5,
         "structural_score": 5.0,
         "issuer_score": 4.5,
-        "overall_score": 5.0
+        "overall_score": 4.5
       },
       "chain_scores": {
         "ethereum": {
           "peg_mechanism_score": 5.5,
-          "backing_score": 5.5,
+          "backing_score": 5.0,
           "underlying_score": 4.5,
           "liquidity_score": 5.5,
           "structural_score": 5.0,
           "issuer_score": 4.5,
-          "overall_score": 5.0
+          "overall_score": 4.5
         }
       },
       "report_file": "assets/dusd-alto.md",
-      "last_verified": "2026-11-02",
-      "peg_mechanism": "hybrid",
-      "issuer": "Alto Foundation (team not publicly disclosed)",
-      "market_cap_approx": 822000,
+      "last_verified": "2026-11-07",
+      "peg_mechanism": "Treasury credit-line issuance against Convex-staked DUSD/frxUSD LP, permissioned frxUSD stability module and smaller isolated mint markets",
+      "issuer": "DUSD corporate issuer/repayment obligor unestablished; Alto Foundation is disclosed software provider",
       "audited_reserves": false
     },
     {
@@ -5843,7 +5842,7 @@
       },
       "report_file": "assets/susdai.md",
       "last_verified": "2026-08-27",
-      "issuer": "Permian Labs",
+      "issuer": "USD.AI; product-specific issuer unestablished",
       "underlying_assets": [
         "USDai",
         "PYUSD",
@@ -7155,7 +7154,7 @@
       "report_file": "assets/usdai.md",
       "last_verified": "2026-08-26",
       "peg_mechanism": "fiat-backed",
-      "issuer": "Permian Labs",
+      "issuer": "USD.AI; product-specific issuer unestablished",
       "market_cap_approx": 174400973,
       "audited_reserves": false
     },

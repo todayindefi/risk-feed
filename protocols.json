@@ -1175,50 +1175,50 @@
       "date": "2026-11-02",
       "default_scores": {
         "contract_score": 7.5,
-        "economic_score": 6.5,
+        "economic_score": 6.0,
         "project_score": 6.5,
-        "overall_score": 6.5
+        "overall_score": 6.0
       },
       "chain_scores": {
         "eth": {
           "contract_score": 7.5,
-          "economic_score": 6.5,
+          "economic_score": 6.0,
           "project_score": 6.5,
-          "overall_score": 6.5
+          "overall_score": 6.0
         },
         "arbitrum": {
           "contract_score": 7.5,
-          "economic_score": 6.5,
+          "economic_score": 6.0,
           "project_score": 6.5,
-          "overall_score": 6.5
+          "overall_score": 6.0
         },
         "base": {
           "contract_score": 7.5,
-          "economic_score": 6.5,
+          "economic_score": 6.0,
           "project_score": 6.5,
-          "overall_score": 6.5
+          "overall_score": 6.0
         },
         "polygon": {
           "contract_score": 7.5,
-          "economic_score": 6.5,
+          "economic_score": 6.0,
           "project_score": 6.5,
-          "overall_score": 6.5
+          "overall_score": 6.0
         },
         "bnb": {
           "contract_score": 7.5,
-          "economic_score": 6.5,
+          "economic_score": 6.0,
           "project_score": 6.5,
-          "overall_score": 6.5
+          "overall_score": 6.0
         },
         "plasma": {
           "contract_score": 7.5,
-          "economic_score": 6.5,
+          "economic_score": 6.0,
           "project_score": 6.5,
-          "overall_score": 6.5
+          "overall_score": 6.0
         }
       },
       "report_file": "reports/fluid.md",
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-07"
     },
     {
       "protocol": "f(x) Protocol",
