@@ -33,6 +33,53 @@
       "yield_bearing": true
     },
     {
+      "asset": "Agua USDC Global Carry",
+      "slug": "agua-usdc-global-carry",
+      "chains": [
+        "ethereum"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-11-11",
+      "default_scores": {
+        "volatility_score": 3.5,
+        "backing_score": 2.5,
+        "underlying_score": 2.5,
+        "liquidity_score": 2.0,
+        "structural_score": 2.0,
+        "issuer_score": 2.5,
+        "overall_score": 2.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "volatility_score": 3.5,
+          "backing_score": 2.5,
+          "underlying_score": 2.5,
+          "liquidity_score": 2.0,
+          "structural_score": 2.0,
+          "issuer_score": 2.5,
+          "overall_score": 2.5
+        }
+      },
+      "report_file": "assets/agua-usdc-global-carry.md",
+      "last_revised": "2026-11-11",
+      "score_assessed": "2026-11-11",
+      "score_status": "provisional",
+      "score_scope": "Exact Ethereum Agua receipt and observed source-chain controls only",
+      "axis_verification_status": "Scoped initial screening; financial/authority unknowns explicit",
+      "unassessed_chains": [
+        "monad"
+      ],
+      "evidence_version": "sha256:38a8d2212df37afb378f2580493f3dee9dd7217ea76980b8cb46a9c6c9bcc6bc",
+      "assessment_version": "agua-ethereum-initial-2026-11-11-v1",
+      "last_verified": "2026-11-11",
+      "underlying_assets": [
+        "USDC",
+        "unreconciled managed carry portfolio"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "alETH",
       "slug": "aleth",
       "chains": [
@@ -9412,6 +9459,10 @@
     "agora earnausd": "earnausd",
     "agora usd": "ausd",
     "agora usd ct0": "ausdct0",
+    "agua global carry": "agua-usdc-global-carry",
+    "agua usdc global carry": "agua-usdc-global-carry",
+    "agua-usdc-global-carry": "agua-usdc-global-carry",
+    "aguausdcgc": "agua-usdc-global-carry",
     "alchemix eth": "aleth",
     "aleth": "aleth",
     "alto dusd": "dusd-alto",
