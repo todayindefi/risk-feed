@@ -6356,24 +6356,24 @@
       "date": "2026-04-25",
       "default_scores": {
         "volatility_score": 8.5,
-        "backing_score": 6.5,
+        "backing_score": 5.5,
         "underlying_score": 5.5,
-        "liquidity_score": 7.0,
+        "liquidity_score": 6.0,
         "structural_score": 4.5,
-        "redemption_score": 7.5,
+        "redemption_score": 6.0,
         "issuer_score": 5.5,
-        "overall_score": 6.5
+        "overall_score": 6.0
       },
       "chain_scores": {
         "ethereum": {
           "volatility_score": 8.5,
-          "backing_score": 6.5,
+          "backing_score": 5.5,
           "underlying_score": 5.5,
-          "liquidity_score": 7.0,
+          "liquidity_score": 6.0,
           "structural_score": 4.5,
-          "redemption_score": 7.5,
+          "redemption_score": 6.0,
           "issuer_score": 5.5,
-          "overall_score": 6.5
+          "overall_score": 6.0
         },
         "solana": {
           "volatility_score": 8.5,
@@ -6457,9 +6457,79 @@
         }
       },
       "report_file": "assets/syrupusdc.md",
+      "last_revised": "2026-11-11",
+      "score_assessed": "2026-11-11",
+      "score_status": "provisional",
+      "score_scope": "Ethereum pool; remote representations require additional dated bridge/control/exit overlays",
+      "unassessed_chains": [
+        "sol",
+        "arb",
+        "base",
+        "monad",
+        "ink",
+        "tempo",
+        "robinhood",
+        "arc"
+      ],
+      "evidence_version": "sha256:54e6abc3d98e5a0db31757660213ad9bc2f1821a1b156955575ee5fd443b2d5b",
+      "assessment_version": "syrup-pair-six-axis-2026-11-11-v1",
       "last_verified": "2026-10-13",
       "underlying_assets": [
         "USDC"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "syrupUSDG",
+      "slug": "syrupusdg",
+      "chains": [
+        "ethereum",
+        "arbitrum"
+      ],
+      "category": "vault-share",
+      "assessment_type": "light",
+      "date": "2026-11-11",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "backing_score": 4.0,
+        "underlying_score": 4.0,
+        "liquidity_score": 3.5,
+        "structural_score": 4.0,
+        "issuer_score": 5.0,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "ethereum": {
+          "volatility_score": 5.5,
+          "backing_score": 4.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 3.5,
+          "structural_score": 4.0,
+          "issuer_score": 5.0,
+          "overall_score": 4.0
+        },
+        "arbitrum": {
+          "volatility_score": 5.5,
+          "backing_score": 4.0,
+          "underlying_score": 3.0,
+          "liquidity_score": 3.0,
+          "structural_score": 3.0,
+          "issuer_score": 5.0,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/syrupusdg.md",
+      "last_revised": "2026-11-11",
+      "score_assessed": "2026-11-11",
+      "score_status": "provisional",
+      "score_scope": "Exact Ethereum Maple pool share and separately qualified Arbitrum CCIP representation",
+      "axis_verification_status": "Current accounting and disclosed overlap checked; partial live controls; credit assurance, destination lookthrough and cash exits incomplete",
+      "evidence_version": "sha256:600120eeeb506adcdf93b8b6b95a2ef8e08eb8d809cf54770ddefe9947d9a947",
+      "assessment_version": "syrupusdg-initial-2026-11-11-v1",
+      "underlying_assets": [
+        "USDG",
+        "institutional loan claims",
+        "supporting DeFi and cross-pool exposures"
       ],
       "yield_bearing": true
     },
@@ -6480,22 +6550,22 @@
         "volatility_score": 8.5,
         "backing_score": 6.0,
         "underlying_score": 4.0,
-        "liquidity_score": 6.0,
+        "liquidity_score": 5.5,
         "structural_score": 4.5,
-        "redemption_score": 6.5,
+        "redemption_score": 5.5,
         "issuer_score": 5.5,
-        "overall_score": 6.0
+        "overall_score": 5.5
       },
       "chain_scores": {
         "ethereum": {
           "volatility_score": 8.5,
           "backing_score": 6.0,
           "underlying_score": 4.0,
-          "liquidity_score": 6.0,
+          "liquidity_score": 5.5,
           "structural_score": 4.5,
-          "redemption_score": 6.5,
+          "redemption_score": 5.5,
           "issuer_score": 5.5,
-          "overall_score": 6.0
+          "overall_score": 5.5
         },
         "plasma": {
           "volatility_score": 8.5,
@@ -6539,6 +6609,18 @@
         }
       },
       "report_file": "assets/syrupusdt.md",
+      "last_revised": "2026-11-11",
+      "score_assessed": "2026-11-11",
+      "score_status": "provisional",
+      "score_scope": "Ethereum pool; remote representations require additional dated bridge/control/exit overlays",
+      "unassessed_chains": [
+        "plasma",
+        "mantle",
+        "bsc",
+        "ink"
+      ],
+      "evidence_version": "sha256:54e6abc3d98e5a0db31757660213ad9bc2f1821a1b156955575ee5fd443b2d5b",
+      "assessment_version": "syrup-pair-six-axis-2026-11-11-v1",
       "last_verified": "2026-10-13",
       "underlying_assets": [
         "USDT"
@@ -9893,6 +9975,9 @@
     "syrup usdt": "syrupusdt",
     "syrupusd": "syrupusdc",
     "syrupusdc": "syrupusdc",
+    "syrupusdg": "syrupusdg",
+    "syrupusdg arbitrum": "syrupusdg",
+    "syrupusdg ethereum": "syrupusdg",
     "syrupusdt": "syrupusdt",
     "syuzu usd": "syzusd",
     "syzusd": "syzusd",

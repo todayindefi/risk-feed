@@ -1971,6 +1971,31 @@
       "last_verified": "2026-11-02"
     },
     {
+      "protocol": "Mezzanine",
+      "slug": "mezzanine",
+      "chains": [
+        "ethereum"
+      ],
+      "category": "structured-yield",
+      "assessment_type": "light",
+      "date": "2026-11-11",
+      "default_scores": {
+        "contract_score": 3.5,
+        "economic_score": 3.0,
+        "project_score": 3.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "contract_score": 3.5,
+          "economic_score": 3.0,
+          "project_score": 3.5,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "reports/mezzanine.md"
+    },
+    {
       "protocol": "MIDAS",
       "slug": "midas",
       "chains": [
@@ -3201,6 +3226,7 @@
     "grove star": "grove",
     "gtrade": "gtrade",
     "gtrade (gains network)": "gtrade",
+    "hastra optimizer": "mezzanine",
     "helio protocol": "lista-dao",
     "hl": "hyperliquid",
     "hyena": "hyena",
@@ -3263,6 +3289,9 @@
     "mento protocol": "mento",
     "mento v3": "mento",
     "metamorpho": "morpho",
+    "mezzanine": "mezzanine",
+    "mezzanine finance": "mezzanine",
+    "mezzanine protocol": "mezzanine",
     "midas": "midas",
     "monetrix": "monetrix",
     "monetrix finance": "monetrix",
