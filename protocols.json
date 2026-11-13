@@ -17,87 +17,68 @@
         "zksync"
       ],
       "category": "lending",
-      "assessment_type": "full",
+      "assessment_type": "targeted",
       "date": "2026-04-12",
       "default_scores": {
         "contract_score": 9.0,
-        "economic_score": 8.0,
+        "economic_score": 6.0,
         "project_score": 8.0,
-        "overall_score": 8.0
+        "overall_score": 7.0
       },
-      "chain_scores": {
-        "eth": {
-          "contract_score": 9.0,
-          "economic_score": 8.0,
-          "project_score": 8.0,
-          "overall_score": 8.0
-        },
-        "arbitrum": {
-          "contract_score": 9.0,
-          "economic_score": 8.0,
-          "project_score": 8.0,
-          "overall_score": 8.0
-        },
-        "optimism": {
-          "contract_score": 9.0,
-          "economic_score": 8.0,
-          "project_score": 8.0,
-          "overall_score": 8.0
-        },
-        "polygon": {
-          "contract_score": 9.0,
-          "economic_score": 8.0,
-          "project_score": 8.0,
-          "overall_score": 8.0
-        },
-        "avalanche": {
-          "contract_score": 9.0,
-          "economic_score": 8.0,
-          "project_score": 8.0,
-          "overall_score": 8.0
-        },
-        "base": {
-          "contract_score": 9.0,
-          "economic_score": 8.0,
-          "project_score": 8.0,
-          "overall_score": 8.0
-        },
-        "gnosis": {
-          "contract_score": 9.0,
-          "economic_score": 8.0,
-          "project_score": 8.0,
-          "overall_score": 8.0
-        },
-        "metis": {
-          "contract_score": 9.0,
-          "economic_score": 8.0,
-          "project_score": 8.0,
-          "overall_score": 8.0
-        },
-        "scroll": {
-          "contract_score": 9.0,
-          "economic_score": 8.0,
-          "project_score": 8.0,
-          "overall_score": 8.0
-        },
-        "bnb": {
-          "contract_score": 9.0,
-          "economic_score": 8.0,
-          "project_score": 8.0,
-          "overall_score": 8.0
-        },
-        "zksync": {
-          "contract_score": 9.0,
-          "economic_score": 8.0,
-          "project_score": 8.0,
-          "overall_score": 8.0
-        }
-      },
+      "chain_scores": {},
       "report_file": "reports/aave-v3.md",
-      "tvl_gross": 24590000000,
-      "tvl_net": 13750000000,
-      "tvl_borrowed": 10840000000,
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-02",
+      "last_revised": "2026-11-12",
+      "verification_scope": "November12 targeted economic/overall family rescore using pinned Core/Arbitrum native WETH deficits and separate prior Mantle observations, researched canonical context, and explicit unreconciled recoveries/financing. Contract9/Project8 retained historical; no complete current authority/audit/build or all-reserve solvency verification. Legacy last_verified retained with prior documentary-only scope.",
+      "score_status": "provisional_targeted_economic_refresh",
+      "profile_project": "aave",
+      "profile_component": "aave-v3; aave-v3-mantle context",
+      "profile_source": "/home/danger/DeFiAnalyst/data/projects/aave.yaml",
+      "deployment_review_status": "Family judgment only. No deployment or reserve receives a newly certified chain grade. Core/Arb/Mantle source-version and per-reserve boundaries remain explicit; held Plasma/Monad paths require their own verified mapping and current conditions.",
+      "assessment_version": "aave-v3-economic-rescore-2026-11-12-v2",
+      "selected_evidence_version": "sha256:b1efd31aac1fe2b5194eff428cef21a528a728fa00f780e29d9466e0309a832d",
+      "score_assessed": "2026-11-12",
+      "assessed_chains": [],
+      "documented_chains": [
+        "ethereum",
+        "arbitrum",
+        "optimism",
+        "polygon",
+        "avalanche",
+        "base",
+        "gnosis",
+        "metis",
+        "scroll",
+        "bnb",
+        "zksync",
+        "mantle",
+        "linea",
+        "monad",
+        "plasma"
+      ],
+      "unassessed_chains": [
+        "ethereum",
+        "arbitrum",
+        "optimism",
+        "polygon",
+        "avalanche",
+        "base",
+        "gnosis",
+        "metis",
+        "scroll",
+        "bnb",
+        "zksync",
+        "mantle",
+        "linea",
+        "monad",
+        "plasma"
+      ],
+      "axis_verification_status": {
+        "contract": "9.0 retained historical, current full admin/source/audit equivalence not established",
+        "economic": "6.0 newly assessed finite evidence November12",
+        "project": "8.0 retained historical with canonical context checked; no complete financial/authority refresh",
+        "overall": "7.0 provisional economic-bottleneck judgment, not arithmetic mean"
+      }
     },
     {
       "protocol": "Apyx",
@@ -140,7 +121,8 @@
       "tvl_gross": null,
       "tvl_net": 356000000,
       "tvl_borrowed": null,
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-02",
+      "verification_scope": "2026-11-02 targeted holdings-refresh documentary/news review only: Pendle rollover confirmed; TGE postponement remains unverified from a primary notice.. Historical chain reads, balances, controls, liquidity and unchanged scores were not fully reverified; individual evidence dates remain binding."
     },
     {
       "protocol": "Aura Finance",
@@ -1038,7 +1020,8 @@
         }
       },
       "report_file": "reports/ethena.md",
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-02",
+      "verification_scope": "2026-11-02 targeted holdings-refresh documentary/news review only: Equity basis-trade extension beyond crypto-only backing.. Historical chain reads, balances, controls, liquidity and unchanged scores were not fully reverified; individual evidence dates remain binding."
     },
     {
       "protocol": "Ethereal",
@@ -1101,7 +1084,8 @@
       },
       "report_file": "reports/etherfi.md",
       "tvl_gross": 3500000000,
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-02",
+      "verification_scope": "2026-11-02 targeted holdings-refresh documentary/news review only: Blast withdrawal notice and deployment coverage limitation.. Historical chain reads, balances, controls, liquidity and unchanged scores were not fully reverified; individual evidence dates remain binding."
     },
     {
       "protocol": "Euler",
@@ -1130,7 +1114,8 @@
       "tvl_gross": 521000000,
       "tvl_net": 521000000,
       "tvl_borrowed": 230000000,
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-02",
+      "verification_scope": "2026-11-02 targeted holdings-refresh documentary/news review only: Current EUL fee utility; leadership already correct.. Historical chain reads, balances, controls, liquidity and unchanged scores were not fully reverified; individual evidence dates remain binding."
     },
     {
       "protocol": "Fables",
@@ -1218,7 +1203,14 @@
         }
       },
       "report_file": "reports/fluid.md",
-      "last_verified": "2026-11-07"
+      "last_verified": "2026-11-07",
+      "last_revised": "2026-11-07",
+      "verification_scope": "Completed bounded November 7 assessment: Ethereum/Plasma selected core, fGHO, exact collateral-oracle paths and Plasma vault30, using November 6 native pins and November 7 documentary review. Other deployments/products have documentary inventory only. Not a whole-protocol audit, all-chain authority clearance or current issuer solvency certification. Each source clock remains binding.",
+      "score_status": "authored_bounded_current_review",
+      "profile_project": "fluid",
+      "profile_component": "fluid-lending",
+      "profile_source": "/home/danger/DeFiAnalyst/data/projects/fluid.yaml",
+      "assessment_version": "fluid-protocol-2026-11-07-v2"
     },
     {
       "protocol": "f(x) Protocol",
@@ -1246,7 +1238,8 @@
       "report_file": "reports/fx-protocol.md",
       "tvl_gross": 89300000,
       "tvl_net": 89300000,
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-02",
+      "verification_scope": "2026-11-02 targeted holdings-refresh documentary/news review only: Interface legal disclaimer versus measured technical authority.. Historical chain reads, balances, controls, liquidity and unchanged scores were not fully reverified; individual evidence dates remain binding."
     },
     {
       "protocol": "Gearbox",
@@ -1538,7 +1531,9 @@
         }
       },
       "report_file": "reports/inverse-finance.md",
-      "last_verified": "2026-10-14"
+      "last_verified": "2026-10-14",
+      "verification_scope": "Selected Ethereum FiRM markets and admin paths",
+      "score_status": "provisional"
     },
     {
       "protocol": "IPOR",
@@ -1897,7 +1892,8 @@
       "tvl_gross": 700000000,
       "tvl_net": 700000000,
       "tvl_borrowed": null,
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-02",
+      "verification_scope": "2026-11-02 targeted holdings-refresh documentary/news review only: Product-specific issuer and mandate distinctions.. Historical chain reads, balances, controls, liquidity and unchanged scores were not fully reverified; individual evidence dates remain binding."
     },
     {
       "protocol": "Mellow Protocol",
@@ -1968,7 +1964,8 @@
       "tvl_gross": 19060000,
       "tvl_net": 19060000,
       "tvl_borrowed": 0,
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-02",
+      "verification_scope": "2026-11-02 targeted holdings-refresh documentary/news review only: Leadership attribution and proposal/execution boundary.. Historical chain reads, balances, controls, liquidity and unchanged scores were not fully reverified; individual evidence dates remain binding."
     },
     {
       "protocol": "Mezzanine",
@@ -1993,7 +1990,19 @@
           "overall_score": 3.5
         }
       },
-      "report_file": "reports/mezzanine.md"
+      "report_file": "reports/mezzanine.md",
+      "last_revised": "2026-11-11",
+      "verification_scope": "Initial Ethereum HastraOptimizer protocol review: canonical mechanism/terms, pinned base/tranche accounting and finite current source/control observations; strategy NAV/debts/leverage, full authority and audit-build equivalence incomplete",
+      "score_status": "provisional_initial_scoped",
+      "profile_project": "mezzanine",
+      "profile_component": "mezzanine-vault-system; mezzanine-hastra-optimizer",
+      "profile_source": "/home/danger/DeFiAnalyst/data/projects/mezzanine.yaml",
+      "deployment_review_status": "Four exact Ethereum proxy/currentimplementation bindings checked; full strategy executors/authority/remote deployment scope unclosed",
+      "assessment_version": "mezzanine-protocol-initial-2026-11-11-v1",
+      "score_assessed": "2026-11-11",
+      "unassessed_chains": [
+        "solana"
+      ]
     },
     {
       "protocol": "MIDAS",
@@ -2083,7 +2092,8 @@
       "report_file": "reports/morpho.md",
       "tvl_gross": 6900000000,
       "tvl_net": 6900000000,
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-02",
+      "verification_scope": "2026-11-02 targeted holdings-refresh documentary/news review only: MIP 133 vote versus live multisig execution.. Historical chain reads, balances, controls, liquidity and unchanged scores were not fully reverified; individual evidence dates remain binding."
     },
     {
       "protocol": "Nest Exchange",
@@ -2138,7 +2148,14 @@
         }
       },
       "report_file": "reports/neverland-isolated-pendle-ausd.md",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-05",
+      "last_revised": "2026-11-05",
+      "verification_scope": "Bounded component review at Monad block 119517553, 2026-11-05 04:32:03 UTC. Shared core correspondence, scoped authority/oracle tests, reserve settings and public pool accounting checked. No account-level deficit census, holder concentration, sized executable PT liquidation or complete helper/source-audit certification.",
+      "score_status": "provisional_bounded_evidence",
+      "profile_project": "neverland-money",
+      "profile_component": "neverland-isolated-pendle-ausd",
+      "profile_source": "DeFiAnalyst/data/projects/neverland-money.yaml",
+      "deployment_review_status": "bounded_complete_with_explicit_gaps"
     },
     {
       "protocol": "Neverland Isolated Pendle shMON",
@@ -2164,7 +2181,14 @@
         }
       },
       "report_file": "reports/neverland-isolated-pendle-shmon.md",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-05",
+      "last_revised": "2026-11-05",
+      "verification_scope": "Bounded component review at Monad block 119517553, 2026-11-05 04:32:03 UTC. Core correspondence, direct authority, calibrated stale-price quote behavior and pool accounting checked. No full helper audit binding, sized liquidation/redeemability assurance, borrower deficit or concentration census.",
+      "score_status": "provisional_bounded_evidence",
+      "profile_project": "neverland-money",
+      "profile_component": "neverland-isolated-pendle-shmon",
+      "profile_source": "DeFiAnalyst/data/projects/neverland-money.yaml",
+      "deployment_review_status": "bounded_complete_with_explicit_gaps"
     },
     {
       "protocol": "Neverland Isolated Yuzu",
@@ -2190,7 +2214,14 @@
         }
       },
       "report_file": "reports/neverland-isolated-yuzu.md",
-      "last_verified": "2026-11-05"
+      "last_verified": "2026-11-05",
+      "last_revised": "2026-11-05",
+      "verification_scope": "Bounded Monad isolated-market review at block 119517553, 2026-11-05 04:32:03 UTC, with reused Yuzu producer evidence at separately retained older clocks. Direct authority, shared core, ratio feed quote behavior, reserve accounting and documentary mandate checked. External backing, concentration, actual bad debt and full Monad collateral-to-cash recovery not established.",
+      "score_status": "provisional_bounded_evidence",
+      "profile_project": "neverland-money",
+      "profile_component": "neverland-isolated-yuzu",
+      "profile_source": "DeFiAnalyst/data/projects/neverland-money.yaml",
+      "deployment_review_status": "bounded_complete_with_explicit_gaps"
     },
     {
       "protocol": "Neverland Money",
@@ -2437,7 +2468,10 @@
         }
       },
       "report_file": "reports/royco.md",
-      "last_verified": "2026-08-14"
+      "last_verified": "2026-08-14",
+      "last_revised": "2026-11-05",
+      "verification_scope": "November 3 documentary refresh plus reviewed November 5 DeFiAnalyst follow-up: dated docs notice, footer-linked terms and individual audit scopes. Current balances, tranche coverage, effective live controls, audit/deployment mapping and completed withdrawals remain pending. Full chain verification remains August 14; scores retained provisionally.",
+      "score_status": "provisional_pending_current_deployment_and_wind_down_review"
     },
     {
       "protocol": "Saturn Labs",
@@ -2480,7 +2514,8 @@
       "tvl_gross": null,
       "tvl_net": 20500000,
       "tvl_borrowed": null,
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-02",
+      "verification_scope": "2026-11-02 targeted holdings-refresh documentary/news review only: Ethereum backing route and legal counterparty correction.. Historical chain reads, balances, controls, liquidity and unchanged scores were not fully reverified; individual evidence dates remain binding."
     },
     {
       "protocol": "Spark",
@@ -2522,7 +2557,8 @@
       "report_file": "reports/spark.md",
       "tvl_gross": 5000000000,
       "tvl_net": 5000000000,
-      "last_verified": "2026-04-19"
+      "last_verified": "2026-04-19",
+      "last_revised": "2026-09-24"
     },
     {
       "protocol": "Stake DAO",
@@ -2549,7 +2585,8 @@
       },
       "report_file": "reports/stake-dao.md",
       "tvl_gross": 166000000,
-      "last_verified": "2026-11-02"
+      "last_verified": "2026-11-02",
+      "verification_scope": "2026-11-02 targeted holdings-refresh documentary/news review only: veSDT sunset, direct bounty and October governance outcomes.. Historical chain reads, balances, controls, liquidity and unchanged scores were not fully reverified; individual evidence dates remain binding."
     },
     {
       "protocol": "Steakhouse Financial",
