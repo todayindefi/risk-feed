@@ -1680,6 +1680,8 @@
         "ETHx",
         "rETH"
       ],
+      "protocol_family": "reserve-protocol",
+      "protocol_component": "reserve-yield-protocol",
       "yield_bearing": true
     },
     {
@@ -1758,24 +1760,49 @@
       "default_scores": {
         "peg_mechanism_score": 6.5,
         "backing_score": 5.5,
-        "liquidity_score": 6.0,
-        "issuer_score": 7.0,
-        "overall_score": 6.0
+        "underlying_score": 5.5,
+        "liquidity_score": 5.0,
+        "structural_score": 5.5,
+        "issuer_score": 6.5,
+        "overall_score": 5.5
       },
       "chain_scores": {
         "ethereum": {
           "peg_mechanism_score": 6.5,
           "backing_score": 5.5,
-          "liquidity_score": 6.0,
-          "issuer_score": 7.0,
-          "overall_score": 6.0
+          "underlying_score": 5.5,
+          "liquidity_score": 5.0,
+          "structural_score": 5.5,
+          "issuer_score": 6.5,
+          "overall_score": 5.5
         }
       },
       "report_file": "assets/eusd.md",
-      "last_verified": "2026-03-18",
+      "last_revised": "2026-11-13",
+      "score_assessed": "2026-11-13",
+      "score_status": "provisional",
+      "score_scope": "Ethereum Reserve Electronic Dollar only; six-axis bounded evidence review",
+      "axis_verification_status": {
+        "stability": "Single-provider indicative quotes; sparse newly retained history",
+        "backing": "Pinned receipt accounting/required basket; independently recoverable value unavailable",
+        "liquidity": "Seven indicative DEX quotes and conditional redemption; no execution simulation",
+        "dependencies": "Five receipt bindings, native market lookthrough with stored residuals; no borrower census",
+        "contract_admin": "Exact bounded source/runtime and selected roles; full role/upstream/audit scope incomplete",
+        "issuer": "Reviewed DA component and bounded governance lifecycle; legal guarantee/assurance unresolved"
+      },
+      "evidence_version": "sha256:9b3f88363c2dafa13e5aeb85408e4c52c067bf8f1a398e1c68b3a9d65feceeb9",
+      "assessment_version": "eusd-six-axis-2026-11-13-v1",
+      "evidence_source": "BM canonical shared-asset-evidence/1 frozen scheduled-run selection",
+      "last_verified": "2026-11-13",
       "peg_mechanism": "basket",
       "issuer": "Reserve Protocol",
-      "market_cap_approx": 22000000,
+      "underlying_assets": [
+        "USDC",
+        "USDT",
+        "PYUSD"
+      ],
+      "protocol_family": "reserve-protocol",
+      "protocol_component": "reserve-yield-protocol",
       "audited_reserves": false
     },
     {
@@ -7217,6 +7244,8 @@
       "last_verified": "2026-11-02",
       "peg_mechanism": "basket",
       "issuer": "Reserve Protocol",
+      "protocol_family": "reserve-protocol",
+      "protocol_component": "reserve-yield-protocol",
       "yield_bearing": true,
       "market_cap_approx": 1756000,
       "audited_reserves": false

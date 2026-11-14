@@ -2353,6 +2353,114 @@
       "last_verified": "2026-04-03"
     },
     {
+      "protocol": "Reserve Index Protocol",
+      "slug": "reserve-index-protocol",
+      "chains": [
+        "eth",
+        "base",
+        "arb"
+      ],
+      "category": "basket-infrastructure",
+      "assessment_type": "architecture_review",
+      "date": "2026-11-13",
+      "default_scores": {},
+      "chain_scores": {},
+      "report_file": "reports/reserve-index-protocol.md",
+      "last_revised": "2026-11-13",
+      "verification_scope": "Documentary architecture, governance and risk interpretation; canonical November 13 profile and primary sources checked. No complete current deployment authority, audit-to-runtime or financial assurance review. No chain or asset grade inferred.",
+      "score_status": "unscored_shared_architecture_no_deployment_clearance",
+      "profile_project": "reserve-protocol",
+      "profile_component": "reserve-index-protocol",
+      "profile_source": "DeFiAnalyst/data/projects/reserve-protocol.yaml",
+      "deployment_review_status": "Exact installed versions, permissions, plugins and execution paths remain deployment-specific; admin not on-chain verified \u2014 high uncertainty. Narrow eUSD governor/timelock identity observations are not complete authority verification.",
+      "assessment_version": "reserve-index-protocol-architecture-2026-11-13-v1",
+      "selected_evidence_version": "reserve-eusd-documentary-2026-11-13-v1",
+      "assessed_chains": [],
+      "axis_verification_status": {
+        "contract": "Architecture and published audit inventory reviewed; current implementation and authority equivalence incomplete.",
+        "economic": "Shared loss and recovery mechanisms assessed qualitatively; basket and exit economics belong to individual assets.",
+        "project": "Documentary roles and governance reviewed; enforceable token-level guarantees and financial assurance unresolved.",
+        "overall": "No aggregate numerical family grade; no product or chain clearance."
+      },
+      "report_role": "component",
+      "parent_protocol": "reserve-protocol",
+      "related_assets": []
+    },
+    {
+      "protocol": "Reserve Protocol",
+      "slug": "reserve-protocol",
+      "chains": [
+        "eth",
+        "base",
+        "arb"
+      ],
+      "category": "basket-infrastructure",
+      "assessment_type": "architecture_review",
+      "date": "2026-11-13",
+      "default_scores": {},
+      "chain_scores": {},
+      "report_file": "reports/reserve-protocol.md",
+      "last_revised": "2026-11-13",
+      "verification_scope": "Documentary architecture, governance and risk interpretation; canonical November 13 profile and primary sources checked. No complete current deployment authority, audit-to-runtime or financial assurance review. No chain or asset grade inferred.",
+      "score_status": "unscored_shared_architecture_no_deployment_clearance",
+      "profile_project": "reserve-protocol",
+      "profile_component": "reserve-yield-protocol; reserve-index-protocol",
+      "profile_source": "DeFiAnalyst/data/projects/reserve-protocol.yaml",
+      "deployment_review_status": "Exact installed versions, permissions, plugins and execution paths remain deployment-specific; admin not on-chain verified \u2014 high uncertainty. Narrow eUSD governor/timelock identity observations are not complete authority verification.",
+      "assessment_version": "reserve-protocol-architecture-2026-11-13-v2",
+      "selected_evidence_version": "reserve-eusd-documentary-2026-11-13-v1",
+      "assessed_chains": [],
+      "axis_verification_status": {
+        "contract": "Architecture and published audit inventory reviewed; current implementation and authority equivalence incomplete.",
+        "economic": "Shared loss and recovery mechanisms assessed qualitatively; basket and exit economics belong to individual assets.",
+        "project": "Documentary roles and governance reviewed; enforceable token-level guarantees and financial assurance unresolved.",
+        "overall": "No aggregate numerical family grade; no product or chain clearance."
+      },
+      "report_role": "family",
+      "child_protocols": [
+        "reserve-yield-protocol",
+        "reserve-index-protocol"
+      ]
+    },
+    {
+      "protocol": "Reserve Yield Protocol",
+      "slug": "reserve-yield-protocol",
+      "chains": [
+        "eth",
+        "base",
+        "arb"
+      ],
+      "category": "basket-infrastructure",
+      "assessment_type": "architecture_review",
+      "date": "2026-11-13",
+      "default_scores": {},
+      "chain_scores": {},
+      "report_file": "reports/reserve-yield-protocol.md",
+      "last_revised": "2026-11-13",
+      "verification_scope": "Documentary architecture, governance and risk interpretation; canonical November 13 profile and primary sources checked. No complete current deployment authority, audit-to-runtime or financial assurance review. No chain or asset grade inferred.",
+      "score_status": "unscored_shared_architecture_no_deployment_clearance",
+      "profile_project": "reserve-protocol",
+      "profile_component": "reserve-yield-protocol",
+      "profile_source": "DeFiAnalyst/data/projects/reserve-protocol.yaml",
+      "deployment_review_status": "Exact installed versions, permissions, plugins and execution paths remain deployment-specific; admin not on-chain verified \u2014 high uncertainty. Narrow eUSD governor/timelock identity observations are not complete authority verification.",
+      "assessment_version": "reserve-yield-protocol-architecture-2026-11-13-v1",
+      "selected_evidence_version": "reserve-eusd-documentary-2026-11-13-v1",
+      "assessed_chains": [],
+      "axis_verification_status": {
+        "contract": "Architecture and published audit inventory reviewed; current implementation and authority equivalence incomplete.",
+        "economic": "Shared loss and recovery mechanisms assessed qualitatively; basket and exit economics belong to individual assets.",
+        "project": "Documentary roles and governance reviewed; enforceable token-level guarantees and financial assurance unresolved.",
+        "overall": "No aggregate numerical family grade; no product or chain clearance."
+      },
+      "report_role": "component",
+      "parent_protocol": "reserve-protocol",
+      "related_assets": [
+        "eusd",
+        "usd3",
+        "ethplus"
+      ]
+    },
+    {
       "protocol": "Revert Lend",
       "slug": "revert-lend",
       "chains": [
@@ -3371,6 +3479,14 @@
     "redacted": "dinero",
     "redacted cartel": "dinero",
     "reserve backed token": "blackhaven",
+    "reserve index dtfs": "reserve-index-protocol",
+    "reserve index protocol": "reserve-index-protocol",
+    "reserve protocol": "reserve-protocol",
+    "reserve rtokens": "reserve-yield-protocol",
+    "reserve yield protocol": "reserve-yield-protocol",
+    "reserve-index-protocol": "reserve-index-protocol",
+    "reserve-protocol": "reserve-protocol",
+    "reserve-yield-protocol": "reserve-yield-protocol",
     "revert": "revert-lend",
     "revert compoundor": "revert-lend",
     "revert finance": "revert-lend",

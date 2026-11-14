@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-13T01:45:02Z",
-  "content_changed_at": "2026-11-13T01:45:02Z",
+  "generated_at": "2026-11-14T01:45:03Z",
+  "content_changed_at": "2026-11-14T01:45:03Z",
   "score_scale": "0-10, higher = lower risk",
   "endpoints": {
     "assets": "https://todayindefi.github.io/risk-feed/assets.json",
@@ -23,7 +23,7 @@
     }
   },
   "protocols": {
-    "count": 70,
+    "count": 73,
     "record_shape": "array under key 'protocols'; alias_map resolves names \u2192 slug",
     "score_fields": {
       "contract_score": "Smart-contract security",
@@ -42,5 +42,5 @@
     "generated_at advances on every publish, including no-op heartbeats; use it to tell a live feed from a stopped one.",
     "content_changed_at moves only when assets.json or protocols.json actually differ; use it to tell whether the DATA is new."
   ],
-  "source_commit": "f52f2540e4b1dc123024105d790af4d5ea93c85d"
+  "source_commit": "f0276d91f518c4667bca3c39cf11cfebd10dba2a"
 }
