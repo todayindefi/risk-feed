@@ -74,6 +74,7 @@
       "assessment_version": "agua-ethereum-initial-2026-11-11-v1",
       "assessment_status": "initial_scored_with_material_gaps",
       "last_verified": "2026-11-11",
+      "denomination": "USD",
       "underlying_assets": [
         "USDC",
         "unreconciled managed carry portfolio"
@@ -906,6 +907,7 @@
       },
       "report_file": "assets/brz.md",
       "last_verified": "2026-10-12",
+      "denomination": "BRL",
       "issuer": "Transfero Asset Management LTD (Bahamas) \u2014 named in the BRZ whitepaper as the entity behind the mint; see \u00a7VI",
       "underlying_assets": [
         "BRL"
@@ -1449,6 +1451,7 @@
       "evidence_version": "sha256:b06662f3b7d47bd4154c88de7c953c2f38547bb3d54c7baf7e0477bb589747ec",
       "assessment_status": "initial_scored_with_material_gaps",
       "last_verified": "2026-11-05",
+      "denomination": "USD",
       "underlying_assets": [
         "ausd"
       ],
@@ -1719,6 +1722,7 @@
         }
       ],
       "last_verified": "2026-11-16",
+      "denomination": "ETH",
       "underlying_assets": [
         "wstETH",
         "weETH",
@@ -2560,17 +2564,17 @@
       "asset": "fxSAVE",
       "slug": "fxsave",
       "chains": [
-        "eth"
+        "ethereum"
       ],
       "category": "vault-share",
-      "assessment_type": "light",
+      "assessment_type": "full",
       "date": "2026-09-22",
       "default_scores": {
         "volatility_score": 5.0,
         "backing_score": 4.5,
+        "underlying_score": 4.5,
         "liquidity_score": 3.5,
         "structural_score": 4.0,
-        "redemption_score": 7.0,
         "issuer_score": 5.5,
         "overall_score": 4.5
       },
@@ -2578,18 +2582,25 @@
         "ethereum": {
           "volatility_score": 5.0,
           "backing_score": 4.5,
+          "underlying_score": 4.5,
           "liquidity_score": 3.5,
           "structural_score": 4.0,
-          "redemption_score": 7.0,
           "issuer_score": 5.5,
           "overall_score": 4.5
         }
       },
       "report_file": "assets/fxsave.md",
-      "last_verified": "2026-09-22",
+      "last_revised": "2026-11-17",
+      "score_assessed": "2026-11-17",
+      "score_status": "assessed",
+      "score_scope": "Exact Ethereum six-axis assessment; separately clocked native accounting, exit quotes, controls and documentary sources.",
+      "evidence_version": "BM:closure-batch1-selected-inputs-v3;Security:lending-batch1-security-2026-11-17-v1;DA:batch-1-v1",
+      "assessment_version": "fxsave-six-axis-2026-11-17-v2",
+      "last_verified": "2026-11-17",
       "underlying_assets": [
         "fxSP",
-        "fxUSD"
+        "fxUSD",
+        "USDC"
       ],
       "yield_bearing": true
     },
@@ -2665,32 +2676,20 @@
       "asset": "Gauntlet USDT0 Vault (HyperEVM)",
       "slug": "gauntlet-usdt0-hyperevm",
       "chains": [
-        "hyper"
+        "hyperevm"
       ],
       "category": "vault-share",
-      "assessment_type": "light",
+      "assessment_type": "stub",
       "date": "2026-08-16",
       "default_scores": {
-        "volatility_score": 6.0,
-        "liquidity_score": 3.5,
-        "structural_score": 4.0,
-        "redemption_score": 4.0,
         "overall_score": 4.0
       },
       "chain_scores": {
         "hyperevm": {
-          "volatility_score": 6.0,
-          "liquidity_score": 3.5,
-          "structural_score": 4.0,
-          "redemption_score": 4.0,
           "overall_score": 4.0
         }
       },
       "report_file": "assets/gauntlet-usdt0-hyperevm.md",
-      "last_verified": "2026-08-16",
-      "underlying_assets": [
-        "usdt0"
-      ],
       "yield_bearing": true
     },
     {
@@ -2732,7 +2731,10 @@
       "chains": [
         "eth",
         "arb",
-        "base"
+        "base",
+        "plasma",
+        "monad",
+        "mantle"
       ],
       "category": "stablecoin",
       "assessment_type": "light",
@@ -2773,10 +2775,63 @@
           "structural_score": 6.0,
           "issuer_score": 6.5,
           "overall_score": 5.5
+        },
+        "plasma": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 5.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 4.5,
+          "structural_score": 3.5,
+          "issuer_score": 6.5,
+          "overall_score": 4.5
+        },
+        "monad": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 5.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 4.5,
+          "structural_score": 3.5,
+          "issuer_score": 6.5,
+          "overall_score": 4.5
+        },
+        "mantle": {
+          "peg_mechanism_score": 4.5,
+          "backing_score": 5.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 3.0,
+          "structural_score": 4.0,
+          "issuer_score": 6.5,
+          "overall_score": 4.0
         }
       },
       "report_file": "assets/gho.md",
       "last_verified": "2026-11-02",
+      "chain_assessments": {
+        "plasma": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-17",
+          "assessment_version": "gho-plasma-2026-11-17-v1",
+          "evidence_version": "BM:bm-seven-remote-financial-v2;DA:batch-3-v1;Security:remote-deployments-security-2026-11-17-v2",
+          "evidence_manifest_sha256": "b155d36c84cf81916034039cd614f77edee3f538ba57ece516443992ab5067d7",
+          "score_scope": "Exact named remote GHO deployment six-axis assessment; origin framework retained with dated confidence limits, not new whole-family solvency verification."
+        },
+        "monad": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-17",
+          "assessment_version": "gho-monad-2026-11-17-v1",
+          "evidence_version": "BM:bm-seven-remote-financial-v2;DA:batch-3-v1;Security:remote-deployments-security-2026-11-17-v2",
+          "evidence_manifest_sha256": "b155d36c84cf81916034039cd614f77edee3f538ba57ece516443992ab5067d7",
+          "score_scope": "Exact named remote GHO deployment six-axis assessment; origin framework retained with dated confidence limits, not new whole-family solvency verification."
+        },
+        "mantle": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-17",
+          "assessment_version": "gho-mantle-2026-11-17-v1",
+          "evidence_version": "BM:bm-seven-remote-financial-v2;DA:batch-3-v1;Security:remote-deployments-security-2026-11-17-v2",
+          "evidence_manifest_sha256": "b155d36c84cf81916034039cd614f77edee3f538ba57ece516443992ab5067d7",
+          "score_scope": "Exact named remote GHO deployment six-axis assessment; origin framework retained with dated confidence limits, not new whole-family solvency verification."
+        }
+      },
       "peg_mechanism": "crypto-overcollateralized",
       "issuer": "Aave DAO",
       "underlying_assets": [
@@ -3050,30 +3105,17 @@
         "monad"
       ],
       "category": "vault-share",
-      "assessment_type": "light",
+      "assessment_type": "stub",
       "date": "2026-08-17",
       "default_scores": {
-        "volatility_score": 6.5,
-        "liquidity_score": 5.5,
-        "structural_score": 4.5,
-        "redemption_score": 5.5,
-        "overall_score": 5.0
+        "overall_score": 3.5
       },
       "chain_scores": {
         "monad": {
-          "volatility_score": 6.5,
-          "liquidity_score": 5.5,
-          "structural_score": 4.5,
-          "redemption_score": 5.5,
-          "overall_score": 5.0
+          "overall_score": 3.5
         }
       },
       "report_file": "assets/k3-capital-earn-weth-monad.md",
-      "last_verified": "2026-11-02",
-      "issuer": "Euler (vault operated by K3 Capital)",
-      "underlying_assets": [
-        "WETH"
-      ],
       "yield_bearing": true
     },
     {
@@ -3337,6 +3379,7 @@
       "evidence_version": "sha256:5f4efb12ae48191277cc778415a15ec8d54839cf9b5a093027fddfdf3358a9c8",
       "assessment_status": "initial_scored_with_material_gaps",
       "last_verified": "2026-11-05",
+      "denomination": "USD",
       "underlying_assets": [
         "M1 Capital Master USD Fund"
       ],
@@ -3433,6 +3476,29 @@
       },
       "chain_scores": {},
       "report_file": "assets/mstr.md",
+      "last_revised": "2026-11-16",
+      "score_status": "assessed",
+      "score_scope": "Targeted November 16 filing/funding and declared STRC distributions; nonfiling judgments retain their stated source scope",
+      "evidence_version": "strategy-nov16-bm-selected-v2",
+      "assessment_version": "strategy-8k-2026-11-16-v1",
+      "axis_confidence": {
+        "balance_sheet_score": "medium",
+        "funding_model_score": "medium",
+        "refinancing_capacity_score": "low",
+        "governance_score": "low"
+      },
+      "score_sensitive_findings": [
+        {
+          "finding": "Funding durability and complete current preferred/debt burden",
+          "current_treatment": "Positive two-filing cash growth credited; market dependence remains, no precise service/runway certification",
+          "reassess_when": "Sustainable funding and authoritative current liabilities/outstanding evidence materially change service assessment"
+        },
+        {
+          "finding": "Declared future distributions and legal/settlement scope",
+          "current_treatment": "December31-day record calendar established; actual receipts and downstream pass-through not verified",
+          "reassess_when": "Verified payment failure, terms change or product-specific cash/receipt evidence"
+        }
+      ],
       "last_verified": "2026-08-26",
       "issuer": "Strategy Inc. (formerly MicroStrategy Incorporated)",
       "underlying_assets": [
@@ -4032,6 +4098,36 @@
       "yield_bearing": false
     },
     {
+      "asset": "PT-fxSAVE-29APR2027",
+      "slug": "pt-fxsave-29apr2027",
+      "chains": [
+        "ethereum"
+      ],
+      "category": "vault-share",
+      "assessment_type": "stub",
+      "date": "2026-11-11",
+      "default_scores": {
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/pt-fxsave-29apr2027.md",
+      "last_revised": "2026-11-17",
+      "score_assessed": "2026-11-17",
+      "score_status": "assessed",
+      "score_scope": "Inherited fxSAVE4.5 plus exact PT/SY, maturity and exit risks; no independent six-axis assessment.",
+      "evidence_version": "BM:closure-batch1-selected-inputs-v3;Security:lending-batch1-security-2026-11-17-v1;DA:batch-1-v1",
+      "assessment_version": "pt-fxsave-apr2027-2026-11-17-v3",
+      "last_verified": "2026-11-17",
+      "underlying_assets": [
+        "fxsave"
+      ],
+      "yield_bearing": false
+    },
+    {
       "asset": "PT-reUSD-10DEC2026",
       "slug": "pt-reusd",
       "chains": [
@@ -4127,6 +4223,7 @@
       },
       "report_file": "assets/pufeth.md",
       "last_verified": "2026-10-27",
+      "denomination": "ETH",
       "issuer": "Puffer protocol",
       "underlying_assets": [
         "ETH",
@@ -5815,6 +5912,29 @@
       },
       "chain_scores": {},
       "report_file": "assets/strc.md",
+      "last_revised": "2026-11-16",
+      "score_status": "assessed",
+      "score_scope": "Targeted November 16 filing/funding and declared STRC distributions; nonfiling judgments retain their stated source scope",
+      "evidence_version": "strategy-nov16-bm-selected-v2",
+      "assessment_version": "strategy-8k-2026-11-16-v1",
+      "axis_confidence": {
+        "volatility_score": "low",
+        "liquidity_score": "medium",
+        "counterparty_score": "medium",
+        "redemption_score": "medium"
+      },
+      "score_sensitive_findings": [
+        {
+          "finding": "Funding durability and complete current preferred/debt burden",
+          "current_treatment": "Positive two-filing cash growth credited; market dependence remains, no precise service/runway certification",
+          "reassess_when": "Sustainable funding and authoritative current liabilities/outstanding evidence materially change service assessment"
+        },
+        {
+          "finding": "Declared future distributions and legal/settlement scope",
+          "current_treatment": "December31-day record calendar established; actual receipts and downstream pass-through not verified",
+          "reassess_when": "Verified payment failure, terms change or product-specific cash/receipt evidence"
+        }
+      ],
       "last_verified": "2026-08-24",
       "issuer": "Strategy Inc.",
       "underlying_assets": [
@@ -6403,6 +6523,7 @@
       },
       "report_file": "assets/svzchf.md",
       "last_verified": "2026-08-20",
+      "denomination": "CHF",
       "underlying_assets": [
         "ZCHF"
       ],
@@ -6477,14 +6598,14 @@
           "overall_score": null
         },
         "monad": {
-          "volatility_score": null,
-          "backing_score": null,
-          "underlying_score": null,
-          "liquidity_score": null,
-          "structural_score": null,
+          "volatility_score": 5.5,
+          "backing_score": 6.0,
+          "underlying_score": 4.5,
+          "liquidity_score": 5.0,
+          "structural_score": 3.0,
           "redemption_score": null,
-          "issuer_score": null,
-          "overall_score": null
+          "issuer_score": 5.5,
+          "overall_score": 4.5
         },
         "ink": {
           "volatility_score": null,
@@ -6528,15 +6649,14 @@
         }
       },
       "report_file": "assets/syrupusdc.md",
-      "last_revised": "2026-11-16",
+      "last_revised": "2026-11-17",
       "score_assessed": "2026-11-16",
       "score_status": "assessed",
-      "score_scope": "Ethereum pool; remote representations require additional dated bridge/control/exit overlays",
+      "score_scope": "Default scores cover Ethereum; named deployment grades and dates are in chain_overrides and chain_assessments. Unlisted remote grades remain null.",
       "unassessed_chains": [
         "sol",
         "arb",
         "base",
-        "monad",
         "ink",
         "tempo",
         "robinhood",
@@ -6544,7 +6664,7 @@
       ],
       "evidence_version": "sha256:c86253f8e5339cbebdc8747f960c181b40579240cd8abee00a588c3afde08944",
       "assessment_version": "syrup-pair-transparency-correction-2026-11-16-v3",
-      "current_assessment_status": "complete_six_axis_assessment; source_model_corrected; explicit_recovery_limits; remote_unassessed",
+      "current_assessment_status": "Ethereum baseline and named remote overlays complete within their stated scopes; other declared remote chains unassessed.",
       "assessment_status": "complete",
       "axis_assessment_status": {
         "volatility_score": "assessed",
@@ -6576,6 +6696,16 @@
       ],
       "source_correction_evidence": "3e45493f3133ec887c7aa08dd5d1820f9bda3ee9d65ce506ca6cb79e958464fe",
       "last_verified": "2026-10-13",
+      "chain_assessments": {
+        "monad": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-17",
+          "assessment_version": "syrupusdc-monad-2026-11-17-v1",
+          "evidence_version": "BM:bm-seven-remote-financial-v2;DA:batch-3-v1;Security:remote-deployments-security-2026-11-17-v2",
+          "evidence_manifest_sha256": "b155d36c84cf81916034039cd614f77edee3f538ba57ece516443992ab5067d7",
+          "score_scope": "Exact named remote token; origin credit baseline separately dated, current local controls/accounting/finite exits reviewed."
+        }
+      },
       "underlying_assets": [
         "USDC"
       ],
@@ -6671,24 +6801,24 @@
           "overall_score": 5.5
         },
         "plasma": {
-          "volatility_score": null,
-          "backing_score": null,
-          "underlying_score": null,
-          "liquidity_score": null,
-          "structural_score": null,
+          "volatility_score": 5.0,
+          "backing_score": 5.5,
+          "underlying_score": 3.5,
+          "liquidity_score": 4.5,
+          "structural_score": 3.0,
           "redemption_score": null,
-          "issuer_score": null,
-          "overall_score": null
+          "issuer_score": 5.5,
+          "overall_score": 4.0
         },
         "mantle": {
-          "volatility_score": null,
-          "backing_score": null,
-          "underlying_score": null,
-          "liquidity_score": null,
-          "structural_score": null,
+          "volatility_score": 5.0,
+          "backing_score": 5.5,
+          "underlying_score": 3.5,
+          "liquidity_score": 3.0,
+          "structural_score": 3.0,
           "redemption_score": null,
-          "issuer_score": null,
-          "overall_score": null
+          "issuer_score": 5.5,
+          "overall_score": 4.0
         },
         "bnb": {
           "volatility_score": null,
@@ -6712,19 +6842,17 @@
         }
       },
       "report_file": "assets/syrupusdt.md",
-      "last_revised": "2026-11-16",
+      "last_revised": "2026-11-17",
       "score_assessed": "2026-11-16",
       "score_status": "assessed",
-      "score_scope": "Ethereum pool; remote representations require additional dated bridge/control/exit overlays",
+      "score_scope": "Default scores cover Ethereum; named deployment grades and dates are in chain_overrides and chain_assessments. Unlisted remote grades remain null.",
       "unassessed_chains": [
-        "plasma",
-        "mantle",
         "bsc",
         "ink"
       ],
       "evidence_version": "sha256:c86253f8e5339cbebdc8747f960c181b40579240cd8abee00a588c3afde08944",
       "assessment_version": "syrup-pair-transparency-correction-2026-11-16-v3",
-      "current_assessment_status": "complete_six_axis_assessment; source_model_corrected; explicit_recovery_limits; remote_unassessed",
+      "current_assessment_status": "Ethereum baseline and named remote overlays complete within their stated scopes; other declared remote chains unassessed.",
       "assessment_status": "complete",
       "axis_assessment_status": {
         "volatility_score": "assessed",
@@ -6756,6 +6884,24 @@
       ],
       "source_correction_evidence": "3e45493f3133ec887c7aa08dd5d1820f9bda3ee9d65ce506ca6cb79e958464fe",
       "last_verified": "2026-10-13",
+      "chain_assessments": {
+        "plasma": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-17",
+          "assessment_version": "syrupusdt-plasma-2026-11-17-v1",
+          "evidence_version": "BM:bm-seven-remote-financial-v2;DA:batch-3-v1;Security:remote-deployments-security-2026-11-17-v2",
+          "evidence_manifest_sha256": "b155d36c84cf81916034039cd614f77edee3f538ba57ece516443992ab5067d7",
+          "score_scope": "Exact named remote token; origin credit baseline separately dated, current local controls/accounting/finite exits reviewed."
+        },
+        "mantle": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-17",
+          "assessment_version": "syrupusdt-mantle-2026-11-17-v1",
+          "evidence_version": "BM:bm-seven-remote-financial-v2;DA:batch-3-v1;Security:remote-deployments-security-2026-11-17-v2",
+          "evidence_manifest_sha256": "b155d36c84cf81916034039cd614f77edee3f538ba57ece516443992ab5067d7",
+          "score_scope": "Exact named remote token; origin credit baseline separately dated, current local controls/accounting/finite exits reviewed."
+        }
+      },
       "underlying_assets": [
         "USDT"
       ],
@@ -8363,39 +8509,54 @@
         "solana"
       ],
       "category": "stablecoin",
-      "assessment_type": "light",
+      "assessment_type": "full",
       "date": "2026-06-07",
       "default_scores": {
         "peg_mechanism_score": 7.0,
-        "backing_score": 7.0,
-        "liquidity_score": 5.5,
-        "issuer_score": 6.5,
-        "overall_score": 6.5
+        "backing_score": 8.0,
+        "underlying_score": 6.0,
+        "liquidity_score": 6.0,
+        "structural_score": 3.5,
+        "issuer_score": 7.0,
+        "overall_score": 6.0
       },
       "chain_scores": {
         "ethereum": {
           "peg_mechanism_score": 7.0,
-          "backing_score": 7.0,
-          "liquidity_score": 5.5,
-          "issuer_score": 6.5,
-          "overall_score": 6.5
+          "backing_score": 8.0,
+          "underlying_score": 6.0,
+          "liquidity_score": 6.0,
+          "structural_score": 3.5,
+          "issuer_score": 7.0,
+          "overall_score": 6.0
         },
         "solana": {
-          "peg_mechanism_score": 7.0,
-          "backing_score": 7.0,
-          "liquidity_score": 5.5,
-          "issuer_score": 6.5,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         }
       },
       "report_file": "assets/usdtb.md",
-      "last_verified": "2026-06-07",
+      "last_revised": "2026-11-17",
+      "score_assessed": "2026-11-17",
+      "score_status": "assessed",
+      "score_scope": "Exact Ethereum deployment; other declared deployments remain ungraded. Finite assurance and execution limits incorporated in scores.",
+      "unassessed_chains": [
+        "solana"
+      ],
+      "evidence_version": "BM:bm-material-collateral-financial-primary-v3;DA:xaut-usdtb-terms-v1;Security:material-collateral-security-2026-11-17-v2",
+      "assessment_version": "usdtb-six-axis-2026-11-17-v1",
+      "last_verified": "2026-11-17",
+      "denomination": "USD",
       "peg_mechanism": "fiat-backed",
-      "issuer": "Anchorage Digital Bank / Ethena Labs",
+      "issuer": "Anchorage Digital Bank, N.A.",
       "underlying_assets": [
         "BlackRock BUIDL",
-        "USDC",
-        "short-term U.S. Treasury products"
+        "cash"
       ],
       "yield_bearing": false,
       "audited_reserves": true
@@ -8749,7 +8910,8 @@
         "eth",
         "base",
         "arbitrum",
-        "optimism"
+        "optimism",
+        "monad"
       ],
       "category": "wrapped-token",
       "assessment_type": "light",
@@ -8804,10 +8966,31 @@
           "redemption_score": 7.0,
           "issuer_score": 7.5,
           "overall_score": 6.0
+        },
+        "monad": {
+          "volatility_score": 5.0,
+          "backing_score": 5.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 3.0,
+          "structural_score": 3.5,
+          "redemption_score": null,
+          "issuer_score": 6.5,
+          "overall_score": 4.5
         }
       },
       "report_file": "assets/weeth.md",
       "last_verified": "2026-10-02",
+      "denomination": "ETH",
+      "chain_assessments": {
+        "monad": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-17",
+          "assessment_version": "weeth-monad-overlay-2026-11-17-v1",
+          "evidence_version": "BM:closure-batch2-selected-inputs-v3;DA:batch-2-v1;Security:lending-batch2-security-2026-11-17-v1",
+          "evidence_manifest_sha256": "7af070fffe403ceea67c7558780308a2e3f46d9fd12c93dcb8cd6cef87574698",
+          "score_scope": "Exact Monad deployment six-axis overlay only; other deployments and default reference keep their original verification scope."
+        }
+      },
       "underlying_assets": [
         "ETH"
       ],
@@ -8856,7 +9039,8 @@
         "base",
         "polygon",
         "avax",
-        "bsc"
+        "bsc",
+        "monad"
       ],
       "category": "wrapped-token",
       "assessment_type": "stub",
@@ -8917,10 +9101,31 @@
           "structural_score": 9.5,
           "redemption_score": 10.0,
           "overall_score": 9.0
+        },
+        "monad": {
+          "volatility_score": 5.0,
+          "liquidity_score": 3.5,
+          "structural_score": 3.0,
+          "redemption_score": null,
+          "overall_score": 4.0,
+          "backing_score": 5.0,
+          "underlying_score": 4.0,
+          "issuer_score": 5.5
         }
       },
       "report_file": "assets/weth.md",
       "last_verified": "2026-06-08",
+      "denomination": "ETH",
+      "chain_assessments": {
+        "monad": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-17",
+          "assessment_version": "weth-monad-overlay-2026-11-17-v1",
+          "evidence_version": "BM:closure-batch2-selected-inputs-v3;DA:batch-2-v1;Security:lending-batch2-security-2026-11-17-v1",
+          "evidence_manifest_sha256": "7af070fffe403ceea67c7558780308a2e3f46d9fd12c93dcb8cd6cef87574698",
+          "score_scope": "Exact Monad deployment six-axis overlay only; other deployments and default reference keep their original verification scope."
+        }
+      },
       "underlying_assets": [
         "ETH"
       ],
@@ -9245,7 +9450,8 @@
       "chains": [
         "eth",
         "base",
-        "monad"
+        "monad",
+        "optimism"
       ],
       "category": "wrapped-token",
       "assessment_type": "light",
@@ -9290,10 +9496,31 @@
           "redemption_score": 8.5,
           "issuer_score": 6.0,
           "overall_score": 6.0
+        },
+        "optimism": {
+          "volatility_score": 8.0,
+          "backing_score": 7.5,
+          "underlying_score": 5.5,
+          "liquidity_score": 5.5,
+          "structural_score": 6.0,
+          "redemption_score": null,
+          "issuer_score": 7.0,
+          "overall_score": 6.5
         }
       },
       "report_file": "assets/wsteth.md",
       "last_verified": "2026-10-09",
+      "denomination": "ETH",
+      "chain_assessments": {
+        "optimism": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-17",
+          "assessment_version": "wsteth-optimism-2026-11-17-v1",
+          "evidence_version": "BM:bm-seven-remote-financial-v2;DA:batch-3-v1;Security:remote-deployments-security-2026-11-17-v2",
+          "evidence_manifest_sha256": "b155d36c84cf81916034039cd614f77edee3f538ba57ece516443992ab5067d7",
+          "score_scope": "Exact Optimism wstETH six-axis overlay; ETH reference, separate source/quote/control clocks; other-chain grades not renewed."
+        }
+      },
       "underlying_assets": [
         "stETH",
         "ETH"
@@ -9368,37 +9595,50 @@
         "bnb"
       ],
       "category": "commodity-backed-token",
-      "assessment_type": "light",
+      "assessment_type": "full",
       "date": "2026-06-07",
       "default_scores": {
-        "volatility_score": 7.0,
-        "liquidity_score": 6.0,
-        "structural_score": 6.0,
-        "redemption_score": 5.5,
+        "volatility_score": 5.5,
+        "backing_score": 7.0,
+        "underlying_score": 5.5,
+        "liquidity_score": 5.5,
+        "structural_score": 4.5,
         "issuer_score": 5.5,
-        "overall_score": 6.0
+        "overall_score": 5.5
       },
       "chain_scores": {
         "ethereum": {
-          "volatility_score": 7.0,
-          "liquidity_score": 6.0,
-          "structural_score": 6.0,
-          "redemption_score": 5.5,
+          "volatility_score": 5.5,
+          "backing_score": 7.0,
+          "underlying_score": 5.5,
+          "liquidity_score": 5.5,
+          "structural_score": 4.5,
           "issuer_score": 5.5,
-          "overall_score": 6.0
+          "overall_score": 5.5
         },
         "bnb": {
-          "volatility_score": 7.0,
-          "liquidity_score": 6.0,
-          "structural_score": 6.0,
-          "redemption_score": 5.5,
-          "issuer_score": 5.5,
-          "overall_score": 6.0
+          "volatility_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         }
       },
       "report_file": "assets/xaut.md",
-      "last_verified": "2026-06-07",
-      "issuer": "TG Commodities / Tether",
+      "last_revised": "2026-11-17",
+      "score_assessed": "2026-11-17",
+      "score_status": "assessed",
+      "score_scope": "Exact Ethereum deployment; other declared deployments remain ungraded. Finite assurance and execution limits incorporated in scores.",
+      "unassessed_chains": [
+        "bnb"
+      ],
+      "evidence_version": "BM:bm-material-collateral-financial-primary-v3;DA:xaut-usdtb-terms-v1;Security:material-collateral-security-2026-11-17-v2",
+      "assessment_version": "xaut-six-axis-2026-11-17-v1",
+      "last_verified": "2026-11-17",
+      "denomination": "XAU",
+      "issuer": "TG Commodities, S.A. de C.V.",
       "underlying_assets": [
         "physical gold"
       ],
@@ -9655,6 +9895,7 @@
       },
       "report_file": "assets/zchf.md",
       "last_verified": "2026-08-21",
+      "denomination": "CHF",
       "peg_mechanism": "crypto-overcollateralized",
       "issuer": "none \u2014 decentralised protocol (Frankencoin Association develops, does not issue)",
       "market_cap_approx": 34230000,
@@ -9982,6 +10223,8 @@
     "pt-apxusd": "pt-apxusd",
     "pt-apyusd": "pt-apyusd",
     "pt-apyusd-5nov2026": "pt-apyusd",
+    "pt-fxsave-29apr2027": "pt-fxsave-29apr2027",
+    "pt-fxsave-29apr2027 ethereum": "pt-fxsave-29apr2027",
     "pt-reusd": "pt-reusd",
     "pt-reusd-10dec2026": "pt-reusd",
     "pt-srusdat": "pt-srusdat",
