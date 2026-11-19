@@ -2595,6 +2595,7 @@
       "score_status": "assessed",
       "score_scope": "Exact Ethereum six-axis assessment; separately clocked native accounting, exit quotes, controls and documentary sources.",
       "evidence_version": "BM:closure-batch1-selected-inputs-v3;Security:lending-batch1-security-2026-11-17-v1;DA:batch-1-v1",
+      "evidence_manifest_sha256": "820284af19d35fe5eaf129174c083ce8aaa4199bad831c525c1a9b6d86585a61",
       "assessment_version": "fxsave-six-axis-2026-11-17-v2",
       "last_verified": "2026-11-17",
       "underlying_assets": [
@@ -3238,6 +3239,87 @@
       "peg_mechanism": "rwa-backed",
       "issuer": "M^0 Foundation (protocol) \u2014 collateral held by permissioned Minters",
       "underlying_assets": [],
+      "yield_bearing": true
+    },
+    {
+      "asset": "mAPOLLO",
+      "slug": "mapollo",
+      "chains": [
+        "ethereum"
+      ],
+      "category": "tokenized-strategy",
+      "assessment_type": "full",
+      "date": "2026-11-18",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "backing_score": 4.0,
+        "underlying_score": 4.0,
+        "liquidity_score": 3.5,
+        "structural_score": 3.5,
+        "issuer_score": 4.5,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "ethereum": {
+          "volatility_score": 5.5,
+          "backing_score": 4.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 3.5,
+          "structural_score": 3.5,
+          "issuer_score": 4.5,
+          "overall_score": 4.0
+        }
+      },
+      "report_file": "assets/mapollo.md",
+      "last_revised": "2026-11-18",
+      "score_assessed": "2026-11-18",
+      "score_status": "assessed",
+      "score_scope": "Exact Ethereum 0x7cf9dec92ca9fd46f8d86e7798b72624bc116c05; completed bounded six-axis judgment; no unreviewed deployment inheritance",
+      "evidence_version": "bm-mapollo-ethereum-selected-six-axis-v2-approved-security",
+      "evidence_manifest_sha256": "b20d1ebdfbee8c811384bf17110f0822b77ebb2bcea49f9177fc7a6b6ecfe821",
+      "assessment_version": "mapollo-ethereum-six-axis-2026-11-18-v1",
+      "assessment_status": "complete",
+      "axis_confidence": {
+        "volatility_score": "medium",
+        "backing_score": "low",
+        "liquidity_score": "low",
+        "underlying_score": "low",
+        "structural_score": "medium",
+        "issuer_score": "low"
+      },
+      "score_sensitive_findings": [
+        {
+          "finding": "Current funded sleeves/custody/netliabilities and cash redemption unverified",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        },
+        {
+          "finding": "Exact linked Final Terms not read after access failure; no statutory compartment assumption",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        },
+        {
+          "finding": "Privileged burn/pause/upgrade/PPS roles and terminals incomplete; source assurance not portfolio assurance",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        }
+      ],
+      "last_verified": "2026-11-18",
+      "chain_assessments": {
+        "ethereum": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-18",
+          "assessment_version": "mapollo-ethereum-six-axis-2026-11-18-v1",
+          "evidence_version": "bm-mapollo-ethereum-selected-six-axis-v2-approved-security",
+          "evidence_manifest_sha256": "b20d1ebdfbee8c811384bf17110f0822b77ebb2bcea49f9177fc7a6b6ecfe821",
+          "score_scope": "Exact Ethereum 0x7cf9dec92ca9fd46f8d86e7798b72624bc116c05; completed bounded six-axis judgment; no unreviewed deployment inheritance",
+          "chain_id": "eip155:1",
+          "identifiers": [
+            "0x7cf9dec92ca9fd46f8d86e7798b72624bc116c05"
+          ]
+        }
+      },
+      "issuer": "Midas Software GmbH issuer; Apollo Crypto strategy manager",
       "yield_bearing": true
     },
     {
@@ -4120,6 +4202,7 @@
       "score_status": "assessed",
       "score_scope": "Inherited fxSAVE4.5 plus exact PT/SY, maturity and exit risks; no independent six-axis assessment.",
       "evidence_version": "BM:closure-batch1-selected-inputs-v3;Security:lending-batch1-security-2026-11-17-v1;DA:batch-1-v1",
+      "evidence_manifest_sha256": "820284af19d35fe5eaf129174c083ce8aaa4199bad831c525c1a9b6d86585a61",
       "assessment_version": "pt-fxsave-apr2027-2026-11-17-v3",
       "last_verified": "2026-11-17",
       "underlying_assets": [
@@ -5083,6 +5166,68 @@
         "USDe"
       ],
       "yield_bearing": true
+    },
+    {
+      "asset": "sBOLD",
+      "slug": "sbold",
+      "chains": [
+        "ethereum"
+      ],
+      "category": "stability-pool-vault-share",
+      "assessment_type": "full",
+      "date": "2026-11-18",
+      "default_scores": {
+        "volatility_score": 0.5,
+        "backing_score": 0.5,
+        "underlying_score": 3.0,
+        "liquidity_score": 0.0,
+        "structural_score": 0.5,
+        "issuer_score": 2.0,
+        "overall_score": 0.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "volatility_score": 0.5,
+          "backing_score": 0.5,
+          "underlying_score": 3.0,
+          "liquidity_score": 0.0,
+          "structural_score": 0.5,
+          "issuer_score": 2.0,
+          "overall_score": 0.5
+        }
+      },
+      "report_file": "assets/sbold.md",
+      "last_revised": "2026-11-18",
+      "score_status": "assessed",
+      "score_scope": "Exact Ethereum sBOLD; distressed post-incident state, not BOLD core or other K3 products",
+      "evidence_version": "bm-sbold-postincident-selected-v3-approved-security",
+      "evidence_manifest_sha256": "3100c23f45d7d9a9147675e4d165bf9f7c0c05c1149bbc4e80608c7ccce8592b",
+      "assessment_version": "sbold-ethereum-distressed-six-axis-2026-11-18-v1",
+      "assessment_status": "complete",
+      "axis_confidence": {
+        "volatility_score": "medium",
+        "backing_score": "medium",
+        "liquidity_score": "medium",
+        "underlying_score": "medium",
+        "structural_score": "medium",
+        "issuer_score": "low"
+      },
+      "score_sensitive_findings": [
+        {
+          "finding": "Confirmed sampled exploit, severe dilution and paused native exits",
+          "current_treatment": "Distressed grade; no anticipated recovery credited",
+          "reassess_on": "Verified remediation plus reconciled recoverable assets and enforceable distributions"
+        },
+        {
+          "finding": "Campaign total loss, audit/build mapping, full controller safeguards and binding holder recourse unresolved",
+          "current_treatment": "Explicit confidence limitations; no assumed repayment guarantee",
+          "reassess_on": "Specific primary financial, control and binding legal evidence"
+        }
+      ],
+      "last_verified": "2026-11-18",
+      "underlying_assets": [
+        "BOLD"
+      ]
     },
     {
       "asset": "scrvUSD",
@@ -6144,6 +6289,104 @@
       "yield_bearing": true
     },
     {
+      "asset": "sUSDD",
+      "slug": "susdd",
+      "chains": [
+        "ethereum",
+        "bnb"
+      ],
+      "category": "protocol-savings-receipt",
+      "assessment_type": "full",
+      "date": "2026-11-18",
+      "default_scores": {
+        "volatility_score": 6.5,
+        "backing_score": 4.0,
+        "underlying_score": 4.0,
+        "liquidity_score": 4.0,
+        "structural_score": 4.5,
+        "issuer_score": 3.5,
+        "overall_score": 4.0
+      },
+      "chain_scores": {
+        "ethereum": {
+          "volatility_score": 6.5,
+          "backing_score": 4.0,
+          "underlying_score": 4.0,
+          "liquidity_score": 4.0,
+          "structural_score": 4.5,
+          "issuer_score": 3.5,
+          "overall_score": 4.0
+        },
+        "bnb": {
+          "volatility_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null,
+          "redemption_score": null
+        }
+      },
+      "report_file": "assets/susdd.md",
+      "last_revised": "2026-11-18",
+      "score_assessed": "2026-11-18",
+      "score_status": "assessed",
+      "score_scope": "Exact Ethereum 0xc5d6a7b61d18afa11435a889557b068bb9f29930; completed bounded six-axis judgment; no unreviewed deployment inheritance",
+      "unassessed_chains": [
+        "bnb"
+      ],
+      "evidence_version": "bm-susdd-ethereum-selected-six-axis-v3-approved-security",
+      "evidence_manifest_sha256": "2e5f33536951f9dd43079a437194a1c4608bf3ac4f5e80247683c912dc586427",
+      "assessment_version": "susdd-ethereum-six-axis-2026-11-18-v1",
+      "assessment_status": "complete",
+      "axis_confidence": {
+        "volatility_score": "medium",
+        "backing_score": "low",
+        "liquidity_score": "low",
+        "underlying_score": "medium",
+        "structural_score": "medium",
+        "issuer_score": "low"
+      },
+      "score_sensitive_findings": [
+        {
+          "finding": "Underlying exact new Ethereum USDD fundamental grade4.0, not legacy/global data",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        },
+        {
+          "finding": "Internal Pot/Vat claims are not freeUSDC; current netfunding0 is accounting, not collateral assurance",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        },
+        {
+          "finding": "Full ward/governance/allocator/PSM capacity and legal priority unverified",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        }
+      ],
+      "last_verified": "2026-11-18",
+      "chain_assessments": {
+        "ethereum": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-18",
+          "assessment_version": "susdd-ethereum-six-axis-2026-11-18-v1",
+          "evidence_version": "bm-susdd-ethereum-selected-six-axis-v3-approved-security",
+          "evidence_manifest_sha256": "2e5f33536951f9dd43079a437194a1c4608bf3ac4f5e80247683c912dc586427",
+          "score_scope": "Exact Ethereum 0xc5d6a7b61d18afa11435a889557b068bb9f29930; completed bounded six-axis judgment; no unreviewed deployment inheritance",
+          "chain_id": "eip155:1",
+          "identifiers": [
+            "0xc5d6a7b61d18afa11435a889557b068bb9f29930"
+          ]
+        }
+      },
+      "issuer": "USDD Tech Limited named interface provider; reserve trustee and unconditional token obligor unestablished",
+      "underlying_assets": [
+        "USDD"
+      ],
+      "yield_bearing": true
+    },
+    {
       "asset": "sUSDe",
       "slug": "susde",
       "chains": [
@@ -6163,120 +6406,222 @@
       "date": "2026-06-10",
       "default_scores": {
         "volatility_score": 6.5,
-        "backing_score": 6.5,
-        "underlying_score": 6.0,
-        "liquidity_score": 7.0,
+        "backing_score": 6.0,
+        "underlying_score": 5.5,
+        "liquidity_score": 6.0,
         "structural_score": 5.5,
-        "redemption_score": 6.5,
-        "issuer_score": 7.0,
-        "overall_score": 6.5
+        "issuer_score": 6.5,
+        "overall_score": 6.0
       },
       "chain_scores": {
         "ethereum": {
           "volatility_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
+          "backing_score": 6.0,
+          "underlying_score": 5.5,
+          "liquidity_score": 6.0,
           "structural_score": 5.5,
-          "redemption_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "issuer_score": 6.5,
+          "overall_score": 6.0
         },
         "arbitrum": {
-          "volatility_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 5.0,
-          "structural_score": 5.5,
-          "redemption_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "volatility_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null,
+          "redemption_score": null
         },
         "base": {
-          "volatility_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 2.5,
-          "structural_score": 5.5,
-          "redemption_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "volatility_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null,
+          "redemption_score": null
         },
         "optimism": {
-          "volatility_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 2.0,
-          "structural_score": 5.5,
-          "redemption_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "volatility_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null,
+          "redemption_score": null
         },
         "bnb": {
-          "volatility_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 2.5,
-          "structural_score": 5.5,
-          "redemption_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "volatility_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null,
+          "redemption_score": null
         },
         "mantle": {
-          "volatility_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 2.0,
-          "structural_score": 5.5,
-          "redemption_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "volatility_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null,
+          "redemption_score": null
         },
         "blast": {
-          "volatility_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 4.0,
-          "structural_score": 5.5,
-          "redemption_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "volatility_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null,
+          "redemption_score": null
         },
         "fraxtal": {
-          "volatility_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 2.0,
-          "structural_score": 5.5,
-          "redemption_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "volatility_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null,
+          "redemption_score": null
         },
         "monad": {
-          "volatility_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 2.0,
-          "structural_score": 5.5,
-          "redemption_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "volatility_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null,
+          "redemption_score": null
         },
         "plasma": {
-          "volatility_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 5.0,
-          "structural_score": 5.5,
-          "redemption_score": 6.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "volatility_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null,
+          "redemption_score": null
         }
       },
       "report_file": "assets/susde.md",
-      "last_verified": "2026-10-11",
+      "last_revised": "2026-11-18",
+      "score_assessed": "2026-11-17",
+      "score_status": "assessed",
+      "score_scope": "Default six-axis grade covers exact Ethereum token. Named assessed deployments retain independent versions; other declared representations are ungraded pending exact deployment review.",
+      "unassessed_chains": [
+        "arbitrum",
+        "base",
+        "optimism",
+        "bnb",
+        "mantle",
+        "blast",
+        "fraxtal",
+        "monad",
+        "plasma"
+      ],
+      "evidence_version": "BM:bm-phase2-ethena-selected-six-axis-v3-envelope;DA:staking-operating-delta-v2;TokenAnalyst:staking-token-rights-v1;Security:staking-assets-security-v1",
+      "evidence_manifest_sha256": "4701ff9cfbf03e942ea9c2dcfa3acf2fffefa2adf558127e5a2fc5272e92e654",
+      "assessment_version": "susde-six-axis-2026-11-17-v1",
+      "last_verified": "2026-11-17",
+      "denomination": "USD",
+      "issuer": "USDe underlying issued by Ethena BVI Limited; separate wrapper repayment guarantor not established",
       "underlying_assets": [
         "USDe"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "sUSDfr",
+      "slug": "susdfr",
+      "chains": [
+        "ethereum"
+      ],
+      "category": "credit-vault-share",
+      "assessment_type": "full",
+      "date": "2026-11-18",
+      "default_scores": {
+        "volatility_score": 5.5,
+        "backing_score": 3.5,
+        "underlying_score": 3.5,
+        "liquidity_score": 2.0,
+        "structural_score": 3.5,
+        "issuer_score": 4.0,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "volatility_score": 5.5,
+          "backing_score": 3.5,
+          "underlying_score": 3.5,
+          "liquidity_score": 2.0,
+          "structural_score": 3.5,
+          "issuer_score": 4.0,
+          "overall_score": 3.5
+        }
+      },
+      "report_file": "assets/susdfr.md",
+      "last_revised": "2026-11-18",
+      "score_assessed": "2026-11-18",
+      "score_status": "assessed",
+      "score_scope": "Exact Ethereum 0xaf559d1d59b33ca4b950ab2091372af8a773e234; completed bounded six-axis judgment; no unreviewed deployment inheritance",
+      "evidence_version": "bm-susdfr-ethereum-selected-six-axis-v3-approved-security",
+      "evidence_manifest_sha256": "cc2eca3989eb3547ccd7dbbe3ab7a1fbebd1357ff34da18447088f3bf699d626",
+      "assessment_version": "susdfr-ethereum-six-axis-2026-11-18-v1",
+      "assessment_status": "complete",
+      "axis_confidence": {
+        "volatility_score": "medium",
+        "backing_score": "low",
+        "liquidity_score": "medium",
+        "underlying_score": "medium",
+        "structural_score": "medium",
+        "issuer_score": "low"
+      },
+      "score_sensitive_findings": [
+        {
+          "finding": "Credit marks include earned-unreceived cash interest and PIK; current borrower health/class firstloss unverified",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        },
+        {
+          "finding": "Native21day FIFO/167bps cash budget not maximum wait or settlement guarantee",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        },
+        {
+          "finding": "Published conditional LMV09/18 findings lack accepted deployed remediation and complete root verification",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        }
+      ],
+      "last_verified": "2026-11-18",
+      "chain_assessments": {
+        "ethereum": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-18",
+          "assessment_version": "susdfr-ethereum-six-axis-2026-11-18-v1",
+          "evidence_version": "bm-susdfr-ethereum-selected-six-axis-v3-approved-security",
+          "evidence_manifest_sha256": "cc2eca3989eb3547ccd7dbbe3ab7a1fbebd1357ff34da18447088f3bf699d626",
+          "score_scope": "Exact Ethereum 0xaf559d1d59b33ca4b950ab2091372af8a773e234; completed bounded six-axis judgment; no unreviewed deployment inheritance",
+          "chain_id": "eip155:1",
+          "identifiers": [
+            "0xaf559d1d59b33ca4b950ab2091372af8a773e234"
+          ]
+        }
+      },
+      "issuer": "The Forest Road Company, LLC operator reference; exact holder obligor/priority unresolved",
+      "underlying_assets": [
+        "USDfr"
       ],
       "yield_bearing": true
     },
@@ -6414,6 +6759,104 @@
       "last_verified": "2026-10-12",
       "underlying_assets": [
         "USDS"
+      ],
+      "yield_bearing": true
+    },
+    {
+      "asset": "sUSDx (Axis)",
+      "slug": "susdx-axis",
+      "chains": [
+        "ethereum",
+        "plasma"
+      ],
+      "category": "vault-share",
+      "assessment_type": "full",
+      "date": "2026-11-18",
+      "default_scores": {
+        "volatility_score": 6.0,
+        "backing_score": 3.5,
+        "underlying_score": 3.5,
+        "liquidity_score": 2.5,
+        "structural_score": 4.5,
+        "issuer_score": 3.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "volatility_score": 6.0,
+          "backing_score": 3.5,
+          "underlying_score": 3.5,
+          "liquidity_score": 2.5,
+          "structural_score": 4.5,
+          "issuer_score": 3.5,
+          "overall_score": 3.5
+        },
+        "plasma": {
+          "volatility_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null,
+          "redemption_score": null
+        }
+      },
+      "report_file": "assets/susdx-axis.md",
+      "last_revised": "2026-11-18",
+      "score_assessed": "2026-11-18",
+      "score_status": "assessed",
+      "score_scope": "Exact Ethereum 0xeb892628d1e58bc475a6dcb7f5dbc4f591632aa4; completed bounded six-axis judgment; no unreviewed deployment inheritance",
+      "unassessed_chains": [
+        "plasma"
+      ],
+      "evidence_version": "bm-susdx-ethereum-selected-six-axis-v2-approved-security",
+      "evidence_manifest_sha256": "97cf30cc1fc3f0e55116ef2875c1a4a33ae7ac614d39df3459e82fe8a9dfc40f",
+      "assessment_version": "susdx-axis-ethereum-six-axis-2026-11-18-v1",
+      "assessment_status": "complete",
+      "axis_confidence": {
+        "volatility_score": "medium",
+        "backing_score": "low",
+        "liquidity_score": "medium",
+        "underlying_score": "medium",
+        "structural_score": "medium",
+        "issuer_score": "low"
+      },
+      "score_sensitive_findings": [
+        {
+          "finding": "Nested USDx reserve quality caps fundamental assessment",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        },
+        {
+          "finding": "Cooldown plus servicing and USDx cash leg, no seven-day settlement guarantee",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        },
+        {
+          "finding": "Observed48h upgrade path not universal operational delay; terminal roles incomplete",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        }
+      ],
+      "last_verified": "2026-11-18",
+      "chain_assessments": {
+        "ethereum": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-18",
+          "assessment_version": "susdx-axis-ethereum-six-axis-2026-11-18-v1",
+          "evidence_version": "bm-susdx-ethereum-selected-six-axis-v2-approved-security",
+          "evidence_manifest_sha256": "97cf30cc1fc3f0e55116ef2875c1a4a33ae7ac614d39df3459e82fe8a9dfc40f",
+          "score_scope": "Exact Ethereum 0xeb892628d1e58bc475a6dcb7f5dbc4f591632aa4; completed bounded six-axis judgment; no unreviewed deployment inheritance",
+          "chain_id": "eip155:1",
+          "identifiers": [
+            "0xeb892628d1e58bc475a6dcb7f5dbc4f591632aa4"
+          ]
+        }
+      },
+      "issuer": "Axis product; ultimate USDx issuer/custody obligations unestablished",
+      "underlying_assets": [
+        "usdx-axis"
       ],
       "yield_bearing": true
     },
@@ -7707,8 +8150,8 @@
       "slug": "usdd",
       "chains": [
         "tron",
-        "eth",
-        "bsc"
+        "ethereum",
+        "bnb"
       ],
       "category": "stablecoin",
       "assessment_type": "full",
@@ -7729,11 +8172,13 @@
           "overall_score": 3.5
         },
         "ethereum": {
-          "peg_mechanism_score": 4.0,
-          "backing_score": 3.0,
+          "peg_mechanism_score": 6.0,
+          "backing_score": 4.0,
           "liquidity_score": 4.0,
-          "issuer_score": 2.0,
-          "overall_score": 4.0
+          "issuer_score": 3.5,
+          "overall_score": 4.0,
+          "underlying_score": 4.0,
+          "structural_score": 4.0
         },
         "bnb": {
           "peg_mechanism_score": 4.0,
@@ -7745,6 +8190,45 @@
       },
       "report_file": "assets/usdd.md",
       "last_verified": "2026-08-24",
+      "chain_assessments": {
+        "ethereum": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-18",
+          "assessment_version": "usdd-ethereum-six-axis-2026-11-18-v1",
+          "evidence_version": "bm-susdd-ethereum-selected-six-axis-v3-approved-security",
+          "evidence_manifest_sha256": "2e5f33536951f9dd43079a437194a1c4608bf3ac4f5e80247683c912dc586427",
+          "score_scope": "Only exact new Ethereum USDD 0x4f8e5de400de08b164e7421b3ee387f461becd1a and current native book; default/otherchain legacy grades and clocks not renewed",
+          "chain_id": "eip155:1",
+          "identifiers": [
+            "0x4f8e5de400de08b164e7421b3ee387f461becd1a"
+          ],
+          "axis_confidence": {
+            "peg_mechanism_score": "medium",
+            "backing_score": "low",
+            "liquidity_score": "low",
+            "underlying_score": "medium",
+            "structural_score": "low",
+            "issuer_score": "low"
+          },
+          "score_sensitive_findings": [
+            {
+              "finding": "Internal netfunding0 not cash or independent collateral market value",
+              "current_treatment": "Included in bounded score/confidence; not a confirmed loss or healthy zero",
+              "reassess_on": "Material exact-scope current financial, control, execution or legal evidence"
+            },
+            {
+              "finding": "Current external circulation/internal debt/savings have different perimeters",
+              "current_treatment": "Included in bounded score/confidence; not a confirmed loss or healthy zero",
+              "reassess_on": "Material exact-scope current financial, control, execution or legal evidence"
+            },
+            {
+              "finding": "Effective ward governance, allocator and PSM executable capacity unverified",
+              "current_treatment": "Included in bounded score/confidence; not a confirmed loss or healthy zero",
+              "reassess_on": "Material exact-scope current financial, control, execution or legal evidence"
+            }
+          ]
+        }
+      },
       "peg_mechanism": "hybrid",
       "issuer": "TRON DAO Reserve",
       "market_cap_approx": 1558000000,
@@ -7782,218 +8266,268 @@
       "date": "2026-06-10",
       "default_scores": {
         "peg_mechanism_score": 6.5,
-        "backing_score": 6.5,
-        "underlying_score": 6.0,
-        "liquidity_score": 7.0,
+        "backing_score": 6.0,
+        "underlying_score": 5.5,
+        "liquidity_score": 6.5,
         "structural_score": 5.5,
-        "issuer_score": 7.0,
-        "overall_score": 6.5
+        "issuer_score": 6.5,
+        "overall_score": 6.0
       },
       "chain_scores": {
         "ethereum": {
           "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
+          "backing_score": 6.0,
+          "underlying_score": 5.5,
+          "liquidity_score": 6.5,
           "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "issuer_score": 6.5,
+          "overall_score": 6.0
         },
         "arbitrum": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "optimism": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "bnb": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "avalanche": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "solana": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "mantle": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "base": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": 6.0,
+          "backing_score": 5.5,
+          "underlying_score": 4.5,
+          "liquidity_score": 6.0,
+          "structural_score": 4.5,
+          "issuer_score": 6.5,
+          "overall_score": 5.5
         },
         "blast": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "fraxtal": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "xlayer": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "zircuit": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "morph": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "ink": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "ton": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "berachain": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "hyperevm": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "plasma": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "monad": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "megaeth": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "aptos": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "ethereal": {
-          "peg_mechanism_score": 6.5,
-          "backing_score": 6.5,
-          "underlying_score": 6.0,
-          "liquidity_score": 7.0,
-          "structural_score": 5.5,
-          "issuer_score": 7.0,
-          "overall_score": 6.5
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         }
       },
       "report_file": "assets/usde.md",
-      "last_verified": "2026-10-11",
+      "last_revised": "2026-11-18",
+      "score_assessed": "2026-11-17",
+      "score_status": "assessed",
+      "score_scope": "Default six-axis grade covers exact Ethereum token. Named assessed deployments retain independent versions; other declared representations are ungraded pending exact deployment review.",
+      "unassessed_chains": [
+        "arbitrum",
+        "optimism",
+        "bnb",
+        "avalanche",
+        "solana",
+        "mantle",
+        "blast",
+        "fraxtal",
+        "xlayer",
+        "zircuit",
+        "morph",
+        "ink",
+        "ton",
+        "berachain",
+        "hyperevm",
+        "plasma",
+        "monad",
+        "megaeth",
+        "aptos",
+        "ethereal"
+      ],
+      "evidence_version": "BM:bm-phase2-ethena-selected-six-axis-v3-envelope;DA:staking-operating-delta-v2;TokenAnalyst:staking-token-rights-v1;Security:staking-assets-security-v1",
+      "evidence_manifest_sha256": "4701ff9cfbf03e942ea9c2dcfa3acf2fffefa2adf558127e5a2fc5272e92e654",
+      "assessment_version": "usde-six-axis-2026-11-17-v1",
+      "last_verified": "2026-11-17",
+      "denomination": "USD",
+      "chain_assessments": {
+        "base": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-18",
+          "assessment_version": "usde-base-six-axis-2026-11-18-v1",
+          "evidence_version": "bm-usde-base-selected-six-axis-v1",
+          "evidence_manifest_sha256": "4cb6cb93581928f0373983b8aa9d16d3c10ad99eba549baedacd093ec307ac13",
+          "score_scope": "Exact BaseUSDe 0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34; full boundedsixaxis judgment, local/origin/control/quote clocks distinct, no nativegradeinheritance",
+          "chain_id": "eip155:8453",
+          "identifiers": [
+            "0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34"
+          ]
+        }
+      },
       "peg_mechanism": "hybrid",
-      "issuer": "Ethena Labs",
-      "audited_reserves": true
+      "issuer": "Ethena BVI Limited",
+      "underlying_assets": [
+        "hedged crypto collateral",
+        "stablecoins",
+        "institutional lending claims",
+        "DeFi lending claims",
+        "tokenized RWAs"
+      ]
     },
     {
       "asset": "USDG",
@@ -8549,6 +9083,7 @@
         "solana"
       ],
       "evidence_version": "BM:bm-material-collateral-financial-primary-v3;DA:xaut-usdtb-terms-v1;Security:material-collateral-security-2026-11-17-v2",
+      "evidence_manifest_sha256": "59ded5db239c15a265bac480c1da9cf68a02027c76d77af52ae6734cb938324f",
       "assessment_version": "usdtb-six-axis-2026-11-17-v1",
       "last_verified": "2026-11-17",
       "denomination": "USD",
@@ -8560,6 +9095,100 @@
       ],
       "yield_bearing": false,
       "audited_reserves": true
+    },
+    {
+      "asset": "USDx (Axis)",
+      "slug": "usdx-axis",
+      "chains": [
+        "ethereum",
+        "plasma"
+      ],
+      "category": "stablecoin",
+      "assessment_type": "full",
+      "date": "2026-11-18",
+      "default_scores": {
+        "peg_mechanism_score": 5.5,
+        "backing_score": 3.5,
+        "underlying_score": 3.5,
+        "liquidity_score": 3.0,
+        "structural_score": 3.5,
+        "issuer_score": 3.5,
+        "overall_score": 3.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "peg_mechanism_score": 5.5,
+          "backing_score": 3.5,
+          "underlying_score": 3.5,
+          "liquidity_score": 3.0,
+          "structural_score": 3.5,
+          "issuer_score": 3.5,
+          "overall_score": 3.5
+        },
+        "plasma": {
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
+        }
+      },
+      "report_file": "assets/usdx-axis.md",
+      "last_revised": "2026-11-18",
+      "score_assessed": "2026-11-18",
+      "score_status": "assessed",
+      "score_scope": "Exact Ethereum 0xa1fa7777974312f7d801a8880714a218f76233f8; completed bounded six-axis judgment; no unreviewed deployment inheritance",
+      "unassessed_chains": [
+        "plasma"
+      ],
+      "evidence_version": "bm-susdx-ethereum-selected-six-axis-v2-approved-security",
+      "evidence_manifest_sha256": "97cf30cc1fc3f0e55116ef2875c1a4a33ae7ac614d39df3459e82fe8a9dfc40f",
+      "assessment_version": "usdx-axis-ethereum-six-axis-2026-11-18-v1",
+      "assessment_status": "complete",
+      "axis_confidence": {
+        "peg_mechanism_score": "low",
+        "backing_score": "low",
+        "liquidity_score": "low",
+        "underlying_score": "medium",
+        "structural_score": "low",
+        "issuer_score": "low"
+      },
+      "score_sensitive_findings": [
+        {
+          "finding": "Management gross reserve ratio is not independent net exchange/hedge/liability assurance",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        },
+        {
+          "finding": "Primary eligibility and signed orders do not guarantee general retail cash access",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        },
+        {
+          "finding": "Complete underlying operational authority and legal priority unestablished",
+          "current_treatment": "Included in the bounded score/confidence, not a confirmed loss or healthy zero",
+          "reassess_on": "Specific dated current financial, control, execution or legal evidence"
+        }
+      ],
+      "last_verified": "2026-11-18",
+      "chain_assessments": {
+        "ethereum": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-18",
+          "assessment_version": "usdx-axis-ethereum-six-axis-2026-11-18-v1",
+          "evidence_version": "bm-susdx-ethereum-selected-six-axis-v2-approved-security",
+          "evidence_manifest_sha256": "97cf30cc1fc3f0e55116ef2875c1a4a33ae7ac614d39df3459e82fe8a9dfc40f",
+          "score_scope": "Exact Ethereum 0xa1fa7777974312f7d801a8880714a218f76233f8; completed bounded six-axis judgment; no unreviewed deployment inheritance",
+          "chain_id": "eip155:1",
+          "identifiers": [
+            "0xa1fa7777974312f7d801a8880714a218f76233f8"
+          ]
+        }
+      },
+      "issuer": "Axis product; exact contractual issuer and custody obligations unestablished",
+      "yield_bearing": false
     },
     {
       "asset": "USDY",
@@ -9635,6 +10264,7 @@
         "bnb"
       ],
       "evidence_version": "BM:bm-material-collateral-financial-primary-v3;DA:xaut-usdtb-terms-v1;Security:material-collateral-security-2026-11-17-v2",
+      "evidence_manifest_sha256": "59ded5db239c15a265bac480c1da9cf68a02027c76d77af52ae6734cb938324f",
       "assessment_version": "xaut-six-axis-2026-11-17-v1",
       "last_verified": "2026-11-17",
       "denomination": "XAU",
@@ -9952,6 +10582,8 @@
     "aveth": "aveth",
     "avlt": "avlt",
     "avusd": "avusd",
+    "axis susdx": "susdx-axis",
+    "axis usdx": "usdx-axis",
     "backed strc": "strcx",
     "based eth": "bsdeth",
     "beefy cowcentrated tsm/usdg": "beefy-cowcentrated-tsm-usdg",
@@ -10018,6 +10650,7 @@
     "ether.fi super symbiotic": "weeths",
     "ether.fi weeth": "weeth",
     "ethereum": "eth",
+    "ethereum susdd": "susdd",
     "etherfi weeth": "weeth",
     "ethplus": "ethplus",
     "ethx": "ethx",
@@ -10049,6 +10682,7 @@
     "figure technology solutions": "figure",
     "figure-automobile": "figure-automobile",
     "fluid lending gho": "gho",
+    "forest road susdfr": "susdfr",
     "frankencoin": "zchf",
     "frankencoin savings vault": "svzchf",
     "frax": "frax",
@@ -10115,6 +10749,7 @@
     "k3 capital earn usdc": "k3-capital-earn-usdc",
     "k3 capital earn weth": "k3-capital-earn-weth-monad",
     "k3 capital earn weth (monad)": "k3-capital-earn-weth-monad",
+    "k3 sbold": "sbold",
     "k3-capital-earn-usdc": "k3-capital-earn-usdc",
     "k3-capital-earn-weth-monad": "k3-capital-earn-weth-monad",
     "k3usdc": "k3-capital-earn-usdc",
@@ -10141,6 +10776,7 @@
     "main street usd": "msusd",
     "maple syrup": "syrupusdc",
     "maple syrup usdt": "syrupusdt",
+    "mapollo": "mapollo",
     "mbtc": "echo-btc",
     "medge": "medge",
     "mento usd": "usdm",
@@ -10153,6 +10789,7 @@
     "mezo usd": "musd-mezo",
     "mhyper": "mhyper",
     "microstrategy": "mstr",
+    "midas apollo crypto": "mapollo",
     "midas hyperithm": "mhyper",
     "midas m1 usd": "mm1-usd",
     "midas m1 usd market neutral": "mm1-usd",
@@ -10270,6 +10907,7 @@
     "savings usds": "susds",
     "savingsvault zchf": "svzchf",
     "savusd": "savusd",
+    "sbold": "sbold",
     "scrvusd": "scrvusd",
     "sdfrxusdv2": "stakedao-frxusd-v2",
     "sdola": "sdola",
@@ -10347,9 +10985,14 @@
     "superoethb": "superoethb",
     "susdai": "susdai",
     "susdat": "susdat",
+    "susdd": "susdd",
     "susde": "susde",
+    "susdfr": "susdfr",
     "susdp": "susdp",
     "susds": "susds",
+    "susdx": "susdx-axis",
+    "susdx (axis)": "susdx-axis",
+    "susdx-axis": "susdx-axis",
     "susn": "susn",
     "svzchf": "svzchf",
     "syrup usdc": "syrupusdc",
@@ -10423,6 +11066,8 @@
     "usdt.0": "usdt0",
     "usdt0": "usdt0",
     "usdtb": "usdtb",
+    "usdx (axis)": "usdx-axis",
+    "usdx-axis": "usdx-axis",
     "usdy": "usdy",
     "usd\u20ae0": "usdt0",
     "usg": "usg",
