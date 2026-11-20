@@ -5197,12 +5197,12 @@
         }
       },
       "report_file": "assets/sbold.md",
-      "last_revised": "2026-11-18",
+      "last_revised": "2026-11-19",
       "score_status": "assessed",
       "score_scope": "Exact Ethereum sBOLD; distressed post-incident state, not BOLD core or other K3 products",
       "evidence_version": "bm-sbold-postincident-selected-v3-approved-security",
       "evidence_manifest_sha256": "3100c23f45d7d9a9147675e4d165bf9f7c0c05c1149bbc4e80608c7ccce8592b",
-      "assessment_version": "sbold-ethereum-distressed-six-axis-2026-11-18-v1",
+      "assessment_version": "sbold-ethereum-distressed-six-axis-2026-11-19-v2",
       "assessment_status": "complete",
       "axis_confidence": {
         "volatility_score": "medium",
@@ -7484,7 +7484,7 @@
         }
       },
       "report_file": "assets/tbtc.md",
-      "last_revised": "2026-11-05",
+      "last_revised": "2026-11-19",
       "score_assessed": "2026-11-05",
       "score_status": "provisional",
       "score_scope": "Ethereum exact token only; no remote-chain grade, lending-vault approval or current-state assertion",
@@ -8816,7 +8816,7 @@
         "peg_mechanism_score": 7.5,
         "backing_score": 6.0,
         "underlying_score": 6.5,
-        "liquidity_score": 8.5,
+        "liquidity_score": 8.0,
         "structural_score": 7.0,
         "issuer_score": 7.0,
         "overall_score": 7.0
@@ -8826,49 +8826,113 @@
           "peg_mechanism_score": 7.5,
           "backing_score": 6.0,
           "underlying_score": 6.5,
-          "liquidity_score": 8.5,
+          "liquidity_score": 8.0,
           "structural_score": 7.0,
           "issuer_score": 7.0,
           "overall_score": 7.0
         },
         "solana": {
-          "peg_mechanism_score": 7.5,
-          "backing_score": 6.0,
-          "underlying_score": 6.5,
-          "liquidity_score": 8.5,
-          "structural_score": 7.0,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "base": {
-          "peg_mechanism_score": 7.5,
-          "backing_score": 6.0,
-          "underlying_score": 6.5,
-          "liquidity_score": 8.5,
-          "structural_score": 7.0,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         },
         "arbitrum": {
-          "peg_mechanism_score": 7.5,
-          "backing_score": 6.0,
-          "underlying_score": 6.5,
-          "liquidity_score": 8.5,
-          "structural_score": 7.0,
-          "issuer_score": 7.0,
-          "overall_score": 7.0
+          "peg_mechanism_score": null,
+          "backing_score": null,
+          "underlying_score": null,
+          "liquidity_score": null,
+          "structural_score": null,
+          "issuer_score": null,
+          "overall_score": null
         }
       },
       "report_file": "assets/usds.md",
-      "last_verified": "2026-10-12",
+      "last_revised": "2026-11-19",
+      "score_status": "assessed",
+      "score_scope": "Exact Ethereum base USDS and shared Sky/DAI backing; remote token deployments ungraded",
+      "evidence_version": "bm-usds-financial-funded-claims-2026-11-19-v1",
+      "evidence_manifest_sha256": "cc784133148ca062052973c592f523f1ea3db7a08e962a3ab1b715951cb09a62",
+      "assessment_version": "usds-ethereum-six-axis-2026-11-19-v2",
+      "assessment_status": "complete",
+      "axis_confidence": {
+        "peg_mechanism_score": "medium",
+        "backing_score": "medium-low",
+        "liquidity_score": "medium",
+        "underlying_score": "medium-low",
+        "structural_score": "medium-low",
+        "issuer_score": "medium-low"
+      },
+      "score_sensitive_findings": [
+        {
+          "finding": "Negative Vow buffer and material unexplained accounting/reconciliation perimeters",
+          "current_treatment": "Backing6.0; no grossbook ratio treated as independent solvency",
+          "reassess_on": "Verified buffer repair, loss realization or independently reconciled assets/liabilities"
+        },
+        {
+          "finding": "Reported funded claims are not independently verified terminal reserves or legal claims",
+          "current_treatment": "Dependency6.5 and issuer7.0 with explicit confidence limits",
+          "reassess_on": "Material allocation changes, verified loan health, executed vehicle/priority or recovery evidence"
+        },
+        {
+          "finding": "Known authority runtime-bound; full current ward census unresolved",
+          "current_treatment": "Contract 7.0 with limited census confidence; no complete clearance",
+          "reassess_on": "Source-bound complete ward history or new privileged path"
+        },
+        {
+          "finding": "PSM inventory large but current nativefees/gates and all-in execution unverified",
+          "current_treatment": "Liquidity 8.0; no measured50mdepth or cash-settlement promise",
+          "reassess_on": "Inventory/rules/eligibility changes or verified meaningful exit execution"
+        }
+      ],
+      "last_verified": "2026-11-19",
+      "chain_assessments": {
+        "eth": {
+          "score_status": "assessed",
+          "assessment_version": "usds-ethereum-six-axis-2026-11-19-v2",
+          "evidence_version": "bm-usds-financial-funded-claims-2026-11-19-v1",
+          "assessment_scope": "Exact Ethereum base USDS and shared Sky/DAI backing; remote token deployments ungraded"
+        },
+        "solana": {
+          "score_status": "unassessed",
+          "assessment_scope": "Remote deployment claim/bridge/exit not evaluated in this Ethereum refresh; no default grade inheritance"
+        },
+        "base": {
+          "score_status": "unassessed",
+          "assessment_scope": "Remote deployment claim/bridge/exit not evaluated in this Ethereum refresh; no default grade inheritance"
+        },
+        "arb": {
+          "score_status": "unassessed",
+          "assessment_scope": "Remote deployment claim/bridge/exit not evaluated in this Ethereum refresh; no default grade inheritance"
+        }
+      },
       "peg_mechanism": "hybrid",
       "issuer": "Sky Protocol (formerly MakerDAO)",
+      "underlying_assets": [
+        "USDC",
+        "PYUSD",
+        "RLUSD",
+        "JAAA",
+        "syrupUSDC"
+      ],
       "dependency_protocols": [
         "spark",
         "grove"
       ],
-      "market_cap_approx": 11641806102,
-      "audited_reserves": true
+      "market_cap_approx": 5251018629,
+      "audited_reserves": false
     },
     {
       "asset": "USDT",
