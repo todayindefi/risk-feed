@@ -2590,13 +2590,12 @@
         }
       },
       "report_file": "assets/fxsave.md",
-      "last_revised": "2026-11-17",
-      "score_assessed": "2026-11-17",
+      "last_revised": "2026-11-24",
+      "score_assessed": "2026-11-24",
       "score_status": "assessed",
       "score_scope": "Exact Ethereum six-axis assessment; separately clocked native accounting, exit quotes, controls and documentary sources.",
-      "evidence_version": "BM:closure-batch1-selected-inputs-v3;Security:lending-batch1-security-2026-11-17-v1;DA:batch-1-v1",
-      "evidence_manifest_sha256": "820284af19d35fe5eaf129174c083ce8aaa4199bad831c525c1a9b6d86585a61",
-      "assessment_version": "fxsave-six-axis-2026-11-17-v2",
+      "evidence_version": "fxsave-targeted-2026-11-24-v1",
+      "assessment_version": "fxsave-targeted-2026-11-24-v1",
       "last_verified": "2026-11-17",
       "underlying_assets": [
         "fxSP",
@@ -2617,6 +2616,7 @@
       "default_scores": {
         "peg_mechanism_score": 5.5,
         "backing_score": 5.0,
+        "underlying_score": 5.0,
         "liquidity_score": 4.5,
         "structural_score": 5.0,
         "issuer_score": 5.5,
@@ -2626,6 +2626,7 @@
         "ethereum": {
           "peg_mechanism_score": 5.5,
           "backing_score": 5.0,
+          "underlying_score": 5.0,
           "liquidity_score": 4.5,
           "structural_score": 5.0,
           "issuer_score": 5.5,
@@ -2633,13 +2634,14 @@
         }
       },
       "report_file": "assets/fxusd.md",
-      "last_verified": "2026-10-24",
-      "issuer": "f(x) Protocol (AladdinDAO)",
+      "last_verified": "2026-11-08",
+      "issuer": "f(x) Protocol contributors; incorporated repayment obligor unestablished",
       "underlying_assets": [
         "wstETH",
         "WBTC"
       ],
-      "yield_bearing": false
+      "yield_bearing": false,
+      "audited_reserves": false
     },
     {
       "asset": "Gauntlet eUSD Core",
@@ -5825,8 +5827,7 @@
       "asset": "srUSDat",
       "slug": "srusdat",
       "chains": [
-        "eth",
-        "monad"
+        "eth"
       ],
       "category": "vault-share",
       "assessment_type": "light",
@@ -5849,18 +5850,23 @@
           "structural_score": 3.5,
           "issuer_score": 5.0,
           "overall_score": 4.0
-        },
-        "monad": {
-          "volatility_score": 4.5,
-          "backing_score": 3.5,
-          "underlying_score": 2.5,
-          "liquidity_score": 3.0,
-          "structural_score": 3.5,
-          "issuer_score": 5.0,
-          "overall_score": 4.0
         }
       },
       "report_file": "assets/srusdat.md",
+      "last_revised": "2026-11-24",
+      "score_status": "historical",
+      "score_scope": "Existing Ethereum grade retained without full reassessment; Monad143 srUSDat linkage reviewed but unscored",
+      "unassessed_chains": [
+        "monad"
+      ],
+      "evidence_version": "sha256:d4e3acfec5fe7a89f170fa5810e17af72e31b84081050eeaf7a413ab82854a04",
+      "current_assessment_status": "bounded_linkage_review_complete_full_financial_assessment_pending",
+      "documented_chains": [
+        "eth",
+        "monad"
+      ],
+      "evidence_scope": "Monad linkage only; not an Ethereum grade rederivation",
+      "evidence_binding_status": "accepted_bounded_unscored_review_no_new_grade",
       "last_verified": "2026-08-16",
       "issuer": "Saturn Credit / Strata Markets",
       "underlying_assets": [

@@ -1808,6 +1808,45 @@
       "last_verified": "2026-03-29"
     },
     {
+      "protocol": "Lighter",
+      "slug": "lighter",
+      "chains": [
+        "ethereum",
+        "lighter"
+      ],
+      "category": "perpetual-exchange",
+      "assessment_type": "full",
+      "date": "2026-11-03",
+      "default_scores": {
+        "contract_score": 5.0,
+        "economic_score": 4.0,
+        "project_score": 5.0,
+        "overall_score": 4.5
+      },
+      "chain_scores": {
+        "ethereum": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 4.5
+        },
+        "lighter": {
+          "contract_score": 5.0,
+          "economic_score": 4.0,
+          "project_score": 5.0,
+          "overall_score": 4.5
+        }
+      },
+      "report_file": "reports/lighter.md",
+      "tvl_gross": 788198133,
+      "last_verified": "2026-11-03",
+      "last_revised": "2026-11-24",
+      "verification_scope": "November 3 primary documentation, provider TVL and bounded Ethereum bridge proxy reads at block 26334223. Full bridge/governor/validator/escape authority, audit findings and deployed-code binding, current LLP strategy risk and executable withdrawal remain unverified.",
+      "score_status": "provisional_bounded_evidence",
+      "profile_project": "lighter",
+      "profile_source": "DeFiAnalyst/data/projects/lighter.yaml"
+    },
+    {
       "protocol": "Lista DAO",
       "slug": "lista-dao",
       "chains": [
@@ -3413,6 +3452,8 @@
     "lido finance": "lido",
     "lido staked eth": "lido",
     "lidodao": "lido",
+    "lighter": "lighter",
+    "lighter exchange": "lighter",
     "lista": "lista-dao",
     "lista dao": "lista-dao",
     "lista-dao": "lista-dao",
@@ -3607,6 +3648,7 @@
     "yuzu": "yuzu-money",
     "yuzu money": "yuzu-money",
     "yuzu-money": "yuzu-money",
-    "yuzumoney": "yuzu-money"
+    "yuzumoney": "yuzu-money",
+    "zklighter": "lighter"
   }
 }
