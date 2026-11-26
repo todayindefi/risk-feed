@@ -1096,7 +1096,7 @@
         "liquidity_score": 6.5,
         "structural_score": 5.5,
         "redemption_score": 5.0,
-        "overall_score": 6.5
+        "overall_score": 6.0
       },
       "chain_scores": {
         "ethereum": {
@@ -1104,7 +1104,7 @@
           "liquidity_score": 6.5,
           "structural_score": 5.5,
           "redemption_score": 5.0,
-          "overall_score": 6.5
+          "overall_score": 6.0
         },
         "base": {
           "volatility_score": 7.5,
@@ -6762,7 +6762,7 @@
         }
       },
       "report_file": "assets/susds.md",
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-13",
       "underlying_assets": [
         "USDS"
       ],
@@ -8083,7 +8083,8 @@
         "arb",
         "monad",
         "base",
-        "hyper"
+        "hyper",
+        "arc"
       ],
       "category": "stablecoin",
       "assessment_type": "light",
@@ -8123,7 +8124,7 @@
           "liquidity_score": 7.0,
           "structural_score": 3.0,
           "issuer_score": 8.0,
-          "overall_score": 8.0
+          "overall_score": 7.0
         },
         "base": {
           "peg_mechanism_score": 9.0,
@@ -8142,14 +8143,36 @@
           "structural_score": 3.0,
           "issuer_score": 8.0,
           "overall_score": 7.5
+        },
+        "arc": {
+          "peg_mechanism_score": 8.0,
+          "backing_score": 7.0,
+          "underlying_score": 5.5,
+          "liquidity_score": 5.0,
+          "structural_score": 3.0,
+          "issuer_score": 7.5,
+          "overall_score": 6.0
         }
       },
       "report_file": "assets/usdc.md",
       "last_verified": "2026-09-11",
+      "chain_assessments": {
+        "arc": {
+          "score_status": "assessed",
+          "score_assessed": "2026-11-18",
+          "assessment_version": "usdc-arc-six-axis-2026-11-18-v1",
+          "evidence_version": "bm-usdc-arc-selected-six-axis-v2",
+          "evidence_manifest_sha256": "8e24f1ad8de96754a07b1000f902b00b28b427022fef61d520412f3f608080fb",
+          "score_scope": "Exact Arc5042 nativeUSDC/ERC20 sharedbalance interface 0x3600000000000000000000000000000000000000; independent6axis judgment with sourceclocked reserve/execution/control gaps. Otherchain assurance not renewed.",
+          "chain_id": "eip155:5042",
+          "identifiers": [
+            "0x3600000000000000000000000000000000000000"
+          ]
+        }
+      },
       "peg_mechanism": "fiat-backed",
       "issuer": "Circle",
-      "market_cap_approx": 75500000000,
-      "audited_reserves": true
+      "market_cap_approx": 75500000000
     },
     {
       "asset": "USDD",
@@ -8866,7 +8889,7 @@
         }
       },
       "report_file": "assets/usds.md",
-      "last_revised": "2026-11-19",
+      "last_revised": "2026-11-25",
       "score_status": "assessed",
       "score_scope": "Exact Ethereum base USDS and shared Sky/DAI backing; remote token deployments ungraded",
       "evidence_version": "bm-usds-financial-funded-claims-2026-11-19-v1",
@@ -9042,7 +9065,7 @@
       "report_file": "assets/usdt.md",
       "last_verified": "2026-08-25",
       "peg_mechanism": "fiat-backed",
-      "issuer": "Tether Limited (BVI) / iFinex",
+      "issuer": "Tether International, S.A. de C.V.",
       "market_cap_approx": 183500000000,
       "audited_reserves": false
     },

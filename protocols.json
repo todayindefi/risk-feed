@@ -1840,7 +1840,7 @@
       "report_file": "reports/lighter.md",
       "tvl_gross": 788198133,
       "last_verified": "2026-11-03",
-      "last_revised": "2026-11-24",
+      "last_revised": "2026-11-25",
       "verification_scope": "November 3 primary documentation, provider TVL and bounded Ethereum bridge proxy reads at block 26334223. Full bridge/governor/validator/escape authority, audit findings and deployed-code binding, current LLP strategy risk and executable withdrawal remain unverified.",
       "score_status": "provisional_bounded_evidence",
       "profile_project": "lighter",
