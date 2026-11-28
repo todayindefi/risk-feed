@@ -1684,7 +1684,7 @@
         }
       },
       "report_file": "assets/ethplus.md",
-      "last_revised": "2026-11-16",
+      "last_revised": "2026-11-25",
       "score_assessed": "2026-11-16",
       "score_status": "assessed",
       "evidence_version": "ethplus-beefy-bm-bounded-2026-11-16-v2",
@@ -2416,7 +2416,7 @@
         "usdc",
         "usdb"
       ],
-      "market_cap_approx": 105479359,
+      "market_cap_approx": 95473373,
       "audited_reserves": false
     },
     {
@@ -6572,7 +6572,7 @@
         }
       },
       "report_file": "assets/susde.md",
-      "last_revised": "2026-11-18",
+      "last_revised": "2026-11-23",
       "score_assessed": "2026-11-17",
       "score_status": "assessed",
       "score_scope": "Default six-axis grade covers exact Ethereum token. Named assessed deployments retain independent versions; other declared representations are ungraded pending exact deployment review.",
@@ -8554,7 +8554,7 @@
         }
       },
       "report_file": "assets/usde.md",
-      "last_revised": "2026-11-18",
+      "last_revised": "2026-11-23",
       "score_assessed": "2026-11-17",
       "score_status": "assessed",
       "score_scope": "Default six-axis grade covers exact Ethereum token. Named assessed deployments retain independent versions; other declared representations are ungraded pending exact deployment review.",

@@ -460,8 +460,13 @@
         }
       },
       "report_file": "reports/convex.md",
-      "tvl_gross": 916000000,
-      "last_verified": "2026-03-18"
+      "tvl_gross": 506470400,
+      "last_verified": "2026-03-18",
+      "last_revised": "2026-11-27",
+      "verification_scope": "November 3 profile-first documentary, product-identity and provider-business refresh. Prior whole-review date 2026-03-18 retained. November 27 targeted Ethereum Booster and Curve voting authority refresh. Complete deployed audit coverage, funded allocations and per-pool exits remain open.",
+      "score_status": "retained_provisionally_pending_current_deployment_review",
+      "profile_project": "convex",
+      "profile_source": "DeFiAnalyst/data/projects/convex.yaml"
     },
     {
       "protocol": "Current Finance",
